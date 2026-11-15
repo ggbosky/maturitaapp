@@ -1,7 +1,9 @@
+import { useState } from 'react'
 import { Link, Navigate, NavLink, useParams } from 'react-router-dom'
 import { CheckCircle2, ChevronRight } from 'lucide-react'
 import { getSubject, topicKey } from '../data'
-import type { Subject } from '../types'
+import { BOOK_GROUPS, type Subject } from '../types'
+import { fold } from '../lib/search'
 import { useProgress } from '../lib/progress'
 import { subjectStyle } from '../lib/subjectStyle'
 import Flashcards from '../components/Flashcards'
@@ -55,25 +57,84 @@ function Topics({ subject }: { subject: Subject }) {
 }
 
 function Books({ subject }: { subject: Subject }) {
+  const [query, setQuery] = useState('')
+  const [druh, setDruh] = useState('')
+  const books = subject.books!
+  const druhy = [...new Set(books.map((b) => b.druh))]
+  const q = fold(query.trim())
+  const shown = books.filter(
+    (b) => (!druh || b.druh === druh) && (!q || fold(`${b.title} ${b.author} ${b.zanr} ${b.period}`).includes(q)),
+  )
+  const chip = (active: boolean) =>
+    `cursor-pointer rounded-full border px-3 py-1 text-sm transition-colors ${
+      active
+        ? 'border-indigo-600 bg-indigo-600 text-white'
+        : 'border-ink-200 hover:border-indigo-400 dark:border-ink-700'
+    }`
+
   return (
-    <div className="grid gap-3 sm:grid-cols-2">
-      {subject.books!.map((b) => (
-        <Link key={b.id} to={`/predmet/${subject.id}/cetba/${b.id}`} className="card flex flex-col gap-2 p-4 transition-colors hover:border-indigo-400">
-          <div>
-            <div className="text-lg leading-tight font-semibold">{b.title}</div>
-            <div className="muted text-sm">
-              {b.author} · {b.year}
+    <div className="flex flex-col gap-6">
+      <div className="flex flex-wrap items-center gap-3">
+        <input
+          id="book-filter"
+          type="search"
+          className="input max-w-xs"
+          placeholder="Hledat dílo nebo autora…"
+          aria-label="Hledat v četbě"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+        />
+        <div className="flex flex-wrap gap-1.5" role="group" aria-label="Literární druh">
+          <button type="button" className={chip(druh === '')} aria-pressed={druh === ''} onClick={() => setDruh('')}>
+            Vše
+          </button>
+          {druhy.map((d) => (
+            <button key={d} type="button" className={chip(druh === d)} aria-pressed={druh === d} onClick={() => setDruh(d)}>
+              {d}
+            </button>
+          ))}
+        </div>
+        <span className="muted ml-auto text-sm tabular-nums">
+          {shown.length} z {books.length} děl
+        </span>
+      </div>
+
+      {shown.length === 0 && <p className="muted">Žádné dílo neodpovídá filtru.</p>}
+
+      {([1, 2, 3, 4] as const).map((g) => {
+        const group = shown.filter((b) => b.skupina === g)
+        if (group.length === 0) return null
+        return (
+          <section key={g}>
+            <h2 className="muted mb-3 text-xs font-semibold tracking-wider uppercase">
+              {BOOK_GROUPS[g]} · {group.length}
+            </h2>
+            <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+              {group.map((b) => (
+                <Link
+                  key={b.id}
+                  to={`/predmet/${subject.id}/cetba/${b.id}`}
+                  className="card flex flex-col gap-2 p-4 transition-colors hover:border-indigo-400"
+                >
+                  <div>
+                    <div className="leading-tight font-semibold">{b.title}</div>
+                    <div className="muted text-sm">
+                      {b.author} · {b.year}
+                    </div>
+                  </div>
+                  <div className="mt-auto flex flex-wrap gap-1.5 text-xs">
+                    {[b.druh, b.zanr].map((tag) => (
+                      <span key={tag} className="rounded-md bg-ink-100 px-2 py-0.5 dark:bg-ink-800">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                </Link>
+              ))}
             </div>
-          </div>
-          <div className="mt-auto flex flex-wrap gap-1.5 text-xs">
-            {[b.druh, b.zanr, b.period].map((tag) => (
-              <span key={tag} className="rounded-md bg-ink-100 px-2 py-0.5 dark:bg-ink-800">
-                {tag}
-              </span>
-            ))}
-          </div>
-        </Link>
-      ))}
+          </section>
+        )
+      })}
     </div>
   )
 }

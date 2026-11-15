@@ -42,6 +42,8 @@ export interface Book {
   jazyk: string
   kontext: string
   ukazka?: { text: string; note?: string }
+  /** Skupina maturitního seznamu četby (1–4), viz BOOK_GROUPS. */
+  skupina: 1 | 2 | 3 | 4
 }
 
 export type Question =
@@ -77,4 +79,12 @@ export interface Subject {
   decks: Deck[]
   books?: Book[]
   verbs?: Verb[]
+}
+
+/** Čtyři skupiny, do kterých se dělí školní seznamy maturitní četby. */
+export const BOOK_GROUPS: Record<Book['skupina'], string> = {
+  1: 'Světová a česká literatura do konce 18. století',
+  2: 'Světová a česká literatura 19. století',
+  3: 'Světová literatura 20. a 21. století',
+  4: 'Česká literatura 20. a 21. století',
 }
