@@ -1,0 +1,32 @@
+[
+  {
+    "id": "cj-syntax",
+    "title": "Syntax: věty a poměry",
+    "description": "Větné členy, významové poměry a druhy vedlejších vět.",
+    "questions": [
+      { "type": "choice", "question": "Urči druh vedlejší věty: „Řekl, že přijde zítra.“", "options": ["podmětná", "předmětná", "přívlastková", "příslovečná časová"], "answer": 1, "explanation": "Koho, co řekl? Větu lze nahradit předmětem: Řekl to." },
+      { "type": "choice", "question": "Jaký poměr je mezi větami: „Pršelo, a proto jsme zůstali doma.“", "options": ["slučovací", "příčinný", "důsledkový", "odporovací"], "answer": 2, "explanation": "Druhá věta vyjadřuje následek první. Spojovací výraz „a proto“." },
+      { "type": "choice", "question": "Jaký poměr je mezi větami: „Zůstali jsme doma, neboť pršelo.“", "options": ["příčinný", "důsledkový", "stupňovací", "vylučovací"], "answer": 0, "explanation": "Druhá věta uvádí důvod první. Spojka „neboť“." },
+      { "type": "choice", "question": "Kterým větným členem je slovo „unavený“ ve větě „Petr se vrátil unavený.“?", "options": ["přívlastek shodný", "příslovečné určení způsobu", "doplněk", "přísudek jmenný"], "answer": 2, "explanation": "Vztahuje se zároveň ke slovesu (jak se vrátil?) i k podmětu (jaký Petr?)." },
+      { "type": "choice", "question": "Urči druh vedlejší věty: „Dům, ve kterém bydlím, je starý.“", "options": ["podmětná", "příslovečná místní", "přívlastková", "doplňková"], "answer": 2, "explanation": "Jaký dům? Věta závisí na podstatném jménu." },
+      { "type": "choice", "question": "Urči druh vedlejší věty: „Ačkoli byl nemocný, přišel do školy.“", "options": ["podmínková", "přípustková", "příčinná", "časová"], "answer": 1, "explanation": "I přes jakou skutečnost přišel? Spojka „ačkoli“." },
+      { "type": "choice", "question": "Ve kterém souvětí je věta jednočlenná?", "options": ["Venku prší a je zima.", "Petr čte knihu.", "Děti si hrály na zahradě.", "Maminka uvařila oběd."], "answer": 0, "explanation": "„Prší“ i „je zima“ jsou věty bez podmětu." },
+      { "type": "choice", "question": "Urči druh vedlejší věty: „Kdo se bojí, nesmí do lesa.“", "options": ["podmětná", "předmětná", "přívlastková", "podmínková"], "answer": 0, "explanation": "Kdo nesmí do lesa? Věta zastupuje podmět." }
+    ]
+  },
+  {
+    "id": "cj-literatura",
+    "title": "Teorie literatury a četba",
+    "description": "Literární druhy, verš a základní fakta o dílech z katalogu.",
+    "questions": [
+      { "type": "choice", "question": "Který literární druh vyjadřuje pocity a nálady a nemá děj?", "options": ["epika", "lyrika", "drama", "próza"], "answer": 1 },
+      { "type": "choice", "question": "Jak se nazývá rýmové schéma ABBA?", "options": ["sdružený", "střídavý", "obkročný", "přerývaný"], "answer": 2 },
+      { "type": "choice", "question": "Kdo napsal Máj?", "options": ["Karel Jaromír Erben", "Karel Hynek Mácha", "Jan Neruda", "Karel Havlíček Borovský"], "answer": 1 },
+      { "type": "choice", "question": "Balada je žánr:", "options": ["čistě epický", "čistě lyrický", "lyrickoepický", "dramatický"], "answer": 2, "explanation": "Má děj (epika) i citové zabarvení a básnickou formu (lyrika)." },
+      { "type": "choice", "question": "Která stopa má schéma „nepřízvučná – přízvučná“?", "options": ["trochej", "jamb", "daktyl", "žádná z uvedených"], "answer": 1 },
+      { "type": "input", "question": "Jak se jmenuje lékař, hlavní postava Čapkovy Bílé nemoci? (příjmení)", "answers": ["Galén", "Galen", "doktor Galén", "dr. Galén"] },
+      { "type": "choice", "question": "Proměna Franze Kafky je žánrově:", "options": ["román", "novela", "povídka", "drama"], "answer": 1 },
+      { "type": "choice", "question": "Ústředním motivem Erbenovy Kytice je:", "options": ["vzpoura proti společnosti", "vina a trest", "oslava pokroku", "kritika měšťáctví"], "answer": 1 }
+    ]
+  }
+]

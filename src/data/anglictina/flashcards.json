@@ -1,0 +1,20 @@
+[
+  {
+    "id": "aj-fraze",
+    "title": "Fráze k ústní zkoušce",
+    "cards": [
+      { "front": "Podle mého názoru…", "back": "In my opinion… / From my point of view…" },
+      { "front": "Na jednu stranu… na druhou stranu…", "back": "On the one hand… on the other hand…" },
+      { "front": "Pokud vím…", "back": "As far as I know…" },
+      { "front": "To je zajímavá otázka.", "back": "That's an interesting question." },
+      { "front": "Nech mě chvilku přemýšlet.", "back": "Let me think about it for a moment." },
+      { "front": "Mohl/a byste to prosím zopakovat?", "back": "Could you repeat that, please?" },
+      { "front": "Na obrázku vidím…", "back": "In the picture I can see…" },
+      { "front": "V popředí / v pozadí", "back": "In the foreground / in the background" },
+      { "front": "Vypadá to, že…", "back": "It looks as if… / It seems that…" },
+      { "front": "Ve srovnání s…", "back": "Compared to… / In comparison with…" },
+      { "front": "Abych to shrnul/a…", "back": "To sum up… / All in all…" },
+      { "front": "Nejsem si jistý/á, ale řekl/a bych…", "back": "I'm not sure, but I would say…" }
+    ]
+  }
+]

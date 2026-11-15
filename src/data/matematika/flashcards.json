@@ -1,0 +1,20 @@
+[
+  {
+    "id": "ma-vzorce",
+    "title": "Vzorce nazpaměť",
+    "cards": [
+      { "front": "(a + b)²", "back": "a² + 2ab + b²" },
+      { "front": "(a − b)²", "back": "a² − 2ab + b²" },
+      { "front": "a² − b²", "back": "(a + b)(a − b)" },
+      { "front": "Diskriminant", "back": "D = b² − 4ac" },
+      { "front": "Kořeny kvadratické rovnice", "back": "x₁,₂ = (−b ± √D) / 2a" },
+      { "front": "Pythagorova věta", "back": "c² = a² + b²" },
+      { "front": "Obsah kruhu", "back": "S = πr²" },
+      { "front": "Obvod kruhu", "back": "o = 2πr" },
+      { "front": "sin² x + cos² x", "back": "1" },
+      { "front": "Derivace xⁿ", "back": "n·xⁿ⁻¹" },
+      { "front": "Derivace součinu", "back": "f′·g + f·g′" },
+      { "front": "∫ xⁿ dx", "back": "xⁿ⁺¹ / (n + 1) + C" }
+    ]
+  }
+]

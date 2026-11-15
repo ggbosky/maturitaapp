@@ -1,0 +1,20 @@
+[
+  {
+    "id": "cj-pojmy",
+    "title": "Literární pojmy",
+    "cards": [
+      { "front": "Metafora", "back": "Přenesení významu na základě vnější podobnosti. „Moře lidí.“" },
+      { "front": "Metonymie", "back": "Přenesení významu na základě věcné souvislosti. „Čtu Čapka.“" },
+      { "front": "Personifikace", "back": "Neživé věci se přisuzují lidské vlastnosti. „Vítr šeptal.“" },
+      { "front": "Oxymóron", "back": "Spojení slov, která se významově vylučují. „Živá mrtvola.“" },
+      { "front": "Epiteton", "back": "Básnický přívlastek. „Stříbrný vítr.“" },
+      { "front": "Anafora", "back": "Opakování slov na začátku veršů nebo vět." },
+      { "front": "Epifora", "back": "Opakování slov na konci veršů nebo vět." },
+      { "front": "Ich-forma", "back": "Vyprávění v 1. osobě, vypravěč je postavou děje." },
+      { "front": "Er-forma", "back": "Vyprávění ve 3. osobě, vypravěč stojí mimo děj." },
+      { "front": "Hyperbola", "back": "Nadsázka. „Řekl jsem ti to stokrát.“" },
+      { "front": "Eufemismus", "back": "Zjemnění nepříjemné skutečnosti. „Zesnul“ místo „zemřel“." },
+      { "front": "Řečnická otázka", "back": "Otázka, na kterou mluvčí nečeká odpověď." }
+    ]
+  }
+]

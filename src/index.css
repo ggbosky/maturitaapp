@@ -1,0 +1,60 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  /* Neutrály s lehkým modrým nádechem, aby ladily s indigo akcentem. */
+  --color-ink-50: #f5f7fc;
+  --color-ink-100: #e9edf7;
+  --color-ink-200: #d5dcee;
+  --color-ink-300: #b3bedb;
+  --color-ink-400: #8493b8;
+  --color-ink-500: #5f6f96;
+  --color-ink-600: #45537a;
+  --color-ink-700: #303c5e;
+  --color-ink-800: #1b2440;
+  --color-ink-900: #111830;
+  --color-ink-950: #0a0f22;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-ink-50 text-ink-800 antialiased dark:bg-ink-950 dark:text-ink-100;
+}
+
+:focus-visible {
+  @apply outline-2 outline-offset-2 outline-indigo-500;
+}
+
+/* Sdílené stavební kameny. Ve vrstvě components, aby je utility třídy (např. pl-9) mohly přebít. */
+@layer components {
+.card {
+  @apply rounded-xl border border-ink-200 bg-white dark:border-ink-800 dark:bg-ink-900;
+}
+.btn {
+  @apply inline-flex cursor-pointer items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition-colors disabled:cursor-not-allowed disabled:opacity-50;
+}
+.btn-primary {
+  @apply bg-indigo-600 text-white hover:bg-indigo-500;
+}
+.btn-ghost {
+  @apply border border-ink-200 text-ink-700 hover:bg-ink-100 dark:border-ink-700 dark:text-ink-200 dark:hover:bg-ink-800;
+}
+.input {
+  @apply w-full rounded-lg border border-ink-200 bg-white px-3 py-2 text-sm placeholder:text-ink-400 dark:border-ink-700 dark:bg-ink-900;
+}
+.muted {
+  @apply text-ink-500 dark:text-ink-400;
+}
+}
+
+/* Vlastní křížek prohlížeče by se překrýval s nápovědou klávesové zkratky. */
+input[type='search']::-webkit-search-cancel-button {
+  display: none;
+}

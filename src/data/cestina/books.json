@@ -1,0 +1,145 @@
+[
+  {
+    "id": "maj",
+    "title": "Máj",
+    "author": "Karel Hynek Mácha",
+    "year": "1836",
+    "period": "Romantismus",
+    "druh": "Lyrickoepický",
+    "zanr": "Básnická skladba (poéma)",
+    "tema": "Tragický příběh lásky, viny a trestu. Úvahy o smyslu života, o smrti a o tom, co je po ní.",
+    "motivy": ["láska", "žárlivost", "vina a trest", "příroda", "noc", "smrt", "nicota", "vlast"],
+    "casoprostor": "Okolí Bezdězu a Doksů (dnešní Máchovo jezero). Děj se odehrává během dvou májových dnů, čtvrtý zpěv o sedm let později na Silvestra a pak znovu 1. máje.",
+    "kompozice": "Čtyři zpěvy a dvě intermezza. Děj je potlačený a podává se neúplně, převažují lyrické popisy přírody a Vilémovy úvahy. Příběh rámuje motiv máje.",
+    "postavy": [
+      { "name": "Vilém", "desc": "„Strašný lesů pán“, vůdce loupežníků. Zabije svůdce své milé a netuší, že je to jeho otec. Typický romantický hrdina – vyvrženec v rozporu se společností." },
+      { "name": "Jarmila", "desc": "Vilémova milá. Po zprávě o jeho odsouzení se utopí v jezeře." },
+      { "name": "Hynek", "desc": "Poutník ve čtvrtém zpěvu. Ztotožňuje se s Vilémovým osudem; splývá se samotným autorem." }
+    ],
+    "jazyk": "Spisovný básnický jazyk, jamb (v české poezii do té doby vzácný). Bohatá zvukomalba, metafory, personifikace, oxymóron („mrtvé milenky cit“), kontrasty a barevnost.",
+    "kontext": "Vrcholné dílo českého romantismu. Soudobá kritika je odmítla, protože nesloužilo vlasteneckým cílům národního obrození; docenila je až generace májovců.",
+    "ukazka": {
+      "text": "Byl pozdní večer – první máj –\nvečerní máj – byl lásky čas.\nHrdliččin zval ku lásce hlas,\nkde borový zaváněl háj.",
+      "note": "Úvod prvního zpěvu. Rým obkročný (ABBA), jambický verš, lyrický popis přírody."
+    }
+  },
+  {
+    "id": "kytice",
+    "title": "Kytice",
+    "author": "Karel Jaromír Erben",
+    "year": "1853",
+    "period": "Národní obrození (prvky romantismu)",
+    "druh": "Lyrickoepický",
+    "zanr": "Sbírka balad",
+    "tema": "Vina a trest. Kdo poruší mravní řád nebo základní lidské vztahy (především vztah matky a dítěte), je potrestán.",
+    "motivy": ["vina a trest", "mateřská láska", "osud", "nadpřirozené bytosti", "pokání", "lidová slovesnost"],
+    "casoprostor": "Neurčitý čas a místo – český venkov, jezero, les, hřbitov. Odpovídá to lidové pověsti.",
+    "kompozice": "Třináct básní (Lilie přibyla až ve druhém vydání roku 1861). Uspořádání je zrcadlové: první báseň souvisí s poslední, druhá s předposlední a tak dále. Úvodní Kytice a závěrečná Věštkyně sbírku rámují.",
+    "postavy": [
+      { "name": "Matka (Polednice)", "desc": "V hněvu přivolá na dítě polednici a o dítě přijde." },
+      { "name": "Vodník a dcera (Vodník)", "desc": "Dívka neposlechne matku, stane se vodníkovou ženou; vodník se pomstí na jejich dítěti." },
+      { "name": "Matka (Poklad)", "desc": "Zaslepená bohatstvím zapomene dítě ve skále; po roce pokání je dostane zpět." },
+      { "name": "Dívka (Svatební košile)", "desc": "Rouhá se, přivolá mrtvého milého; zachrání ji pokání a modlitba." }
+    ],
+    "jazyk": "Úsporný, sevřený jazyk blízký lidové písni. Krátké verše, dialogy bez uvozovacích vět, zvukomalba, epizeuxis, rychlý dramatický spád.",
+    "kontext": "Erben byl sběratel lidové slovesnosti a archivář. Balady vycházejí z lidových pověstí a bájí. Na rozdíl od Máchy se u Erbena člověk řádu podřizuje a vzpoura je potrestána.",
+    "ukazka": {
+      "text": "U lavice dítě stálo,\nz plna hrdla křičelo.\n„Bodejž jsi jen trochu málo,\nty cikáně, mlčelo!“",
+      "note": "Polednice. Rým střídavý (ABAB), trochej, přímá řeč bez uvozovací věty."
+    }
+  },
+  {
+    "id": "bila-nemoc",
+    "title": "Bílá nemoc",
+    "author": "Karel Čapek",
+    "year": "1937",
+    "period": "Meziválečná literatura, demokratický proud",
+    "druh": "Drama",
+    "zanr": "Tragédie o třech dějstvích",
+    "tema": "Varování před fašismem, válkou a před davem, který se nechá zfanatizovat. Střet humanismu s touhou po moci.",
+    "motivy": ["válka a mír", "diktatura", "epidemie", "moc", "fanatismus davu", "odpovědnost jedince"],
+    "casoprostor": "Nejmenovaný stát těsně před válkou; doba blíže neurčená, odpovídá 30. letům 20. století.",
+    "kompozice": "Tři dějství, čtrnáct obrazů, chronologický děj. Dějství jsou pojmenována Dvorní rada, Baron Krüg a Maršál.",
+    "postavy": [
+      { "name": "Doktor Galén", "desc": "Lékař chudých, pacifista. Zná lék na bílou nemoc, ale mocným ho vydá jen za slib míru." },
+      { "name": "Maršál", "desc": "Diktátor posedlý válkou. Když sám onemocní, je ochoten ustoupit – už pozdě." },
+      { "name": "Baron Krüg", "desc": "Majitel zbrojovek. Onemocní a spáchá sebevraždu." },
+      { "name": "Dvorní rada Sigelius", "desc": "Ředitel kliniky, kariérista sloužící režimu." },
+      { "name": "Rodina (otec, matka, děti)", "desc": "Obyčejní lidé; otec schvaluje režim, dokud z něj má prospěch." }
+    ],
+    "jazyk": "Spisovný jazyk, odborné lékařské výrazy, demagogická hesla v projevech Maršála. Postavy mají řečová jména (Galén podle lékaře Galéna, Krüg připomíná Kruppa a německé Krieg).",
+    "kontext": "Reakce na nástup nacismu v Německu. Spolu s dramatem Matka patří k Čapkovým protiválečným hrám z konce 30. let.",
+    "ukazka": {
+      "text": "Děj vrcholí ve chvíli, kdy Galén nese Maršálovi lék. Zfanatizovaný dav volá slávu válce, Galén s ním nesouhlasí a dav ho ušlape. Lék je zničen.",
+      "note": "Shrnutí závěrečného obrazu (bez doslovné citace). Všimni si, že Galéna nezabije diktátor, ale dav."
+    }
+  },
+  {
+    "id": "promena",
+    "title": "Proměna",
+    "author": "Franz Kafka",
+    "year": "1915",
+    "period": "Pražská německá literatura, expresionismus, existencialismus",
+    "druh": "Epika",
+    "zanr": "Novela",
+    "tema": "Odcizení člověka v rodině a ve společnosti. Hodnota člověka se měří jen tím, jak je užitečný.",
+    "motivy": ["odcizení", "samota", "absurdita", "rodina", "vina", "práce", "smrt"],
+    "casoprostor": "Byt Samsových, především Řehořův pokoj; blíže neurčené město na počátku 20. století. Děj trvá několik měsíců.",
+    "kompozice": "Tři části, chronologický děj. Začíná rovnou proměnou, bez vysvětlení. Každá část končí Řehořovým pokusem vyjít z pokoje a jeho zahnáním zpět.",
+    "postavy": [
+      { "name": "Řehoř Samsa", "desc": "Obchodní cestující, který živí rodinu. Po proměně v hmyz zůstává citlivý a ohleduplný, ale rodina ho postupně odvrhne." },
+      { "name": "Markéta", "desc": "Sestra. Zpočátku se o Řehoře stará, nakonec první vysloví, že se ho musí zbavit." },
+      { "name": "Otec", "desc": "Autoritativní, k Řehořovi hrubý; zraní ho jablkem." },
+      { "name": "Matka", "desc": "Syna lituje, ale je slabá a pohled na něj nesnese." }
+    ],
+    "jazyk": "Er-forma s pohledem omezeným na Řehoře. Věcný, střízlivý, téměř úřední styl, kterým se popisují absurdní události – tento kontrast je pro Kafku typický.",
+    "kontext": "Kafka byl německy píšící pražský autor židovského původu. Do díla se promítá jeho složitý vztah k otci. Většina děl vyšla až po jeho smrti zásluhou Maxe Broda.",
+    "ukazka": {
+      "text": "Když se Řehoř Samsa jednoho rána probudil z nepokojných snů, shledal, že se v posteli proměnil v jakýsi nestvůrný hmyz.",
+      "note": "První věta novely. Neuvěřitelná událost je podána jako prostý fakt, bez údivu a bez vysvětlení."
+    }
+  },
+  {
+    "id": "starec-a-more",
+    "title": "Stařec a moře",
+    "author": "Ernest Hemingway",
+    "year": "1952",
+    "period": "Americká literatura 20. století, ztracená generace",
+    "druh": "Epika",
+    "zanr": "Novela",
+    "tema": "Zápas člověka s přírodou a s vlastními silami. Člověk může být zničen, ale ne poražen.",
+    "motivy": ["vytrvalost", "hrdost", "samota", "stáří", "příroda", "přátelství", "boj"],
+    "casoprostor": "Kubánská rybářská vesnice nedaleko Havany a Golfský proud; 40. léta 20. století. Vlastní lov trvá tři dny.",
+    "kompozice": "Chronologické vyprávění bez členění na kapitoly, doplněné Santiagovými vzpomínkami a sny (lvi na africkém pobřeží).",
+    "postavy": [
+      { "name": "Santiago", "desc": "Starý rybář, 84 dní nic neulovil. Skromný, vytrvalý, k rybě cítí úctu a nazývá ji bratrem." },
+      { "name": "Manolin", "desc": "Chlapec, Santiagův učeň a přítel. Stará se o něj a věří mu." },
+      { "name": "Marlin", "desc": "Obrovská ryba, se kterou Santiago zápasí. Je mu rovnocenným soupeřem." }
+    ],
+    "jazyk": "Er-forma. Jednoduché krátké věty, rybářské výrazy, španělská slova. Časté vnitřní monology a samomluvy. Uplatňuje se metoda ledovce: řečeno je málo, podstatné zůstává pod povrchem.",
+    "kontext": "Hemingway za novelu získal Pulitzerovu cenu (1953) a v roce 1954 Nobelovu cenu za literaturu. Sám byl vášnivý rybář a na Kubě dlouho žil."
+  },
+  {
+    "id": "romeo-a-julie",
+    "title": "Romeo a Julie",
+    "author": "William Shakespeare",
+    "year": "kolem 1595",
+    "period": "Renesance (alžbětinské drama)",
+    "druh": "Drama",
+    "zanr": "Tragédie o pěti dějstvích",
+    "tema": "Láska dvou mladých lidí, kterou zničí nesmyslná nenávist jejich rodů.",
+    "motivy": ["láska", "nenávist", "osud", "náhoda", "mládí a vzdor", "smrt", "usmíření"],
+    "casoprostor": "Italská Verona a krátce Mantova, 16. století. Děj trvá necelý týden.",
+    "kompozice": "Prolog a pět dějství. Chronologický děj podle klasické stavby dramatu: expozice, kolize, krize, peripetie, katastrofa.",
+    "postavy": [
+      { "name": "Romeo Montek", "desc": "Citlivý, vášnivý a zbrklý mladík. V souboji zabije Tybalta a je vyhoštěn." },
+      { "name": "Julie Kapuletová", "desc": "Necelých čtrnáct let, během děje dospívá; je odvážná a rozhodná." },
+      { "name": "Otec Vavřinec", "desc": "Františkánský mnich. Milence tajně oddá a vymyslí plán s uspávacím nápojem." },
+      { "name": "Merkucio", "desc": "Romeův vtipný přítel, zabit Tybaltem." },
+      { "name": "Tybalt", "desc": "Juliin bratranec, prudký a hádavý." },
+      { "name": "Chůva", "desc": "Juliina důvěrnice, prostořeká a upovídaná." }
+    ],
+    "jazyk": "Blankvers (nerýmovaný pětistopý jamb), místy rýmované pasáže a sonet. Prostí lidé mluví prózou. Slovní hříčky, metafory, kontrasty světla a tmy.",
+    "kontext": "Shakespeare zpracoval starší italskou látku. Renesanční je důraz na pozemský cit a právo jedince rozhodovat o svém životě."
+  }
+]

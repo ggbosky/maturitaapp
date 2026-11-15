@@ -1,0 +1,286 @@
+[
+  {
+    "id": "vetne-cleny",
+    "title": "Stavba věty a větné členy",
+    "category": "Mluvnice a syntax",
+    "summary": "Základní skladební dvojice, rozvíjející větné členy a otázky, kterými je poznáš.",
+    "sections": [
+      {
+        "heading": "Základní skladební dvojice",
+        "text": "Jádrem dvojčlenné věty je podmět a přísudek. Hledej je vždy jako první – ostatní členy se na ně postupně nabalují.",
+        "bullets": [
+          "Podmět (kdo? co?) – vyjádřený, nevyjádřený (Přišel pozdě.) nebo všeobecný (Hlásili to v rádiu.).",
+          "Přísudek (co dělá podmět? co se o něm říká?) – slovesný (běží), jmenný se sponou (je učitel, stal se slavným), slovesný složený (musí odejít, začal psát).",
+          "Jednočlenná věta podmět nemá: Prší. Je mi zima. Hoří!"
+        ]
+      },
+      {
+        "heading": "Rozvíjející větné členy",
+        "table": {
+          "head": ["Větný člen", "Ptáme se", "Příklad"],
+          "rows": [
+            ["Předmět", "pádovými otázkami kromě 1. a 5. pádu", "Čte knihu. Věří kamarádovi."],
+            ["Příslovečné určení místa", "kde? kam? odkud? kudy?", "Bydlí v Brně."],
+            ["Příslovečné určení času", "kdy? odkdy? dokdy? jak dlouho?", "Vrátí se zítra."],
+            ["Příslovečné určení způsobu", "jak? jakým způsobem?", "Mluvil potichu."],
+            ["Příslovečné určení míry", "kolik? do jaké míry?", "Velmi se snažil."],
+            ["Příslovečné určení příčiny", "proč? z jakého důvodu?", "Třásl se zimou."],
+            ["Příslovečné určení účelu", "za jakým účelem?", "Šel nakoupit."],
+            ["Příslovečné určení podmínky", "za jaké podmínky?", "Při dešti zůstaneme doma."],
+            ["Příslovečné určení přípustky", "i přes co? navzdory čemu?", "Přes únavu pokračoval."],
+            ["Přívlastek shodný", "jaký? který? čí?", "nová kniha, náš dům"],
+            ["Přívlastek neshodný", "jaký? který? čí? (stojí za jménem)", "kniha básní, dům na kopci"],
+            ["Doplněk", "jak? jaký? – vztahuje se ke slovesu i ke jménu zároveň", "Vrátil se unavený. Zvolili ho předsedou."]
+          ]
+        }
+      },
+      {
+        "heading": "Postup při rozboru",
+        "bullets": [
+          "1. Najdi přísudek (sloveso v určitém tvaru).",
+          "2. Zeptej se na podmět: Kdo, co + přísudek?",
+          "3. Postupuj po dvojicích: od řídícího členu se ptej na člen závislý.",
+          "4. Podle otázky a podle slovního druhu řídícího členu urči větný člen (na jméně visí přívlastek, na slovese předmět nebo příslovečné určení)."
+        ],
+        "tip": "Předmět × příslovečné určení: jde-li se zeptat pádovou otázkou i okolnostní (kde, kdy, jak), má přednost příslovečné určení. „Šel do lesa“ – kam? → příslovečné určení místa."
+      }
+    ]
+  },
+  {
+    "id": "vetne-pomery",
+    "title": "Významové poměry mezi větami",
+    "category": "Mluvnice a syntax",
+    "summary": "Slučovací, stupňovací, odporovací, vylučovací, příčinný a důsledkový poměr – a spojky, které je prozradí.",
+    "sections": [
+      {
+        "heading": "Kdy poměr určujeme",
+        "text": "Významový poměr určujeme mezi větami souřadně spojenými: mezi větami hlavními, mezi vedlejšími větami stejného druhu a také mezi členy několikanásobného větného členu."
+      },
+      {
+        "heading": "Přehled poměrů",
+        "table": {
+          "head": ["Poměr", "Typické spojovací výrazy", "Příklad"],
+          "rows": [
+            ["Slučovací", "a, i, ani, také, pak, jednak–jednak", "Přišel domů a uvařil si čaj."],
+            ["Stupňovací", "ba, ba i, dokonce, nejen–ale i, nejen–nýbrž i", "Nejenže přišel pozdě, ale dokonce se ani neomluvil."],
+            ["Odporovací", "ale, avšak, však, nýbrž, jenže, a přece, sice–ale", "Učil se dlouho, ale zkoušku neudělal."],
+            ["Vylučovací", "nebo, anebo, či, buď–nebo", "Buď přijdeš včas, nebo odejdeme bez tebe."],
+            ["Příčinný (důvodový)", "neboť, vždyť, totiž, však také", "Zůstal doma, neboť byl nemocný."],
+            ["Důsledkový", "proto, a proto, tedy, a tak, tudíž, a tím", "Byl nemocný, a proto zůstal doma."]
+          ]
+        }
+      },
+      {
+        "heading": "Příčinný × důsledkový",
+        "text": "Obě souvětí popisují stejnou situaci, jen z opačné strany. Rozhoduje, co říká druhá věta.",
+        "bullets": [
+          "Druhá věta uvádí důvod té první → příčinný: Nepřišel, neboť zaspal.",
+          "Druhá věta uvádí následek té první → důsledkový: Zaspal, a proto nepřišel."
+        ],
+        "tip": "Pozor na „protože“: je to spojka podřadicí, uvozuje vedlejší větu příčinnou. O významový poměr tedy nejde."
+      },
+      {
+        "heading": "Čárka před „a“",
+        "bullets": [
+          "Poměr slučovací: bez čárky (Přišel a pozdravil.).",
+          "Jiný než slučovací poměr: s čárkou (a proto, a tak, a tudíž, a přece, a to).",
+          "Vložená vedlejší věta se odděluje z obou stran: Řekl, že přijde, a odešel."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vedlejsi-vety",
+    "title": "Druhy vedlejších vět",
+    "category": "Mluvnice a syntax",
+    "summary": "Přehled vedlejších vět a spolehlivý postup, jak je určit.",
+    "sections": [
+      {
+        "heading": "Jak vedlejší větu bezpečně určit",
+        "bullets": [
+          "1. Podtrhni všechna slovesa v určitém tvaru – kolik přísudků, tolik vět.",
+          "2. Najdi větu řídící a větu závislou. Vedlejší věta začíná podřadicí spojkou (že, aby, když, protože, ačkoli…) nebo vztažným výrazem (který, kdo, co, kde, kdy…).",
+          "3. Zeptej se celou větou řídící na větu vedlejší.",
+          "4. Zkus vedlejší větu nahradit větným členem. Druh vedlejší věty odpovídá větnému členu, který zastupuje."
+        ],
+        "example": "„Řekl, že přijde.“ → Koho, co řekl? → „Řekl to.“ → předmět → vedlejší věta předmětná."
+      },
+      {
+        "heading": "Přehled vedlejších vět",
+        "table": {
+          "head": ["Druh", "Otázka", "Příklad"],
+          "rows": [
+            ["Podmětná", "kdo? co?", "Kdo lže, ten krade."],
+            ["Přísudková", "jaký je podmět? (po sponě být, stát se)", "Nebe bylo, jako by ho vymetl."],
+            ["Předmětná", "pádové otázky kromě 1. a 5. pádu", "Slíbil, že napíše."],
+            ["Přívlastková", "jaký? který? čí?", "Kniha, kterou jsi mi půjčil, je skvělá."],
+            ["Doplňková", "jak? v jakém stavu? (po slovesech vidět, slyšet, najít…)", "Viděl ho, jak odchází."],
+            ["Příslovečná místní", "kde? kam? odkud?", "Šel, kam ho nohy nesly."],
+            ["Příslovečná časová", "kdy? odkdy? dokdy?", "Až přijdeš, zavolej."],
+            ["Příslovečná způsobová", "jak? jakým způsobem?", "Udělal to, jak nejlépe uměl."],
+            ["Příslovečná měrová", "kolik? do jaké míry?", "Křičel, až ochraptěl."],
+            ["Příslovečná příčinná", "proč?", "Nepřišel, protože onemocněl."],
+            ["Příslovečná účelová", "za jakým účelem?", "Šetří, aby si koupil kolo."],
+            ["Příslovečná podmínková", "za jaké podmínky?", "Jestliže bude pršet, zůstaneme doma."],
+            ["Příslovečná přípustková", "i přes jakou skutečnost?", "Ačkoli pršelo, šli ven."]
+          ]
+        }
+      },
+      {
+        "heading": "Časté chytáky",
+        "bullets": [
+          "Spojka nerozhoduje. „Když“ může uvozovat větu časovou (Když přišel, pozdravil.) i podmínkovou (Když budeš chtít, pomůžu ti.).",
+          "„Aby“ bývá účelová (Šel tam, aby pomohl.), ale i předmětná (Chtěl, aby pomohl.) nebo podmětná (Je nutné, aby pomohl.).",
+          "Přívlastková věta vždy závisí na podstatném jméně: „Otázka, zda přijde, zůstala bez odpovědi.“ – jaká otázka?",
+          "Podmětná věta často následuje po výrazech je jisté, je možné, zdá se, stalo se."
+        ],
+        "tip": "Přívlastková × předmětná: podívej se, na čem věta visí. Na jméně → přívlastková. Na slovese → předmětná."
+      }
+    ]
+  },
+  {
+    "id": "literarni-druhy",
+    "title": "Epika, lyrika, drama",
+    "category": "Teorie literatury",
+    "summary": "Tři literární druhy, jejich rozdíly a hlavní žánry.",
+    "sections": [
+      {
+        "heading": "Literární druhy",
+        "table": {
+          "head": ["", "Epika", "Lyrika", "Drama"],
+          "rows": [
+            ["Podstata", "vypráví příběh", "vyjadřuje pocity, nálady a myšlenky", "předvádí děj dialogy a jednáním postav"],
+            ["Děj", "má děj", "děj chybí", "má děj, určený k jevištnímu provedení"],
+            ["Kdo mluví", "vypravěč", "lyrický subjekt", "postavy (repliky, monology), scénické poznámky"],
+            ["Čas", "plyne, události na sebe navazují", "zastavený okamžik", "odehrává se „teď“ před divákem"],
+            ["Žánry", "román, povídka, novela, pohádka, pověst, epos, bajka", "óda, elegie, sonet, píseň, epigram", "tragédie, komedie, činohra, fraška"]
+          ]
+        }
+      },
+      {
+        "heading": "Lyrickoepické žánry",
+        "text": "Spojují děj s citovým zabarvením a básnickou formou.",
+        "bullets": [
+          "Balada – pochmurný děj, rychlý spád, tragický konec (Erben: Kytice).",
+          "Romance – veselejší protějšek balady (Neruda: Balady a romance).",
+          "Poéma, básnická povídka – rozsáhlejší skladba s dějem i lyrickými pasážemi (Mácha: Máj)."
+        ]
+      },
+      {
+        "heading": "Jak to poznat v ukázce",
+        "bullets": [
+          "Dá se převyprávět, co se stalo? → epika.",
+          "Text zachycuje dojem, cit, náladu, nedá se převyprávět? → lyrika.",
+          "Text je rozdělen na repliky se jmény postav? → drama."
+        ],
+        "tip": "Literární druh ≠ literární forma. Druh je epika / lyrika / drama. Forma je próza / poezie. Epika může být psaná veršem (epos) i prózou (román)."
+      }
+    ]
+  },
+  {
+    "id": "stavba-verse",
+    "title": "Stavba verše",
+    "category": "Teorie literatury",
+    "summary": "Verš, sloka, rýmová schémata a metrum – vše, co potřebuješ k rozboru básně.",
+    "sections": [
+      {
+        "heading": "Základní pojmy",
+        "bullets": [
+          "Verš – jeden řádek básně.",
+          "Sloka (strofa) – skupina veršů oddělená mezerou.",
+          "Rým – zvuková shoda konců veršů.",
+          "Rytmus – pravidelné střídání přízvučných a nepřízvučných slabik.",
+          "Stopa – nejmenší rytmická jednotka verše.",
+          "Volný verš – nemá pravidelný rytmus ani rým, různě dlouhé verše."
+        ]
+      },
+      {
+        "heading": "Rýmová schémata",
+        "table": {
+          "head": ["Rým", "Schéma", "Jak si ho zapamatovat"],
+          "rows": [
+            ["Sdružený", "AABB", "rýmují se sousední verše"],
+            ["Střídavý", "ABAB", "rýmy se střídají ob jeden verš"],
+            ["Obkročný", "ABBA", "vnější dvojice „obkračuje“ vnitřní"],
+            ["Přerývaný", "ABCB", "rýmuje se jen druhý a čtvrtý verš"],
+            ["Postupný", "ABC ABC", "rýmy se opakují ve stejném pořadí"],
+            ["Tirádový", "AAAA", "stejný rým ve všech verších"]
+          ]
+        },
+        "example": "Byl pozdní večer – první máj – (A)\nvečerní máj – byl lásky čas. (B)\nHrdliččin zval ku lásce hlas, (B)\nkde borový zaváněl háj. (A)\n→ rým obkročný"
+      },
+      {
+        "heading": "Metrum (stopy)",
+        "table": {
+          "head": ["Stopa", "Schéma", "Poznámka"],
+          "rows": [
+            ["Trochej", "— ∪", "přízvučná + nepřízvučná; sestupný, pro češtinu přirozený"],
+            ["Jamb", "∪ —", "nepřízvučná + přízvučná; vzestupný, verš často začíná jednoslabičným slovem"],
+            ["Daktyl", "— ∪ ∪", "přízvučná + dvě nepřízvučné"]
+          ]
+        },
+        "tip": "U zkoušky stačí postup: označ konce veršů písmeny, urči schéma a pojmenuj rým. Pak zkus první dva verše nahlas vyťukat – přízvuk je v češtině na první slabice slova."
+      },
+      {
+        "heading": "Zvukové prostředky",
+        "bullets": [
+          "Aliterace – opakování stejné hlásky na začátku slov.",
+          "Anafora – opakování slova na začátku veršů.",
+          "Epifora – opakování slova na konci veršů.",
+          "Epizeuxis – opakování slova hned za sebou.",
+          "Onomatopoie (zvukomalba) – slova napodobující zvuk."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "proza-poezie-roman",
+    "title": "Próza, poezie a román",
+    "category": "Teorie literatury",
+    "summary": "Dvě literární formy a nejdůležitější prozaické žánry.",
+    "sections": [
+      {
+        "heading": "Próza × poezie",
+        "table": {
+          "head": ["", "Próza", "Poezie"],
+          "rows": [
+            ["Členění", "věty, odstavce, kapitoly", "verše, sloky"],
+            ["Rytmus a rým", "nemá", "obvykle má (kromě volného verše)"],
+            ["Jazyk", "bližší běžné řeči", "zhuštěný, obrazný, hodně básnických prostředků"],
+            ["Typické útvary", "román, povídka, novela", "báseň, sbírka, básnická skladba"]
+          ]
+        }
+      },
+      {
+        "heading": "Román",
+        "text": "Rozsáhlý prozaický epický žánr. Má složitější děj, více dějových linií a postav, které se během děje vyvíjejí. Zachycuje delší časový úsek.",
+        "bullets": [
+          "Podle tématu: historický, psychologický, společenský, dobrodružný, detektivní, válečný, vědeckofantastický.",
+          "Podle formy: román v dopisech, román-deník, román-kronika, román-řeka (rozsáhlý cyklus).",
+          "Podle vypravěče: ich-forma (vypráví postava, 1. osoba) × er-forma (vypravěč stojí mimo děj, 3. osoba)."
+        ]
+      },
+      {
+        "heading": "Povídka a novela",
+        "table": {
+          "head": ["Žánr", "Rozsah", "Znaky"],
+          "rows": [
+            ["Povídka", "krátký", "jedna dějová linie, málo postav, které se nevyvíjejí"],
+            ["Novela", "střední", "jeden sevřený příběh, rychlý spád, výrazná pointa"],
+            ["Román", "rozsáhlý", "více dějových linií, vývoj postav, široký obraz doby"]
+          ]
+        }
+      },
+      {
+        "heading": "Kompozice děje",
+        "bullets": [
+          "Chronologická – události jdou po sobě tak, jak se staly.",
+          "Retrospektivní – vypráví se zpětně, od konce.",
+          "Rámcová – jeden příběh tvoří rámec pro další.",
+          "Paralelní – několik linií běží souběžně.",
+          "Stavba dramatu: expozice – kolize – krize – peripetie – katastrofa."
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,165 @@
+[
+  {
+    "id": "slohova-prace",
+    "title": "Jak napsat slohovou práci",
+    "category": "Písemná práce",
+    "summary": "Osnova úvahy, vyprávění a fejetonu a chyby, které stojí nejvíc bodů.",
+    "sections": [
+      {
+        "heading": "Než začneš psát",
+        "bullets": [
+          "Přečti si zadání dvakrát. Podtrhni si téma, slohový útvar a komunikační situaci (komu a kam píšeš).",
+          "Vyber si útvar, který umíš, ne téma, které tě nejvíc láká.",
+          "Udělej si osnovu v bodech. Deset minut na osnově ušetří půl hodiny přepisování.",
+          "Hlídej minimální rozsah podle zadání. Kratší text se nehodnotí.",
+          "Nech si čas na kontrolu: čárky, shoda podmětu s přísudkem, mě / mně, s / z."
+        ],
+        "tip": "Nejvíc se ztrácí na nedodržení tématu a útvaru. Krásně napsané vyprávění místo úvahy je pořád špatně."
+      },
+      {
+        "heading": "Úvaha",
+        "bullets": [
+          "Úvod: nastol problém – otázkou, citátem, vlastní zkušeností.",
+          "Stať: dva až tři argumenty, každý ve vlastním odstavci. Uveď i protiargument a vyrovnej se s ním.",
+          "Závěr: vlastní stanovisko, shrnutí, případně otevřená otázka.",
+          "Jazyk: řečnické otázky, přirovnání, 1. osoba (domnívám se, podle mého názoru), souvětí.",
+          "Nepřevyprávěj příběhy. Příklad má být krátký a má sloužit argumentu."
+        ]
+      },
+      {
+        "heading": "Vyprávění",
+        "bullets": [
+          "Stavba: úvod – zápletka – vyvrcholení – rozuzlení – závěr (pointa).",
+          "Začni rovnou dějem, dlouhé úvody ubírají napětí.",
+          "Používej přímou řeč, dějová slovesa, krátké věty ve chvílích napětí a historický prézens (Otevřu dveře a vidím…).",
+          "Jeden příběh, málo postav, jasná pointa."
+        ],
+        "tip": "Přímá řeč: Petr řekl: „Přijdu zítra.“ / „Přijdu zítra,“ řekl Petr. Čárka patří před koncové uvozovky."
+      },
+      {
+        "heading": "Fejeton",
+        "bullets": [
+          "Krátký publicistický útvar. Vychází z všední, zdánlivě nedůležité věci a dívá se na ni neotřele.",
+          "Úvod: konkrétní drobná situace (fronta v jídelně, vybitý mobil).",
+          "Stať: rozvedení s nadsázkou, ironií a humorem, zobecnění.",
+          "Závěr: vtipná pointa, ideálně s návratem k úvodní situaci.",
+          "Jazyk: hovorové výrazy jsou povolené, ale záměrně a s mírou. Oslovuj čtenáře."
+        ]
+      },
+      {
+        "heading": "Další útvary ve zkratce",
+        "table": {
+          "head": ["Útvar", "Na co nezapomenout"],
+          "rows": [
+            ["Charakteristika", "vnější i vnitřní rysy, vlastnosti dokládej jednáním postavy"],
+            ["Popis / líčení", "postup od celku k detailu; v líčení osobní dojem a básnické prostředky"],
+            ["Článek, zpráva", "titulek, odpovědi na otázky kdo, co, kdy, kde, jak, proč; věcnost"],
+            ["Formální dopis", "adresy, datum, oslovení, věc, zdvořilé rozloučení a podpis; vykání"],
+            ["Motivační dopis", "proč já, co umím, co nabízím; konkrétní příklady místo obecných frází"]
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "ustni-cestina",
+    "title": "Ústní zkouška z češtiny",
+    "category": "Ústní zkouška",
+    "summary": "Jak využít přípravu, jak postavit rozbor a co dělat, když nevíš.",
+    "sections": [
+      {
+        "heading": "Příprava na potítku",
+        "bullets": [
+          "Nepiš celé věty. Stačí hesla podle struktury pracovního listu.",
+          "Nejdřív si přečti ukázku a označ si v ní, co použiješ: básnické prostředky, jazykové zvláštnosti, charakteristiku postavy.",
+          "Ke každému tvrzení si najdi doklad přímo v textu.",
+          "Neumělecký text nenechávej nakonec. Tvoří podstatnou část hodnocení."
+        ]
+      },
+      {
+        "heading": "Osnova rozboru uměleckého textu",
+        "bullets": [
+          "1. Zasazení ukázky do díla – co se děje před ní a po ní.",
+          "2. Téma a motivy.",
+          "3. Časoprostor.",
+          "4. Kompozice.",
+          "5. Literární druh a žánr.",
+          "6. Vypravěč nebo lyrický subjekt.",
+          "7. Postavy.",
+          "8. Vyprávěcí způsoby a typy promluv.",
+          "9. Jazykové prostředky, tropy a figury.",
+          "10. Literárněhistorický kontext – autor, směr, další díla, současníci."
+        ],
+        "tip": "Mluv souvisle a v pořadí osnovy. Komise si odškrtává body; když je sám projdeš, nemusí se doptávat."
+      },
+      {
+        "heading": "Když nevíš",
+        "bullets": [
+          "Vrať se k ukázce. Skoro vždy se dá něco vyčíst přímo z textu: kdo mluví, jakým jazykem, co se děje.",
+          "Přiznej mezeru a nabídni, co víš: „Datum si nevybavím, ale dílo patří do období romantismu, protože…“",
+          "Neznáš přesný pojem? Popiš jev vlastními slovy.",
+          "Nevymýšlej si děj. Zkoušející knihu zná.",
+          "Mlčení je nejhorší možnost. Uvažuj nahlas."
+        ]
+      },
+      {
+        "heading": "Jak si poradit s losem",
+        "bullets": [
+          "Každé dílo ze svého seznamu si připrav na jednu stranu A5: autor, směr, děj v pěti větách, postavy, téma, tři jazykové prostředky.",
+          "Nejvíc času věnuj knihám, které tě nebaví. Právě ty si vytáhneš.",
+          "Týden před zkouškou si každé dílo řekni nahlas za tři minuty.",
+          "Vytáhneš-li si nejslabší knihu, začni tím, co umíš jistě – směrem a autorem. Jistý začátek uklidní tebe i komisi."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ustni-cizi-jazyk",
+    "title": "Ústní zkouška z cizího jazyka",
+    "category": "Ústní zkouška",
+    "summary": "Jak mluvit plynule, získat čas na rozmyšlenou a popsat obrázek.",
+    "sections": [
+      {
+        "heading": "Obecná pravidla",
+        "bullets": [
+          "Hodnotí se komunikace, ne dokonalost. Plynulý projev s drobnými chybami je lepší než dlouhé ticho.",
+          "Odpovídej celými větami a přidej důvod nebo příklad: Yes, I do, because…",
+          "Uděláš-li chybu, oprav se a pokračuj. Oprava se počítá k dobru.",
+          "Nerozumíš otázce? Zeptej se: Could you repeat the question, please?"
+        ]
+      },
+      {
+        "heading": "Jak získat čas",
+        "table": {
+          "head": ["Situace", "Co říct"],
+          "rows": [
+            ["Potřebuješ přemýšlet", "Well, let me think… / That's a good question."],
+            ["Neznáš slovíčko", "I don't know the exact word, but it's something you use for…"],
+            ["Nejsi si jistý", "I'm not sure, but I think… / As far as I know…"],
+            ["Chceš přidat další myšlenku", "What's more… / Another thing is…"],
+            ["Chceš uzavřít", "To sum up… / So, all in all…"]
+          ]
+        }
+      },
+      {
+        "heading": "Popis obrázku",
+        "bullets": [
+          "1. Celek: The picture shows… / In the picture I can see…",
+          "2. Detaily: in the foreground, in the background, on the left, on the right, in the middle.",
+          "3. Co lidé dělají – přítomný čas průběhový: A man is sitting…",
+          "4. Domněnky: They might be… / It looks as if… / They seem to be…",
+          "5. Vlastní názor nebo zkušenost: It reminds me of…"
+        ]
+      },
+      {
+        "heading": "Porovnání dvou obrázků",
+        "bullets": [
+          "Podobnosti: Both pictures show… / In both pictures…",
+          "Rozdíly: In the first picture…, whereas in the second one… / Unlike the first picture…",
+          "Vlastní volba: I would prefer… because…"
+        ],
+        "tip": "Nauč se deset univerzálních frází nazpaměť a použij je v každé části zkoušky. Najdeš je v kartičkách u angličtiny."
+      }
+    ]
+  }
+]

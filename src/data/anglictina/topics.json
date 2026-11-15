@@ -1,0 +1,149 @@
+[
+  {
+    "id": "casy",
+    "title": "Přehled anglických časů",
+    "category": "Gramatika",
+    "summary": "Kdy který čas použít, jak se tvoří a podle jakých slov ho poznáš.",
+    "sections": [
+      {
+        "heading": "Přítomné časy",
+        "table": {
+          "head": ["Čas", "Tvoření", "Použití", "Klíčová slova"],
+          "rows": [
+            ["Present simple", "I work / he works; do, does", "zvyky, opakované děje, obecné pravdy, jízdní řády", "always, usually, often, every day, never"],
+            ["Present continuous", "am / is / are + -ing", "děj probíhající právě teď, dočasné situace, domluvená budoucnost", "now, at the moment, today, this week, Look!"],
+            ["Present perfect", "have / has + 3. tvar", "výsledek v přítomnosti, zkušenost, děj trvající dosud", "just, already, yet, ever, never, since, for"],
+            ["Present perfect continuous", "have / has been + -ing", "děj, který začal v minulosti a stále trvá; důraz na délku", "for, since, all day, how long"]
+          ]
+        }
+      },
+      {
+        "heading": "Minulé časy",
+        "table": {
+          "head": ["Čas", "Tvoření", "Použití", "Klíčová slova"],
+          "rows": [
+            ["Past simple", "-ed / 2. tvar; did", "ukončený děj v určitém čase v minulosti", "yesterday, last week, in 2020, two days ago"],
+            ["Past continuous", "was / were + -ing", "děj probíhající v určitém okamžiku v minulosti; pozadí jiného děje", "while, when, at 5 o'clock yesterday"],
+            ["Past perfect", "had + 3. tvar", "děj, který se stal před jiným minulým dějem", "before, after, by the time, already"],
+            ["Past perfect continuous", "had been + -ing", "děj trvající až do určitého okamžiku v minulosti", "for, since, before"]
+          ]
+        },
+        "example": "I was cooking when she called. (pozadí + krátký děj)\nWhen I arrived, the train had already left. (předminulost)"
+      },
+      {
+        "heading": "Budoucnost",
+        "table": {
+          "head": ["Tvar", "Použití", "Příklad"],
+          "rows": [
+            ["will + infinitiv", "okamžité rozhodnutí, předpověď, slib, nabídka", "I'll help you. It will rain tomorrow."],
+            ["be going to", "plán, záměr; předpověď podle toho, co vidím", "I'm going to study law. Look at the clouds – it's going to rain."],
+            ["Present continuous", "domluvená schůzka, pevný plán", "I'm meeting Tom at six."],
+            ["Present simple", "jízdní řády, programy", "The train leaves at 7:15."],
+            ["Future continuous", "děj, který bude v určitou chvíli probíhat", "This time tomorrow I'll be flying to London."],
+            ["Future perfect", "děj, který bude do určité doby dokončen", "By June I will have finished school."]
+          ]
+        }
+      },
+      {
+        "heading": "Present perfect × past simple",
+        "bullets": [
+          "Je řečeno kdy (yesterday, in 2019, last year)? → past simple: I saw him yesterday.",
+          "Není řečeno kdy a zajímá nás výsledek nebo zkušenost? → present perfect: I have seen that film.",
+          "Časový úsek ještě neskončil (today, this week)? → present perfect: I've had three coffees today.",
+          "since + bod v čase (since 2020), for + doba trvání (for five years)."
+        ],
+        "tip": "Stavová slovesa (know, like, love, want, believe, understand, need) se v průběhovém tvaru běžně nepoužívají: I know, ne I am knowing."
+      }
+    ]
+  },
+  {
+    "id": "kondicionaly",
+    "title": "Kondicionály",
+    "category": "Gramatika",
+    "summary": "Nultý, první, druhý, třetí a smíšený kondicionál na jedné stránce.",
+    "sections": [
+      {
+        "heading": "Přehled",
+        "table": {
+          "head": ["Typ", "Věta s if", "Hlavní věta", "Význam", "Příklad"],
+          "rows": [
+            ["Nultý", "present simple", "present simple", "obecná pravda, platí vždy", "If you heat ice, it melts."],
+            ["První", "present simple", "will + infinitiv", "reálná podmínka v budoucnosti", "If it rains, we will stay at home."],
+            ["Druhý", "past simple", "would + infinitiv", "nereálná nebo nepravděpodobná podmínka v přítomnosti či budoucnosti", "If I had more time, I would learn Spanish."],
+            ["Třetí", "past perfect", "would have + 3. tvar", "nereálná podmínka v minulosti, už to nejde změnit", "If I had studied, I would have passed."],
+            ["Smíšený", "past perfect", "would + infinitiv", "minulá podmínka, současný důsledek", "If I had studied medicine, I would be a doctor now."]
+          ]
+        }
+      },
+      {
+        "heading": "Pravidla, na kterých se chybuje",
+        "bullets": [
+          "Ve větě s if se nepoužívá will ani would: If it rains (ne If it will rain).",
+          "Začíná-li souvětí větou s if, píše se čárka. V opačném pořadí ne: We will stay at home if it rains.",
+          "Ve druhém kondicionálu se ve spisovné angličtině používá were pro všechny osoby: If I were you, I would apologise.",
+          "Místo will / would lze použít jiné způsobové sloveso: can, may, might, could, should.",
+          "unless = if not: Unless you hurry, you will miss the bus."
+        ]
+      },
+      {
+        "heading": "Další spojky a wish",
+        "bullets": [
+          "when (až – jisté) × if (jestli – nejisté); as long as, provided that (pokud, za předpokladu, že); in case (pro případ, že).",
+          "I wish + past simple – přání o přítomnosti: I wish I had a car.",
+          "I wish + past perfect – lítost nad minulostí: I wish I had studied more."
+        ],
+        "tip": "Pomůcka: čas ve větě s if je vždy „o krok zpět“ oproti skutečnosti. O přítomnosti mluvíš minulým časem, o minulosti předminulým."
+      }
+    ]
+  },
+  {
+    "id": "otazky",
+    "title": "Tvorba otázek",
+    "category": "Gramatika",
+    "summary": "Slovosled v přímých, podmětných a nepřímých otázkách a tázací dovětky.",
+    "sections": [
+      {
+        "heading": "Slovosled přímé otázky",
+        "text": "Tázací výraz – pomocné sloveso – podmět – významové sloveso – zbytek věty.",
+        "table": {
+          "head": ["Tázací výraz", "Pomocné sloveso", "Podmět", "Sloveso", "Zbytek"],
+          "rows": [
+            ["Where", "do", "you", "live", "?"],
+            ["What", "is", "she", "doing", "now?"],
+            ["When", "did", "they", "arrive", "?"],
+            ["How long", "have", "you", "known", "him?"],
+            ["—", "Can", "you", "swim", "?"]
+          ]
+        },
+        "tip": "Po do / does / did je sloveso vždy v základním tvaru: Did you see (ne Did you saw)."
+      },
+      {
+        "heading": "Podmětné otázky",
+        "text": "Ptáme-li se na podmět (who, what, which, how many), pomocné sloveso do / does / did se nepoužívá a slovosled je jako v oznamovací větě.",
+        "example": "Who called you? (Kdo ti volal? – ptám se na podmět)\nWho did you call? (Komu jsi volal? – ptám se na předmět)\nWhat happened?"
+      },
+      {
+        "heading": "Nepřímé otázky",
+        "text": "Po úvodní frázi (Could you tell me…, Do you know…, I wonder…, I'd like to know…) následuje slovosled oznamovací věty. Pomocné do / does / did odpadá.",
+        "table": {
+          "head": ["Přímá otázka", "Nepřímá otázka"],
+          "rows": [
+            ["Where is the station?", "Could you tell me where the station is?"],
+            ["What time does the bank open?", "Do you know what time the bank opens?"],
+            ["Did she pass the exam?", "I wonder if she passed the exam."],
+            ["Is he at home?", "Do you know whether he is at home?"]
+          ]
+        },
+        "tip": "Zjišťovací otázky (odpověď ano / ne) se v nepřímé podobě uvozují if nebo whether."
+      },
+      {
+        "heading": "Předložka na konci a tázací dovětky",
+        "bullets": [
+          "Předložka zůstává na konci otázky: Who are you waiting for? What are you looking at?",
+          "Tázací dovětek: kladná věta → záporný dovětek, záporná věta → kladný. You are tired, aren't you? She doesn't smoke, does she?",
+          "Pozor: I am late, aren't I? Let's go, shall we?"
+        ]
+      }
+    ]
+  }
+]

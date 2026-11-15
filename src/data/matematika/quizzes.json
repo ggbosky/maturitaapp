@@ -1,0 +1,30 @@
+[
+  {
+    "id": "ma-rovnice",
+    "title": "Rovnice",
+    "description": "Výsledek zapiš číslem. Desetinnou čárku i tečku aplikace pozná.",
+    "questions": [
+      { "type": "input", "question": "Vyřeš: 2x + 6 = 0", "answers": ["-3"], "explanation": "2x = −6, x = −3" },
+      { "type": "input", "question": "Urči diskriminant rovnice x² − 5x + 6 = 0", "answers": ["1"], "explanation": "D = b² − 4ac = 25 − 24 = 1" },
+      { "type": "input", "question": "Větší kořen rovnice x² − 5x + 6 = 0 je:", "answers": ["3"], "explanation": "x = (5 ± 1) / 2, tedy 3 a 2" },
+      { "type": "choice", "question": "Kolik reálných kořenů má rovnice x² + 2x + 5 = 0?", "options": ["žádný", "jeden", "dva", "nekonečně mnoho"], "answer": 0, "explanation": "D = 4 − 20 = −16 < 0" },
+      { "type": "input", "question": "Vyřeš: 6 / (x − 2) = 3", "answers": ["4"], "explanation": "Podmínka x ≠ 2. 6 = 3(x − 2), x − 2 = 2, x = 4" },
+      { "type": "input", "question": "Soustava x + y = 7, x − y = 3. Kolik je x?", "answers": ["5"], "explanation": "Sečtením rovnic: 2x = 10" },
+      { "type": "choice", "question": "Řešením nerovnice −2x > 6 je:", "options": ["x > −3", "x < −3", "x > 3", "x < 3"], "answer": 1, "explanation": "Při dělení záporným číslem se znak nerovnosti obrací." }
+    ]
+  },
+  {
+    "id": "ma-geometrie-funkce",
+    "title": "Geometrie, funkce a derivace",
+    "description": "Krátké příklady na vzorce z přehledů.",
+    "questions": [
+      { "type": "input", "question": "Odvěsny pravoúhlého trojúhelníku měří 3 cm a 4 cm. Kolik cm měří přepona?", "answers": ["5"], "explanation": "c = √(9 + 16) = 5" },
+      { "type": "input", "question": "Obsah trojúhelníku se stranou 10 cm a příslušnou výškou 6 cm (v cm²):", "answers": ["30"], "explanation": "S = a·v / 2 = 60 / 2" },
+      { "type": "choice", "question": "Grafem funkce y = −x² + 4 je:", "options": ["přímka", "parabola otevřená nahoru", "parabola otevřená dolů", "hyperbola"], "answer": 2, "explanation": "Kvadratická funkce s a = −1 < 0." },
+      { "type": "input", "question": "Kolik je log₂ 8?", "answers": ["3"], "explanation": "2³ = 8" },
+      { "type": "choice", "question": "Derivace funkce f(x) = x³ je:", "options": ["3x²", "x²", "3x", "x⁴ / 4"], "answer": 0 },
+      { "type": "input", "question": "f(x) = 3x² + 2x. Kolik je f′(1)?", "answers": ["8"], "explanation": "f′(x) = 6x + 2, f′(1) = 8" },
+      { "type": "choice", "question": "∫ 2x dx =", "options": ["2 + C", "x² + C", "2x² + C", "x + C"], "answer": 1 }
+    ]
+  }
+]

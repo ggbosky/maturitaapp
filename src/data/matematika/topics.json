@@ -1,0 +1,226 @@
+[
+  {
+    "id": "planimetrie",
+    "title": "Planimetrie: obvody, obsahy, věty",
+    "category": "Geometrie",
+    "summary": "Vzorce pro rovinné útvary a věty o trojúhelníku.",
+    "sections": [
+      {
+        "heading": "Obvody a obsahy",
+        "table": {
+          "head": ["Útvar", "Obvod", "Obsah"],
+          "rows": [
+            ["Čtverec (strana a)", "o = 4a", "S = a²"],
+            ["Obdélník (a, b)", "o = 2(a + b)", "S = a·b"],
+            ["Trojúhelník (strana a, výška vₐ)", "o = a + b + c", "S = a·vₐ / 2"],
+            ["Rovnoběžník (a, vₐ)", "o = 2(a + b)", "S = a·vₐ"],
+            ["Lichoběžník (základny a, c, výška v)", "o = a + b + c + d", "S = (a + c)·v / 2"],
+            ["Kosočtverec (úhlopříčky e, f)", "o = 4a", "S = e·f / 2"],
+            ["Kruh (poloměr r)", "o = 2πr", "S = πr²"]
+          ]
+        }
+      },
+      {
+        "heading": "Pravoúhlý trojúhelník",
+        "formulas": [
+          { "label": "Pythagorova věta (c je přepona)", "formula": "c² = a² + b²" },
+          { "label": "Euklidova věta o výšce", "formula": "v² = cₐ · c_b" },
+          { "label": "Euklidova věta o odvěsně", "formula": "a² = c · cₐ" },
+          { "label": "Sinus", "formula": "sin α = protilehlá / přepona" },
+          { "label": "Kosinus", "formula": "cos α = přilehlá / přepona" },
+          { "label": "Tangens", "formula": "tg α = protilehlá / přilehlá" }
+        ]
+      },
+      {
+        "heading": "Obecný trojúhelník",
+        "formulas": [
+          { "label": "Součet vnitřních úhlů", "formula": "α + β + γ = 180°" },
+          { "label": "Sinová věta", "formula": "a / sin α = b / sin β = c / sin γ" },
+          { "label": "Kosinová věta", "formula": "c² = a² + b² − 2ab·cos γ" },
+          { "label": "Obsah ze dvou stran a úhlu", "formula": "S = ½·a·b·sin γ" },
+          { "label": "Heronův vzorec, s = (a + b + c) / 2", "formula": "S = √( s(s−a)(s−b)(s−c) )" }
+        ],
+        "tip": "Sinová věta: znáš stranu a protilehlý úhel. Kosinová věta: znáš dvě strany a úhel mezi nimi, nebo všechny tři strany."
+      },
+      {
+        "heading": "Kružnice a úhly",
+        "bullets": [
+          "Středový úhel je dvojnásobek obvodového úhlu nad týmž obloukem.",
+          "Thaletova věta: obvodový úhel nad průměrem je pravý.",
+          "Délka oblouku: l = 2πr · α / 360°. Obsah výseče: S = πr² · α / 360°."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "funkce",
+    "title": "Funkce a jejich grafy",
+    "category": "Funkce",
+    "summary": "Lineární, kvadratická, lomená, exponenciální, logaritmická a goniometrické funkce.",
+    "sections": [
+      {
+        "heading": "Přehled funkcí",
+        "table": {
+          "head": ["Funkce", "Předpis", "Graf", "Vlastnosti"],
+          "rows": [
+            ["Lineární", "y = ax + b", "přímka", "a > 0 rostoucí, a < 0 klesající, a = 0 konstantní; b je průsečík s osou y"],
+            ["Kvadratická", "y = ax² + bx + c", "parabola", "a > 0 otevřená nahoru (minimum), a < 0 dolů (maximum)"],
+            ["Nepřímá úměrnost", "y = k / x", "hyperbola", "D = R − {0}, asymptoty jsou osy x a y"],
+            ["Exponenciální", "y = aˣ, a > 0, a ≠ 1", "exponenciála", "prochází [0; 1]; a > 1 rostoucí, 0 < a < 1 klesající; H = (0; ∞)"],
+            ["Logaritmická", "y = logₐ x", "logaritmická křivka", "inverzní k exponenciální; prochází [1; 0]; D = (0; ∞)"],
+            ["Sinus, kosinus", "y = sin x, y = cos x", "sinusoida", "perioda 2π, H = ⟨−1; 1⟩"],
+            ["Tangens", "y = tg x", "tangentoida", "perioda π, není definován pro x = π/2 + kπ"]
+          ]
+        }
+      },
+      {
+        "heading": "Kvadratická funkce podrobněji",
+        "formulas": [
+          { "label": "Vrchol paraboly", "formula": "V = [ −b / 2a ; c − b² / 4a ]" },
+          { "label": "Vrcholový tvar", "formula": "y = a(x − m)² + n, V = [m; n]" },
+          { "label": "Průsečíky s osou x", "formula": "řešení rovnice ax² + bx + c = 0" }
+        ]
+      },
+      {
+        "heading": "Vlastnosti, které se zkoušejí",
+        "bullets": [
+          "Definiční obor D(f) – všechna x, pro která má předpis smysl (nedělit nulou, pod sudou odmocninou nezáporné číslo, v logaritmu kladné číslo).",
+          "Obor hodnot H(f) – všechna y, kterých funkce nabývá.",
+          "Monotonie – rostoucí, klesající.",
+          "Sudá funkce: f(−x) = f(x), graf souměrný podle osy y. Lichá: f(−x) = −f(x), graf souměrný podle počátku.",
+          "Omezenost, extrémy, periodičnost."
+        ]
+      },
+      {
+        "heading": "Logaritmy a mocniny",
+        "formulas": [
+          { "label": "Definice logaritmu", "formula": "logₐ x = y  ⇔  aʸ = x" },
+          { "label": "Součin", "formula": "logₐ (x·y) = logₐ x + logₐ y" },
+          { "label": "Podíl", "formula": "logₐ (x / y) = logₐ x − logₐ y" },
+          { "label": "Mocnina", "formula": "logₐ xⁿ = n · logₐ x" },
+          { "label": "Násobení mocnin", "formula": "aʳ · aˢ = aʳ⁺ˢ" },
+          { "label": "Mocnina mocniny", "formula": "(aʳ)ˢ = aʳˢ" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rovnice",
+    "title": "Rovnice a nerovnice",
+    "category": "Rovnice",
+    "summary": "Kvadratické rovnice, neznámá ve jmenovateli, soustavy a nerovnice.",
+    "sections": [
+      {
+        "heading": "Kvadratická rovnice ax² + bx + c = 0",
+        "formulas": [
+          { "label": "Diskriminant", "formula": "D = b² − 4ac" },
+          { "label": "Kořeny", "formula": "x₁,₂ = (−b ± √D) / 2a" },
+          { "label": "Viètovy vzorce", "formula": "x₁ + x₂ = −b / a,   x₁ · x₂ = c / a" },
+          { "label": "Rozklad na součin", "formula": "ax² + bx + c = a(x − x₁)(x − x₂)" }
+        ],
+        "bullets": [
+          "D > 0: dva různé reálné kořeny.",
+          "D = 0: jeden dvojnásobný kořen.",
+          "D < 0: v oboru reálných čísel nemá řešení."
+        ],
+        "example": "x² − 5x + 6 = 0\nD = 25 − 24 = 1\nx₁ = (5 + 1) / 2 = 3,  x₂ = (5 − 1) / 2 = 2"
+      },
+      {
+        "heading": "Rovnice s neznámou ve jmenovateli",
+        "bullets": [
+          "1. Urči podmínky: žádný jmenovatel se nesmí rovnat nule.",
+          "2. Vynásob rovnici společným jmenovatelem.",
+          "3. Vyřeš vzniklou rovnici.",
+          "4. Porovnej výsledek s podmínkami a vyřaď nepřípustné kořeny."
+        ],
+        "example": "2 / (x − 1) = 1,  podmínka x ≠ 1\n2 = x − 1\nx = 3  (vyhovuje podmínce)"
+      },
+      {
+        "heading": "Soustavy dvou lineárních rovnic",
+        "bullets": [
+          "Dosazovací metoda – z jedné rovnice vyjádři neznámou a dosaď do druhé.",
+          "Sčítací metoda – vynásob rovnice tak, aby se po sečtení jedna neznámá odečetla.",
+          "Grafická metoda – řešením je průsečík dvou přímek.",
+          "Počet řešení: jedno (různoběžky), žádné (rovnoběžky), nekonečně mnoho (totožné přímky)."
+        ]
+      },
+      {
+        "heading": "Nerovnice",
+        "bullets": [
+          "Při násobení nebo dělení záporným číslem se znak nerovnosti obrací.",
+          "Kvadratická nerovnice: najdi kořeny, načrtni parabolu a odečti, kde je nad osou a kde pod ní.",
+          "Nerovnice v podílovém tvaru: nenásob výrazem s neznámou. Najdi nulové body čitatele i jmenovatele a sestav tabulku znamének.",
+          "Výsledek zapisuj intervalem."
+        ],
+        "tip": "U nerovnic s absolutní hodnotou rozděl číselnou osu nulovými body a řeš každý interval zvlášť."
+      }
+    ]
+  },
+  {
+    "id": "derivace-integraly",
+    "title": "Derivace a integrály",
+    "category": "Diferenciální a integrální počet",
+    "summary": "Základní vzorce, pravidla počítání a postup při vyšetřování funkce.",
+    "sections": [
+      {
+        "heading": "Derivace základních funkcí",
+        "table": {
+          "head": ["f(x)", "f′(x)"],
+          "rows": [
+            ["c (konstanta)", "0"],
+            ["xⁿ", "n·xⁿ⁻¹"],
+            ["eˣ", "eˣ"],
+            ["aˣ", "aˣ · ln a"],
+            ["ln x", "1 / x"],
+            ["sin x", "cos x"],
+            ["cos x", "−sin x"],
+            ["tg x", "1 / cos² x"]
+          ]
+        }
+      },
+      {
+        "heading": "Pravidla pro derivování",
+        "formulas": [
+          { "label": "Násobek konstantou", "formula": "(c·f)′ = c·f′" },
+          { "label": "Součet a rozdíl", "formula": "(f ± g)′ = f′ ± g′" },
+          { "label": "Součin", "formula": "(f·g)′ = f′·g + f·g′" },
+          { "label": "Podíl", "formula": "(f / g)′ = (f′·g − f·g′) / g²" },
+          { "label": "Složená funkce", "formula": "[ f(g(x)) ]′ = f′(g(x)) · g′(x)" }
+        ],
+        "example": "f(x) = 3x² + 2x − 5  →  f′(x) = 6x + 2\nf(x) = (2x + 1)³  →  f′(x) = 3(2x + 1)² · 2 = 6(2x + 1)²"
+      },
+      {
+        "heading": "K čemu derivace slouží",
+        "bullets": [
+          "f′(x₀) je směrnice tečny ke grafu v bodě x₀.",
+          "f′(x) > 0 → funkce roste, f′(x) < 0 → funkce klesá.",
+          "Stacionární body: f′(x) = 0. Tam může být lokální extrém.",
+          "f″(x₀) > 0 → lokální minimum, f″(x₀) < 0 → lokální maximum."
+        ]
+      },
+      {
+        "heading": "Základní integrály",
+        "table": {
+          "head": ["f(x)", "∫ f(x) dx"],
+          "rows": [
+            ["k (konstanta)", "kx + C"],
+            ["xⁿ (n ≠ −1)", "xⁿ⁺¹ / (n + 1) + C"],
+            ["1 / x", "ln |x| + C"],
+            ["eˣ", "eˣ + C"],
+            ["sin x", "−cos x + C"],
+            ["cos x", "sin x + C"]
+          ]
+        }
+      },
+      {
+        "heading": "Určitý integrál",
+        "formulas": [
+          { "label": "Newtonova–Leibnizova formule", "formula": "∫ₐᵇ f(x) dx = F(b) − F(a)" },
+          { "label": "Obsah plochy pod grafem (f ≥ 0 na ⟨a; b⟩)", "formula": "S = ∫ₐᵇ f(x) dx" }
+        ],
+        "example": "∫₀² x² dx = [x³ / 3]₀² = 8/3 − 0 = 8/3",
+        "tip": "Integrál si vždy zkontroluj zpětným derivováním: derivace výsledku musí dát původní funkci."
+      }
+    ]
+  }
+]

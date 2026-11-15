@@ -1,0 +1,16 @@
+[
+  {
+    "id": "th-pravopis",
+    "title": "Pravopisné chytáky do slohu",
+    "cards": [
+      { "front": "mě × mně", "back": "mě = 2. a 4. pád (jako tě), mně = 3. a 6. pád (jako tobě)." },
+      { "front": "výjimka × vyjímat", "back": "výjimka, výjimečný (krátké i) × vyjímat (sloveso, dlouhé í)." },
+      { "front": "Děti běhaly × běhali", "back": "Děti běhaly. Tvar „děti“ je v množném čísle rodu ženského, proto -y." },
+      { "front": "s × z", "back": "s + 7. pád (s kamarádem), z + 2. pád (z domu)." },
+      { "front": "bychom × bysme", "back": "Spisovně jen bychom, byste, bys." },
+      { "front": "shlédnout × zhlédnout", "back": "zhlédnout film (podívat se) × shlédnout z věže (podívat se dolů)." },
+      { "front": "Čárka před „než“", "back": "Píše se, když následuje věta se slovesem: Je to těžší, než jsem čekal. × Je starší než já." },
+      { "front": "tip × typ", "back": "tip = rada, odhad; typ = druh, vzor." }
+    ]
+  }
+]

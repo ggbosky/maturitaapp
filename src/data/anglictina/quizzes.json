@@ -1,0 +1,32 @@
+[
+  {
+    "id": "aj-casy",
+    "title": "Časy: doplňovačka",
+    "description": "Doplň sloveso ve správném tvaru nebo vyber správnou možnost.",
+    "questions": [
+      { "type": "input", "question": "She usually ____ (get) up at seven.", "answers": ["gets"], "explanation": "Present simple, 3. osoba jednotného čísla; klíčové slovo usually." },
+      { "type": "input", "question": "Look! It ____ (rain).", "answers": ["is raining", "'s raining"], "explanation": "Present continuous – děj probíhá právě teď." },
+      { "type": "input", "question": "I ____ (see) that film last week.", "answers": ["saw"], "explanation": "Past simple – je řečeno kdy (last week)." },
+      { "type": "choice", "question": "I ____ here since 2020.", "options": ["live", "am living", "have lived", "lived"], "answer": 2, "explanation": "Present perfect – děj trvá dosud; since + bod v čase." },
+      { "type": "choice", "question": "When I arrived, the train ____ .", "options": ["already left", "had already left", "has already left", "was already leaving"], "answer": 1, "explanation": "Past perfect – děj před jiným minulým dějem." },
+      { "type": "input", "question": "I ____ (cook) dinner when the phone rang.", "answers": ["was cooking"], "explanation": "Past continuous – probíhající děj přerušený jiným dějem." },
+      { "type": "choice", "question": "„The phone is ringing.“ – „I ____ it.“", "options": ["am going to get", "will get", "get", "am getting"], "answer": 1, "explanation": "Will – okamžité rozhodnutí." },
+      { "type": "input", "question": "____ you ever ____ (be) to London? Napiš obě slova.", "answers": ["have been"], "explanation": "Present perfect – zkušenost; Have you ever been…" }
+    ]
+  },
+  {
+    "id": "aj-kondicionaly-otazky",
+    "title": "Kondicionály a otázky",
+    "description": "Podmínkové věty, slovosled v otázkách a nepřímé otázky.",
+    "questions": [
+      { "type": "choice", "question": "If it ____ tomorrow, we will stay at home.", "options": ["will rain", "rains", "rained", "would rain"], "answer": 1, "explanation": "První kondicionál: if + present simple." },
+      { "type": "choice", "question": "If I ____ you, I would tell her the truth.", "options": ["am", "was being", "were", "would be"], "answer": 2, "explanation": "Druhý kondicionál: If I were you…" },
+      { "type": "input", "question": "If I had studied, I ____ (pass) the exam. Doplň tři slova.", "answers": ["would have passed"], "explanation": "Třetí kondicionál: would have + 3. tvar." },
+      { "type": "choice", "question": "Vyber správnou nepřímou otázku:", "options": ["Do you know where is the station?", "Do you know where the station is?", "Do you know where does the station be?", "Do you know the station where is?"], "answer": 1, "explanation": "V nepřímé otázce je slovosled oznamovací věty." },
+      { "type": "choice", "question": "Kdo ti volal?", "options": ["Who did call you?", "Who called you?", "Who did you call?", "Who you called?"], "answer": 1, "explanation": "Podmětná otázka – bez pomocného did." },
+      { "type": "input", "question": "You are tired, ____ ____? Doplň tázací dovětek.", "answers": ["aren't you", "arent you"], "explanation": "Kladná věta → záporný dovětek." },
+      { "type": "choice", "question": "____ you hurry, you will miss the bus.", "options": ["If", "Unless", "When", "In case"], "answer": 1, "explanation": "Unless = if not." },
+      { "type": "input", "question": "Where ____ she live? Doplň pomocné sloveso.", "answers": ["does"] }
+    ]
+  }
+]
