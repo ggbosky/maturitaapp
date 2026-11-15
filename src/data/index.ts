@@ -29,7 +29,7 @@ export const subjects: Subject[] = [
   {
     id: 'matematika',
     name: 'Matematika',
-    tagline: 'Vzorečky, přehledy a příklady s kontrolou',
+    tagline: 'Přehledy podle okruhů didaktického testu a cvičení s kontrolou',
     topics: maTopics as Topic[],
     quizzes: maQuizzes as Quiz[],
     decks: maDecks as Deck[],

@@ -12,6 +12,8 @@ export interface TopicSection {
   table?: { head: string[]; rows: string[][] }
   example?: string
   tip?: string
+  /** Odkaz na externí zdroj (otevře se v prohlížeči). */
+  link?: { label: string; url: string }
 }
 
 export interface Topic {

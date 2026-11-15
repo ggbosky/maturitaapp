@@ -6,6 +6,7 @@ import { useProgress } from '../lib/progress'
 import { subjectStyle } from '../lib/subjectStyle'
 import Flashcards from '../components/Flashcards'
 import IrregularVerbs from '../components/IrregularVerbs'
+import ProgressBar from '../components/ProgressBar'
 
 function tabsFor(s: Subject) {
   return [
@@ -112,6 +113,7 @@ function Quizzes({ subject }: { subject: Subject }) {
 
 export default function SubjectPage() {
   const { subjectId, tab } = useParams()
+  const progress = useProgress()
   const subject = getSubject(subjectId)
   if (!subject) return <Navigate to="/" replace />
 
@@ -121,16 +123,34 @@ export default function SubjectPage() {
 
   const style = subjectStyle[subject.id]
   const Icon = style.icon
+  const read = subject.topics.filter((t) => progress.read[topicKey(subject.id, t.id)]).length
+  const quizzesDone = subject.quizzes.filter((q) => progress.quizzes[q.id]).length
 
   return (
     <div className="flex flex-col gap-6">
-      <header className="flex items-center gap-4">
-        <span className={`grid size-12 shrink-0 place-items-center rounded-xl ${style.badge}`}>
-          <Icon size={24} />
-        </span>
-        <div>
-          <h1 className="text-3xl font-bold tracking-tight">{subject.name}</h1>
-          <p className="muted">{subject.tagline}</p>
+      <header className="flex flex-wrap items-center gap-x-8 gap-y-4">
+        <div className="flex min-w-0 flex-1 items-center gap-4">
+          <span className={`grid size-12 shrink-0 place-items-center rounded-xl ${style.badge}`}>
+            <Icon size={24} />
+          </span>
+          <div>
+            <h1 className="text-3xl font-bold tracking-tight">{subject.name}</h1>
+            <p className="muted">{subject.tagline}</p>
+          </div>
+        </div>
+        <div className="flex w-56 flex-col gap-1.5">
+          <div className="muted flex justify-between text-xs tabular-nums">
+            <span>Přečtená témata</span>
+            <span>
+              {read} / {subject.topics.length}
+            </span>
+          </div>
+          <ProgressBar value={read} max={subject.topics.length} />
+          {subject.quizzes.length > 0 && (
+            <div className="muted text-xs tabular-nums">
+              Hotové testy: {quizzesDone} / {subject.quizzes.length}
+            </div>
+          )}
         </div>
       </header>
 

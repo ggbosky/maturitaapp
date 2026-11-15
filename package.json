@@ -13,7 +13,8 @@
     "test": "vitest run",
     "electron:dev": "concurrently -k \"vite\" \"wait-on http://localhost:5173 && cross-env VITE_DEV_SERVER_URL=http://localhost:5173 electron .\"",
     "electron:start": "npm run build && electron .",
-    "dist": "npm run build && electron-builder"
+    "dist": "npm run build && electron-builder",
+    "license:keygen": "node scripts/license-keygen.mjs"
   },
   "build": {
     "appId": "cz.zvladnito.app",

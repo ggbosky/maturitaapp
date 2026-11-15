@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import { useLocation } from 'react-router-dom'
+import { logActivity } from '../lib/progress'
 import { Check, RotateCcw, Shuffle, X } from 'lucide-react'
 import type { Deck } from '../types'
 
@@ -19,6 +21,7 @@ export default function Flashcards({ deck }: { deck: Deck }) {
   const [again, setAgain] = useState<Card[]>([])
   const [pos, setPos] = useState(0)
   const [flipped, setFlipped] = useState(false)
+  const { pathname } = useLocation()
 
   const start = (cards: Card[]) => {
     setQueue(cards)
@@ -52,6 +55,8 @@ export default function Flashcards({ deck }: { deck: Deck }) {
 
   const answer = (known: boolean) => {
     if (!known) setAgain((a) => [...a, card])
+    // Dokončené kolo se počítá jako jedna aktivita.
+    if (pos + 1 === queue.length) logActivity(`Kartičky: ${deck.title}`, pathname)
     setPos(pos + 1)
     setFlipped(false)
   }

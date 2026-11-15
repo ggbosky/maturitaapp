@@ -30,7 +30,7 @@ export default function TopicPage() {
 
       <footer className="flex flex-col gap-6 border-t border-ink-200 pt-6 dark:border-ink-800">
         <div>
-          <button type="button" className={`btn ${read ? 'btn-ghost' : 'btn-primary'}`} aria-pressed={read} onClick={() => setRead(key, !read)}>
+          <button type="button" className={`btn ${read ? 'btn-ghost' : 'btn-primary'}`} aria-pressed={read} onClick={() => setRead(key, !read, topic.title, `/predmet/${subject.id}/tema/${topic.id}`)}>
             {read ? <CheckCircle2 size={16} className="text-emerald-500" /> : <Circle size={16} />}
             {read ? 'Přečteno' : 'Označit jako přečtené'}
           </button>

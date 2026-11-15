@@ -1,16 +1,163 @@
 [
   {
+    "id": "ma-cisla-vyrazy",
+    "title": "Čísla, procenta a výrazy",
+    "description": "Úlohy ve stylu první části didaktického testu.",
+    "questions": [
+      {
+        "type": "input",
+        "question": "Kolik je 15 % z 240?",
+        "answers": [
+          "36"
+        ],
+        "explanation": "240 · 0,15 = 36"
+      },
+      {
+        "type": "input",
+        "question": "Zboží po slevě 20 % stojí 960 Kč. Kolik korun stálo před slevou?",
+        "answers": [
+          "1200",
+          "1 200",
+          "1200 Kč",
+          "1 200 Kč"
+        ],
+        "explanation": "960 / 0,8 = 1 200"
+      },
+      {
+        "type": "choice",
+        "question": "(x + 3)² − (x − 3)² =",
+        "options": [
+          "12x",
+          "18",
+          "6x",
+          "2x² + 18"
+        ],
+        "answer": 0,
+        "explanation": "(x² + 6x + 9) − (x² − 6x + 9) = 12x"
+      },
+      {
+        "type": "choice",
+        "question": "Pro x ≠ −3 zjednoduš: (x² − 9) / (x + 3)",
+        "options": [
+          "x + 3",
+          "x − 3",
+          "x − 9",
+          "x² − 3"
+        ],
+        "answer": 1,
+        "explanation": "x² − 9 = (x + 3)(x − 3)"
+      },
+      {
+        "type": "choice",
+        "question": "2⁻³ =",
+        "options": [
+          "−8",
+          "−6",
+          "1/8",
+          "1/6"
+        ],
+        "answer": 2,
+        "explanation": "a⁻ⁿ = 1 / aⁿ"
+      },
+      {
+        "type": "choice",
+        "question": "√50 po částečném odmocnění:",
+        "options": [
+          "2√5",
+          "5√2",
+          "10√5",
+          "25√2"
+        ],
+        "answer": 1,
+        "explanation": "√50 = √(25 · 2) = 5√2"
+      },
+      {
+        "type": "input",
+        "question": "|−7| + |3| =",
+        "answers": [
+          "10"
+        ]
+      },
+      {
+        "type": "input",
+        "question": "Částku 40 Kč rozděl v poměru 2 : 3. Kolik korun je menší díl?",
+        "answers": [
+          "16",
+          "16 Kč"
+        ],
+        "explanation": "Jeden díl je 40 / 5 = 8, menší část 2 · 8 = 16."
+      }
+    ]
+  },
+  {
     "id": "ma-rovnice",
     "title": "Rovnice",
     "description": "Výsledek zapiš číslem. Desetinnou čárku i tečku aplikace pozná.",
     "questions": [
-      { "type": "input", "question": "Vyřeš: 2x + 6 = 0", "answers": ["-3"], "explanation": "2x = −6, x = −3" },
-      { "type": "input", "question": "Urči diskriminant rovnice x² − 5x + 6 = 0", "answers": ["1"], "explanation": "D = b² − 4ac = 25 − 24 = 1" },
-      { "type": "input", "question": "Větší kořen rovnice x² − 5x + 6 = 0 je:", "answers": ["3"], "explanation": "x = (5 ± 1) / 2, tedy 3 a 2" },
-      { "type": "choice", "question": "Kolik reálných kořenů má rovnice x² + 2x + 5 = 0?", "options": ["žádný", "jeden", "dva", "nekonečně mnoho"], "answer": 0, "explanation": "D = 4 − 20 = −16 < 0" },
-      { "type": "input", "question": "Vyřeš: 6 / (x − 2) = 3", "answers": ["4"], "explanation": "Podmínka x ≠ 2. 6 = 3(x − 2), x − 2 = 2, x = 4" },
-      { "type": "input", "question": "Soustava x + y = 7, x − y = 3. Kolik je x?", "answers": ["5"], "explanation": "Sečtením rovnic: 2x = 10" },
-      { "type": "choice", "question": "Řešením nerovnice −2x > 6 je:", "options": ["x > −3", "x < −3", "x > 3", "x < 3"], "answer": 1, "explanation": "Při dělení záporným číslem se znak nerovnosti obrací." }
+      {
+        "type": "input",
+        "question": "Vyřeš: 2x + 6 = 0",
+        "answers": [
+          "-3"
+        ],
+        "explanation": "2x = −6, x = −3"
+      },
+      {
+        "type": "input",
+        "question": "Urči diskriminant rovnice x² − 5x + 6 = 0",
+        "answers": [
+          "1"
+        ],
+        "explanation": "D = b² − 4ac = 25 − 24 = 1"
+      },
+      {
+        "type": "input",
+        "question": "Větší kořen rovnice x² − 5x + 6 = 0 je:",
+        "answers": [
+          "3"
+        ],
+        "explanation": "x = (5 ± 1) / 2, tedy 3 a 2"
+      },
+      {
+        "type": "choice",
+        "question": "Kolik reálných kořenů má rovnice x² + 2x + 5 = 0?",
+        "options": [
+          "žádný",
+          "jeden",
+          "dva",
+          "nekonečně mnoho"
+        ],
+        "answer": 0,
+        "explanation": "D = 4 − 20 = −16 < 0"
+      },
+      {
+        "type": "input",
+        "question": "Vyřeš: 6 / (x − 2) = 3",
+        "answers": [
+          "4"
+        ],
+        "explanation": "Podmínka x ≠ 2. 6 = 3(x − 2), x − 2 = 2, x = 4"
+      },
+      {
+        "type": "input",
+        "question": "Soustava x + y = 7, x − y = 3. Kolik je x?",
+        "answers": [
+          "5"
+        ],
+        "explanation": "Sečtením rovnic: 2x = 10"
+      },
+      {
+        "type": "choice",
+        "question": "Řešením nerovnice −2x > 6 je:",
+        "options": [
+          "x > −3",
+          "x < −3",
+          "x > 3",
+          "x < 3"
+        ],
+        "answer": 1,
+        "explanation": "Při dělení záporným číslem se znak nerovnosti obrací."
+      }
     ]
   },
   {
@@ -18,13 +165,230 @@
     "title": "Geometrie, funkce a derivace",
     "description": "Krátké příklady na vzorce z přehledů.",
     "questions": [
-      { "type": "input", "question": "Odvěsny pravoúhlého trojúhelníku měří 3 cm a 4 cm. Kolik cm měří přepona?", "answers": ["5"], "explanation": "c = √(9 + 16) = 5" },
-      { "type": "input", "question": "Obsah trojúhelníku se stranou 10 cm a příslušnou výškou 6 cm (v cm²):", "answers": ["30"], "explanation": "S = a·v / 2 = 60 / 2" },
-      { "type": "choice", "question": "Grafem funkce y = −x² + 4 je:", "options": ["přímka", "parabola otevřená nahoru", "parabola otevřená dolů", "hyperbola"], "answer": 2, "explanation": "Kvadratická funkce s a = −1 < 0." },
-      { "type": "input", "question": "Kolik je log₂ 8?", "answers": ["3"], "explanation": "2³ = 8" },
-      { "type": "choice", "question": "Derivace funkce f(x) = x³ je:", "options": ["3x²", "x²", "3x", "x⁴ / 4"], "answer": 0 },
-      { "type": "input", "question": "f(x) = 3x² + 2x. Kolik je f′(1)?", "answers": ["8"], "explanation": "f′(x) = 6x + 2, f′(1) = 8" },
-      { "type": "choice", "question": "∫ 2x dx =", "options": ["2 + C", "x² + C", "2x² + C", "x + C"], "answer": 1 }
+      {
+        "type": "input",
+        "question": "Odvěsny pravoúhlého trojúhelníku měří 3 cm a 4 cm. Kolik cm měří přepona?",
+        "answers": [
+          "5"
+        ],
+        "explanation": "c = √(9 + 16) = 5"
+      },
+      {
+        "type": "input",
+        "question": "Obsah trojúhelníku se stranou 10 cm a příslušnou výškou 6 cm (v cm²):",
+        "answers": [
+          "30"
+        ],
+        "explanation": "S = a·v / 2 = 60 / 2"
+      },
+      {
+        "type": "choice",
+        "question": "Grafem funkce y = −x² + 4 je:",
+        "options": [
+          "přímka",
+          "parabola otevřená nahoru",
+          "parabola otevřená dolů",
+          "hyperbola"
+        ],
+        "answer": 2,
+        "explanation": "Kvadratická funkce s a = −1 < 0."
+      },
+      {
+        "type": "input",
+        "question": "Kolik je log₂ 8?",
+        "answers": [
+          "3"
+        ],
+        "explanation": "2³ = 8"
+      },
+      {
+        "type": "choice",
+        "question": "Derivace funkce f(x) = x³ je:",
+        "options": [
+          "3x²",
+          "x²",
+          "3x",
+          "x⁴ / 4"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "input",
+        "question": "f(x) = 3x² + 2x. Kolik je f′(1)?",
+        "answers": [
+          "8"
+        ],
+        "explanation": "f′(x) = 6x + 2, f′(1) = 8"
+      },
+      {
+        "type": "choice",
+        "question": "∫ 2x dx =",
+        "options": [
+          "2 + C",
+          "x² + C",
+          "2x² + C",
+          "x + C"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "ma-posloupnosti-kombinatorika",
+    "title": "Posloupnosti, kombinatorika a statistika",
+    "description": "Aritmetická a geometrická posloupnost, úročení, počet možností a pravděpodobnost.",
+    "questions": [
+      {
+        "type": "input",
+        "question": "Aritmetická posloupnost: a₁ = 3, d = 4. Urči a₁₀.",
+        "answers": [
+          "39"
+        ],
+        "explanation": "a₁₀ = 3 + 9 · 4"
+      },
+      {
+        "type": "input",
+        "question": "Součet prvních deseti členů téže posloupnosti (a₁ = 3, d = 4):",
+        "answers": [
+          "210"
+        ],
+        "explanation": "s₁₀ = 10 · (3 + 39) / 2"
+      },
+      {
+        "type": "input",
+        "question": "Geometrická posloupnost: a₁ = 2, q = 3. Urči a₄.",
+        "answers": [
+          "54"
+        ],
+        "explanation": "a₄ = 2 · 3³"
+      },
+      {
+        "type": "input",
+        "question": "Na účet uložíš 10 000 Kč s ročním úrokem 5 %, úroky se připisují. Kolik korun tam bude za 2 roky?",
+        "answers": [
+          "11025",
+          "11 025",
+          "11025 Kč",
+          "11 025 Kč"
+        ],
+        "explanation": "10 000 · 1,05² = 11 025"
+      },
+      {
+        "type": "input",
+        "question": "Kolika způsoby lze seřadit 4 různé knihy na poličce?",
+        "answers": [
+          "24"
+        ],
+        "explanation": "4! = 24"
+      },
+      {
+        "type": "input",
+        "question": "Kolik různých dvojic lze vybrat ze 6 lidí?",
+        "answers": [
+          "15"
+        ],
+        "explanation": "C(2, 6) = 6 · 5 / 2"
+      },
+      {
+        "type": "choice",
+        "question": "Jaká je pravděpodobnost, že na hrací kostce padne číslo větší než 4?",
+        "options": [
+          "1/6",
+          "1/3",
+          "1/2",
+          "2/3"
+        ],
+        "answer": 1,
+        "explanation": "Příznivé výsledky jsou 5 a 6: 2/6 = 1/3."
+      },
+      {
+        "type": "input",
+        "question": "Urči medián souboru 12, 3, 8, 2, 5.",
+        "answers": [
+          "5"
+        ],
+        "explanation": "Seřazeno: 2, 3, 5, 8, 12. Prostřední hodnota je 5."
+      }
+    ]
+  },
+  {
+    "id": "ma-stereometrie-analytika",
+    "title": "Stereometrie a analytická geometrie",
+    "description": "Objemy, povrchy, vzdálenosti a rovnice přímky.",
+    "questions": [
+      {
+        "type": "input",
+        "question": "Objem krychle s hranou 3 cm (v cm³):",
+        "answers": [
+          "27"
+        ]
+      },
+      {
+        "type": "input",
+        "question": "Povrch krychle s hranou 2 cm (v cm²):",
+        "answers": [
+          "24"
+        ],
+        "explanation": "S = 6a² = 6 · 4"
+      },
+      {
+        "type": "choice",
+        "question": "Objem válce s poloměrem 2 cm a výškou 5 cm je:",
+        "options": [
+          "10π cm³",
+          "20π cm³",
+          "40π cm³",
+          "100π cm³"
+        ],
+        "answer": 1,
+        "explanation": "V = πr²v = π · 4 · 5"
+      },
+      {
+        "type": "input",
+        "question": "Tělesová úhlopříčka kvádru s hranami 2, 3 a 6 cm (v cm):",
+        "answers": [
+          "7"
+        ],
+        "explanation": "√(4 + 9 + 36) = √49"
+      },
+      {
+        "type": "input",
+        "question": "Vzdálenost bodů A[1; 2] a B[4; 6]:",
+        "answers": [
+          "5"
+        ],
+        "explanation": "√(3² + 4²) = 5"
+      },
+      {
+        "type": "choice",
+        "question": "Střed úsečky AB, A[2; 4], B[6; 8]:",
+        "options": [
+          "[4; 6]",
+          "[8; 12]",
+          "[2; 2]",
+          "[3; 5]"
+        ],
+        "answer": 0
+      },
+      {
+        "type": "input",
+        "question": "Směrnice přímky y = 3x − 2 je:",
+        "answers": [
+          "3"
+        ]
+      },
+      {
+        "type": "choice",
+        "question": "Přímky y = 2x + 1 a y = −½x + 3 jsou:",
+        "options": [
+          "rovnoběžné",
+          "totožné",
+          "kolmé",
+          "různoběžné, ale ne kolmé"
+        ],
+        "answer": 2,
+        "explanation": "k₁ · k₂ = 2 · (−½) = −1"
+      }
     ]
   }
 ]

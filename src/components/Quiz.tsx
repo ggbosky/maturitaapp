@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useLocation } from 'react-router-dom'
 import { Check, RotateCcw, X } from 'lucide-react'
 import type { Question, Quiz as QuizData } from '../types'
 import { isCorrect, score, verdict } from '../lib/quiz'
@@ -22,6 +23,7 @@ export default function Quiz({ quiz }: { quiz: QuizData }) {
   const [answers, setAnswers] = useState<Answer[]>([])
   const [checked, setChecked] = useState(false)
   const [done, setDone] = useState(false)
+  const { pathname } = useLocation()
 
   const total = quiz.questions.length
   const q = quiz.questions[index]
@@ -36,7 +38,7 @@ export default function Quiz({ quiz }: { quiz: QuizData }) {
       setIndex(index + 1)
       setChecked(false)
     } else {
-      recordQuiz(quiz.id, score(quiz.questions, answers), total)
+      recordQuiz(quiz.id, score(quiz.questions, answers), total, quiz.title, pathname)
       setDone(true)
     }
   }

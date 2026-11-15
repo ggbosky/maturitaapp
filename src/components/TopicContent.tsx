@@ -1,4 +1,4 @@
-import { Lightbulb } from 'lucide-react'
+import { ExternalLink, Lightbulb } from 'lucide-react'
 import type { TopicSection } from '../types'
 
 /** Vykreslí bloky výkladu jednoho tématu podle toho, která pole sekce obsahuje. */
@@ -72,6 +72,12 @@ export default function TopicContent({ sections }: { sections: TopicSection[] })
               <Lightbulb size={18} className="mt-0.5 shrink-0 text-indigo-500" />
               <span>{s.tip}</span>
             </div>
+          )}
+
+          {s.link && (
+            <a href={s.link.url} target="_blank" rel="noreferrer" className="btn btn-ghost w-fit">
+              <ExternalLink size={16} /> {s.link.label}
+            </a>
           )}
         </section>
       ))}
