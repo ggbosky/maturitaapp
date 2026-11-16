@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link, Navigate, NavLink, useParams } from 'react-router-dom'
 import { CheckCircle2, ChevronRight } from 'lucide-react'
-import { getSubject, topicKey } from '../data'
+import { getSubject, topicKey, useSubjects } from '../data'
 import { BOOK_GROUPS, type Subject } from '../types'
 import { fold } from '../lib/search'
 import { useProgress } from '../lib/progress'
@@ -9,6 +9,7 @@ import { subjectStyle } from '../lib/subjectStyle'
 import Flashcards from '../components/Flashcards'
 import IrregularVerbs from '../components/IrregularVerbs'
 import ProgressBar from '../components/ProgressBar'
+import BookGames from '../components/games/BookGames'
 
 function tabsFor(s: Subject) {
   return [
@@ -23,6 +24,9 @@ function tabsFor(s: Subject) {
 function Topics({ subject }: { subject: Subject }) {
   const progress = useProgress()
   const categories = [...new Set(subject.topics.map((t) => t.category))]
+  if (subject.topics.length === 0) {
+    return <p className="muted">V tomto předmětu zatím nejsou žádná témata. Přidá je učitel ve Správě školy.</p>
+  }
   return (
     <div className="flex flex-col gap-8">
       {categories.map((cat) => (
@@ -40,6 +44,7 @@ function Topics({ subject }: { subject: Subject }) {
                   <div className="min-w-0 flex-1">
                     <div className="flex items-center gap-2 font-semibold">
                       {t.title}
+                      {t.custom && <span className="rounded bg-violet-100 px-1.5 py-0.5 text-[11px] font-medium text-violet-700 dark:bg-violet-500/20 dark:text-violet-300">škola</span>}
                       {progress.read[topicKey(subject.id, t.id)] && (
                         <CheckCircle2 size={16} className="shrink-0 text-emerald-500" aria-label="Přečteno" />
                       )}
@@ -60,10 +65,10 @@ function Books({ subject }: { subject: Subject }) {
   const [query, setQuery] = useState('')
   const [druh, setDruh] = useState('')
   const books = subject.books!
-  const druhy = [...new Set(books.map((b) => b.druh))]
+  const druhy = ['Próza', 'Poezie', 'Drama'].filter((f) => books.some((b) => (b.forma ?? '') === f))
   const q = fold(query.trim())
   const shown = books.filter(
-    (b) => (!druh || b.druh === druh) && (!q || fold(`${b.title} ${b.author} ${b.zanr} ${b.period}`).includes(q)),
+    (b) => (!druh || b.forma === druh) && (!q || fold(`${b.title} ${b.author} ${b.zanr} ${b.period}`).includes(q)),
   )
   const chip = (active: boolean) =>
     `cursor-pointer rounded-full border px-3 py-1 text-sm transition-colors ${
@@ -84,7 +89,7 @@ function Books({ subject }: { subject: Subject }) {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
-        <div className="flex flex-wrap gap-1.5" role="group" aria-label="Literární druh">
+        <div className="flex flex-wrap gap-1.5" role="group" aria-label="Literární forma">
           <button type="button" className={chip(druh === '')} aria-pressed={druh === ''} onClick={() => setDruh('')}>
             Vše
           </button>
@@ -95,9 +100,11 @@ function Books({ subject }: { subject: Subject }) {
           ))}
         </div>
         <span className="muted ml-auto text-sm tabular-nums">
-          {shown.length} z {books.length} děl
+          {shown.length} z {books.length} {books.length === 1 ? 'díla' : 'děl'}
         </span>
       </div>
+
+      <BookGames books={books} />
 
       {shown.length === 0 && <p className="muted">Žádné dílo neodpovídá filtru.</p>}
 
@@ -123,7 +130,7 @@ function Books({ subject }: { subject: Subject }) {
                     </div>
                   </div>
                   <div className="mt-auto flex flex-wrap gap-1.5 text-xs">
-                    {[b.druh, b.zanr].map((tag) => (
+                    {[b.forma ?? b.druh, b.zanr].map((tag) => (
                       <span key={tag} className="rounded-md bg-ink-100 px-2 py-0.5 dark:bg-ink-800">
                         {tag}
                       </span>
@@ -154,7 +161,7 @@ function Quizzes({ subject }: { subject: Subject }) {
             <div className="min-w-0 flex-1">
               <div className="font-semibold">{q.title}</div>
               <p className="muted text-sm">
-                {q.description} Otázek: {q.questions.length}.
+                {q.description} Počet otázek: {q.questions.length}.
               </p>
             </div>
             {r ? (
@@ -175,14 +182,15 @@ function Quizzes({ subject }: { subject: Subject }) {
 export default function SubjectPage() {
   const { subjectId, tab } = useParams()
   const progress = useProgress()
-  const subject = getSubject(subjectId)
+  const subjects = useSubjects()
+  const subject = getSubject(subjects, subjectId)
   if (!subject) return <Navigate to="/" replace />
 
   const tabs = tabsFor(subject)
   const current = tabs.find((t) => t.id === tab) ?? tabs[0]
   if (tab && current.id !== tab) return <Navigate to={`/predmet/${subject.id}`} replace />
 
-  const style = subjectStyle[subject.id]
+  const style = subjectStyle(subject.id)
   const Icon = style.icon
   const read = subject.topics.filter((t) => progress.read[topicKey(subject.id, t.id)]).length
   const quizzesDone = subject.quizzes.filter((q) => progress.quizzes[q.id]).length

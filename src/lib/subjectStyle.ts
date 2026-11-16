@@ -1,8 +1,10 @@
-import { BookOpen, Calculator, Languages, Lightbulb, type LucideIcon } from 'lucide-react'
+import { BookOpen, Briefcase, Calculator, Languages, Lightbulb, type LucideIcon } from 'lucide-react'
 import type { SubjectId } from '../types'
 
 // Každý předmět má vlastní odstín modré. Třídy jsou vypsané celé, aby je Tailwind našel.
-export const subjectStyle: Record<SubjectId, { icon: LucideIcon; badge: string; bar: string; text: string }> = {
+type Style = { icon: LucideIcon; badge: string; bar: string; text: string }
+
+const styles: Record<string, Style> = {
   cestina: {
     icon: BookOpen,
     badge: 'bg-indigo-100 text-indigo-700 dark:bg-indigo-500/20 dark:text-indigo-300',
@@ -27,4 +29,16 @@ export const subjectStyle: Record<SubjectId, { icon: LucideIcon; badge: string; 
     bar: 'bg-cyan-500',
     text: 'text-cyan-600 dark:text-cyan-300',
   },
+}
+
+/** Předměty přidané školou (odborné předměty) mají společný styl. */
+const customStyle: Style = {
+  icon: Briefcase,
+  badge: 'bg-violet-100 text-violet-700 dark:bg-violet-500/20 dark:text-violet-300',
+  bar: 'bg-violet-500',
+  text: 'text-violet-600 dark:text-violet-300',
+}
+
+export function subjectStyle(id: SubjectId): Style {
+  return styles[id] ?? customStyle
 }

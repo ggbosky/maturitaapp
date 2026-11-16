@@ -1,6 +1,7 @@
 // Datové typy obsahu. JSON soubory v src/data/ musí odpovídat těmto tvarům.
 
-export type SubjectId = 'cestina' | 'matematika' | 'anglictina' | 'tahaky'
+/** Vestavěné předměty mají pevné id, předměty přidané učitelem začínají „u-“. */
+export type SubjectId = string
 
 /** Jeden blok výkladu uvnitř tématu. Všechna pole kromě nadpisu jsou volitelná. */
 export interface TopicSection {
@@ -16,6 +17,14 @@ export interface TopicSection {
   link?: { label: string; url: string }
 }
 
+/** Podklady pro hry a procvičování u tématu. */
+export interface Practice {
+  /** Dvojice pojem – vysvětlení pro přiřazování, rychlovku a kartičky. */
+  pairs?: { a: string; b: string }[]
+  /** Otázky pro kvíz k tématu. */
+  questions?: Question[]
+}
+
 export interface Topic {
   id: string
   title: string
@@ -23,6 +32,9 @@ export interface Topic {
   category: string
   summary: string
   sections: TopicSection[]
+  practice?: Practice
+  /** Téma přidal učitel školy. */
+  custom?: boolean
 }
 
 export interface Book {
@@ -34,14 +46,18 @@ export interface Book {
   period: string
   druh: string
   zanr: string
+  /** Literární forma ze seznamu četby: próza, poezie, drama. */
+  forma?: 'Próza' | 'Poezie' | 'Drama'
   tema: string
-  motivy: string[]
-  casoprostor: string
-  kompozice: string
-  postavy: { name: string; desc: string }[]
-  jazyk: string
-  kontext: string
+  motivy?: string[]
+  casoprostor?: string
+  kompozice?: string
+  postavy?: { name: string; desc: string }[]
+  jazyk?: string
+  kontext?: string
   ukazka?: { text: string; note?: string }
+  /** Údaje o díle je potřeba ověřit (zobrazí se upozornění). */
+  overit?: boolean
   /** Skupina maturitního seznamu četby (1–4), viz BOOK_GROUPS. */
   skupina: 1 | 2 | 3 | 4
 }
@@ -73,6 +89,8 @@ export interface Verb {
 export interface Subject {
   id: SubjectId
   name: string
+  /** Předmět přidal učitel školy (např. odborný předmět). */
+  custom?: boolean
   tagline: string
   topics: Topic[]
   quizzes: Quiz[]

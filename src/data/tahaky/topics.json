@@ -49,13 +49,31 @@
       {
         "heading": "Další útvary ve zkratce",
         "table": {
-          "head": ["Útvar", "Na co nezapomenout"],
+          "head": [
+            "Útvar",
+            "Na co nezapomenout"
+          ],
           "rows": [
-            ["Charakteristika", "vnější i vnitřní rysy, vlastnosti dokládej jednáním postavy"],
-            ["Popis / líčení", "postup od celku k detailu; v líčení osobní dojem a básnické prostředky"],
-            ["Článek, zpráva", "titulek, odpovědi na otázky kdo, co, kdy, kde, jak, proč; věcnost"],
-            ["Formální dopis", "adresy, datum, oslovení, věc, zdvořilé rozloučení a podpis; vykání"],
-            ["Motivační dopis", "proč já, co umím, co nabízím; konkrétní příklady místo obecných frází"]
+            [
+              "Charakteristika",
+              "vnější i vnitřní rysy, vlastnosti dokládej jednáním postavy"
+            ],
+            [
+              "Popis / líčení",
+              "postup od celku k detailu; v líčení osobní dojem a básnické prostředky"
+            ],
+            [
+              "Článek, zpráva",
+              "titulek, odpovědi na otázky kdo, co, kdy, kde, jak, proč; věcnost"
+            ],
+            [
+              "Formální dopis",
+              "adresy, datum, oslovení, věc, zdvořilé rozloučení a podpis; vykání"
+            ],
+            [
+              "Motivační dopis",
+              "proč já, co umím, co nabízím; konkrétní příklady místo obecných frází"
+            ]
           ]
         }
       }
@@ -131,13 +149,31 @@
       {
         "heading": "Jak získat čas",
         "table": {
-          "head": ["Situace", "Co říct"],
+          "head": [
+            "Situace",
+            "Co říct"
+          ],
           "rows": [
-            ["Potřebuješ přemýšlet", "Well, let me think… / That's a good question."],
-            ["Neznáš slovíčko", "I don't know the exact word, but it's something you use for…"],
-            ["Nejsi si jistý", "I'm not sure, but I think… / As far as I know…"],
-            ["Chceš přidat další myšlenku", "What's more… / Another thing is…"],
-            ["Chceš uzavřít", "To sum up… / So, all in all…"]
+            [
+              "Potřebuješ přemýšlet",
+              "Well, let me think… / That's a good question."
+            ],
+            [
+              "Neznáš slovíčko",
+              "I don't know the exact word, but it's something you use for…"
+            ],
+            [
+              "Nejsi si jistý",
+              "I'm not sure, but I think… / As far as I know…"
+            ],
+            [
+              "Chceš přidat další myšlenku",
+              "What's more… / Another thing is…"
+            ],
+            [
+              "Chceš uzavřít",
+              "To sum up… / So, all in all…"
+            ]
           ]
         }
       },
@@ -161,5 +197,170 @@
         "tip": "Nauč se deset univerzálních frází nazpaměť a použij je v každé části zkoušky. Najdeš je v kartičkách u angličtiny."
       }
     ]
+  },
+  {
+    "id": "jak-se-ucit",
+    "title": "Jak se učit na maturitu",
+    "category": "Jak se učit",
+    "summary": "Plán přípravy po týdnech a techniky, které fungují líp než opakované čtení.",
+    "sections": [
+      {
+        "heading": "Techniky, které fungují",
+        "table": {
+          "head": [
+            "Technika",
+            "Jak na to"
+          ],
+          "rows": [
+            [
+              "Aktivní vybavování",
+              "zavři sešit a zkus si látku vybavit sám, třeba kartičkami nebo kvízem"
+            ],
+            [
+              "Rozložené opakování",
+              "opakuj po 1 dni, 3 dnech, týdnu a měsíci místo jednoho dlouhého biflování"
+            ],
+            [
+              "Prokládání",
+              "střídej témata a typy úloh, mozek se naučí poznat, kterou metodu použít"
+            ],
+            [
+              "Pomodoro",
+              "25 minut soustředěné práce, 5 minut pauza, po čtyřech kolech delší pauza"
+            ],
+            [
+              "Vysvětli to někomu",
+              "když látku vysvětlíš kamarádovi nebo nahlas sám sobě, odhalíš mezery"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Plán přípravy",
+        "bullets": [
+          "Půl roku předem: sepiš si seznam četby a rozděl témata do týdnů.",
+          "3 měsíce předem: každý týden jeden celý didaktický test z minulých let.",
+          "Měsíc předem: opakuj slabá místa, ke každé knize kartičku na A5.",
+          "Týden předem: lehčí opakování, žádné nové učivo, pravidelný spánek.",
+          "Den předem: nic se neučit nazpaměť, připravit si věci a jít brzy spát."
+        ]
+      },
+      {
+        "heading": "Spánek a stres",
+        "bullets": [
+          "Paměť se ukládá ve spánku. Ponocování před zkouškou škodí víc, než pomůže.",
+          "Pohyb pomáhá na stres i na soustředění.",
+          "Když tě přepadne panika, pomalu se nadechni na 4 doby a vydechni na 6."
+        ]
+      }
+    ],
+    "practice": {
+      "pairs": [
+        {
+          "a": "Aktivní vybavování",
+          "b": "zkoušet se zpaměti místo čtení"
+        },
+        {
+          "a": "Rozložené opakování",
+          "b": "opakovat v rostoucích odstupech"
+        },
+        {
+          "a": "Prokládání",
+          "b": "střídat témata a typy úloh"
+        },
+        {
+          "a": "Pomodoro",
+          "b": "25 minut práce, 5 minut pauza"
+        },
+        {
+          "a": "Vysvětli to někomu",
+          "b": "odhalí mezery v pochopení"
+        }
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "question": "Co pomáhá zapamatovat si látku nejvíc?",
+          "options": [
+            "opakované čtení sešitu",
+            "zkoušet se zpaměti",
+            "podtrhávání textu",
+            "učit se celou noc před zkouškou"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "Co dělat den před zkouškou?",
+          "options": [
+            "naučit se nové téma",
+            "jít brzy spát a připravit si věci",
+            "učit se do rána",
+            "nic nejíst"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "didakticky-test-strategie",
+    "title": "Didaktický test: strategie",
+    "category": "Písemná práce",
+    "summary": "Jak pracovat s časem, výchozími texty a záznamovým archem.",
+    "sections": [
+      {
+        "heading": "Práce s časem",
+        "bullets": [
+          "Projdi celý test a nejdřív vyřeš úlohy, které umíš hned.",
+          "U úlohy, která se zasekne, si udělej značku a vrať se k ní.",
+          "Nech si posledních deset minut na přepis a kontrolu záznamového archu."
+        ]
+      },
+      {
+        "heading": "Výchozí texty",
+        "bullets": [
+          "Nejdřív si přečti otázky k textu, pak text. Víš, co v něm hledat.",
+          "Odpověď vždy ověř přímo v textu, ne podle toho, co víš odjinud.",
+          "U úloh „Které tvrzení odpovídá textu“ hledej slova jako vždy, nikdy, pouze. Často prozradí špatnou možnost."
+        ]
+      },
+      {
+        "heading": "Záznamový arch",
+        "bullets": [
+          "Hodnotí se jen to, co je v záznamovém archu.",
+          "Piš čitelně, opravu proveď tak, jak to vyžadují pokyny v testu.",
+          "Nenechávej uzavřené úlohy prázdné: za špatnou odpověď se body neodečítají."
+        ],
+        "tip": "Pokyny k zápisu odpovědí se mohou lišit. Přečti si je v testu pozorně ještě před začátkem."
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "choice",
+          "question": "Co hodnotitel posuzuje?",
+          "options": [
+            "zadání testu",
+            "záznamový arch",
+            "obojí",
+            "poznámky na konceptu"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "Co udělat s uzavřenou úlohou, kterou nevíš?",
+          "options": [
+            "nechat ji prázdnou",
+            "tipnout si odpověď",
+            "napsat poznámku",
+            "zakřížkovat všechny možnosti"
+          ],
+          "answer": 1,
+          "explanation": "Za špatnou odpověď se body neodečítají."
+        }
+      ]
+    }
   }
 ]

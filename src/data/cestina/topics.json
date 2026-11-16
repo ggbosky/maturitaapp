@@ -1,5 +1,96 @@
 [
   {
+    "id": "maturita-cestina",
+    "title": "Jak vypadá maturita z češtiny",
+    "category": "Maturitní zkouška",
+    "summary": "Tři části zkoušky, co se v nich hodnotí a kde najdeš oficiální zadání.",
+    "sections": [
+      {
+        "heading": "Tři části zkoušky",
+        "table": {
+          "head": [
+            "Část",
+            "Co tě čeká",
+            "Na co se připravit"
+          ],
+          "rows": [
+            [
+              "Didaktický test",
+              "test s výchozími texty: porozumění, pravopis, tvarosloví, větná stavba, slovní zásoba, literární teorie",
+              "práce s textem a s časem, pravopis, větné členy a poměry, literární pojmy"
+            ],
+            [
+              "Písemná práce",
+              "slohová práce na jedno ze zadání, v požadovaném útvaru a rozsahu",
+              "struktura útvarů (úvaha, vypravování, popis, charakteristika, článek, dopis), kontrola pravopisu"
+            ],
+            [
+              "Ústní zkouška",
+              "rozbor uměleckého a neuměleckého textu z díla, které si vylosuješ ze svého seznamu četby",
+              "osnova rozboru, kontext díla, jazykové prostředky"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Co se hodnotí u ústní zkoušky",
+        "bullets": [
+          "Analýza uměleckého textu: téma, motivy, časoprostor, kompozice, druh a žánr, vypravěč, postavy, jazyk.",
+          "Literárněhistorický kontext: autor, směr, další díla a současníci.",
+          "Analýza neuměleckého textu: porozumění, funkční styl, slohový postup, jazykové prostředky.",
+          "Výpověď v souladu s jazykovými normami a se zásadami jazykové kultury."
+        ],
+        "tip": "Přesná pravidla a počty bodů se mohou měnit. Před zkouškou si je ověř na webu CERMAT a u svého učitele."
+      },
+      {
+        "heading": "Oficiální zdroje",
+        "text": "CERMAT zveřejňuje didaktické testy z minulých let i s klíčem správných řešení. Vypracuj aspoň dva celé testy načas.",
+        "link": {
+          "label": "Maturita na webu CERMAT",
+          "url": "https://maturita.cermat.gov.cz"
+        }
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "choice",
+          "question": "Ze kterého seznamu si losuješ dílo k ústní zkoušce?",
+          "options": [
+            "ze seznamu CERMAT",
+            "ze svého vlastního seznamu četby",
+            "z náhodného seznamu, který určí komise",
+            "ze seznamu z didaktického testu"
+          ],
+          "answer": 1,
+          "explanation": "Žák si sestaví vlastní seznam podle pravidel školy a z něj losuje."
+        },
+        {
+          "type": "choice",
+          "question": "Co je součástí ústní zkoušky z češtiny?",
+          "options": [
+            "jen rozbor uměleckého textu",
+            "rozbor uměleckého i neuměleckého textu",
+            "jen převyprávění děje",
+            "diktát"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "Kterou část zkoušky tvoří slohová práce?",
+          "options": [
+            "didaktický test",
+            "písemná práce",
+            "ústní zkouška",
+            "žádnou"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  },
+  {
     "id": "vetne-cleny",
     "title": "Stavba věty a větné členy",
     "category": "Mluvnice a syntax",
@@ -17,20 +108,72 @@
       {
         "heading": "Rozvíjející větné členy",
         "table": {
-          "head": ["Větný člen", "Ptáme se", "Příklad"],
+          "head": [
+            "Větný člen",
+            "Ptáme se",
+            "Příklad"
+          ],
           "rows": [
-            ["Předmět", "pádovými otázkami kromě 1. a 5. pádu", "Čte knihu. Věří kamarádovi."],
-            ["Příslovečné určení místa", "kde? kam? odkud? kudy?", "Bydlí v Brně."],
-            ["Příslovečné určení času", "kdy? odkdy? dokdy? jak dlouho?", "Vrátí se zítra."],
-            ["Příslovečné určení způsobu", "jak? jakým způsobem?", "Mluvil potichu."],
-            ["Příslovečné určení míry", "kolik? do jaké míry?", "Velmi se snažil."],
-            ["Příslovečné určení příčiny", "proč? z jakého důvodu?", "Třásl se zimou."],
-            ["Příslovečné určení účelu", "za jakým účelem?", "Šel nakoupit."],
-            ["Příslovečné určení podmínky", "za jaké podmínky?", "Při dešti zůstaneme doma."],
-            ["Příslovečné určení přípustky", "i přes co? navzdory čemu?", "Přes únavu pokračoval."],
-            ["Přívlastek shodný", "jaký? který? čí?", "nová kniha, náš dům"],
-            ["Přívlastek neshodný", "jaký? který? čí? (stojí za jménem)", "kniha básní, dům na kopci"],
-            ["Doplněk", "jak? jaký? – vztahuje se ke slovesu i ke jménu zároveň", "Vrátil se unavený. Zvolili ho předsedou."]
+            [
+              "Předmět",
+              "pádovými otázkami kromě 1. a 5. pádu",
+              "Čte knihu. Věří kamarádovi."
+            ],
+            [
+              "Příslovečné určení místa",
+              "kde? kam? odkud? kudy?",
+              "Bydlí v Brně."
+            ],
+            [
+              "Příslovečné určení času",
+              "kdy? odkdy? dokdy? jak dlouho?",
+              "Vrátí se zítra."
+            ],
+            [
+              "Příslovečné určení způsobu",
+              "jak? jakým způsobem?",
+              "Mluvil potichu."
+            ],
+            [
+              "Příslovečné určení míry",
+              "kolik? do jaké míry?",
+              "Velmi se snažil."
+            ],
+            [
+              "Příslovečné určení příčiny",
+              "proč? z jakého důvodu?",
+              "Třásl se zimou."
+            ],
+            [
+              "Příslovečné určení účelu",
+              "za jakým účelem?",
+              "Šel nakoupit."
+            ],
+            [
+              "Příslovečné určení podmínky",
+              "za jaké podmínky?",
+              "Při dešti zůstaneme doma."
+            ],
+            [
+              "Příslovečné určení přípustky",
+              "i přes co? navzdory čemu?",
+              "Přes únavu pokračoval."
+            ],
+            [
+              "Přívlastek shodný",
+              "jaký? který? čí?",
+              "nová kniha, náš dům"
+            ],
+            [
+              "Přívlastek neshodný",
+              "jaký? který? čí? (stojí za jménem)",
+              "kniha básní, dům na kopci"
+            ],
+            [
+              "Doplněk",
+              "jak? jaký? – vztahuje se ke slovesu i ke jménu zároveň",
+              "Vrátil se unavený. Zvolili ho předsedou."
+            ]
           ]
         }
       },
@@ -59,14 +202,42 @@
       {
         "heading": "Přehled poměrů",
         "table": {
-          "head": ["Poměr", "Typické spojovací výrazy", "Příklad"],
+          "head": [
+            "Poměr",
+            "Typické spojovací výrazy",
+            "Příklad"
+          ],
           "rows": [
-            ["Slučovací", "a, i, ani, také, pak, jednak–jednak", "Přišel domů a uvařil si čaj."],
-            ["Stupňovací", "ba, ba i, dokonce, nejen–ale i, nejen–nýbrž i", "Nejenže přišel pozdě, ale dokonce se ani neomluvil."],
-            ["Odporovací", "ale, avšak, však, nýbrž, jenže, a přece, sice–ale", "Učil se dlouho, ale zkoušku neudělal."],
-            ["Vylučovací", "nebo, anebo, či, buď–nebo", "Buď přijdeš včas, nebo odejdeme bez tebe."],
-            ["Příčinný (důvodový)", "neboť, vždyť, totiž, však také", "Zůstal doma, neboť byl nemocný."],
-            ["Důsledkový", "proto, a proto, tedy, a tak, tudíž, a tím", "Byl nemocný, a proto zůstal doma."]
+            [
+              "Slučovací",
+              "a, i, ani, také, pak, jednak–jednak",
+              "Přišel domů a uvařil si čaj."
+            ],
+            [
+              "Stupňovací",
+              "ba, ba i, dokonce, nejen–ale i, nejen–nýbrž i",
+              "Nejenže přišel pozdě, ale dokonce se ani neomluvil."
+            ],
+            [
+              "Odporovací",
+              "ale, avšak, však, nýbrž, jenže, a přece, sice–ale",
+              "Učil se dlouho, ale zkoušku neudělal."
+            ],
+            [
+              "Vylučovací",
+              "nebo, anebo, či, buď–nebo",
+              "Buď přijdeš včas, nebo odejdeme bez tebe."
+            ],
+            [
+              "Příčinný (důvodový)",
+              "neboť, vždyť, totiž, však také",
+              "Zůstal doma, neboť byl nemocný."
+            ],
+            [
+              "Důsledkový",
+              "proto, a proto, tedy, a tak, tudíž, a tím",
+              "Byl nemocný, a proto zůstal doma."
+            ]
           ]
         }
       },
@@ -108,21 +279,77 @@
       {
         "heading": "Přehled vedlejších vět",
         "table": {
-          "head": ["Druh", "Otázka", "Příklad"],
+          "head": [
+            "Druh",
+            "Otázka",
+            "Příklad"
+          ],
           "rows": [
-            ["Podmětná", "kdo? co?", "Kdo lže, ten krade."],
-            ["Přísudková", "jaký je podmět? (po sponě být, stát se)", "Nebe bylo, jako by ho vymetl."],
-            ["Předmětná", "pádové otázky kromě 1. a 5. pádu", "Slíbil, že napíše."],
-            ["Přívlastková", "jaký? který? čí?", "Kniha, kterou jsi mi půjčil, je skvělá."],
-            ["Doplňková", "jak? v jakém stavu? (po slovesech vidět, slyšet, najít…)", "Viděl ho, jak odchází."],
-            ["Příslovečná místní", "kde? kam? odkud?", "Šel, kam ho nohy nesly."],
-            ["Příslovečná časová", "kdy? odkdy? dokdy?", "Až přijdeš, zavolej."],
-            ["Příslovečná způsobová", "jak? jakým způsobem?", "Udělal to, jak nejlépe uměl."],
-            ["Příslovečná měrová", "kolik? do jaké míry?", "Křičel, až ochraptěl."],
-            ["Příslovečná příčinná", "proč?", "Nepřišel, protože onemocněl."],
-            ["Příslovečná účelová", "za jakým účelem?", "Šetří, aby si koupil kolo."],
-            ["Příslovečná podmínková", "za jaké podmínky?", "Jestliže bude pršet, zůstaneme doma."],
-            ["Příslovečná přípustková", "i přes jakou skutečnost?", "Ačkoli pršelo, šli ven."]
+            [
+              "Podmětná",
+              "kdo? co?",
+              "Kdo lže, ten krade."
+            ],
+            [
+              "Přísudková",
+              "jaký je podmět? (po sponě být, stát se)",
+              "Nebe bylo, jako by ho vymetl."
+            ],
+            [
+              "Předmětná",
+              "pádové otázky kromě 1. a 5. pádu",
+              "Slíbil, že napíše."
+            ],
+            [
+              "Přívlastková",
+              "jaký? který? čí?",
+              "Kniha, kterou jsi mi půjčil, je skvělá."
+            ],
+            [
+              "Doplňková",
+              "jak? v jakém stavu? (po slovesech vidět, slyšet, najít…)",
+              "Viděl ho, jak odchází."
+            ],
+            [
+              "Příslovečná místní",
+              "kde? kam? odkud?",
+              "Šel, kam ho nohy nesly."
+            ],
+            [
+              "Příslovečná časová",
+              "kdy? odkdy? dokdy?",
+              "Až přijdeš, zavolej."
+            ],
+            [
+              "Příslovečná způsobová",
+              "jak? jakým způsobem?",
+              "Udělal to, jak nejlépe uměl."
+            ],
+            [
+              "Příslovečná měrová",
+              "kolik? do jaké míry?",
+              "Křičel, až ochraptěl."
+            ],
+            [
+              "Příslovečná příčinná",
+              "proč?",
+              "Nepřišel, protože onemocněl."
+            ],
+            [
+              "Příslovečná účelová",
+              "za jakým účelem?",
+              "Šetří, aby si koupil kolo."
+            ],
+            [
+              "Příslovečná podmínková",
+              "za jaké podmínky?",
+              "Jestliže bude pršet, zůstaneme doma."
+            ],
+            [
+              "Příslovečná přípustková",
+              "i přes jakou skutečnost?",
+              "Ačkoli pršelo, šli ven."
+            ]
           ]
         }
       },
@@ -147,13 +374,43 @@
       {
         "heading": "Literární druhy",
         "table": {
-          "head": ["", "Epika", "Lyrika", "Drama"],
+          "head": [
+            "",
+            "Epika",
+            "Lyrika",
+            "Drama"
+          ],
           "rows": [
-            ["Podstata", "vypráví příběh", "vyjadřuje pocity, nálady a myšlenky", "předvádí děj dialogy a jednáním postav"],
-            ["Děj", "má děj", "děj chybí", "má děj, určený k jevištnímu provedení"],
-            ["Kdo mluví", "vypravěč", "lyrický subjekt", "postavy (repliky, monology), scénické poznámky"],
-            ["Čas", "plyne, události na sebe navazují", "zastavený okamžik", "odehrává se „teď“ před divákem"],
-            ["Žánry", "román, povídka, novela, pohádka, pověst, epos, bajka", "óda, elegie, sonet, píseň, epigram", "tragédie, komedie, činohra, fraška"]
+            [
+              "Podstata",
+              "vypráví příběh",
+              "vyjadřuje pocity, nálady a myšlenky",
+              "předvádí děj dialogy a jednáním postav"
+            ],
+            [
+              "Děj",
+              "má děj",
+              "děj chybí",
+              "má děj, určený k jevištnímu provedení"
+            ],
+            [
+              "Kdo mluví",
+              "vypravěč",
+              "lyrický subjekt",
+              "postavy (repliky, monology), scénické poznámky"
+            ],
+            [
+              "Čas",
+              "plyne, události na sebe navazují",
+              "zastavený okamžik",
+              "odehrává se „teď“ před divákem"
+            ],
+            [
+              "Žánry",
+              "román, povídka, novela, pohádka, pověst, epos, bajka",
+              "óda, elegie, sonet, píseň, epigram",
+              "tragédie, komedie, činohra, fraška"
+            ]
           ]
         }
       },
@@ -197,14 +454,42 @@
       {
         "heading": "Rýmová schémata",
         "table": {
-          "head": ["Rým", "Schéma", "Jak si ho zapamatovat"],
+          "head": [
+            "Rým",
+            "Schéma",
+            "Jak si ho zapamatovat"
+          ],
           "rows": [
-            ["Sdružený", "AABB", "rýmují se sousední verše"],
-            ["Střídavý", "ABAB", "rýmy se střídají ob jeden verš"],
-            ["Obkročný", "ABBA", "vnější dvojice „obkračuje“ vnitřní"],
-            ["Přerývaný", "ABCB", "rýmuje se jen druhý a čtvrtý verš"],
-            ["Postupný", "ABC ABC", "rýmy se opakují ve stejném pořadí"],
-            ["Tirádový", "AAAA", "stejný rým ve všech verších"]
+            [
+              "Sdružený",
+              "AABB",
+              "rýmují se sousední verše"
+            ],
+            [
+              "Střídavý",
+              "ABAB",
+              "rýmy se střídají ob jeden verš"
+            ],
+            [
+              "Obkročný",
+              "ABBA",
+              "vnější dvojice „obkračuje“ vnitřní"
+            ],
+            [
+              "Přerývaný",
+              "ABCB",
+              "rýmuje se jen druhý a čtvrtý verš"
+            ],
+            [
+              "Postupný",
+              "ABC ABC",
+              "rýmy se opakují ve stejném pořadí"
+            ],
+            [
+              "Tirádový",
+              "AAAA",
+              "stejný rým ve všech verších"
+            ]
           ]
         },
         "example": "Byl pozdní večer – první máj – (A)\nvečerní máj – byl lásky čas. (B)\nHrdliččin zval ku lásce hlas, (B)\nkde borový zaváněl háj. (A)\n→ rým obkročný"
@@ -212,11 +497,27 @@
       {
         "heading": "Metrum (stopy)",
         "table": {
-          "head": ["Stopa", "Schéma", "Poznámka"],
+          "head": [
+            "Stopa",
+            "Schéma",
+            "Poznámka"
+          ],
           "rows": [
-            ["Trochej", "— ∪", "přízvučná + nepřízvučná; sestupný, pro češtinu přirozený"],
-            ["Jamb", "∪ —", "nepřízvučná + přízvučná; vzestupný, verš často začíná jednoslabičným slovem"],
-            ["Daktyl", "— ∪ ∪", "přízvučná + dvě nepřízvučné"]
+            [
+              "Trochej",
+              "— ∪",
+              "přízvučná + nepřízvučná; sestupný, pro češtinu přirozený"
+            ],
+            [
+              "Jamb",
+              "∪ —",
+              "nepřízvučná + přízvučná; vzestupný, verš často začíná jednoslabičným slovem"
+            ],
+            [
+              "Daktyl",
+              "— ∪ ∪",
+              "přízvučná + dvě nepřízvučné"
+            ]
           ]
         },
         "tip": "U zkoušky stačí postup: označ konce veršů písmeny, urči schéma a pojmenuj rým. Pak zkus první dva verše nahlas vyťukat – přízvuk je v češtině na první slabice slova."
@@ -242,12 +543,32 @@
       {
         "heading": "Próza × poezie",
         "table": {
-          "head": ["", "Próza", "Poezie"],
+          "head": [
+            "",
+            "Próza",
+            "Poezie"
+          ],
           "rows": [
-            ["Členění", "věty, odstavce, kapitoly", "verše, sloky"],
-            ["Rytmus a rým", "nemá", "obvykle má (kromě volného verše)"],
-            ["Jazyk", "bližší běžné řeči", "zhuštěný, obrazný, hodně básnických prostředků"],
-            ["Typické útvary", "román, povídka, novela", "báseň, sbírka, básnická skladba"]
+            [
+              "Členění",
+              "věty, odstavce, kapitoly",
+              "verše, sloky"
+            ],
+            [
+              "Rytmus a rým",
+              "nemá",
+              "obvykle má (kromě volného verše)"
+            ],
+            [
+              "Jazyk",
+              "bližší běžné řeči",
+              "zhuštěný, obrazný, hodně básnických prostředků"
+            ],
+            [
+              "Typické útvary",
+              "román, povídka, novela",
+              "báseň, sbírka, básnická skladba"
+            ]
           ]
         }
       },
@@ -263,11 +584,27 @@
       {
         "heading": "Povídka a novela",
         "table": {
-          "head": ["Žánr", "Rozsah", "Znaky"],
+          "head": [
+            "Žánr",
+            "Rozsah",
+            "Znaky"
+          ],
           "rows": [
-            ["Povídka", "krátký", "jedna dějová linie, málo postav, které se nevyvíjejí"],
-            ["Novela", "střední", "jeden sevřený příběh, rychlý spád, výrazná pointa"],
-            ["Román", "rozsáhlý", "více dějových linií, vývoj postav, široký obraz doby"]
+            [
+              "Povídka",
+              "krátký",
+              "jedna dějová linie, málo postav, které se nevyvíjejí"
+            ],
+            [
+              "Novela",
+              "střední",
+              "jeden sevřený příběh, rychlý spád, výrazná pointa"
+            ],
+            [
+              "Román",
+              "rozsáhlý",
+              "více dějových linií, vývoj postav, široký obraz doby"
+            ]
           ]
         }
       },
@@ -282,5 +619,1053 @@
         ]
       }
     ]
+  },
+  {
+    "id": "slovni-druhy",
+    "title": "Slovní druhy a mluvnické kategorie",
+    "category": "Tvarosloví",
+    "summary": "Deset slovních druhů, jak je od sebe rozeznat a jaké mají mluvnické kategorie.",
+    "sections": [
+      {
+        "heading": "Deset slovních druhů",
+        "table": {
+          "head": [
+            "Slovní druh",
+            "Co vyjadřuje",
+            "Příklady"
+          ],
+          "rows": [
+            [
+              "Podstatná jména",
+              "názvy osob, zvířat, věcí, vlastností a dějů",
+              "žena, pes, radost, běh"
+            ],
+            [
+              "Přídavná jména",
+              "vlastnosti a vztahy",
+              "velký, jarní, otcův"
+            ],
+            [
+              "Zájmena",
+              "odkazují na osoby a věci nebo je zastupují",
+              "já, ten, který, nikdo"
+            ],
+            [
+              "Číslovky",
+              "počet a pořadí",
+              "dva, druhý, dvakrát, dvojí"
+            ],
+            [
+              "Slovesa",
+              "děje a stavy",
+              "běžet, spát, být"
+            ],
+            [
+              "Příslovce",
+              "okolnosti dějů a míru vlastností",
+              "včera, rychle, velmi, doma"
+            ],
+            [
+              "Předložky",
+              "vztah mezi slovy, pojí se s pádem",
+              "v, na, kvůli, mezi"
+            ],
+            [
+              "Spojky",
+              "spojují větné členy a věty",
+              "a, ale, že, protože, aby"
+            ],
+            [
+              "Částice",
+              "postoj mluvčího k výpovědi",
+              "ať, kéž, asi, prý, jen"
+            ],
+            [
+              "Citoslovce",
+              "city, vůle a napodobení zvuků",
+              "au, haló, haf, bum"
+            ]
+          ]
+        },
+        "tip": "Ohebné jsou první čtyři druhy a slovesa (1–5), neohebné jsou příslovce až citoslovce (6–10). Příslovce jde stupňovat (rychle – rychleji), ale neskloňuje se."
+      },
+      {
+        "heading": "Mluvnické kategorie",
+        "table": {
+          "head": [
+            "Slovní druh",
+            "Kategorie"
+          ],
+          "rows": [
+            [
+              "Podstatná jména",
+              "rod (a u mužského životnost), číslo, pád, vzor"
+            ],
+            [
+              "Přídavná jména",
+              "rod, číslo, pád, vzor (mladý, jarní), stupeň"
+            ],
+            [
+              "Slovesa",
+              "osoba, číslo, čas, způsob, rod (činný, trpný), vid"
+            ],
+            [
+              "Zájmena a číslovky",
+              "podle druhu: rod, číslo, pád"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Slovesné kategorie podrobněji",
+        "bullets": [
+          "Způsob: oznamovací (píšu), rozkazovací (piš), podmiňovací (psal bych).",
+          "Vid: dokonavý (napsat – děj ukončený, nemá přítomný čas) a nedokonavý (psát).",
+          "Rod: činný (Žák píše úkol.) a trpný (Úkol je psán.).",
+          "Čas: minulý, přítomný, budoucí."
+        ]
+      }
+    ],
+    "practice": {
+      "pairs": [
+        {
+          "a": "Způsob oznamovací",
+          "b": "píšu"
+        },
+        {
+          "a": "Způsob rozkazovací",
+          "b": "piš"
+        },
+        {
+          "a": "Způsob podmiňovací",
+          "b": "psal bych"
+        },
+        {
+          "a": "Vid dokonavý",
+          "b": "napsat"
+        },
+        {
+          "a": "Vid nedokonavý",
+          "b": "psát"
+        },
+        {
+          "a": "Rod trpný",
+          "b": "úkol je psán"
+        }
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "question": "Kterým slovním druhem je „kvůli“ ve větě „Přišel kvůli tobě“?",
+          "options": [
+            "předložka",
+            "příslovce",
+            "spojka",
+            "částice"
+          ],
+          "answer": 0,
+          "explanation": "Pojí se s podstatným jménem nebo zájmenem ve 3. pádě."
+        },
+        {
+          "type": "choice",
+          "question": "Jaký vid má sloveso „napsat“?",
+          "options": [
+            "dokonavý",
+            "nedokonavý",
+            "obojvidý",
+            "vid nemá"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "choice",
+          "question": "Ve kterém způsobu je tvar „přišel bych“?",
+          "options": [
+            "oznamovacím",
+            "rozkazovacím",
+            "podmiňovacím",
+            "trpném"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "choice",
+          "question": "Které slovo je číslovka?",
+          "options": [
+            "dvakrát",
+            "rychle",
+            "zítra",
+            "často"
+          ],
+          "answer": 0,
+          "explanation": "Číslovka násobná."
+        },
+        {
+          "type": "choice",
+          "question": "Který slovní druh je neohebný?",
+          "options": [
+            "zájmeno",
+            "příslovce",
+            "číslovka",
+            "sloveso"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "pravopis",
+    "title": "Pravopis: shoda, mě/mně, s/z, velká písmena",
+    "category": "Pravopis",
+    "summary": "Pravidla, na kterých se v testu i ve slohu ztrácí nejvíc bodů.",
+    "sections": [
+      {
+        "heading": "Shoda přísudku s podmětem",
+        "table": {
+          "head": [
+            "Rod podmětu (množné číslo)",
+            "Koncovka",
+            "Příklad"
+          ],
+          "rows": [
+            [
+              "Mužský životný",
+              "-i",
+              "Muži přišli. Psi štěkali."
+            ],
+            [
+              "Mužský neživotný",
+              "-y",
+              "Stromy padaly."
+            ],
+            [
+              "Ženský",
+              "-y",
+              "Ženy přišly. Děti si hrály."
+            ],
+            [
+              "Střední",
+              "-a",
+              "Města zanikla. Kuřata pípala."
+            ]
+          ]
+        },
+        "bullets": [
+          "Několikanásobný podmět s aspoň jedním mužským životným → -i: Ženy a muži přišli.",
+          "Mužský neživotný a ženský → -y: Stoly a židle stály.",
+          "Podmět „děti“ je v množném čísle rodu ženského: Děti běhaly."
+        ]
+      },
+      {
+        "heading": "mě × mně",
+        "bullets": [
+          "mě = 2. a 4. pád (bez mě, vidí mě) – jako tě.",
+          "mně = 3. a 6. pád (dej mně, o mně) – jako tobě.",
+          "Ve slovech: mě píšeme ve slovech jako město, měsíc, změna; mně ve slovech zapomněl, vzpomněl, domnělý, rozumně."
+        ]
+      },
+      {
+        "heading": "Předpony s- a z- a předložky s a z",
+        "bullets": [
+          "s- = dohromady nebo shora dolů: sjet, sletět se, svázat.",
+          "z- = změna stavu: zčervenat, zhubnout, zhlédnout film.",
+          "vz- = vzhůru: vzlétnout.",
+          "Předložka s + 7. pád (s kamarádem, s sebou), z + 2. pád (z domu)."
+        ]
+      },
+      {
+        "heading": "Velká písmena a čárky",
+        "bullets": [
+          "Velké písmeno mají vlastní jména: Vltava, Česká republika, Pražský hrad, Národní divadlo.",
+          "Svátky: Vánoce, Velikonoce, Štědrý den.",
+          "Čárka se píše před spojkami jako ale, avšak, nýbrž, protože, že, aby, když.",
+          "Před „a“ jen při jiném než slučovacím poměru (a proto, a tak) nebo po vložené větě."
+        ]
+      }
+    ],
+    "practice": {
+      "pairs": [
+        {
+          "a": "Muži přišl_",
+          "b": "-i (mužský životný)"
+        },
+        {
+          "a": "Stromy padal_",
+          "b": "-y (mužský neživotný)"
+        },
+        {
+          "a": "Města zanikl_",
+          "b": "-a (střední rod)"
+        },
+        {
+          "a": "Ženy a muži přišl_",
+          "b": "-i (aspoň jeden mužský životný)"
+        },
+        {
+          "a": "Dej to m_",
+          "b": "mně (3. pád)"
+        },
+        {
+          "a": "Vidí m_",
+          "b": "mě (4. pád)"
+        }
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "question": "Vyber správný tvar: „Děti si hrál_ na zahradě.“",
+          "options": [
+            "hráli",
+            "hrály",
+            "hrála"
+          ],
+          "answer": 1,
+          "explanation": "„Děti“ jsou v množném čísle rodu ženského."
+        },
+        {
+          "type": "choice",
+          "question": "Vyber správný tvar: „Přines to ___.“",
+          "options": [
+            "mě",
+            "mně"
+          ],
+          "answer": 1,
+          "explanation": "3. pád (komu?) – mně."
+        },
+        {
+          "type": "choice",
+          "question": "Které spojení je napsané správně?",
+          "options": [
+            "Pražský hrad",
+            "pražský Hrad",
+            "Pražský Hrad",
+            "pražský hrad"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "choice",
+          "question": "Vyber správný tvar: „Psi celou noc štěkal_.“",
+          "options": [
+            "štěkaly",
+            "štěkali"
+          ],
+          "answer": 1,
+          "explanation": "Pes je mužský životný."
+        },
+        {
+          "type": "choice",
+          "question": "Vyber správně napsané slovo:",
+          "options": [
+            "shlédnout film",
+            "zhlédnout film"
+          ],
+          "answer": 1,
+          "explanation": "Zhlédnout = podívat se. Shlédnout = podívat se shora dolů."
+        },
+        {
+          "type": "input",
+          "question": "Doplň správnou koncovku: „Stoly a židle stál_.“ (napiš jen písmeno)",
+          "answers": [
+            "y"
+          ],
+          "explanation": "Mužský neživotný a ženský rod → -y."
+        }
+      ]
+    }
+  },
+  {
+    "id": "tvoreni-slov",
+    "title": "Tvoření slov a slovní zásoba",
+    "category": "Slovní zásoba",
+    "summary": "Stavba slova, způsoby tvoření slov a vztahy mezi slovy.",
+    "sections": [
+      {
+        "heading": "Stavba slova",
+        "bullets": [
+          "Kořen: společná část příbuzných slov (vod-a, pod-vod-ník).",
+          "Předpona: před kořenem (pře-psat).",
+          "Přípona: za kořenem (uči-tel).",
+          "Koncovka: mění se při skloňování a časování (žen-a, žen-y)."
+        ]
+      },
+      {
+        "heading": "Jak vznikají nová slova",
+        "table": {
+          "head": [
+            "Způsob",
+            "Jak funguje",
+            "Příklad"
+          ],
+          "rows": [
+            [
+              "Odvozování",
+              "přidáním předpony nebo přípony",
+              "učit → učitel, psát → přepsat"
+            ],
+            [
+              "Skládání",
+              "spojením dvou slov",
+              "voda + padat → vodopád"
+            ],
+            [
+              "Zkracování",
+              "zkratky a zkratková slova",
+              "ČR, apod., Čedok"
+            ],
+            [
+              "Přejímání",
+              "převzetím slova z cizího jazyka",
+              "víkend, e-mail, sprej"
+            ],
+            [
+              "Spojování slov",
+              "víceslovná pojmenování",
+              "jaderná elektrárna, třída A"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Vztahy mezi slovy",
+        "table": {
+          "head": [
+            "Pojem",
+            "Význam",
+            "Příklad"
+          ],
+          "rows": [
+            [
+              "Synonyma",
+              "slova stejného nebo podobného významu",
+              "velký – veliký – obrovský"
+            ],
+            [
+              "Antonyma",
+              "slova opačného významu",
+              "den – noc"
+            ],
+            [
+              "Homonyma",
+              "stejně znějí, ale význam nesouvisí",
+              "kolej (vysokoškolská × železniční)"
+            ],
+            [
+              "Hyperonymum",
+              "nadřazený pojem",
+              "strom (k dubu)"
+            ],
+            [
+              "Hyponymum",
+              "podřazený pojem",
+              "dub (ke stromu)"
+            ],
+            [
+              "Archaismus",
+              "zastaralé slovo pro věc, která existuje",
+              "lučba (chemie)"
+            ],
+            [
+              "Historismus",
+              "slovo pro věc, která zanikla",
+              "halapartna, robota"
+            ],
+            [
+              "Neologismus",
+              "nové slovo",
+              "lajkovat, dron"
+            ]
+          ]
+        }
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "choice",
+          "question": "Slovo „vodopád“ vzniklo:",
+          "options": [
+            "odvozováním",
+            "skládáním",
+            "zkracováním",
+            "přejímáním"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "„Kolej“ (vysokoškolská a železniční) je příklad:",
+          "options": [
+            "synonym",
+            "antonym",
+            "homonym",
+            "hyperonyma"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "choice",
+          "question": "Které slovo je historismus?",
+          "options": [
+            "halapartna",
+            "počítač",
+            "víkend",
+            "chytrý"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "input",
+          "question": "Napiš kořen slova „předvídat“.",
+          "answers": [
+            "vid"
+          ],
+          "explanation": "pře-vid-a-t → kořen vid-"
+        },
+        {
+          "type": "choice",
+          "question": "Jak se nazývá nadřazený pojem (např. „ovoce“ k „jablku“)?",
+          "options": [
+            "hyponymum",
+            "hyperonymum",
+            "synonymum",
+            "homonymum"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "funkcni-styly",
+    "title": "Funkční styly a slohové postupy",
+    "category": "Sloh a komunikace",
+    "summary": "Šest funkčních stylů, pět slohových postupů a jak je poznat v neuměleckém textu.",
+    "sections": [
+      {
+        "heading": "Funkční styly",
+        "table": {
+          "head": [
+            "Styl",
+            "K čemu slouží",
+            "Typické útvary"
+          ],
+          "rows": [
+            [
+              "Prostěsdělovací",
+              "běžná každodenní komunikace",
+              "rozhovor, SMS, osobní dopis"
+            ],
+            [
+              "Odborný",
+              "přesné předání informací z oboru",
+              "výklad, referát, učebnice"
+            ],
+            [
+              "Publicistický",
+              "informovat a ovlivňovat veřejnost",
+              "zpráva, komentář, fejeton, reportáž"
+            ],
+            [
+              "Administrativní",
+              "úřední styk",
+              "žádost, životopis, plná moc"
+            ],
+            [
+              "Řečnický",
+              "veřejné mluvené projevy",
+              "proslov, přednáška, kázání"
+            ],
+            [
+              "Umělecký",
+              "estetický zážitek",
+              "román, báseň, drama"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Slohové postupy",
+        "table": {
+          "head": [
+            "Postup",
+            "Co dělá",
+            "Útvary"
+          ],
+          "rows": [
+            [
+              "Informační",
+              "stručně sděluje fakta",
+              "zpráva, oznámení, inzerát"
+            ],
+            [
+              "Vyprávěcí",
+              "líčí události v čase",
+              "vypravování, povídka"
+            ],
+            [
+              "Popisný",
+              "zachycuje znaky předmětu, osoby nebo děje",
+              "popis, charakteristika, líčení"
+            ],
+            [
+              "Výkladový",
+              "vysvětluje příčiny a souvislosti",
+              "výklad, odborný článek"
+            ],
+            [
+              "Úvahový",
+              "hodnotí a hledá vlastní názor",
+              "úvaha, esej, kritika"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Jak to poznat v textu",
+        "bullets": [
+          "Kdo je autor a komu píše? Úřad → administrativní, novinář → publicistický.",
+          "Jsou tam termíny a přesné údaje? Odborný.",
+          "Hodnotí autor a přesvědčuje? Publicistický styl, úvahový postup.",
+          "Co v textu převažuje: děj (vyprávěcí), znaky (popisný), vysvětlování (výkladový)?"
+        ]
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "choice",
+          "question": "Fejeton patří do stylu:",
+          "options": [
+            "odborného",
+            "publicistického",
+            "administrativního",
+            "prostěsdělovacího"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "Životopis patří do stylu:",
+          "options": [
+            "administrativního",
+            "uměleckého",
+            "řečnického",
+            "odborného"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "choice",
+          "question": "Charakteristika patří ke slohovému postupu:",
+          "options": [
+            "vyprávěcímu",
+            "popisnému",
+            "úvahovému",
+            "informačnímu"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "Který postup převažuje v úvaze?",
+          "options": [
+            "informační",
+            "popisný",
+            "úvahový",
+            "vyprávěcí"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "choice",
+          "question": "Proslov na rozloučenou je útvar stylu:",
+          "options": [
+            "řečnického",
+            "odborného",
+            "publicistického",
+            "administrativního"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": "tropy-a-figury",
+    "title": "Tropy a figury (básnické prostředky)",
+    "category": "Teorie literatury",
+    "summary": "Jazykové prostředky, které budeš hledat v ukázce u ústní zkoušky, s příklady.",
+    "sections": [
+      {
+        "heading": "Tropy: přenesení významu",
+        "table": {
+          "head": [
+            "Prostředek",
+            "Co je to",
+            "Příklad"
+          ],
+          "rows": [
+            [
+              "Metafora",
+              "přenesení na základě vnější podobnosti",
+              "moře lidí, zub pily"
+            ],
+            [
+              "Metonymie",
+              "přenesení na základě věcné souvislosti",
+              "čtu Čapka, celá škola se smála"
+            ],
+            [
+              "Synekdocha",
+              "část místo celku nebo celek místo části",
+              "nemá střechu nad hlavou"
+            ],
+            [
+              "Personifikace",
+              "neživé věci dostávají lidské vlastnosti",
+              "vítr zpívá"
+            ],
+            [
+              "Přirovnání",
+              "srovnání pomocí „jako“",
+              "silný jako býk"
+            ],
+            [
+              "Epiteton",
+              "básnický přívlastek",
+              "stříbrný měsíc"
+            ],
+            [
+              "Oxymóron",
+              "spojení slov, která se vylučují",
+              "živá mrtvola, bílá tma"
+            ],
+            [
+              "Hyperbola",
+              "nadsázka",
+              "říkal jsem ti to stokrát"
+            ],
+            [
+              "Eufemismus",
+              "zjemnění nepříjemného",
+              "zesnul (místo zemřel)"
+            ],
+            [
+              "Ironie",
+              "říká se opak toho, co se myslí",
+              "To se ti povedlo! (o chybě)"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Figury: slovosled, opakování, zvuk",
+        "table": {
+          "head": [
+            "Prostředek",
+            "Co je to",
+            "Příklad"
+          ],
+          "rows": [
+            [
+              "Anafora",
+              "opakování na začátku veršů",
+              "Ach, ta noc… / Ach, ta tma…"
+            ],
+            [
+              "Epifora",
+              "opakování na konci veršů",
+              "Ty jsi má láska, já jsem tvá láska."
+            ],
+            [
+              "Epizeuxis",
+              "opakování slova hned za sebou",
+              "Lásko, lásko, lásko!"
+            ],
+            [
+              "Aliterace",
+              "stejná hláska na začátku slov",
+              "vítr vane větvemi"
+            ],
+            [
+              "Apostrofa",
+              "oslovení nepřítomné osoby nebo věci",
+              "Ó, Vltavo!"
+            ],
+            [
+              "Řečnická otázka",
+              "otázka bez očekávané odpovědi",
+              "Kdo by to nevěděl?"
+            ],
+            [
+              "Inverze",
+              "obrácený slovosled",
+              "Krásná je ta zem."
+            ],
+            [
+              "Elipsa",
+              "vynechání slova, které si domyslíme",
+              "Já domů, ty do školy."
+            ],
+            [
+              "Gradace",
+              "stupňování výrazů",
+              "přišel, uviděl, zvítězil"
+            ],
+            [
+              "Onomatopoie",
+              "zvukomalba, napodobení zvuku",
+              "bzučí, šumí"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Jak s nimi pracovat u zkoušky",
+        "bullets": [
+          "Prostředek pojmenuj, ukaž v textu a řekni, k čemu slouží (zdůrazňuje, vytváří atmosféru, zrychluje děj).",
+          "Stačí tři až čtyři jistě určené prostředky. Lepší než deset tipů.",
+          "Nezapomeň i na lexikální prostředky: archaismy, nářečí, slang, citově zabarvená slova."
+        ]
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "choice",
+          "question": "„Bílá tma“ je:",
+          "options": [
+            "metafora",
+            "oxymóron",
+            "hyperbola",
+            "epiteton"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "„Čtu Shakespeara“ je:",
+          "options": [
+            "metonymie",
+            "synekdocha",
+            "personifikace",
+            "ironie"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "choice",
+          "question": "„Ó, Vltavo!“ je:",
+          "options": [
+            "řečnická otázka",
+            "apostrofa",
+            "anafora",
+            "aliterace"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "„Nemá střechu nad hlavou“ je:",
+          "options": [
+            "synekdocha",
+            "eufemismus",
+            "oxymóron",
+            "přirovnání"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "choice",
+          "question": "„Vítr zpívá“ je:",
+          "options": [
+            "personifikace",
+            "metonymie",
+            "gradace",
+            "elipsa"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "choice",
+          "question": "Opakování slova na začátku veršů se nazývá:",
+          "options": [
+            "epifora",
+            "anafora",
+            "epizeuxis",
+            "inverze"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "literarni-smery",
+    "title": "Přehled literárních směrů",
+    "category": "Teorie literatury",
+    "summary": "Od antiky po postmodernu: kdy, typické rysy a autoři, které potřebuješ k zařazení díla.",
+    "sections": [
+      {
+        "heading": "Časová osa",
+        "table": {
+          "head": [
+            "Období / směr",
+            "Kdy",
+            "Typické rysy",
+            "Autoři"
+          ],
+          "rows": [
+            [
+              "Antika",
+              "8. st. př. n. l. – 5. st. n. l.",
+              "mýty, eposy, tragédie a komedie",
+              "Homér, Sofoklés, Ovidius"
+            ],
+            [
+              "Středověk",
+              "5.–15. století",
+              "náboženská tematika, legendy, kroniky, rytířská epika",
+              "Kosmas, Dalimil, Hus"
+            ],
+            [
+              "Renesance a humanismus",
+              "14.–16. století",
+              "člověk a pozemský život v centru, návrat k antice",
+              "Dante, Boccaccio, Shakespeare, Cervantes"
+            ],
+            [
+              "Baroko",
+              "17. století",
+              "kontrasty, víra, pomíjivost, bohatý jazyk",
+              "Komenský, Bridel"
+            ],
+            [
+              "Klasicismus",
+              "17.–18. století",
+              "rozum, řád, pravidla, jednota místa, času a děje",
+              "Molière, Corneille"
+            ],
+            [
+              "Osvícenství",
+              "18. století",
+              "víra v rozum a pokrok, kritika církve a absolutismu",
+              "Voltaire, Defoe, Swift, Diderot"
+            ],
+            [
+              "Romantismus",
+              "konec 18. – pol. 19. století",
+              "cit, fantazie, výjimečný hrdina v rozporu se světem",
+              "Mácha, Byron, Puškin, Hugo, Poe"
+            ],
+            [
+              "Realismus",
+              "2. polovina 19. století",
+              "věrné zobrazení skutečnosti, typické postavy, kritika společnosti",
+              "Balzac, Flaubert, Tolstoj, Rais"
+            ],
+            [
+              "Naturalismus",
+              "konec 19. století",
+              "člověk určený dědičností a prostředím, drsné detaily",
+              "Zola, Maupassant, Šlejhar"
+            ],
+            [
+              "Literární moderna",
+              "přelom 19. a 20. století",
+              "symbolismus, impresionismus, dekadence, buřiči",
+              "Baudelaire, Wilde, Sova, Gellner"
+            ],
+            [
+              "Avantgarda",
+              "1. polovina 20. století",
+              "experiment: poetismus, surrealismus, futurismus",
+              "Nezval, Apollinaire"
+            ],
+            [
+              "Existencialismus",
+              "40. a 50. léta 20. století",
+              "absurdita, samota, svoboda a odpovědnost",
+              "Camus, Sartre, Kafka (předchůdce)"
+            ],
+            [
+              "Postmodernismus",
+              "2. polovina 20. století",
+              "hra s žánry, citace, ironie, nejednoznačnost",
+              "Eco, Ajvaz"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Jak dílo zařadit",
+        "bullets": [
+          "Rok vydání ti řekne období, rysy textu potvrdí směr.",
+          "U ústní zkoušky jmenuj aspoň dva další autory stejného směru.",
+          "Pozor na autory na přelomu: Němcová stojí mezi romantismem a realismem, Kafka předjímá existencialismus."
+        ]
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "choice",
+          "question": "Kam patří Karel Hynek Mácha?",
+          "options": [
+            "klasicismus",
+            "romantismus",
+            "realismus",
+            "naturalismus"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "Jan Amos Komenský je představitelem:",
+          "options": [
+            "renesance",
+            "baroka",
+            "osvícenství",
+            "romantismu"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "Poetismus je spojen se jménem:",
+          "options": [
+            "Vítězslav Nezval",
+            "Jan Neruda",
+            "Karel Čapek",
+            "Karel Jaromír Erben"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "choice",
+          "question": "Typickým rysem realismu je:",
+          "options": [
+            "výjimečný hrdina a fantazie",
+            "věrné zobrazení skutečnosti",
+            "hra s žánry a citace",
+            "jednota místa, času a děje"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "Umberto Eco patří k:",
+          "options": [
+            "existencialismu",
+            "postmodernismu",
+            "avantgardě",
+            "naturalismu"
+          ],
+          "answer": 1
+        }
+      ]
+    }
   }
 ]

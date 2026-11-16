@@ -1,11 +1,12 @@
 import { Navigate, useParams } from 'react-router-dom'
-import { getSubject } from '../data'
+import { getSubject, useSubjects } from '../data'
 import Breadcrumbs from '../components/Breadcrumbs'
 import Quiz from '../components/Quiz'
 
 export default function QuizPage() {
   const { subjectId, quizId } = useParams()
-  const subject = getSubject(subjectId)
+  const subjects = useSubjects()
+  const subject = getSubject(subjects, subjectId)
   const quiz = subject?.quizzes.find((q) => q.id === quizId)
   if (!subject || !quiz) return <Navigate to="/" replace />
 

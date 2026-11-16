@@ -1,6 +1,9 @@
 import { Link, Navigate, useParams } from 'react-router-dom'
-import { ArrowLeft, ArrowRight, CheckCircle2, Circle } from 'lucide-react'
-import { getSubject, topicKey } from '../data'
+import { ArrowLeft, ArrowRight, CheckCircle2, Circle, Pencil } from 'lucide-react'
+import { useSession } from '../license/license'
+import { topicPairs } from '../lib/practice'
+import Practice from '../components/Practice'
+import { getSubject, topicKey, useSubjects } from '../data'
 import { setRead, useProgress } from '../lib/progress'
 import Breadcrumbs from '../components/Breadcrumbs'
 import TopicContent from '../components/TopicContent'
@@ -8,7 +11,9 @@ import TopicContent from '../components/TopicContent'
 export default function TopicPage() {
   const { subjectId, topicId } = useParams()
   const progress = useProgress()
-  const subject = getSubject(subjectId)
+  const session = useSession()
+  const subjects = useSubjects()
+  const subject = getSubject(subjects, subjectId)
   const index = subject?.topics.findIndex((t) => t.id === topicId) ?? -1
   if (!subject || index < 0) return <Navigate to="/" replace />
 
@@ -22,11 +27,21 @@ export default function TopicPage() {
     <article className="flex flex-col gap-8">
       <header>
         <Breadcrumbs items={[{ label: subject.name, to: `/predmet/${subject.id}` }, { label: topic.category }, { label: topic.title }]} />
-        <h1 className="text-3xl font-bold tracking-tight text-balance">{topic.title}</h1>
+        <div className="flex flex-wrap items-start gap-3">
+          <h1 className="min-w-0 flex-1 text-3xl font-bold tracking-tight text-balance">{topic.title}</h1>
+          {topic.custom && session.status === 'active' && session.role === 'teacher' && (
+            <Link to={`/ucitel/tema/${topic.id}?predmet=${subject.id}`} className="btn btn-ghost">
+              <Pencil size={16} /> Upravit
+            </Link>
+          )}
+        </div>
+        {topic.custom && <p className="mt-1 text-sm text-violet-700 dark:text-violet-300">Téma od tvé školy</p>}
         <p className="muted mt-2 max-w-[70ch] text-lg">{topic.summary}</p>
       </header>
 
       <TopicContent sections={topic.sections} />
+
+      <Practice key={key} id={key} title={topic.title} pairs={topicPairs(topic)} questions={topic.practice?.questions} />
 
       <footer className="flex flex-col gap-6 border-t border-ink-200 pt-6 dark:border-ink-800">
         <div>

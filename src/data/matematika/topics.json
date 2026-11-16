@@ -426,6 +426,283 @@
     ]
   },
   {
+    "id": "goniometrie",
+    "title": "Goniometrické funkce a rovnice",
+    "category": "Funkce",
+    "summary": "Stupně a radiány, hodnoty v důležitých úhlech, vzorce a řešení základních rovnic.",
+    "sections": [
+      {
+        "heading": "Stupně a radiány",
+        "formulas": [
+          {
+            "label": "Převod",
+            "formula": "180° = π rad"
+          },
+          {
+            "label": "Ze stupňů na radiány",
+            "formula": "α rad = α° · π / 180"
+          },
+          {
+            "label": "Plný úhel",
+            "formula": "360° = 2π rad"
+          }
+        ]
+      },
+      {
+        "heading": "Hodnoty v důležitých úhlech",
+        "table": {
+          "head": [
+            "Úhel",
+            "sin",
+            "cos",
+            "tg"
+          ],
+          "rows": [
+            [
+              "0°",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "30° (π/6)",
+              "1/2",
+              "√3/2",
+              "√3/3"
+            ],
+            [
+              "45° (π/4)",
+              "√2/2",
+              "√2/2",
+              "1"
+            ],
+            [
+              "60° (π/3)",
+              "√3/2",
+              "1/2",
+              "√3"
+            ],
+            [
+              "90° (π/2)",
+              "1",
+              "0",
+              "není definován"
+            ]
+          ]
+        },
+        "tip": "Pomůcka pro sinus v úhlech 0°, 30°, 45°, 60°, 90°: √0/2, √1/2, √2/2, √3/2, √4/2. Kosinus jde v opačném pořadí."
+      },
+      {
+        "heading": "Vzorce",
+        "formulas": [
+          {
+            "label": "Základní vztah",
+            "formula": "sin² x + cos² x = 1"
+          },
+          {
+            "label": "Tangens",
+            "formula": "tg x = sin x / cos x"
+          },
+          {
+            "label": "Sinus dvojnásobného úhlu",
+            "formula": "sin 2x = 2 sin x · cos x"
+          },
+          {
+            "label": "Kosinus dvojnásobného úhlu",
+            "formula": "cos 2x = cos² x − sin² x"
+          },
+          {
+            "label": "Sudost a lichost",
+            "formula": "cos(−x) = cos x,   sin(−x) = −sin x"
+          }
+        ]
+      },
+      {
+        "heading": "Goniometrické rovnice",
+        "bullets": [
+          "1. Uprav rovnici na tvar sin x = a (cos x = a, tg x = a).",
+          "2. Najdi řešení v jedné periodě, pomůže jednotková kružnice.",
+          "3. Přičti periodu: u sinu a kosinu 2kπ, u tangenty kπ (k je celé číslo)."
+        ],
+        "example": "sin x = 1/2\nx₁ = π/6 + 2kπ,  x₂ = 5π/6 + 2kπ,  k ∈ Z"
+      }
+    ],
+    "practice": {
+      "pairs": [
+        {
+          "a": "sin 30°",
+          "b": "1/2"
+        },
+        {
+          "a": "cos 30°",
+          "b": "√3/2"
+        },
+        {
+          "a": "sin 45°",
+          "b": "√2/2"
+        },
+        {
+          "a": "tg 45°",
+          "b": "1"
+        },
+        {
+          "a": "tg 60°",
+          "b": "√3"
+        },
+        {
+          "a": "π rad",
+          "b": "180°"
+        },
+        {
+          "a": "π/2 rad",
+          "b": "90°"
+        },
+        {
+          "a": "2π rad",
+          "b": "360°"
+        }
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "question": "sin 30° =",
+          "options": [
+            "1/2",
+            "√3/2",
+            "√2/2",
+            "1"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "choice",
+          "question": "Kolik stupňů je π/3 rad?",
+          "options": [
+            "30°",
+            "45°",
+            "60°",
+            "90°"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "choice",
+          "question": "Perioda funkce y = sin x je:",
+          "options": [
+            "π",
+            "2π",
+            "π/2",
+            "4π"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "sin² x + cos² x =",
+          "options": [
+            "0",
+            "1",
+            "2",
+            "tg x"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "input",
+          "question": "Kolik je tg 45°?",
+          "answers": [
+            "1"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "exp-log-rovnice",
+    "title": "Exponenciální a logaritmické rovnice",
+    "category": "Rovnice a nerovnice",
+    "summary": "Převod na stejný základ, substituce, logaritmování a podmínky řešitelnosti.",
+    "sections": [
+      {
+        "heading": "Exponenciální rovnice",
+        "bullets": [
+          "Stejný základ: převeď obě strany na mocninu stejného čísla a porovnej exponenty.",
+          "Substituce: když se v rovnici objevuje aˣ a a²ˣ, polož y = aˣ.",
+          "Logaritmování: když základy nejde sjednotit, zlogaritmuj obě strany."
+        ],
+        "example": "3ˣ⁺¹ = 27\n3ˣ⁺¹ = 3³  →  x + 1 = 3  →  x = 2\n\n4ˣ − 3·2ˣ + 2 = 0,  y = 2ˣ\ny² − 3y + 2 = 0  →  y = 1 nebo y = 2\n2ˣ = 1 → x = 0;   2ˣ = 2 → x = 1"
+      },
+      {
+        "heading": "Logaritmické rovnice",
+        "bullets": [
+          "Nejdřív podmínky: výraz v logaritmu musí být kladný.",
+          "Pomocí vzorců převeď obě strany na jeden logaritmus.",
+          "Odlogaritmuj: logₐ A = logₐ B ⇒ A = B, logₐ A = c ⇒ A = aᶜ.",
+          "Výsledek porovnej s podmínkami."
+        ],
+        "example": "log₂ (x − 1) = 3,  podmínka x > 1\nx − 1 = 2³  →  x = 9\n\nlog x + log (x − 3) = 1,  podmínka x > 3\nx(x − 3) = 10  →  x² − 3x − 10 = 0  →  x = 5 nebo x = −2\n−2 podmínce nevyhovuje, řešení je x = 5",
+        "tip": "log bez základu znamená dekadický logaritmus (základ 10). ln je přirozený logaritmus se základem e."
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "input",
+          "question": "Vyřeš: 2ˣ = 8",
+          "answers": [
+            "3"
+          ]
+        },
+        {
+          "type": "input",
+          "question": "Vyřeš: 3ˣ⁺¹ = 27",
+          "answers": [
+            "2"
+          ]
+        },
+        {
+          "type": "input",
+          "question": "Vyřeš: log₂ (x − 1) = 3",
+          "answers": [
+            "9"
+          ],
+          "explanation": "x − 1 = 8"
+        },
+        {
+          "type": "input",
+          "question": "Kolik je log 1000?",
+          "answers": [
+            "3"
+          ],
+          "explanation": "10³ = 1000"
+        },
+        {
+          "type": "choice",
+          "question": "Jaká je podmínka pro rovnici log (x − 3) = 1?",
+          "options": [
+            "x > 0",
+            "x > 3",
+            "x ≥ 3",
+            "x ≠ 3"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "Rovnice log x + log (x − 3) = 1 má řešení:",
+          "options": [
+            "x = 5",
+            "x = −2",
+            "x = 5 a x = −2",
+            "nemá řešení"
+          ],
+          "answer": 0,
+          "explanation": "x = −2 nesplňuje podmínku x > 3."
+        }
+      ]
+    }
+  },
+  {
     "id": "posloupnosti",
     "title": "Posloupnosti a finanční matematika",
     "category": "Funkce",

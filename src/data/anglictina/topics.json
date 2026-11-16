@@ -1,5 +1,84 @@
 [
   {
+    "id": "maturita-anglictina",
+    "title": "Jak vypadá maturita z angličtiny",
+    "category": "Maturitní zkouška",
+    "summary": "Části zkoušky, úroveň B1 a jak se na každou připravit.",
+    "sections": [
+      {
+        "heading": "Části zkoušky",
+        "table": {
+          "head": [
+            "Část",
+            "Co tě čeká",
+            "Jak se připravit"
+          ],
+          "rows": [
+            [
+              "Didaktický test",
+              "poslech a čtení s porozuměním na úrovni B1",
+              "poslouchej podcasty a videa s titulky, čti krátké články, trénuj testy z minulých let"
+            ],
+            [
+              "Písemná práce",
+              "dva texty v angličtině na zadané téma (např. e-mail, článek, příběh)",
+              "nauč se strukturu útvarů a fráze pro úvod a závěr, hlídej rozsah"
+            ],
+            [
+              "Ústní zkouška",
+              "rozhovor na běžná témata, popis a srovnání obrázků, samostatný projev k tématu",
+              "trénuj mluvení nahlas, měj připravené fráze na získání času"
+            ]
+          ]
+        },
+        "tip": "Přesný rozsah, časy a podmínky si ověř na webu CERMAT a u svého učitele, mohou se měnit."
+      },
+      {
+        "heading": "Úroveň B1 v praxi",
+        "bullets": [
+          "Rozumíš hlavním myšlenkám jasně vyslovené řeči o známých tématech.",
+          "Zvládneš většinu situací na cestách.",
+          "Napíšeš jednoduchý souvislý text a popíšeš zážitky, sny a plány.",
+          "Umíš stručně zdůvodnit a vysvětlit své názory."
+        ]
+      },
+      {
+        "heading": "Oficiální zdroje",
+        "text": "Testy z minulých let i s klíčem a nahrávkami najdeš na webu CERMAT.",
+        "link": {
+          "label": "Maturita na webu CERMAT",
+          "url": "https://maturita.cermat.gov.cz"
+        }
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "choice",
+          "question": "Na jaké úrovni je maturitní zkouška z angličtiny?",
+          "options": [
+            "A2",
+            "B1",
+            "B2",
+            "C1"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "Z čeho se skládá didaktický test z cizího jazyka?",
+          "options": [
+            "z poslechu a čtení",
+            "z gramatiky a slovíček",
+            "z diktátu a překladu",
+            "z mluvení"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  },
+  {
     "id": "casy",
     "title": "Přehled anglických časů",
     "category": "Gramatika",
@@ -8,24 +87,74 @@
       {
         "heading": "Přítomné časy",
         "table": {
-          "head": ["Čas", "Tvoření", "Použití", "Klíčová slova"],
+          "head": [
+            "Čas",
+            "Tvoření",
+            "Použití",
+            "Klíčová slova"
+          ],
           "rows": [
-            ["Present simple", "I work / he works; do, does", "zvyky, opakované děje, obecné pravdy, jízdní řády", "always, usually, often, every day, never"],
-            ["Present continuous", "am / is / are + -ing", "děj probíhající právě teď, dočasné situace, domluvená budoucnost", "now, at the moment, today, this week, Look!"],
-            ["Present perfect", "have / has + 3. tvar", "výsledek v přítomnosti, zkušenost, děj trvající dosud", "just, already, yet, ever, never, since, for"],
-            ["Present perfect continuous", "have / has been + -ing", "děj, který začal v minulosti a stále trvá; důraz na délku", "for, since, all day, how long"]
+            [
+              "Present simple",
+              "I work / he works; do, does",
+              "zvyky, opakované děje, obecné pravdy, jízdní řády",
+              "always, usually, often, every day, never"
+            ],
+            [
+              "Present continuous",
+              "am / is / are + -ing",
+              "děj probíhající právě teď, dočasné situace, domluvená budoucnost",
+              "now, at the moment, today, this week, Look!"
+            ],
+            [
+              "Present perfect",
+              "have / has + 3. tvar",
+              "výsledek v přítomnosti, zkušenost, děj trvající dosud",
+              "just, already, yet, ever, never, since, for"
+            ],
+            [
+              "Present perfect continuous",
+              "have / has been + -ing",
+              "děj, který začal v minulosti a stále trvá; důraz na délku",
+              "for, since, all day, how long"
+            ]
           ]
         }
       },
       {
         "heading": "Minulé časy",
         "table": {
-          "head": ["Čas", "Tvoření", "Použití", "Klíčová slova"],
+          "head": [
+            "Čas",
+            "Tvoření",
+            "Použití",
+            "Klíčová slova"
+          ],
           "rows": [
-            ["Past simple", "-ed / 2. tvar; did", "ukončený děj v určitém čase v minulosti", "yesterday, last week, in 2020, two days ago"],
-            ["Past continuous", "was / were + -ing", "děj probíhající v určitém okamžiku v minulosti; pozadí jiného děje", "while, when, at 5 o'clock yesterday"],
-            ["Past perfect", "had + 3. tvar", "děj, který se stal před jiným minulým dějem", "before, after, by the time, already"],
-            ["Past perfect continuous", "had been + -ing", "děj trvající až do určitého okamžiku v minulosti", "for, since, before"]
+            [
+              "Past simple",
+              "-ed / 2. tvar; did",
+              "ukončený děj v určitém čase v minulosti",
+              "yesterday, last week, in 2020, two days ago"
+            ],
+            [
+              "Past continuous",
+              "was / were + -ing",
+              "děj probíhající v určitém okamžiku v minulosti; pozadí jiného děje",
+              "while, when, at 5 o'clock yesterday"
+            ],
+            [
+              "Past perfect",
+              "had + 3. tvar",
+              "děj, který se stal před jiným minulým dějem",
+              "before, after, by the time, already"
+            ],
+            [
+              "Past perfect continuous",
+              "had been + -ing",
+              "děj trvající až do určitého okamžiku v minulosti",
+              "for, since, before"
+            ]
           ]
         },
         "example": "I was cooking when she called. (pozadí + krátký děj)\nWhen I arrived, the train had already left. (předminulost)"
@@ -33,14 +162,42 @@
       {
         "heading": "Budoucnost",
         "table": {
-          "head": ["Tvar", "Použití", "Příklad"],
+          "head": [
+            "Tvar",
+            "Použití",
+            "Příklad"
+          ],
           "rows": [
-            ["will + infinitiv", "okamžité rozhodnutí, předpověď, slib, nabídka", "I'll help you. It will rain tomorrow."],
-            ["be going to", "plán, záměr; předpověď podle toho, co vidím", "I'm going to study law. Look at the clouds – it's going to rain."],
-            ["Present continuous", "domluvená schůzka, pevný plán", "I'm meeting Tom at six."],
-            ["Present simple", "jízdní řády, programy", "The train leaves at 7:15."],
-            ["Future continuous", "děj, který bude v určitou chvíli probíhat", "This time tomorrow I'll be flying to London."],
-            ["Future perfect", "děj, který bude do určité doby dokončen", "By June I will have finished school."]
+            [
+              "will + infinitiv",
+              "okamžité rozhodnutí, předpověď, slib, nabídka",
+              "I'll help you. It will rain tomorrow."
+            ],
+            [
+              "be going to",
+              "plán, záměr; předpověď podle toho, co vidím",
+              "I'm going to study law. Look at the clouds – it's going to rain."
+            ],
+            [
+              "Present continuous",
+              "domluvená schůzka, pevný plán",
+              "I'm meeting Tom at six."
+            ],
+            [
+              "Present simple",
+              "jízdní řády, programy",
+              "The train leaves at 7:15."
+            ],
+            [
+              "Future continuous",
+              "děj, který bude v určitou chvíli probíhat",
+              "This time tomorrow I'll be flying to London."
+            ],
+            [
+              "Future perfect",
+              "děj, který bude do určité doby dokončen",
+              "By June I will have finished school."
+            ]
           ]
         }
       },
@@ -65,13 +222,49 @@
       {
         "heading": "Přehled",
         "table": {
-          "head": ["Typ", "Věta s if", "Hlavní věta", "Význam", "Příklad"],
+          "head": [
+            "Typ",
+            "Věta s if",
+            "Hlavní věta",
+            "Význam",
+            "Příklad"
+          ],
           "rows": [
-            ["Nultý", "present simple", "present simple", "obecná pravda, platí vždy", "If you heat ice, it melts."],
-            ["První", "present simple", "will + infinitiv", "reálná podmínka v budoucnosti", "If it rains, we will stay at home."],
-            ["Druhý", "past simple", "would + infinitiv", "nereálná nebo nepravděpodobná podmínka v přítomnosti či budoucnosti", "If I had more time, I would learn Spanish."],
-            ["Třetí", "past perfect", "would have + 3. tvar", "nereálná podmínka v minulosti, už to nejde změnit", "If I had studied, I would have passed."],
-            ["Smíšený", "past perfect", "would + infinitiv", "minulá podmínka, současný důsledek", "If I had studied medicine, I would be a doctor now."]
+            [
+              "Nultý",
+              "present simple",
+              "present simple",
+              "obecná pravda, platí vždy",
+              "If you heat ice, it melts."
+            ],
+            [
+              "První",
+              "present simple",
+              "will + infinitiv",
+              "reálná podmínka v budoucnosti",
+              "If it rains, we will stay at home."
+            ],
+            [
+              "Druhý",
+              "past simple",
+              "would + infinitiv",
+              "nereálná nebo nepravděpodobná podmínka v přítomnosti či budoucnosti",
+              "If I had more time, I would learn Spanish."
+            ],
+            [
+              "Třetí",
+              "past perfect",
+              "would have + 3. tvar",
+              "nereálná podmínka v minulosti, už to nejde změnit",
+              "If I had studied, I would have passed."
+            ],
+            [
+              "Smíšený",
+              "past perfect",
+              "would + infinitiv",
+              "minulá podmínka, současný důsledek",
+              "If I had studied medicine, I would be a doctor now."
+            ]
           ]
         }
       },
@@ -106,13 +299,49 @@
         "heading": "Slovosled přímé otázky",
         "text": "Tázací výraz – pomocné sloveso – podmět – významové sloveso – zbytek věty.",
         "table": {
-          "head": ["Tázací výraz", "Pomocné sloveso", "Podmět", "Sloveso", "Zbytek"],
+          "head": [
+            "Tázací výraz",
+            "Pomocné sloveso",
+            "Podmět",
+            "Sloveso",
+            "Zbytek"
+          ],
           "rows": [
-            ["Where", "do", "you", "live", "?"],
-            ["What", "is", "she", "doing", "now?"],
-            ["When", "did", "they", "arrive", "?"],
-            ["How long", "have", "you", "known", "him?"],
-            ["—", "Can", "you", "swim", "?"]
+            [
+              "Where",
+              "do",
+              "you",
+              "live",
+              "?"
+            ],
+            [
+              "What",
+              "is",
+              "she",
+              "doing",
+              "now?"
+            ],
+            [
+              "When",
+              "did",
+              "they",
+              "arrive",
+              "?"
+            ],
+            [
+              "How long",
+              "have",
+              "you",
+              "known",
+              "him?"
+            ],
+            [
+              "—",
+              "Can",
+              "you",
+              "swim",
+              "?"
+            ]
           ]
         },
         "tip": "Po do / does / did je sloveso vždy v základním tvaru: Did you see (ne Did you saw)."
@@ -126,12 +355,27 @@
         "heading": "Nepřímé otázky",
         "text": "Po úvodní frázi (Could you tell me…, Do you know…, I wonder…, I'd like to know…) následuje slovosled oznamovací věty. Pomocné do / does / did odpadá.",
         "table": {
-          "head": ["Přímá otázka", "Nepřímá otázka"],
+          "head": [
+            "Přímá otázka",
+            "Nepřímá otázka"
+          ],
           "rows": [
-            ["Where is the station?", "Could you tell me where the station is?"],
-            ["What time does the bank open?", "Do you know what time the bank opens?"],
-            ["Did she pass the exam?", "I wonder if she passed the exam."],
-            ["Is he at home?", "Do you know whether he is at home?"]
+            [
+              "Where is the station?",
+              "Could you tell me where the station is?"
+            ],
+            [
+              "What time does the bank open?",
+              "Do you know what time the bank opens?"
+            ],
+            [
+              "Did she pass the exam?",
+              "I wonder if she passed the exam."
+            ],
+            [
+              "Is he at home?",
+              "Do you know whether he is at home?"
+            ]
           ]
         },
         "tip": "Zjišťovací otázky (odpověď ano / ne) se v nepřímé podobě uvozují if nebo whether."
@@ -145,5 +389,892 @@
         ]
       }
     ]
+  },
+  {
+    "id": "modalni-slovesa",
+    "title": "Modální slovesa",
+    "category": "Gramatika",
+    "summary": "Can, must, have to, should, may, might a jejich zápory, které mění význam.",
+    "sections": [
+      {
+        "heading": "Přehled",
+        "table": {
+          "head": [
+            "Sloveso",
+            "Význam",
+            "Příklad"
+          ],
+          "rows": [
+            [
+              "can / could",
+              "schopnost, možnost, žádost",
+              "I can swim. Could you help me?"
+            ],
+            [
+              "be able to",
+              "schopnost ve všech časech",
+              "I will be able to drive next year."
+            ],
+            [
+              "must",
+              "povinnost, kterou cítí mluvčí; jistá dedukce",
+              "I must study. He must be at home."
+            ],
+            [
+              "have to",
+              "povinnost daná zvenčí",
+              "I have to wear a uniform at work."
+            ],
+            [
+              "should / ought to",
+              "rada, doporučení",
+              "You should see a doctor."
+            ],
+            [
+              "may / might",
+              "možnost, svolení (may je formálnější)",
+              "It might rain. May I come in?"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Zápory, které mění význam",
+        "table": {
+          "head": [
+            "Tvar",
+            "Význam",
+            "Příklad"
+          ],
+          "rows": [
+            [
+              "mustn’t",
+              "je to zakázáno",
+              "You mustn’t smoke here."
+            ],
+            [
+              "don’t have to",
+              "není to nutné",
+              "You don’t have to come."
+            ],
+            [
+              "needn’t",
+              "nemusíš, není potřeba",
+              "You needn’t hurry."
+            ],
+            [
+              "can’t",
+              "nesmíš / určitě ne (dedukce)",
+              "It can’t be true."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Dedukce o minulosti",
+        "bullets": [
+          "must have + 3. tvar: určitě to udělal. She must have forgotten.",
+          "can’t have + 3. tvar: určitě to neudělal. He can’t have seen us.",
+          "might / may have + 3. tvar: možná to udělal. They might have left.",
+          "should have + 3. tvar: měl to udělat (výčitka). You should have told me."
+        ]
+      }
+    ],
+    "practice": {
+      "pairs": [
+        {
+          "a": "mustn’t",
+          "b": "je to zakázáno"
+        },
+        {
+          "a": "don’t have to",
+          "b": "není to nutné"
+        },
+        {
+          "a": "must have done",
+          "b": "určitě to udělal"
+        },
+        {
+          "a": "can’t have done",
+          "b": "určitě to neudělal"
+        },
+        {
+          "a": "might have done",
+          "b": "možná to udělal"
+        },
+        {
+          "a": "should have done",
+          "b": "měl to udělat (a neudělal)"
+        },
+        {
+          "a": "be able to",
+          "b": "moci, umět (v kterémkoli čase)"
+        }
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "question": "You ___ smoke here. It’s forbidden.",
+          "options": [
+            "mustn’t",
+            "don’t have to",
+            "needn’t",
+            "might not"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "choice",
+          "question": "You ___ come if you don’t want to.",
+          "options": [
+            "mustn’t",
+            "don’t have to",
+            "can’t",
+            "shouldn’t to"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "The lights are on. He ___ be at home.",
+          "options": [
+            "must",
+            "mustn’t",
+            "should to",
+            "has"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "choice",
+          "question": "She ___ have seen us – she was asleep.",
+          "options": [
+            "must",
+            "can’t",
+            "should",
+            "might"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "input",
+          "question": "You look ill. You ___ see a doctor. (rada, jedno slovo)",
+          "answers": [
+            "should"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "trpny-rod",
+    "title": "Trpný rod (passive voice)",
+    "category": "Gramatika",
+    "summary": "Tvoření trpného rodu ve všech časech a kdy ho použít.",
+    "sections": [
+      {
+        "heading": "Tvoření",
+        "text": "Trpný rod = tvar slovesa be v potřebném čase + příčestí minulé (3. tvar). Původce děje se uvádí předložkou by.",
+        "table": {
+          "head": [
+            "Čas",
+            "Tvar",
+            "Příklad"
+          ],
+          "rows": [
+            [
+              "Present simple",
+              "is / are + 3. tvar",
+              "English is spoken here."
+            ],
+            [
+              "Present continuous",
+              "is / are being + 3. tvar",
+              "The road is being repaired."
+            ],
+            [
+              "Past simple",
+              "was / were + 3. tvar",
+              "The bridge was built in 1890."
+            ],
+            [
+              "Present perfect",
+              "has / have been + 3. tvar",
+              "My bike has been stolen."
+            ],
+            [
+              "Future (will)",
+              "will be + 3. tvar",
+              "The results will be published."
+            ],
+            [
+              "S modálním slovesem",
+              "can / must be + 3. tvar",
+              "It must be done today."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Kdy ho použít",
+        "bullets": [
+          "Když není důležité nebo známé, kdo děj vykonal: My car was stolen.",
+          "V odborných textech a zprávách: The experiment was carried out in 2020.",
+          "Když chceme zdůraznit předmět děje: Hamlet was written by Shakespeare."
+        ]
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "choice",
+          "question": "The bridge ___ in 1890.",
+          "options": [
+            "built",
+            "was built",
+            "is building",
+            "has built"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "English ___ all over the world.",
+          "options": [
+            "speaks",
+            "is spoken",
+            "is speaking",
+            "spoke"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "input",
+          "question": "My bike has ___ stolen. (doplň jedno slovo)",
+          "answers": [
+            "been"
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "The road ___ at the moment.",
+          "options": [
+            "is repaired",
+            "is being repaired",
+            "was repaired",
+            "repairs"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "Hamlet was written ___ Shakespeare.",
+          "options": [
+            "from",
+            "of",
+            "by",
+            "with"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": "neprima-rec",
+    "title": "Nepřímá řeč (reported speech)",
+    "category": "Gramatika",
+    "summary": "Posun časů, změna časových výrazů a nepřímé otázky.",
+    "sections": [
+      {
+        "heading": "Posun časů",
+        "text": "Když je uvozovací sloveso v minulém čase (said, told), časy se posouvají o krok do minulosti.",
+        "table": {
+          "head": [
+            "Přímá řeč",
+            "Nepřímá řeč",
+            "Příklad"
+          ],
+          "rows": [
+            [
+              "Present simple",
+              "Past simple",
+              "„I am tired.“ → She said she was tired."
+            ],
+            [
+              "Present continuous",
+              "Past continuous",
+              "„I am working.“ → He said he was working."
+            ],
+            [
+              "Past simple",
+              "Past perfect",
+              "„I saw it.“ → She said she had seen it."
+            ],
+            [
+              "Present perfect",
+              "Past perfect",
+              "„I have finished.“ → He said he had finished."
+            ],
+            [
+              "will",
+              "would",
+              "„I will help.“ → He said he would help."
+            ],
+            [
+              "can",
+              "could",
+              "„I can swim.“ → She said she could swim."
+            ],
+            [
+              "must",
+              "had to",
+              "„I must go.“ → He said he had to go."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Časové a místní výrazy",
+        "table": {
+          "head": [
+            "Přímá řeč",
+            "Nepřímá řeč"
+          ],
+          "rows": [
+            [
+              "now",
+              "then"
+            ],
+            [
+              "today",
+              "that day"
+            ],
+            [
+              "tomorrow",
+              "the next day"
+            ],
+            [
+              "yesterday",
+              "the day before"
+            ],
+            [
+              "next week",
+              "the following week"
+            ],
+            [
+              "here",
+              "there"
+            ],
+            [
+              "ago",
+              "before"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Otázky a příkazy",
+        "bullets": [
+          "Otázky mají slovosled oznamovací věty: „Where do you live?“ → She asked where I lived.",
+          "Zjišťovací otázky uvádí if / whether: „Are you ready?“ → He asked if I was ready.",
+          "Příkazy a prosby: tell / ask + to-infinitiv: „Sit down.“ → He told me to sit down."
+        ]
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "choice",
+          "question": "„I am tired,“ she said. → She said she ___ tired.",
+          "options": [
+            "is",
+            "was",
+            "has been",
+            "will be"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "„I will help you.“ → He said he ___ help me.",
+          "options": [
+            "will",
+            "would",
+            "can",
+            "shall"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "„I saw it yesterday.“ → She said she had seen it ___.",
+          "options": [
+            "yesterday",
+            "the day before",
+            "tomorrow",
+            "the next day"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "„Where do you live?“ → She asked me where ___.",
+          "options": [
+            "do I live",
+            "I lived",
+            "did I live",
+            "I live do"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "input",
+          "question": "„Sit down.“ → He told me ___ sit down. (doplň jedno slovo)",
+          "answers": [
+            "to"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "cleny",
+    "title": "Členy a / an / the",
+    "category": "Gramatika",
+    "summary": "Kdy neurčitý člen, kdy určitý a kdy žádný.",
+    "sections": [
+      {
+        "heading": "Neurčitý člen a / an",
+        "bullets": [
+          "Poprvé zmíněná, jedna z mnoha: I saw a dog.",
+          "Povolání: She is an engineer.",
+          "an před samohláskou ve výslovnosti: an hour, an apple, ale a university."
+        ]
+      },
+      {
+        "heading": "Určitý člen the",
+        "bullets": [
+          "Už zmíněné nebo jednoznačné: The dog was big. The sun.",
+          "Řeky, moře, oceány, pohoří: the Thames, the Alps, the Pacific.",
+          "Názvy s republic, kingdom, states: the Czech Republic, the United Kingdom, the USA.",
+          "Hudební nástroje: play the piano.",
+          "Třetí stupeň a řadové číslovky: the best, the first."
+        ]
+      },
+      {
+        "heading": "Bez členu",
+        "bullets": [
+          "Obecně míněné množné číslo a nepočitatelná jména: Dogs are friendly. I like music.",
+          "Většina států, měst, jezer a jednotlivých hor: Germany, Prague, Lake Como, Mount Everest.",
+          "Jídla, sporty, předměty ve škole: have breakfast, play football, study maths.",
+          "Ustálená spojení: go to school, at home, by bus."
+        ]
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "choice",
+          "question": "She is ___ engineer.",
+          "options": [
+            "a",
+            "an",
+            "the",
+            "—"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "We swam in ___ Pacific.",
+          "options": [
+            "a",
+            "the",
+            "—",
+            "an"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "I play ___ guitar.",
+          "options": [
+            "a",
+            "the",
+            "—",
+            "an"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "He climbed ___ Mount Everest.",
+          "options": [
+            "the",
+            "a",
+            "—",
+            "an"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "choice",
+          "question": "They live in ___ United Kingdom.",
+          "options": [
+            "—",
+            "a",
+            "the",
+            "an"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "choice",
+          "question": "We waited for ___ hour.",
+          "options": [
+            "a",
+            "an",
+            "the",
+            "—"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "vztazne-vety",
+    "title": "Vztažné věty (relative clauses)",
+    "category": "Gramatika",
+    "summary": "Who, which, that, whose, where, when a rozdíl mezi určující a neurčující vztažnou větou.",
+    "sections": [
+      {
+        "heading": "Vztažná zájmena",
+        "table": {
+          "head": [
+            "Zájmeno",
+            "Použití",
+            "Příklad"
+          ],
+          "rows": [
+            [
+              "who",
+              "osoby",
+              "The girl who lives next door is a doctor."
+            ],
+            [
+              "which",
+              "věci a zvířata",
+              "The book which I bought is great."
+            ],
+            [
+              "that",
+              "osoby i věci, jen v určujících větách",
+              "The film that we saw was boring."
+            ],
+            [
+              "whose",
+              "čí, přivlastňování",
+              "The man whose car was stolen called the police."
+            ],
+            [
+              "where",
+              "místo",
+              "This is the town where I was born."
+            ],
+            [
+              "when",
+              "čas",
+              "I remember the day when we met."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Určující × neurčující věta",
+        "bullets": [
+          "Určující (defining): nutná informace, bez čárek, lze použít that: The students who passed got a diploma.",
+          "Neurčující (non-defining): doplňující informace, s čárkami, nelze použít that: My brother, who lives in Brno, is a teacher.",
+          "V určující větě lze zájmeno vynechat, pokud není podmětem: The book (that) I bought is great."
+        ]
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "choice",
+          "question": "The girl ___ lives next door is a doctor.",
+          "options": [
+            "which",
+            "who",
+            "whose",
+            "where"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "This is the town ___ I was born.",
+          "options": [
+            "which",
+            "where",
+            "when",
+            "who"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "The man ___ car was stolen called the police.",
+          "options": [
+            "who",
+            "whose",
+            "which",
+            "that"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "My brother, ___ lives in Brno, is a teacher.",
+          "options": [
+            "that",
+            "who",
+            "which",
+            "whose"
+          ],
+          "answer": 1,
+          "explanation": "V neurčující větě s čárkami nelze použít that."
+        },
+        {
+          "type": "choice",
+          "question": "Ve které větě lze zájmeno vynechat?",
+          "options": [
+            "The book that I bought is great.",
+            "The man who called is my uncle.",
+            "My sister, who is ill, stayed home.",
+            "The dog that bit me ran away."
+          ],
+          "answer": 0,
+          "explanation": "Zájmeno není podmětem vztažné věty."
+        }
+      ]
+    }
+  },
+  {
+    "id": "gerundium-infinitiv",
+    "title": "Gerundium a infinitiv",
+    "category": "Gramatika",
+    "summary": "Po kterých slovesech následuje -ing, po kterých to + infinitiv a kdy se mění význam.",
+    "sections": [
+      {
+        "heading": "Slovesa + -ing",
+        "bullets": [
+          "enjoy, avoid, finish, mind, suggest, practise, miss, can’t stand, keep",
+          "Po předložkách: interested in reading, good at swimming.",
+          "look forward to, be used to (to je tu předložka): I look forward to seeing you."
+        ]
+      },
+      {
+        "heading": "Slovesa + to + infinitiv",
+        "bullets": [
+          "want, decide, hope, plan, refuse, promise, agree, manage, learn, would like",
+          "Po přídavných jménech: It is easy to learn.",
+          "Účel: I went out to buy some bread."
+        ]
+      },
+      {
+        "heading": "Změna významu",
+        "table": {
+          "head": [
+            "Spojení",
+            "Význam"
+          ],
+          "rows": [
+            [
+              "stop smoking",
+              "přestat kouřit"
+            ],
+            [
+              "stop to smoke",
+              "zastavit se, aby si zakouřil"
+            ],
+            [
+              "remember to lock",
+              "nezapomenout zamknout"
+            ],
+            [
+              "remember locking",
+              "pamatovat si, že jsem zamkl"
+            ],
+            [
+              "try opening",
+              "zkusit otevřít (jako pokus)"
+            ],
+            [
+              "try to open",
+              "snažit se otevřít"
+            ]
+          ]
+        }
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "input",
+          "question": "I enjoy ___ (swim). Napiš správný tvar.",
+          "answers": [
+            "swimming"
+          ]
+        },
+        {
+          "type": "input",
+          "question": "She decided ___ (leave). Napiš správný tvar.",
+          "answers": [
+            "to leave"
+          ]
+        },
+        {
+          "type": "input",
+          "question": "I look forward to ___ (see) you.",
+          "answers": [
+            "seeing"
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "He stopped ___. (Přestal kouřit.)",
+          "options": [
+            "to smoke",
+            "smoking",
+            "smoke",
+            "smoked"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "Remember ___ the door when you leave.",
+          "options": [
+            "locking",
+            "to lock",
+            "lock",
+            "locked"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "stupnovani",
+    "title": "Stupňování přídavných jmen",
+    "category": "Gramatika",
+    "summary": "Krátká a dlouhá přídavná jména, nepravidelné tvary a srovnávací vazby.",
+    "sections": [
+      {
+        "heading": "Pravidla",
+        "bullets": [
+          "Jednoslabičná: -er, -est (tall – taller – the tallest). Zdvojení souhlásky: big – bigger.",
+          "Dvouslabičná na -y: -ier, -iest (happy – happier – the happiest).",
+          "Ostatní víceslabičná: more, the most (interesting – more interesting – the most interesting)."
+        ]
+      },
+      {
+        "heading": "Nepravidelné tvary",
+        "table": {
+          "head": [
+            "Přídavné jméno",
+            "2. stupeň",
+            "3. stupeň"
+          ],
+          "rows": [
+            [
+              "good",
+              "better",
+              "the best"
+            ],
+            [
+              "bad",
+              "worse",
+              "the worst"
+            ],
+            [
+              "little",
+              "less",
+              "the least"
+            ],
+            [
+              "many / much",
+              "more",
+              "the most"
+            ],
+            [
+              "far",
+              "farther / further",
+              "the farthest / the furthest"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Srovnávací vazby",
+        "bullets": [
+          "as … as: stejně jako. She is as tall as her brother.",
+          "not as … as: není tak … jako. It isn’t as cold as yesterday.",
+          "the + 2. stupeň, the + 2. stupeň: čím…, tím… The sooner, the better.",
+          "than: než. He is older than me."
+        ]
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "input",
+          "question": "2. stupeň od „good“:",
+          "answers": [
+            "better"
+          ]
+        },
+        {
+          "type": "input",
+          "question": "3. stupeň od „bad“ (i se členem):",
+          "answers": [
+            "the worst"
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "This film is ___ than the first one.",
+          "options": [
+            "more interesting",
+            "interestinger",
+            "most interesting",
+            "the more interesting"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "choice",
+          "question": "She is as tall ___ her brother.",
+          "options": [
+            "than",
+            "as",
+            "like",
+            "that"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "input",
+          "question": "2. stupeň od „happy“:",
+          "answers": [
+            "happier"
+          ]
+        }
+      ]
+    }
   }
 ]

@@ -1,54 +1,61 @@
-// Licence bez serveru.
+// Licence bez serveru, ve dvou úrovních.
 //
-// Každé zařízení si vygeneruje vlastní kód. Správce k němu vydá klíč podepsaný soukromým
-// klíčem (ECDSA P-256); aplikace podpis ověří veřejným klíčem. Kód zařízení je součástí
-// podepsaných dat, takže klíč vydaný pro jedno zařízení na jiném neprojde.
+// 1. Správce vydá ŠKOLE licenci (certifikát) podepsanou svým soukromým klíčem. Licence je vázaná
+//    na zařízení učitele, platí do konce další maturity a nese veřejný klíč školy. Soukromý klíč
+//    školy je přiložený k licenci, aby jím učitel mohl vydávat klíče žákům.
+// 2. Učitel vydá ŽÁKOVI klíč podepsaný klíčem školy a vázaný na žákovo zařízení. Žákův klíč
+//    obsahuje i certifikát školy, takže aplikace ověří celý řetězec jen s veřejným klíčem správce.
+//
+// Platnost žáků se řídí platností školy. Po prodloužení školní licence dostanou žáci nový
+// certifikát v balíčku od učitele (viz schoolPack.ts), klíče se jim měnit nemusí.
 //
 // Je to ochrana na straně klienta: brání běžnému sdílení klíčů, ale technicky zdatný
 // uživatel ji obejít umí. Neobejitelná kontrola by vyžadovala server.
 import { useSyncExternalStore } from 'react'
 import { PUBLIC_KEY } from './publicKey'
+import { decodeJson, encodeJson, generateKeyPair, sign, verify } from './crypto'
 
-export type Role = 'student' | 'skola'
+export type Role = 'teacher' | 'student'
 
-export interface License {
-  role: Role
-  /** Jméno studenta nebo název školy. */
-  name: string
-  /** Kód zařízení, pro které klíč platí (12 znaků bez pomlček). */
+/** Certifikát školy, podepsaný správcem. */
+export interface SchoolCert {
+  schoolId: string
+  school: string
+  /** Kód zařízení učitele. */
   device: string
-  /** Poslední den platnosti (RRRR-MM-DD), nebo null pro neomezenou licenci. */
-  expires: string | null
+  /** Poslední den platnosti (RRRR-MM-DD). */
+  expires: string
+  issued: string
+  /** Kolik žákovských klíčů smí škola vydat. */
+  seats: number
+  /** Veřejný klíč školy (SPKI, base64url). */
+  key: string
+}
+
+export interface StudentInfo {
+  schoolId: string
+  name: string
+  device: string
   issued: string
 }
 
-export type CheckResult =
-  | { ok: true; license: License }
-  | { ok: false; reason: 'format' | 'signature' | 'device' | 'expired' | 'role' | 'unsupported'; license?: License }
+export type Session =
+  | { status: 'checking' }
+  | { status: 'none'; reason?: 'expired' | 'invalid'; school?: string }
+  | { status: 'active'; role: 'teacher'; cert: SchoolCert; schoolKey: string; raw: string }
+  | { status: 'active'; role: 'student'; cert: SchoolCert; student: StudentInfo; raw: string }
 
-const PREFIX = 'ZT1-'
-const SECRET_PREFIX = 'ZTSK1-'
-const ALGO = { name: 'ECDSA', namedCurve: 'P-256' }
-const SIGN = { name: 'ECDSA', hash: 'SHA-256' }
+export type CheckResult =
+  | { ok: true; session: Extract<Session, { status: 'active' }> }
+  | { ok: false; reason: 'format' | 'signature' | 'device' | 'expired' | 'role' | 'unsupported'; cert?: SchoolCert }
+
+const SCHOOL_PREFIX = 'ZTS2-'
+const STUDENT_PREFIX = 'ZTZ2-'
+const ADMIN_PREFIX = 'ZTSK1-'
 // Bez znaků, které se pletou (I, L, O, U).
 const ALPHABET = '0123456789ABCDEFGHJKMNPQRSTVWXYZ'
 
-// --- kódování ---
-
-function toB64Url(bytes: Uint8Array): string {
-  let s = ''
-  bytes.forEach((b) => (s += String.fromCharCode(b)))
-  return btoa(s).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '')
-}
-
-function fromB64(text: string): Uint8Array<ArrayBuffer> {
-  const s = atob(text.replace(/-/g, '+').replace(/_/g, '/'))
-  const out = new Uint8Array(s.length)
-  for (let i = 0; i < s.length; i++) out[i] = s.charCodeAt(i)
-  return out
-}
-
-// --- kód zařízení ---
+// --- kód zařízení a data ---
 
 export function randomDeviceCode(): string {
   const bytes = crypto.getRandomValues(new Uint8Array(12))
@@ -86,62 +93,153 @@ export function todayKey(d = new Date()): string {
   return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`
 }
 
-// --- vydání a ověření klíče ---
-
-/** Vydá licenční klíč. Používá jen správce; soukromý klíč se nikam neodesílá. */
-export async function signLicense(license: License, privateKey: string): Promise<string> {
-  const secret = privateKey.replace(/\s+/g, '')
-  if (!secret.startsWith(SECRET_PREFIX)) throw new Error('Soukromý klíč má začínat „ZTSK1-“.')
-  const key = await crypto.subtle.importKey('pkcs8', fromB64(secret.slice(SECRET_PREFIX.length)), ALGO, false, ['sign'])
-  const payload = new TextEncoder().encode(
-    JSON.stringify({ r: license.role, n: license.name, d: license.device, e: license.expires, i: license.issued }),
-  )
-  const signature = new Uint8Array(await crypto.subtle.sign(SIGN, key, payload))
-  return `${PREFIX}${toB64Url(payload)}.${toB64Url(signature)}`
+/** Konec platnosti „do další maturity“: 30. června letošního roku, po něm příštího roku. */
+export function nextMaturityExpiry(today = new Date()): string {
+  const year = today.getMonth() > 5 ? today.getFullYear() + 1 : today.getFullYear()
+  return `${year}-06-30`
 }
 
-/** Ověří podpis a vrátí obsah licence. Zařízení ani platnost nekontroluje. */
-export async function readKey(licenseKey: string, publicKey = PUBLIC_KEY): Promise<License | null> {
-  const text = licenseKey.replace(/\s+/g, '')
-  if (!text.startsWith(PREFIX)) return null
-  const [payloadPart, sigPart, extra] = text.slice(PREFIX.length).split('.')
-  if (!payloadPart || !sigPart || extra !== undefined) return null
+/** Počet dní do konce platnosti (0 = poslední den). */
+export function daysLeft(expires: string, today = todayKey()): number {
+  return Math.round((Date.parse(`${expires}T00:00:00Z`) - Date.parse(`${today}T00:00:00Z`)) / 86400000)
+}
+
+export const formatDate = (iso: string) => new Date(`${iso}T00:00:00`).toLocaleDateString('cs-CZ')
+
+// --- certifikát školy ---
+
+function packCert(c: SchoolCert): string {
+  return encodeJson({ s: c.schoolId, n: c.school, d: c.device, e: c.expires, i: c.issued, m: c.seats, k: c.key })
+}
+
+function unpackCert(b64: string): SchoolCert | null {
   try {
-    const payload = fromB64(payloadPart)
-    const key = await crypto.subtle.importKey('spki', fromB64(publicKey), ALGO, false, ['verify'])
-    if (!(await crypto.subtle.verify(SIGN, key, fromB64(sigPart), payload))) return null
-    const p = JSON.parse(new TextDecoder().decode(payload))
-    if ((p.r !== 'student' && p.r !== 'skola') || typeof p.n !== 'string' || typeof p.d !== 'string') return null
-    return { role: p.r, name: p.n, device: p.d, expires: p.e ?? null, issued: p.i ?? '' }
+    const p = decodeJson(b64)
+    if (typeof p.s !== 'string' || typeof p.n !== 'string' || typeof p.d !== 'string' || typeof p.e !== 'string' || typeof p.k !== 'string') return null
+    return { schoolId: p.s, school: p.n, device: p.d, expires: p.e, issued: p.i ?? '', seats: Number(p.m) || 0, key: p.k }
   } catch {
     return null
   }
 }
 
-/** Úplná kontrola: podpis, zařízení, platnost a volitelně typ účtu. */
-export async function checkKey(
-  licenseKey: string,
-  device: string,
-  opts: { role?: Role; today?: string; publicKey?: string } = {},
-): Promise<CheckResult> {
+/** Ověří certifikát školy podpisem správce. Formát: „<certifikát>.<podpis>“. */
+export async function readCert(signedCert: string, publicKey = PUBLIC_KEY): Promise<SchoolCert | null> {
+  const [payload, sig, extra] = signedCert.split('.')
+  if (!payload || !sig || extra !== undefined) return null
+  if (!(await verify(publicKey, payload, sig))) return null
+  return unpackCert(payload)
+}
+
+// --- vydání (správce a učitel) ---
+
+function adminSecret(privateKey: string): string {
+  const secret = privateKey.replace(/\s+/g, '')
+  if (!secret.startsWith(ADMIN_PREFIX)) throw new Error('Soukromý klíč má začínat „ZTSK1-“.')
+  // Starší klíče byly v base64 se znaky + a /; dekodér zvládne obojí.
+  return secret.slice(ADMIN_PREFIX.length)
+}
+
+export function newSchoolId(): string {
+  return 'S' + randomDeviceCode().slice(0, 8)
+}
+
+/**
+ * Vydá licenci škole. Bez `schoolKey` vytvoří nový pár klíčů školy;
+ * při prodloužení se předává stávající pár, aby dál platily klíče žáků.
+ */
+export async function issueSchoolLicense(
+  cert: Omit<SchoolCert, 'key'>,
+  adminPrivateKey: string,
+  schoolKey?: { publicKey: string; privateKey: string },
+): Promise<string> {
+  const keys = schoolKey ?? (await generateKeyPair())
+  const payload = packCert({ ...cert, device: cleanCode(cert.device), key: keys.publicKey })
+  const sig = await sign(adminSecret(adminPrivateKey), payload)
+  return `${SCHOOL_PREFIX}${payload}.${sig}.${keys.privateKey}`
+}
+
+/** Rozloží licenci školy (pro prodloužení ve správě licencí). Ověřuje podpis správce. */
+export async function parseSchoolLicense(
+  text: string,
+  publicKey = PUBLIC_KEY,
+): Promise<{ cert: SchoolCert; signedCert: string; privateKey: string } | null> {
+  const t = text.replace(/\s+/g, '')
+  if (!t.startsWith(SCHOOL_PREFIX)) return null
+  const [payload, sig, priv, extra] = t.slice(SCHOOL_PREFIX.length).split('.')
+  if (!payload || !sig || !priv || extra !== undefined) return null
+  const cert = await readCert(`${payload}.${sig}`, publicKey)
+  return cert ? { cert, signedCert: `${payload}.${sig}`, privateKey: priv } : null
+}
+
+/** Učitel vydá klíč žákovi. */
+export async function issueStudentKey(
+  signedCert: string,
+  schoolPrivateKey: string,
+  student: { name: string; device: string; issued?: string },
+  schoolId: string,
+): Promise<string> {
+  const payload = encodeJson({ s: schoolId, n: student.name, d: cleanCode(student.device), i: student.issued ?? todayKey() })
+  const sig = await sign(schoolPrivateKey, payload)
+  return `${STUDENT_PREFIX}${signedCert}.${payload}.${sig}`
+}
+
+// --- ověření při přihlášení ---
+
+interface CheckOptions {
+  role?: Role
+  today?: string
+  publicKey?: string
+  /** Novější certifikát školy (z balíčku od učitele), pokud ho žák má. */
+  newerCert?: string
+}
+
+export async function checkKey(text: string, device: string, opts: CheckOptions = {}): Promise<CheckResult> {
   if (!globalThis.crypto?.subtle) return { ok: false, reason: 'unsupported' }
-  if (!licenseKey.replace(/\s+/g, '').startsWith(PREFIX)) return { ok: false, reason: 'format' }
-  const license = await readKey(licenseKey, opts.publicKey)
-  if (!license) return { ok: false, reason: 'signature' }
-  if (license.device !== cleanCode(device)) return { ok: false, reason: 'device', license }
-  if (license.expires && license.expires < (opts.today ?? todayKey())) return { ok: false, reason: 'expired', license }
-  if (opts.role && opts.role !== license.role) return { ok: false, reason: 'role', license }
-  return { ok: true, license }
+  const raw = text.replace(/\s+/g, '')
+  const today = opts.today ?? todayKey()
+  const me = cleanCode(device)
+
+  if (raw.startsWith(SCHOOL_PREFIX)) {
+    const parsed = await parseSchoolLicense(raw, opts.publicKey)
+    if (!parsed) return { ok: false, reason: 'signature' }
+    const { cert, privateKey } = parsed
+    if (opts.role && opts.role !== 'teacher') return { ok: false, reason: 'role', cert }
+    if (cert.device !== me) return { ok: false, reason: 'device', cert }
+    if (cert.expires < today) return { ok: false, reason: 'expired', cert }
+    return { ok: true, session: { status: 'active', role: 'teacher', cert, schoolKey: privateKey, raw } }
+  }
+
+  if (raw.startsWith(STUDENT_PREFIX)) {
+    const [certPayload, certSig, payload, sig, extra] = raw.slice(STUDENT_PREFIX.length).split('.')
+    if (!certPayload || !certSig || !payload || !sig || extra !== undefined) return { ok: false, reason: 'format' }
+    let cert = await readCert(`${certPayload}.${certSig}`, opts.publicKey)
+    if (!cert || !(await verify(cert.key, payload, sig))) return { ok: false, reason: 'signature' }
+    let student: StudentInfo
+    try {
+      const p = decodeJson(payload)
+      student = { schoolId: p.s, name: p.n, device: p.d, issued: p.i ?? '' }
+    } catch {
+      return { ok: false, reason: 'signature' }
+    }
+    if (student.schoolId !== cert.schoolId) return { ok: false, reason: 'signature' }
+    // Novější certifikát téže školy (stejný klíč) prodlužuje platnost.
+    if (opts.newerCert) {
+      const newer = await readCert(opts.newerCert, opts.publicKey)
+      if (newer && newer.schoolId === cert.schoolId && newer.key === cert.key && newer.expires > cert.expires) cert = newer
+    }
+    if (opts.role && opts.role !== 'student') return { ok: false, reason: 'role', cert }
+    if (student.device !== me) return { ok: false, reason: 'device', cert }
+    if (cert.expires < today) return { ok: false, reason: 'expired', cert }
+    return { ok: true, session: { status: 'active', role: 'student', cert, student, raw } }
+  }
+
+  return { ok: false, reason: 'format' }
 }
 
 // --- stav přihlášení v aplikaci ---
 
-export type Session =
-  | { status: 'checking' }
-  | { status: 'none'; reason?: 'expired' | 'invalid' }
-  | { status: 'active'; license: License }
-
 const KEY = 'zt:license'
+const CERT_KEY = 'zt:school-cert'
 let session: Session = { status: 'checking' }
 const listeners = new Set<() => void>()
 
@@ -150,17 +248,29 @@ function set(next: Session) {
   listeners.forEach((l) => l())
 }
 
-async function restore() {
-  let saved: string | null = null
+function read(key: string): string | undefined {
   try {
-    saved = localStorage.getItem(KEY)
+    return localStorage.getItem(key) ?? undefined
   } catch {
-    // bez úložiště se licence nezapamatuje
+    return undefined
   }
+}
+
+function write(key: string, value: string | null) {
+  try {
+    if (value === null) localStorage.removeItem(key)
+    else localStorage.setItem(key, value)
+  } catch {
+    // bez úložiště platí přihlášení jen do zavření aplikace
+  }
+}
+
+async function restore() {
+  const saved = read(KEY)
   if (!saved) return set({ status: 'none' })
-  const result = await checkKey(saved, getDeviceCode())
-  if (result.ok) set({ status: 'active', license: result.license })
-  else set({ status: 'none', reason: result.reason === 'expired' ? 'expired' : 'invalid' })
+  const result = await checkKey(saved, getDeviceCode(), { newerCert: read(CERT_KEY) })
+  if (result.ok) set(result.session)
+  else set({ status: 'none', reason: result.reason === 'expired' ? 'expired' : 'invalid', school: result.cert?.school })
 }
 
 let started = false
@@ -179,26 +289,33 @@ export function useSession(): Session {
   )
 }
 
-export async function activate(licenseKey: string, role: Role): Promise<CheckResult> {
-  const result = await checkKey(licenseKey, getDeviceCode(), { role })
+export function currentSession(): Session {
+  return session
+}
+
+export async function activate(text: string, role: Role): Promise<CheckResult> {
+  const result = await checkKey(text, getDeviceCode(), { role, newerCert: read(CERT_KEY) })
   if (result.ok) {
-    try {
-      localStorage.setItem(KEY, licenseKey.replace(/\s+/g, ''))
-    } catch {
-      // licence platí jen do zavření aplikace
-    }
-    set({ status: 'active', license: result.license })
+    write(KEY, result.session.raw)
+    set(result.session)
   }
   return result
 }
 
+/** Uloží novější certifikát školy (z balíčku od učitele) a znovu ověří přihlášení. */
+export async function updateCert(signedCert: string): Promise<boolean> {
+  const s = session
+  if (s.status !== 'active' || s.role !== 'student') return false
+  const result = await checkKey(s.raw, getDeviceCode(), { newerCert: signedCert })
+  if (!result.ok || result.session.cert.expires <= s.cert.expires) return false
+  write(CERT_KEY, signedCert)
+  set(result.session)
+  return true
+}
+
 export function signOut() {
-  try {
-    localStorage.removeItem(KEY)
-  } catch {
-    // nic k odstranění
-  }
+  write(KEY, null)
   set({ status: 'none' })
 }
 
-export const roleLabel: Record<Role, string> = { student: 'Student', skola: 'Škola' }
+export const roleLabel: Record<Role, string> = { teacher: 'Učitel', student: 'Žák' }

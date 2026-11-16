@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import { Search } from 'lucide-react'
-import { search } from '../lib/search'
+import { buildIndex, search } from '../lib/search'
+import { useSubjects } from '../data'
 
 /** Rychlé hledání napříč tématy, četbou, testy, kartičkami a slovesy. Zkratka Ctrl+K. */
 export default function SearchBox() {
@@ -11,7 +12,9 @@ export default function SearchBox() {
   const input = useRef<HTMLInputElement>(null)
   const navigate = useNavigate()
   const location = useLocation()
-  const hits = useMemo(() => search(query), [query])
+  const subjects = useSubjects()
+  const index = useMemo(() => buildIndex(subjects), [subjects])
+  const hits = useMemo(() => search(index, query), [index, query])
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {

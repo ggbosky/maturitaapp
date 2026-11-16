@@ -1,20 +1,18 @@
 import { Link } from 'react-router-dom'
 import { ArrowRight, CalendarDays, Flame, Target } from 'lucide-react'
-import { subjects, topicKey } from '../data'
+import { topicKey, useSubjects } from '../data'
+import type { Subject } from '../types'
 import { useSession } from '../license/license'
 import { DAILY_GOAL, dayKey, resetProgress, setExamDate, streak, useProgress, type Progress } from '../lib/progress'
 import { subjectStyle } from '../lib/subjectStyle'
 import ProgressBar from '../components/ProgressBar'
+import { plural } from '../lib/plural'
 
-/** České skloňování po číslovce: 1 den, 2–4 dny, 5+ dní. */
-function plural(n: number, one: string, few: string, many: string) {
-  return `${n} ${n === 1 ? one : n >= 2 && n <= 4 ? few : many}`
-}
 
 const pct = (part: number, whole: number) => (whole === 0 ? 0 : Math.round((part / whole) * 100))
 
 /** Podíl přečtených témat a průměr nejlepších výsledků testů (nezkoušený test = 0). */
-function subjectStats(progress: Progress, s: (typeof subjects)[number]) {
+function subjectStats(progress: Progress, s: Subject) {
   const read = s.topics.filter((t) => progress.read[topicKey(s.id, t.id)]).length
   const quizSum = s.quizzes.reduce((sum, q) => {
     const r = progress.quizzes[q.id]
@@ -126,8 +124,9 @@ function Countdown({ examDate }: { examDate: string | null }) {
 export default function Dashboard() {
   const progress = useProgress()
   const session = useSession()
-  const name = session.status === 'active' ? session.license.name : ''
-  const isSchool = session.status === 'active' && session.license.role === 'skola'
+  const subjects = useSubjects()
+  const isTeacher = session.status === 'active' && session.role === 'teacher'
+  const name = session.status !== 'active' ? '' : session.role === 'student' ? session.student.name : session.cert.school
 
   const stats = subjects.map((s) => ({ s, ...subjectStats(progress, s) }))
   const allTopics = subjects.flatMap((s) => s.topics.map((t) => ({ s, t })))
@@ -135,7 +134,7 @@ export default function Dashboard() {
   const readCount = stats.reduce((n, x) => n + x.read, 0)
   const topicsPct = pct(readCount, allTopics.length)
   const quizPct = Math.round(
-    (allQuizzes.reduce((sum, { q }) => sum + (progress.quizzes[q.id] ? progress.quizzes[q.id].best / progress.quizzes[q.id].total : 0), 0) / allQuizzes.length) * 100,
+    (allQuizzes.reduce((sum, { q }) => sum + (progress.quizzes[q.id] ? progress.quizzes[q.id].best / progress.quizzes[q.id].total : 0), 0) / Math.max(1, allQuizzes.length)) * 100,
   )
   const readiness = Math.round((topicsPct + quizPct) / 2)
 
@@ -156,7 +155,7 @@ export default function Dashboard() {
     <div className="flex flex-col gap-6">
       <header>
         <p className="muted text-sm">{new Date().toLocaleDateString('cs-CZ', { weekday: 'long', day: 'numeric', month: 'long' })}</p>
-        <h1 className="text-3xl font-bold tracking-tight">{isSchool ? name : `Ahoj, ${name.split(' ')[0]}`}</h1>
+        <h1 className="text-3xl font-bold tracking-tight">{isTeacher ? name : `Ahoj, ${name.split(' ')[0]}`}</h1>
         <p className="muted mt-1">
           {today >= DAILY_GOAL ? 'Dnešní cíl máš splněný.' : started ? `Do dnešního cíle zbývá ${plural(DAILY_GOAL - today, 'aktivita', 'aktivity', 'aktivit')}.` : 'Začni prvním tématem. Pokrok se ukládá v tomto zařízení.'}
         </p>
@@ -245,10 +244,17 @@ export default function Dashboard() {
       </div>
 
       <section className="card">
-        <h2 className="px-5 pt-5 font-semibold">Pokrok podle předmětů</h2>
+        <div className="flex flex-wrap items-baseline justify-between gap-2 px-5 pt-5">
+          <h2 className="font-semibold">Pokrok podle předmětů</h2>
+          {isTeacher && (
+            <Link to="/ucitel" className="text-sm text-indigo-600 hover:underline dark:text-indigo-300">
+              Přidat vlastní předmět nebo téma
+            </Link>
+          )}
+        </div>
         <ul className="divide-y divide-ink-100 dark:divide-ink-800">
           {stats.map(({ s, read, topics, topicsPct, quizPct, quizzesDone }) => {
-            const style = subjectStyle[s.id]
+            const style = subjectStyle(s.id)
             const Icon = style.icon
             return (
               <li key={s.id}>

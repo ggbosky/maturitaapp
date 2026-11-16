@@ -1,4 +1,4 @@
-import { subjects } from '../data'
+import type { Subject } from '../types'
 
 export interface SearchHit {
   title: string
@@ -7,7 +7,7 @@ export interface SearchHit {
   to: string
 }
 
-interface Entry extends SearchHit {
+export interface Entry extends SearchHit {
   haystack: string
 }
 
@@ -19,7 +19,7 @@ export function fold(s: string): string {
     .toLowerCase()
 }
 
-function buildIndex(): Entry[] {
+export function buildIndex(subjects: Subject[]): Entry[] {
   const out: Entry[] = []
   for (const s of subjects) {
     for (const t of s.topics) {
@@ -36,7 +36,7 @@ function buildIndex(): Entry[] {
         title: `${b.title} – ${b.author}`,
         where: `${s.name} · Četba`,
         to: `/predmet/${s.id}/cetba/${b.id}`,
-        haystack: fold(`četba kniha rozbor ${b.title} ${b.author} ${b.period} ${b.zanr} ${b.motivy.join(' ')} ${b.postavy.map((p) => p.name).join(' ')}`),
+        haystack: fold(`četba kniha rozbor ${b.title} ${b.author} ${b.period} ${b.zanr} ${(b.motivy ?? []).join(' ')} ${(b.postavy ?? []).map((p) => p.name).join(' ')}`),
       })
     }
     for (const q of s.quizzes) {
@@ -67,9 +67,7 @@ function buildIndex(): Entry[] {
   return out
 }
 
-const index = buildIndex()
-
-export function search(query: string, limit = 8): SearchHit[] {
+export function search(index: Entry[], query: string, limit = 8): SearchHit[] {
   const words = fold(query).split(/\s+/).filter(Boolean)
   if (words.length === 0) return []
   return index

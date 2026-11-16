@@ -1,5 +1,5 @@
 import { Navigate, useParams } from 'react-router-dom'
-import { getSubject } from '../data'
+import { getSubject, useSubjects } from '../data'
 import Breadcrumbs from '../components/Breadcrumbs'
 
 function Field({ label, children }: { label: string; children: React.ReactNode }) {
@@ -13,7 +13,8 @@ function Field({ label, children }: { label: string; children: React.ReactNode }
 
 export default function BookPage() {
   const { subjectId, bookId } = useParams()
-  const subject = getSubject(subjectId)
+  const subjects = useSubjects()
+  const subject = getSubject(subjects, subjectId)
   const book = subject?.books?.find((b) => b.id === bookId)
   if (!subject || !book) return <Navigate to="/" replace />
 
@@ -33,11 +34,18 @@ export default function BookPage() {
         </p>
       </header>
 
+      {book.overit && (
+        <p className="rounded-lg bg-amber-50 px-4 py-3 text-sm text-amber-900 dark:bg-amber-500/10 dark:text-amber-200">
+          U tohoto díla máme zatím jen základní údaje a je potřeba je ověřit. Než se podle nich budeš učit, porovnej je s knihou nebo s učebnicí.
+        </p>
+      )}
+
       <dl className="card px-5">
         <Field label="Literární směr a období">{book.period}</Field>
-        <Field label="Literární druh">{book.druh}</Field>
+        <Field label="Forma a druh">{[book.forma, book.druh].filter(Boolean).join(' · ')}</Field>
         <Field label="Žánr">{book.zanr}</Field>
         <Field label="Téma">{book.tema}</Field>
+        {book.motivy && (
         <Field label="Motivy">
           <span className="flex flex-wrap gap-1.5">
             {book.motivy.map((m) => (
@@ -47,19 +55,23 @@ export default function BookPage() {
             ))}
           </span>
         </Field>
-        <Field label="Časoprostor">{book.casoprostor}</Field>
-        <Field label="Kompozice">{book.kompozice}</Field>
+        )}
+        {book.casoprostor && <Field label="Časoprostor">{book.casoprostor}</Field>}
+        {book.kompozice && <Field label="Kompozice">{book.kompozice}</Field>}
+        {book.postavy && (
         <Field label="Postavy">
           <ul className="flex flex-col gap-2">
             {book.postavy.map((p) => (
               <li key={p.name}>
-                <span className="font-semibold">{p.name}</span> – {p.desc}
+                <span className="font-semibold">{p.name}</span>
+                {p.desc && ` – ${p.desc}`}
               </li>
             ))}
           </ul>
         </Field>
-        <Field label="Jazyk a styl">{book.jazyk}</Field>
-        <Field label="Kontext">{book.kontext}</Field>
+        )}
+        {book.jazyk && <Field label="Jazyk a styl">{book.jazyk}</Field>}
+        {book.kontext && <Field label="Kontext">{book.kontext}</Field>}
       </dl>
 
       {book.ukazka && (

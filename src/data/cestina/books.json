@@ -1,94 +1,261 @@
 [
   {
-    "id": "romeo-a-julie",
-    "title": "Romeo a Julie",
-    "author": "William Shakespeare",
-    "year": "kolem 1595",
-    "period": "Renesance (alžbětinské drama)",
-    "druh": "Drama",
-    "zanr": "Tragédie o pěti dějstvích",
-    "tema": "Láska dvou mladých lidí, kterou zničí nesmyslná nenávist jejich rodů.",
-    "motivy": [
-      "láska",
-      "nenávist",
-      "osud",
-      "náhoda",
-      "mládí a vzdor",
-      "smrt",
-      "usmíření"
-    ],
-    "casoprostor": "Italská Verona a krátce Mantova, 16. století. Děj trvá necelý týden.",
-    "kompozice": "Prolog a pět dějství. Chronologický děj podle klasické stavby dramatu: expozice, kolize, krize, peripetie, katastrofa.",
-    "postavy": [
-      {
-        "name": "Romeo Montek",
-        "desc": "Citlivý, vášnivý a zbrklý mladík. V souboji zabije Tybalta a je vyhoštěn."
-      },
-      {
-        "name": "Julie Kapuletová",
-        "desc": "Necelých čtrnáct let, během děje dospívá; je odvážná a rozhodná."
-      },
-      {
-        "name": "Otec Vavřinec",
-        "desc": "Františkánský mnich. Milence tajně oddá a vymyslí plán s uspávacím nápojem."
-      },
-      {
-        "name": "Merkucio",
-        "desc": "Romeův vtipný přítel, zabit Tybaltem."
-      },
-      {
-        "name": "Tybalt",
-        "desc": "Juliin bratranec, prudký a hádavý."
-      },
-      {
-        "name": "Chůva",
-        "desc": "Juliina důvěrnice, prostořeká a upovídaná."
-      }
-    ],
-    "jazyk": "Blankvers (nerýmovaný pětistopý jamb), místy rýmované pasáže a sonet. Prostí lidé mluví prózou. Slovní hříčky, metafory, kontrasty světla a tmy.",
-    "kontext": "Shakespeare zpracoval starší italskou látku. Renesanční je důraz na pozemský cit a právo jedince rozhodovat o svém životě.",
-    "skupina": 1
+    "id": "dekameron",
+    "title": "Dekameron",
+    "author": "Giovanni Boccaccio",
+    "year": "1348–1353",
+    "skupina": 1,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Soubor novel s rámcovou kompozicí",
+    "period": "Italská renesance",
+    "tema": "Sto příběhů o lásce, důvtipu a lidských slabostech, které si vypráví deset mladých lidí prchajících z Florencie před morem.",
+    "kontext": "Deset vypravěčů, deset dní, sto novel. Vzor renesanční novely."
   },
   {
-    "id": "kral-oidipus",
-    "title": "Král Oidipús",
-    "author": "Sofoklés",
-    "year": "5. století př. n. l.",
-    "period": "Antická řecká literatura",
-    "druh": "Drama",
-    "zanr": "Tragédie",
-    "tema": "Marný boj člověka s osudem. Vina, kterou člověk nese, i když jednal nevědomky.",
-    "motivy": [
-      "osud",
-      "věštba",
-      "vina",
-      "pravda",
-      "slepota",
-      "moc"
-    ],
-    "casoprostor": "Théby před královským palácem, mytický čas. Děj se odehraje během jednoho dne.",
-    "kompozice": "Analytické drama: děj na jevišti spočívá v postupném odhalování minulých událostí. Dodržuje jednotu místa, času a děje. Dialogy se střídají se zpěvy sboru.",
+    "id": "robinson-crusoe",
+    "title": "Robinson Crusoe",
+    "author": "Daniel Defoe",
+    "year": "1719",
+    "skupina": 1,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Dobrodružný román",
+    "period": "Anglické osvícenství",
+    "tema": "Trosečník přežije 28 let na pustém ostrově díky vytrvalosti, práci a víře.",
     "postavy": [
       {
-        "name": "Oidipús",
-        "desc": "Thébský král, spravedlivý, ale prudký. Pátrá po vrahovi krále Láia a zjistí, že jím je on sám a že se oženil s vlastní matkou. Oslepí se a odchází do vyhnanství."
+        "name": "Robinson Crusoe",
+        "desc": "trosečník a vypravěč"
       },
       {
-        "name": "Iokasté",
-        "desc": "Oidipova matka a manželka. Když pozná pravdu, oběsí se."
+        "name": "Pátek",
+        "desc": "domorodec, kterého Robinson zachrání"
+      }
+    ],
+    "kontext": "Inspirací byl osud námořníka Alexandra Selkirka."
+  },
+  {
+    "id": "jeptiska",
+    "title": "Jeptiška",
+    "author": "Denis Diderot",
+    "year": "napsáno 1760, vydáno 1796",
+    "skupina": 1,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Francouzské osvícenství",
+    "tema": "Mladá Suzanne je proti své vůli zavřena v klášteře a líčí jeho krutosti. Kritika církve a nesvobody.",
+    "postavy": [
+      {
+        "name": "Suzanne Simoninová",
+        "desc": "mladá jeptiška a vypravěčka"
+      }
+    ],
+    "kontext": "Diderot byl hlavním redaktorem francouzské Encyklopedie."
+  },
+  {
+    "id": "medeia",
+    "title": "Médeia",
+    "author": "Eurípidés",
+    "year": "431 př. n. l.",
+    "skupina": 1,
+    "forma": "Drama",
+    "druh": "Drama",
+    "zanr": "Tragédie",
+    "period": "Antická řecká literatura",
+    "tema": "Médeia, kterou opustil manžel Iásón, se pomstí vraždou jeho nové nevěsty i vlastních dětí.",
+    "postavy": [
+      {
+        "name": "Médeia",
+        "desc": "kolchidská princezna a čarodějka"
+      },
+      {
+        "name": "Iásón",
+        "desc": "její manžel, vůdce Argonautů"
       },
       {
         "name": "Kreón",
-        "desc": "Iokastin bratr, rozvážný; po Oidipovi přebírá vládu."
+        "desc": "korintský král"
+      }
+    ]
+  },
+  {
+    "id": "utrpeni-mladeho-werthera",
+    "title": "Utrpení mladého Werthera",
+    "author": "Johann Wolfgang Goethe",
+    "year": "1774",
+    "skupina": 1,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román v dopisech",
+    "period": "Preromantismus (Sturm und Drang)",
+    "tema": "Nešťastná láska citlivého mladíka k zasnoubené Lottě, která skončí sebevraždou.",
+    "postavy": [
+      {
+        "name": "Werther",
+        "desc": "citlivý mladík"
       },
       {
-        "name": "Teiresiás",
-        "desc": "Slepý věštec, který zná pravdu od začátku."
+        "name": "Lotta",
+        "desc": "jeho láska"
+      },
+      {
+        "name": "Albert",
+        "desc": "Lottin snoubenec"
       }
     ],
-    "jazyk": "Veršovaný vznešený jazyk, dlouhé monology, tragická ironie: divák ví víc než hrdina.",
-    "kontext": "Sofoklés patří s Aischylem a Eurípidem k trojici velkých athénských tragiků. Na thébskou látku navazuje jeho Antigona.",
-    "skupina": 1
+    "kontext": "Kniha vyvolala vlnu napodobování."
+  },
+  {
+    "id": "sluha-dvou-panu",
+    "title": "Sluha dvou pánů",
+    "author": "Carlo Goldoni",
+    "year": "1746",
+    "skupina": 1,
+    "forma": "Drama",
+    "druh": "Drama",
+    "zanr": "Komedie",
+    "period": "Italská komedie 18. století (commedia dell’arte)",
+    "tema": "Sluha Truffaldino slouží současně dvěma pánům a zaplétá se do zmatků.",
+    "postavy": [
+      {
+        "name": "Truffaldino",
+        "desc": "vychytralý sluha"
+      },
+      {
+        "name": "Beatrice",
+        "desc": "převlečená za vlastního bratra"
+      },
+      {
+        "name": "Florindo",
+        "desc": "její milý"
+      }
+    ]
+  },
+  {
+    "id": "labyrint-sveta-a-raj-srdce",
+    "title": "Labyrint světa a ráj srdce",
+    "author": "Jan Amos Komenský",
+    "year": "napsáno 1623, vydáno 1631",
+    "skupina": 1,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Alegorický filozofický román",
+    "period": "Baroko (exulantská literatura)",
+    "tema": "Poutník prochází světem jako labyrintem marnosti. Smysl najde až ve víře, v ráji srdce.",
+    "postavy": [
+      {
+        "name": "Poutník",
+        "desc": "hlavní postava"
+      },
+      {
+        "name": "Všezvěd Všudybud a Mámení",
+        "desc": "jeho průvodci"
+      }
+    ]
+  },
+  {
+    "id": "lakomec",
+    "title": "Lakomec",
+    "author": "Molière",
+    "year": "1668",
+    "period": "Klasicismus",
+    "druh": "Drama",
+    "zanr": "Komedie o pěti dějstvích",
+    "tema": "Kritika lakoty a touhy po penězích, která ničí rodinné vztahy.",
+    "motivy": [
+      "lakota",
+      "peníze",
+      "láska",
+      "pokrytectví",
+      "vztah rodičů a dětí"
+    ],
+    "casoprostor": "Paříž, Harpagonův dům, 17. století. Děj trvá jeden den.",
+    "kompozice": "Pět dějství, chronologický děj, jednota místa, času a děje. Zápletka se rozuzlí náhlým odhalením příbuzenských vztahů.",
+    "postavy": [
+      {
+        "name": "Harpagon",
+        "desc": "Bohatý vdovec a lichvář, pro peníze obětuje i štěstí svých dětí. Chce si vzít mladou Marianu."
+      },
+      {
+        "name": "Kleant",
+        "desc": "Harpagonův syn, miluje Marianu."
+      },
+      {
+        "name": "Eliška",
+        "desc": "Harpagonova dcera, miluje Valéra."
+      },
+      {
+        "name": "Valér",
+        "desc": "Správce v Harpagonově domě, ve skutečnosti šlechtic."
+      },
+      {
+        "name": "Mariana",
+        "desc": "Chudá dívka, o kterou stojí otec i syn."
+      },
+      {
+        "name": "Čipera",
+        "desc": "Kleantův sluha; ukradne Harpagonovi pokladnici."
+      },
+      {
+        "name": "Anselm",
+        "desc": "Bohatý šlechtic, ukáže se jako otec Valéra a Mariany."
+      }
+    ],
+    "jazyk": "Hra je psaná prózou, což bylo u klasicistní komedie neobvyklé. Komika charakterová, situační i slovní, nadsázka.",
+    "kontext": "Molière vyšel z Plautovy Komedie o hrnci. Další komedie: Tartuffe, Zdravý nemocný, Misantrop.",
+    "skupina": 1,
+    "forma": "Drama"
+  },
+  {
+    "id": "nova-rada",
+    "title": "Nová rada",
+    "author": "Smil Flaška z Pardubic",
+    "year": "1394–1395",
+    "skupina": 1,
+    "forma": "Poezie",
+    "druh": "Epika",
+    "zanr": "Alegorická didaktická skladba",
+    "period": "Česká literatura 14. století",
+    "tema": "Zvířata radí mladému králi lvu, jak vládnout. Dobré i špatné rady jsou obrazem tehdejší společnosti.",
+    "postavy": [
+      {
+        "name": "Lev",
+        "desc": "mladý král (alegorie Václava IV.)"
+      },
+      {
+        "name": "Zvířata",
+        "desc": "rádci, kteří představují šlechtu"
+      }
+    ]
+  },
+  {
+    "id": "don-quijote",
+    "title": "Důmyslný rytíř don Quijote de la Mancha",
+    "author": "Miguel de Cervantes y Saavedra",
+    "year": "1605 a 1615",
+    "skupina": 1,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román (parodie rytířských románů)",
+    "period": "Španělská renesance",
+    "tema": "Chudý šlechtic se načte rytířských románů a vydá se jako potulný rytíř napravovat křivdy. Střet snu a skutečnosti.",
+    "postavy": [
+      {
+        "name": "Don Quijote",
+        "desc": "rytíř smutné postavy"
+      },
+      {
+        "name": "Sancho Panza",
+        "desc": "jeho praktický zbrojnoš"
+      },
+      {
+        "name": "Dulcinea z Tobosa",
+        "desc": "vysněná dáma"
+      }
+    ],
+    "kontext": "Považuje se za první moderní román."
   },
   {
     "id": "hamlet",
@@ -141,228 +308,487 @@
     ],
     "jazyk": "Blankvers střídaný s prózou, slavné monology (Být, či nebýt), slovní hříčky, metafory, ironie.",
     "kontext": "Vrcholná Shakespearova tragédie. Dalšími jsou Othello, Král Lear a Macbeth.",
-    "skupina": 1
+    "skupina": 1,
+    "forma": "Drama"
   },
   {
-    "id": "lakomec",
-    "title": "Lakomec",
-    "author": "Molière",
-    "year": "1668",
-    "period": "Klasicismus",
+    "id": "kupec-benatsky",
+    "title": "Kupec benátský",
+    "author": "William Shakespeare",
+    "year": "kolem 1596",
+    "skupina": 1,
+    "forma": "Drama",
     "druh": "Drama",
-    "zanr": "Komedie o pěti dějstvích",
-    "tema": "Kritika lakoty a touhy po penězích, která ničí rodinné vztahy.",
-    "motivy": [
-      "lakota",
-      "peníze",
-      "láska",
-      "pokrytectví",
-      "vztah rodičů a dětí"
-    ],
-    "casoprostor": "Paříž, Harpagonův dům, 17. století. Děj trvá jeden den.",
-    "kompozice": "Pět dějství, chronologický děj, jednota místa, času a děje. Zápletka se rozuzlí náhlým odhalením příbuzenských vztahů.",
+    "zanr": "Komedie",
+    "period": "Renesance (alžbětinské drama)",
+    "tema": "Lichvář Shylock žádá libru masa z dlužníka Antonia. Spravedlnost a milosrdenství.",
     "postavy": [
       {
-        "name": "Harpagon",
-        "desc": "Bohatý vdovec a lichvář, pro peníze obětuje i štěstí svých dětí. Chce si vzít mladou Marianu."
+        "name": "Shylock",
+        "desc": "lichvář"
       },
       {
-        "name": "Kleant",
-        "desc": "Harpagonův syn, miluje Marianu."
+        "name": "Antonio",
+        "desc": "kupec"
       },
       {
-        "name": "Eliška",
-        "desc": "Harpagonova dcera, miluje Valéra."
-      },
-      {
-        "name": "Valér",
-        "desc": "Správce v Harpagonově domě, ve skutečnosti šlechtic."
-      },
-      {
-        "name": "Mariana",
-        "desc": "Chudá dívka, o kterou stojí otec i syn."
-      },
-      {
-        "name": "Čipera",
-        "desc": "Kleantův sluha; ukradne Harpagonovi pokladnici."
-      },
-      {
-        "name": "Anselm",
-        "desc": "Bohatý šlechtic, ukáže se jako otec Valéra a Mariany."
+        "name": "Portia",
+        "desc": "bohatá dědička, která ho zachrání"
       }
-    ],
-    "jazyk": "Hra je psaná prózou, což bylo u klasicistní komedie neobvyklé. Komika charakterová, situační i slovní, nadsázka.",
-    "kontext": "Molière vyšel z Plautovy Komedie o hrnci. Další komedie: Tartuffe, Zdravý nemocný, Misantrop.",
-    "skupina": 1
+    ]
   },
   {
-    "id": "maj",
-    "title": "Máj",
-    "author": "Karel Hynek Mácha",
-    "year": "1836",
-    "period": "Romantismus",
-    "druh": "Lyrickoepický",
-    "zanr": "Básnická skladba (poéma)",
-    "tema": "Tragický příběh lásky, viny a trestu. Úvahy o smyslu života, o smrti a o tom, co je po ní.",
+    "id": "romeo-a-julie",
+    "title": "Romeo a Julie",
+    "author": "William Shakespeare",
+    "year": "kolem 1595",
+    "period": "Renesance (alžbětinské drama)",
+    "druh": "Drama",
+    "zanr": "Tragédie o pěti dějstvích",
+    "tema": "Láska dvou mladých lidí, kterou zničí nesmyslná nenávist jejich rodů.",
     "motivy": [
       "láska",
-      "žárlivost",
-      "vina a trest",
-      "příroda",
-      "noc",
-      "smrt",
-      "nicota",
-      "vlast"
-    ],
-    "casoprostor": "Okolí Bezdězu a Doksů (dnešní Máchovo jezero). Děj se odehrává během dvou májových dnů, čtvrtý zpěv o sedm let později na Silvestra a pak znovu 1. máje.",
-    "kompozice": "Čtyři zpěvy a dvě intermezza. Děj je potlačený a podává se neúplně, převažují lyrické popisy přírody a Vilémovy úvahy. Příběh rámuje motiv máje.",
-    "postavy": [
-      {
-        "name": "Vilém",
-        "desc": "„Strašný lesů pán“, vůdce loupežníků. Zabije svůdce své milé a netuší, že je to jeho otec. Typický romantický hrdina – vyvrženec v rozporu se společností."
-      },
-      {
-        "name": "Jarmila",
-        "desc": "Vilémova milá. Po zprávě o jeho odsouzení se utopí v jezeře."
-      },
-      {
-        "name": "Hynek",
-        "desc": "Poutník ve čtvrtém zpěvu. Ztotožňuje se s Vilémovým osudem; splývá se samotným autorem."
-      }
-    ],
-    "jazyk": "Spisovný básnický jazyk, jamb (v české poezii do té doby vzácný). Bohatá zvukomalba, metafory, personifikace, oxymóron („mrtvé milenky cit“), kontrasty a barevnost.",
-    "kontext": "Vrcholné dílo českého romantismu. Soudobá kritika je odmítla, protože nesloužilo vlasteneckým cílům národního obrození; docenila je až generace májovců.",
-    "ukazka": {
-      "text": "Byl pozdní večer – první máj –\nvečerní máj – byl lásky čas.\nHrdliččin zval ku lásce hlas,\nkde borový zaváněl háj.",
-      "note": "Úvod prvního zpěvu. Rým obkročný (ABBA), jambický verš, lyrický popis přírody."
-    },
-    "skupina": 2
-  },
-  {
-    "id": "kytice",
-    "title": "Kytice",
-    "author": "Karel Jaromír Erben",
-    "year": "1853",
-    "period": "Národní obrození (prvky romantismu)",
-    "druh": "Lyrickoepický",
-    "zanr": "Sbírka balad",
-    "tema": "Vina a trest. Kdo poruší mravní řád nebo základní lidské vztahy (především vztah matky a dítěte), je potrestán.",
-    "motivy": [
-      "vina a trest",
-      "mateřská láska",
+      "nenávist",
       "osud",
-      "nadpřirozené bytosti",
-      "pokání",
-      "lidová slovesnost"
-    ],
-    "casoprostor": "Neurčitý čas a místo – český venkov, jezero, les, hřbitov. Odpovídá to lidové pověsti.",
-    "kompozice": "Třináct básní (Lilie přibyla až ve druhém vydání roku 1861). Uspořádání je zrcadlové: první báseň souvisí s poslední, druhá s předposlední a tak dále. Úvodní Kytice a závěrečná Věštkyně sbírku rámují.",
-    "postavy": [
-      {
-        "name": "Matka (Polednice)",
-        "desc": "V hněvu přivolá na dítě polednici a o dítě přijde."
-      },
-      {
-        "name": "Vodník a dcera (Vodník)",
-        "desc": "Dívka neposlechne matku, stane se vodníkovou ženou; vodník se pomstí na jejich dítěti."
-      },
-      {
-        "name": "Matka (Poklad)",
-        "desc": "Zaslepená bohatstvím zapomene dítě ve skále; po roce pokání je dostane zpět."
-      },
-      {
-        "name": "Dívka (Svatební košile)",
-        "desc": "Rouhá se, přivolá mrtvého milého; zachrání ji pokání a modlitba."
-      }
-    ],
-    "jazyk": "Úsporný, sevřený jazyk blízký lidové písni. Krátké verše, dialogy bez uvozovacích vět, zvukomalba, epizeuxis, rychlý dramatický spád.",
-    "kontext": "Erben byl sběratel lidové slovesnosti a archivář. Balady vycházejí z lidových pověstí a bájí. Na rozdíl od Máchy se u Erbena člověk řádu podřizuje a vzpoura je potrestána.",
-    "ukazka": {
-      "text": "U lavice dítě stálo,\nz plna hrdla křičelo.\n„Bodejž jsi jen trochu málo,\nty cikáně, mlčelo!“",
-      "note": "Polednice. Rým střídavý (ABAB), trochej, přímá řeč bez uvozovací věty."
-    },
-    "skupina": 2
-  },
-  {
-    "id": "revizor",
-    "title": "Revizor",
-    "author": "Nikolaj Vasiljevič Gogol",
-    "year": "1836",
-    "period": "Ruský realismus",
-    "druh": "Drama",
-    "zanr": "Satirická komedie o pěti dějstvích",
-    "tema": "Kritika úplatkářství, hlouposti a servility úředníků v carském Rusku.",
-    "motivy": [
-      "korupce",
-      "strach",
-      "pokrytectví",
-      "omyl",
-      "zneužití moci"
-    ],
-    "casoprostor": "Malé ruské provinční město, první polovina 19. století.",
-    "kompozice": "Pět dějství, chronologický děj. Zápletka stojí na omylu. Hra končí němou scénou po zprávě o příjezdu skutečného revizora.",
-    "postavy": [
-      {
-        "name": "Chlestakov",
-        "desc": "Mladý petrohradský úředníček, lehkomyslný chvastoun. Omylu města ochotně využije."
-      },
-      {
-        "name": "Hejtman",
-        "desc": "Představený města, zkorumpovaný a vypočítavý."
-      },
-      {
-        "name": "Anna Andrejevna a Marja Antonovna",
-        "desc": "Hejtmanova žena a dcera, obě se o Chlestakova ucházejí."
-      },
-      {
-        "name": "Osip",
-        "desc": "Chlestakovův sluha, chytřejší než jeho pán."
-      },
-      {
-        "name": "Bobčinskij a Dobčinskij",
-        "desc": "Statkáři a klepaři, kteří omyl způsobí."
-      }
-    ],
-    "jazyk": "Hovorový jazyk, charakterizační jména, ironie, satira, situační komika.",
-    "kontext": "Mottem hry je přísloví Nenadávej na zrcadlo, když máš křivou hubu. Další Gogolova díla: Mrtvé duše, Petrohradské povídky.",
-    "skupina": 2
-  },
-  {
-    "id": "havran",
-    "title": "Havran",
-    "author": "Edgar Allan Poe",
-    "year": "1845",
-    "period": "Americký romantismus",
-    "druh": "Lyrickoepický",
-    "zanr": "Báseň s rysy balady",
-    "tema": "Bolest nad ztrátou milované ženy a beznaděj z toho, že se už nikdy nevrátí.",
-    "motivy": [
+      "náhoda",
+      "mládí a vzdor",
       "smrt",
-      "žal",
-      "samota",
-      "noc",
-      "beznaděj",
-      "tajemno"
+      "usmíření"
     ],
-    "casoprostor": "Pokoj lyrického hrdiny, prosincová půlnoc.",
-    "kompozice": "Osmnáct slok po šesti verších. Napětí stupňuje refrén Nevermore (Nikdy víc), kterým havran odpovídá na stále zoufalejší otázky.",
+    "casoprostor": "Italská Verona a krátce Mantova, 16. století. Děj trvá necelý týden.",
+    "kompozice": "Prolog a pět dějství. Chronologický děj podle klasické stavby dramatu: expozice, kolize, krize, peripetie, katastrofa.",
     "postavy": [
       {
-        "name": "Lyrický hrdina",
-        "desc": "Osamělý muž truchlící pro zemřelou Lenoru."
+        "name": "Romeo Montek",
+        "desc": "Citlivý, vášnivý a zbrklý mladík. V souboji zabije Tybalta a je vyhoštěn."
       },
       {
-        "name": "Havran",
-        "desc": "Tajemný pták, symbol osudu a neodvratnosti smrti."
+        "name": "Julie Kapuletová",
+        "desc": "Necelých čtrnáct let, během děje dospívá; je odvážná a rozhodná."
       },
       {
-        "name": "Lenora",
-        "desc": "Zemřelá milá, v básni jen vzpomínaná."
+        "name": "Otec Vavřinec",
+        "desc": "Františkánský mnich. Milence tajně oddá a vymyslí plán s uspávacím nápojem."
+      },
+      {
+        "name": "Merkucio",
+        "desc": "Romeův vtipný přítel, zabit Tybaltem."
+      },
+      {
+        "name": "Tybalt",
+        "desc": "Juliin bratranec, prudký a hádavý."
+      },
+      {
+        "name": "Chůva",
+        "desc": "Juliina důvěrnice, prostořeká a upovídaná."
       }
     ],
-    "jazyk": "Zvukomalba, aliterace, vnitřní rýmy, opakování slov, pravidelný rytmus. Ponurá atmosféra.",
-    "kontext": "Poe svůj postup vyložil v eseji Filozofie básnické skladby. Je považován za zakladatele detektivky (Vraždy v ulici Morgue) a mistra hororové povídky (Jáma a kyvadlo).",
-    "skupina": 2
+    "jazyk": "Blankvers (nerýmovaný pětistopý jamb), místy rýmované pasáže a sonet. Prostí lidé mluví prózou. Slovní hříčky, metafory, kontrasty světla a tmy.",
+    "kontext": "Shakespeare zpracoval starší italskou látku. Renesanční je důraz na pozemský cit a právo jedince rozhodovat o svém životě.",
+    "skupina": 1,
+    "forma": "Drama"
+  },
+  {
+    "id": "zkroceni-zle-zeny",
+    "title": "Zkrocení zlé ženy",
+    "author": "William Shakespeare",
+    "year": "kolem 1593",
+    "skupina": 1,
+    "forma": "Drama",
+    "druh": "Drama",
+    "zanr": "Komedie",
+    "period": "Renesance (alžbětinské drama)",
+    "tema": "Petruccio si vezme vzpurnou Kateřinu a „zkrotí“ ji.",
+    "postavy": [
+      {
+        "name": "Petruccio",
+        "desc": ""
+      },
+      {
+        "name": "Kateřina",
+        "desc": ""
+      },
+      {
+        "name": "Bianka",
+        "desc": "její sestra"
+      }
+    ]
+  },
+  {
+    "id": "antigona",
+    "title": "Antigona",
+    "author": "Sofoklés",
+    "year": "kolem 442 př. n. l.",
+    "skupina": 1,
+    "forma": "Drama",
+    "druh": "Drama",
+    "zanr": "Tragédie",
+    "period": "Antická řecká literatura",
+    "tema": "Antigona pohřbí bratra navzdory Kreónovu zákazu. Střet božského a lidského zákona.",
+    "postavy": [
+      {
+        "name": "Antigona",
+        "desc": ""
+      },
+      {
+        "name": "Kreón",
+        "desc": "thébský král"
+      },
+      {
+        "name": "Isména",
+        "desc": "její sestra"
+      },
+      {
+        "name": "Haimón",
+        "desc": "Kreónův syn a Antigonin snoubenec"
+      }
+    ]
+  },
+  {
+    "id": "kral-oidipus",
+    "title": "Král Oidipús",
+    "author": "Sofoklés",
+    "year": "5. století př. n. l.",
+    "period": "Antická řecká literatura",
+    "druh": "Drama",
+    "zanr": "Tragédie",
+    "tema": "Marný boj člověka s osudem. Vina, kterou člověk nese, i když jednal nevědomky.",
+    "motivy": [
+      "osud",
+      "věštba",
+      "vina",
+      "pravda",
+      "slepota",
+      "moc"
+    ],
+    "casoprostor": "Théby před královským palácem, mytický čas. Děj se odehraje během jednoho dne.",
+    "kompozice": "Analytické drama: děj na jevišti spočívá v postupném odhalování minulých událostí. Dodržuje jednotu místa, času a děje. Dialogy se střídají se zpěvy sboru.",
+    "postavy": [
+      {
+        "name": "Oidipús",
+        "desc": "Thébský král, spravedlivý, ale prudký. Pátrá po vrahovi krále Láia a zjistí, že jím je on sám a že se oženil s vlastní matkou. Oslepí se a odchází do vyhnanství."
+      },
+      {
+        "name": "Iokasté",
+        "desc": "Oidipova matka a manželka. Když pozná pravdu, oběsí se."
+      },
+      {
+        "name": "Kreón",
+        "desc": "Iokastin bratr, rozvážný; po Oidipovi přebírá vládu."
+      },
+      {
+        "name": "Teiresiás",
+        "desc": "Slepý věštec, který zná pravdu od začátku."
+      }
+    ],
+    "jazyk": "Veršovaný vznešený jazyk, dlouhé monology, tragická ironie: divák ví víc než hrdina.",
+    "kontext": "Sofoklés patří s Aischylem a Eurípidem k trojici velkých athénských tragiků. Na thébskou látku navazuje jeho Antigona.",
+    "skupina": 1,
+    "forma": "Drama"
+  },
+  {
+    "id": "gulliverovy-cesty",
+    "title": "Gulliverovy cesty",
+    "author": "Jonathan Swift",
+    "year": "1726",
+    "skupina": 1,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Satirický cestopisný román",
+    "period": "Anglické osvícenství",
+    "tema": "Lodní lékař Gulliver navštíví zemi trpaslíků, obrů a další podivné země. Satira na společnost.",
+    "postavy": [
+      {
+        "name": "Lemuel Gulliver",
+        "desc": "vypravěč"
+      }
+    ]
+  },
+  {
+    "id": "pycha-a-predsudek",
+    "title": "Pýcha a předsudek",
+    "author": "Jane Austenová",
+    "year": "1813",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Anglická literatura počátku 19. století",
+    "tema": "Láska, sňatky a společenské postavení na anglickém venkově. Pýcha a předsudky brání dvěma lidem, aby se poznali.",
+    "postavy": [
+      {
+        "name": "Elizabeth Bennetová",
+        "desc": "bystrá a nezávislá druhá z pěti sester"
+      },
+      {
+        "name": "Fitzwilliam Darcy",
+        "desc": "bohatý gentleman, zprvu povýšený"
+      },
+      {
+        "name": "Paní Bennetová",
+        "desc": "matka, která chce dcery hlavně provdat"
+      }
+    ],
+    "kontext": "Austenová s ironií líčí život venkovské šlechty."
+  },
+  {
+    "id": "otec-goriot",
+    "title": "Otec Goriot",
+    "author": "Honoré de Balzac",
+    "year": "1835",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Francouzský realismus",
+    "tema": "Bezmezná otcovská láska, kterou sobecké dcery zneužijí, a moc peněz v pařížské společnosti.",
+    "postavy": [
+      {
+        "name": "Goriot",
+        "desc": "bývalý obchodník, který dcerám obětuje vše"
+      },
+      {
+        "name": "Eugène de Rastignac",
+        "desc": "chudý student, který se učí ctižádosti"
+      },
+      {
+        "name": "Vautrin",
+        "desc": "uprchlý galejník"
+      }
+    ],
+    "kontext": "Součást rozsáhlého cyklu Lidská komedie."
+  },
+  {
+    "id": "kvety-zla",
+    "title": "Květy zla",
+    "author": "Charles Baudelaire",
+    "year": "1857",
+    "skupina": 2,
+    "forma": "Poezie",
+    "druh": "Lyrika",
+    "zanr": "Básnická sbírka",
+    "period": "Francouzská poezie 19. století, prokletí básníci",
+    "tema": "Rozpor mezi touhou po ideálu a krásou na jedné straně a hříchem, rozkladem a nudou (spleenem) velkoměsta na druhé.",
+    "kontext": "Šest básní bylo soudně zakázáno pro nemravnost. Sbírka předznamenala symbolismus a dekadenci."
+  },
+  {
+    "id": "kral-lavra",
+    "title": "Král Lávra",
+    "author": "Karel Havlíček Borovský",
+    "year": "napsáno 1854",
+    "skupina": 2,
+    "forma": "Poezie",
+    "druh": "Lyrickoepický",
+    "zanr": "Satirická báseň",
+    "period": "Národní obrození, počátky realismu",
+    "tema": "Satira na absolutistickou moc: král skrývá oslí uši a každého holiče, který je spatří, dává popravit.",
+    "postavy": [
+      {
+        "name": "Král Lávra",
+        "desc": "panovník s oslíma ušima"
+      },
+      {
+        "name": "Kukulín",
+        "desc": "holič, který tajemství svěří vrbě"
+      },
+      {
+        "name": "Červíček",
+        "desc": "muzikant, jehož nástroj z vrby tajemství vyzpívá"
+      }
+    ],
+    "kontext": "Námět pochází z irské pověsti."
+  },
+  {
+    "id": "krest-svateho-vladimira",
+    "title": "Křest svatého Vladimíra",
+    "author": "Karel Havlíček Borovský",
+    "year": "napsáno 1848–1854",
+    "skupina": 2,
+    "forma": "Poezie",
+    "druh": "Lyrickoepický",
+    "zanr": "Satirická báseň (nedokončená)",
+    "period": "Národní obrození, počátky realismu",
+    "tema": "Satira na spojení státní moci a církve, na absolutismus a byrokracii, zasazená do staré Rusi knížete Vladimíra a boha Peruna.",
+    "postavy": [
+      {
+        "name": "Vladimír",
+        "desc": "kníže"
+      },
+      {
+        "name": "Perun",
+        "desc": "bůh hromu"
+      }
+    ],
+    "kontext": "Skladba zůstala nedokončená a šířila se v opisech."
+  },
+  {
+    "id": "tyrolske-elegie",
+    "title": "Tyrolské elegie",
+    "author": "Karel Havlíček Borovský",
+    "year": "napsáno 1852",
+    "period": "Národní obrození, počátky realismu",
+    "druh": "Lyrickoepický",
+    "zanr": "Satirická báseň",
+    "tema": "Autorovo zatčení a deportace do Brixenu. Výsměch rakouské policii a absolutismu.",
+    "motivy": [
+      "nesvoboda",
+      "vyhnanství",
+      "stesk po rodině",
+      "ironie",
+      "odpor k moci"
+    ],
+    "casoprostor": "Cesta z Německého Brodu do tyrolského Brixenu, prosinec 1851.",
+    "kompozice": "Devět zpěvů, chronologické vyprávění cesty. Vypravěč oslovuje měsíček.",
+    "postavy": [
+      {
+        "name": "Vypravěč",
+        "desc": "Sám autor; zatčení líčí s nadhledem a humorem."
+      },
+      {
+        "name": "Komisař Dedera",
+        "desc": "Policejní úředník, který autora zatýká."
+      },
+      {
+        "name": "Alexander Bach",
+        "desc": "Ministr vnitra, zosobnění absolutistického režimu."
+      }
+    ],
+    "jazyk": "Hovorový jazyk, ironie, sarkasmus, forma blízká lidové písni (čtyřverší).",
+    "kontext": "Havlíček byl novinář, zakladatel české politické žurnalistiky. Další satiry: Král Lávra, Křest svatého Vladimíra.",
+    "skupina": 2,
+    "forma": "Poezie"
+  },
+  {
+    "id": "jana-eyrova",
+    "title": "Jana Eyrová",
+    "author": "Charlotte Brontëová",
+    "year": "1847",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Anglická literatura 19. století",
+    "tema": "Sirotek Jana si navzdory chudobě a ponižování zachová hrdost a hledá lásku i svobodu.",
+    "postavy": [
+      {
+        "name": "Jana Eyrová",
+        "desc": "vychovatelka a vypravěčka"
+      },
+      {
+        "name": "Edward Rochester",
+        "desc": "majitel panství Thornfield"
+      },
+      {
+        "name": "Bertha Masonová",
+        "desc": "Rochesterova šílená manželka"
+      },
+      {
+        "name": "St. John Rivers",
+        "desc": "duchovní, který si chce Janu vzít"
+      }
+    ],
+    "kontext": "Román vyšel pod pseudonymem Currer Bell."
+  },
+  {
+    "id": "na-vetrne-hurce",
+    "title": "Na Větrné hůrce",
+    "author": "Emily Brontëová",
+    "year": "1847",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Anglický romantismus",
+    "tema": "Vášnivá a ničivá láska Heathcliffa a Kateřiny a pomsta, která zasáhne dvě generace.",
+    "postavy": [
+      {
+        "name": "Heathcliff",
+        "desc": "nalezenec, později bohatý a krutý"
+      },
+      {
+        "name": "Kateřina Earnshawová",
+        "desc": "jeho láska"
+      },
+      {
+        "name": "Edgar Linton",
+        "desc": "Kateřinin manžel"
+      },
+      {
+        "name": "Nelly Deanová",
+        "desc": "hospodyně a hlavní vypravěčka"
+      }
+    ],
+    "kontext": "Jediný román Emily Brontëové."
+  },
+  {
+    "id": "alenka-v-risi-divu",
+    "title": "Alenka v říši divů",
+    "author": "Lewis Carroll",
+    "year": "1865",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Fantastická pohádka",
+    "period": "Anglická literatura 19. století",
+    "tema": "Alenka spadne králičí norou do absurdního světa, kde neplatí logika dospělých.",
+    "postavy": [
+      {
+        "name": "Alenka",
+        "desc": "zvídavá dívka"
+      },
+      {
+        "name": "Bílý králík",
+        "desc": ""
+      },
+      {
+        "name": "Kloboučník",
+        "desc": ""
+      },
+      {
+        "name": "Srdcová královna",
+        "desc": ""
+      },
+      {
+        "name": "Kočka Šklíba",
+        "desc": ""
+      }
+    ],
+    "kontext": "Carroll byl matematik. Kniha je plná slovních hříček a nonsensu."
+  },
+  {
+    "id": "oliver-twist",
+    "title": "Oliver Twist",
+    "author": "Charles Dickens",
+    "year": "1838",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Sociální román",
+    "period": "Anglický realismus",
+    "tema": "Sirotek Oliver projde chudobincem a londýnským podsvětím, ale zachová si dobrotu.",
+    "postavy": [
+      {
+        "name": "Oliver Twist",
+        "desc": "sirotek"
+      },
+      {
+        "name": "Fagin",
+        "desc": "vůdce mladých zlodějů"
+      },
+      {
+        "name": "Bill Sikes",
+        "desc": "lupič"
+      },
+      {
+        "name": "Nancy",
+        "desc": "dívka, která Olivera chrání"
+      },
+      {
+        "name": "Pan Brownlow",
+        "desc": "dobrodinec"
+      }
+    ],
+    "kontext": "Dickens kritizuje zacházení s chudými a dětmi."
   },
   {
     "id": "zlocin-a-trest",
@@ -411,129 +837,412 @@
     ],
     "jazyk": "Er-forma, dlouhé vnitřní monology, dialogy, sny, podrobné líčení duševních stavů.",
     "kontext": "Dostojevskij byl sám odsouzen k trestu smrti a po milosti poslán na Sibiř. Další romány: Idiot, Bratři Karamazovi.",
-    "skupina": 2
+    "skupina": 2,
+    "forma": "Próza"
   },
   {
-    "id": "obraz-doriana-graye",
-    "title": "Obraz Doriana Graye",
-    "author": "Oscar Wilde",
-    "year": "1891",
-    "period": "Dekadence, estetismus",
+    "id": "tri-musketyri",
+    "title": "Tři mušketýři",
+    "author": "Alexandre Dumas",
+    "year": "1844",
+    "skupina": 2,
+    "forma": "Próza",
     "druh": "Epika",
-    "zanr": "Román s prvky hororu",
-    "tema": "Touha po věčném mládí a kráse a mravní úpadek člověka, který za ně zaplatí duší.",
-    "motivy": [
-      "krása",
-      "mládí",
-      "svědomí",
-      "požitkářství",
-      "zločin",
-      "umění"
-    ],
-    "casoprostor": "Londýn, konec 19. století.",
-    "kompozice": "Dvacet kapitol, chronologický děj s časovým skokem osmnácti let.",
+    "zanr": "Historický dobrodružný román",
+    "period": "Francouzský romantismus",
+    "tema": "Mladý Gaskoněc d’Artagnan se spřátelí s mušketýry a chrání čest královny před intrikami kardinála Richelieu.",
     "postavy": [
       {
-        "name": "Dorian Gray",
-        "desc": "Krásný mladík. Přeje si, aby místo něj stárnul jeho portrét; přání se splní a obraz nese stopy jeho hříchů."
+        "name": "d’Artagnan",
+        "desc": "mladý šlechtic"
       },
       {
-        "name": "Lord Henry Wotton",
-        "desc": "Cynický aristokrat, který Doriana svými názory zkazí."
+        "name": "Athos, Porthos, Aramis",
+        "desc": "královští mušketýři"
       },
       {
-        "name": "Basil Hallward",
-        "desc": "Malíř portrétu, Dorianem zavražděn."
+        "name": "Milady de Winter",
+        "desc": "kardinálova agentka"
       },
       {
-        "name": "Sibyla Vaneová",
-        "desc": "Mladá herečka; po Dorianově odmítnutí spáchá sebevraždu."
+        "name": "Kardinál Richelieu",
+        "desc": ""
       }
-    ],
-    "jazyk": "Er-forma, vybroušené dialogy plné aforismů a paradoxů, popisy uměleckých předmětů.",
-    "kontext": "Jediný Wildův román. Psal také komedie (Jak je důležité míti Filipa) a pohádky (Šťastný princ).",
-    "skupina": 2
+    ]
   },
   {
-    "id": "babicka",
-    "title": "Babička",
-    "author": "Božena Němcová",
-    "year": "1855",
-    "period": "Národní obrození, přechod od romantismu k realismu",
-    "druh": "Epika",
-    "zanr": "Rozsáhlá povídka (obrazy venkovského života)",
-    "tema": "Idealizovaný obraz venkovského života a moudré, laskavé ženy, která žije v souladu s přírodou a s lidmi.",
-    "motivy": [
-      "rodina",
-      "láska",
-      "víra",
-      "lidové zvyky",
-      "příroda",
-      "vlastenectví"
-    ],
-    "casoprostor": "Ratibořické údolí, Staré bělidlo; první polovina 19. století.",
-    "kompozice": "Osmnáct kapitol. První část líčí babiččin příjezd a běžný den, další řadí události podle ročních období. Vložené příběhy: Viktorka, Kristla a Míla, babiččino mládí.",
-    "postavy": [
-      {
-        "name": "Babička",
-        "desc": "Magdaléna Novotná, prostá, zbožná a moudrá žena; pro všechny přirozená autorita."
-      },
-      {
-        "name": "Barunka",
-        "desc": "Nejstarší vnučka, babičce nejbližší; má rysy autorky."
-      },
-      {
-        "name": "Paní kněžna",
-        "desc": "Majitelka panství, babičky si váží."
-      },
-      {
-        "name": "Komtesa Hortensie",
-        "desc": "Kněžnina schovanka."
-      },
-      {
-        "name": "Viktorka",
-        "desc": "Dívka, která se po nešťastné lásce k vojákovi pomátla."
-      }
-    ],
-    "jazyk": "Spisovný jazyk, lidová rčení a přísloví, nářeční a zastaralé výrazy. Er-forma.",
-    "kontext": "Němcová knihu psala po smrti syna Hynka jako návrat do šťastného dětství. Další díla: Divá Bára, V zámku a v podzámčí.",
-    "skupina": 2
-  },
-  {
-    "id": "tyrolske-elegie",
-    "title": "Tyrolské elegie",
-    "author": "Karel Havlíček Borovský",
-    "year": "napsáno 1852",
-    "period": "Národní obrození, počátky realismu",
+    "id": "kytice",
+    "title": "Kytice",
+    "author": "Karel Jaromír Erben",
+    "year": "1853",
+    "period": "Národní obrození (prvky romantismu)",
     "druh": "Lyrickoepický",
-    "zanr": "Satirická báseň",
-    "tema": "Autorovo zatčení a deportace do Brixenu. Výsměch rakouské policii a absolutismu.",
+    "zanr": "Sbírka balad",
+    "tema": "Vina a trest. Kdo poruší mravní řád nebo základní lidské vztahy (především vztah matky a dítěte), je potrestán.",
     "motivy": [
-      "nesvoboda",
-      "vyhnanství",
-      "stesk po rodině",
-      "ironie",
-      "odpor k moci"
+      "vina a trest",
+      "mateřská láska",
+      "osud",
+      "nadpřirozené bytosti",
+      "pokání",
+      "lidová slovesnost"
     ],
-    "casoprostor": "Cesta z Německého Brodu do tyrolského Brixenu, prosinec 1851.",
-    "kompozice": "Devět zpěvů, chronologické vyprávění cesty. Vypravěč oslovuje měsíček.",
+    "casoprostor": "Neurčitý čas a místo – český venkov, jezero, les, hřbitov. Odpovídá to lidové pověsti.",
+    "kompozice": "Třináct básní (Lilie přibyla až ve druhém vydání roku 1861). Uspořádání je zrcadlové: první báseň souvisí s poslední, druhá s předposlední a tak dále. Úvodní Kytice a závěrečná Věštkyně sbírku rámují.",
     "postavy": [
       {
-        "name": "Vypravěč",
-        "desc": "Sám autor; zatčení líčí s nadhledem a humorem."
+        "name": "Matka (Polednice)",
+        "desc": "V hněvu přivolá na dítě polednici a o dítě přijde."
       },
       {
-        "name": "Komisař Dedera",
-        "desc": "Policejní úředník, který autora zatýká."
+        "name": "Vodník a dcera (Vodník)",
+        "desc": "Dívka neposlechne matku, stane se vodníkovou ženou; vodník se pomstí na jejich dítěti."
       },
       {
-        "name": "Alexander Bach",
-        "desc": "Ministr vnitra, zosobnění absolutistického režimu."
+        "name": "Matka (Poklad)",
+        "desc": "Zaslepená bohatstvím zapomene dítě ve skále; po roce pokání je dostane zpět."
+      },
+      {
+        "name": "Dívka (Svatební košile)",
+        "desc": "Rouhá se, přivolá mrtvého milého; zachrání ji pokání a modlitba."
       }
     ],
-    "jazyk": "Hovorový jazyk, ironie, sarkasmus, forma blízká lidové písni (čtyřverší).",
-    "kontext": "Havlíček byl novinář, zakladatel české politické žurnalistiky. Další satiry: Král Lávra, Křest svatého Vladimíra.",
-    "skupina": 2
+    "jazyk": "Úsporný, sevřený jazyk blízký lidové písni. Krátké verše, dialogy bez uvozovacích vět, zvukomalba, epizeuxis, rychlý dramatický spád.",
+    "kontext": "Erben byl sběratel lidové slovesnosti a archivář. Balady vycházejí z lidových pověstí a bájí. Na rozdíl od Máchy se u Erbena člověk řádu podřizuje a vzpoura je potrestána.",
+    "ukazka": {
+      "text": "U lavice dítě stálo,\nz plna hrdla křičelo.\n„Bodejž jsi jen trochu málo,\nty cikáně, mlčelo!“",
+      "note": "Polednice. Rým střídavý (ABAB), trochej, přímá řeč bez uvozovací věty."
+    },
+    "skupina": 2,
+    "forma": "Poezie"
+  },
+  {
+    "id": "pani-bovaryova",
+    "title": "Paní Bovaryová",
+    "author": "Gustave Flaubert",
+    "year": "1857",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Realistický román",
+    "period": "Francouzský realismus",
+    "tema": "Venkovská lékařova žena Ema hledá romantickou lásku z knih, upadá do dluhů a spáchá sebevraždu.",
+    "postavy": [
+      {
+        "name": "Ema Bovaryová",
+        "desc": "snivá a nespokojená žena"
+      },
+      {
+        "name": "Karel Bovary",
+        "desc": "její manžel, venkovský lékař"
+      },
+      {
+        "name": "Rodolphe a Léon",
+        "desc": "milenci"
+      }
+    ],
+    "kontext": "Flaubert byl za román souzen pro urážku mravnosti a osvobozen."
+  },
+  {
+    "id": "revizor",
+    "title": "Revizor",
+    "author": "Nikolaj Vasiljevič Gogol",
+    "year": "1836",
+    "period": "Ruský realismus",
+    "druh": "Drama",
+    "zanr": "Satirická komedie o pěti dějstvích",
+    "tema": "Kritika úplatkářství, hlouposti a servility úředníků v carském Rusku.",
+    "motivy": [
+      "korupce",
+      "strach",
+      "pokrytectví",
+      "omyl",
+      "zneužití moci"
+    ],
+    "casoprostor": "Malé ruské provinční město, první polovina 19. století.",
+    "kompozice": "Pět dějství, chronologický děj. Zápletka stojí na omylu. Hra končí němou scénou po zprávě o příjezdu skutečného revizora.",
+    "postavy": [
+      {
+        "name": "Chlestakov",
+        "desc": "Mladý petrohradský úředníček, lehkomyslný chvastoun. Omylu města ochotně využije."
+      },
+      {
+        "name": "Hejtman",
+        "desc": "Představený města, zkorumpovaný a vypočítavý."
+      },
+      {
+        "name": "Anna Andrejevna a Marja Antonovna",
+        "desc": "Hejtmanova žena a dcera, obě se o Chlestakova ucházejí."
+      },
+      {
+        "name": "Osip",
+        "desc": "Chlestakovův sluha, chytřejší než jeho pán."
+      },
+      {
+        "name": "Bobčinskij a Dobčinskij",
+        "desc": "Statkáři a klepaři, kteří omyl způsobí."
+      }
+    ],
+    "jazyk": "Hovorový jazyk, charakterizační jména, ironie, satira, situační komika.",
+    "kontext": "Mottem hry je přísloví Nenadávej na zrcadlo, když máš křivou hubu. Další Gogolova díla: Mrtvé duše, Petrohradské povídky.",
+    "skupina": 2,
+    "forma": "Drama"
+  },
+  {
+    "id": "bidnici",
+    "title": "Bídníci",
+    "author": "Victor Hugo",
+    "year": "1862",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Francouzský romantismus",
+    "tema": "Bývalý galejník Jean Valjean se snaží žít poctivě a pomáhat druhým, pronásleduje ho policista Javert.",
+    "postavy": [
+      {
+        "name": "Jean Valjean",
+        "desc": "bývalý trestanec"
+      },
+      {
+        "name": "Javert",
+        "desc": "policista"
+      },
+      {
+        "name": "Fantine",
+        "desc": "chudá dělnice"
+      },
+      {
+        "name": "Cosette",
+        "desc": "její dcera"
+      },
+      {
+        "name": "Marius",
+        "desc": "student"
+      }
+    ]
+  },
+  {
+    "id": "chram-matky-bozi-v-parizi",
+    "title": "Chrám Matky Boží v Paříži",
+    "author": "Victor Hugo",
+    "year": "1831",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Historický román",
+    "period": "Francouzský romantismus",
+    "tema": "Hrbatý zvoník Quasimodo miluje cikánku Esmeraldu, kterou zničí posedlost arciděkana Frolla.",
+    "postavy": [
+      {
+        "name": "Quasimodo",
+        "desc": "zvoník"
+      },
+      {
+        "name": "Esmeralda",
+        "desc": "tanečnice"
+      },
+      {
+        "name": "Claude Frollo",
+        "desc": "arciděkan"
+      },
+      {
+        "name": "Phoebus",
+        "desc": "kapitán"
+      }
+    ]
+  },
+  {
+    "id": "muzikantska-liduska",
+    "title": "Muzikantská Liduška",
+    "author": "Vítězslav Hálek",
+    "year": "1861",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Povídka",
+    "period": "Májovci",
+    "tema": "Venkovská povídka o lásce a o vztahu chudých a bohatých na vesnici.",
+    "overit": true
+  },
+  {
+    "id": "nora",
+    "title": "Nora",
+    "author": "Henrik Ibsen",
+    "year": "1879",
+    "skupina": 2,
+    "forma": "Drama",
+    "druh": "Drama",
+    "zanr": "Drama",
+    "period": "Severský realismus",
+    "tema": "Nora zjistí, že je pro manžela jen hračkou, a odchází z domova.",
+    "postavy": [
+      {
+        "name": "Nora Helmerová",
+        "desc": ""
+      },
+      {
+        "name": "Torvald Helmer",
+        "desc": "její manžel, bankéř"
+      },
+      {
+        "name": "Krogstad",
+        "desc": "úředník, který Noru vydírá"
+      }
+    ],
+    "kontext": "Hra se jmenuje také Domeček pro panenky."
+  },
+  {
+    "id": "filosofska-historie",
+    "title": "Filosofská historie",
+    "author": "Alois Jirásek",
+    "year": "1878",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Novela",
+    "period": "Realismus (historická próza)",
+    "tema": "Studenti filozofie v Litomyšli v revolučním roce 1848."
+  },
+  {
+    "id": "kulicka",
+    "title": "Kulička",
+    "author": "Guy de Maupassant",
+    "year": "1880",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Povídka",
+    "period": "Naturalismus",
+    "tema": "Prostitutka Kulička se obětuje pro spolucestující, kteří jí pak opovrhují. Pokrytectví měšťanů.",
+    "postavy": [
+      {
+        "name": "Kulička",
+        "desc": "prostitutka"
+      }
+    ]
+  },
+  {
+    "id": "milacek",
+    "title": "Miláček",
+    "author": "Guy de Maupassant",
+    "year": "1885",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Francouzský realismus",
+    "tema": "Bezskrupulózní Georges Duroy využívá ženy a novinařinu ke kariéře v Paříži.",
+    "postavy": [
+      {
+        "name": "Georges Duroy",
+        "desc": "hlavní postava"
+      }
+    ]
+  },
+  {
+    "id": "marysa",
+    "title": "Maryša",
+    "author": "Alois a Vilém Mrštíkové",
+    "year": "1894",
+    "period": "Realismus",
+    "druh": "Drama",
+    "zanr": "Tragédie o pěti dějstvích",
+    "tema": "Sňatek z rozumu vynucený rodiči a jeho tragické důsledky.",
+    "motivy": [
+      "peníze",
+      "majetek",
+      "vynucený sňatek",
+      "láska",
+      "vzdor",
+      "vražda"
+    ],
+    "casoprostor": "Moravská vesnice, konec 19. století.",
+    "kompozice": "Pět dějství, chronologický děj s klasickou stavbou dramatu.",
+    "postavy": [
+      {
+        "name": "Maryša",
+        "desc": "Dcera sedláka Lízala. Je donucena vzít si Vávru; nakonec ho otráví."
+      },
+      {
+        "name": "Francek",
+        "desc": "Chudý chasník, Maryšina láska."
+      },
+      {
+        "name": "Vávra",
+        "desc": "Mlynář, starší vdovec, hrubý a lakomý."
+      },
+      {
+        "name": "Lízal a Lízalka",
+        "desc": "Maryšini rodiče; jde jim o majetek a o to, co řeknou lidé."
+      }
+    ],
+    "jazyk": "Moravské nářečí, krátké repliky, lidová mluva.",
+    "kontext": "Námět vychází ze skutečné události. Jedno z nejhranějších českých dramat.",
+    "skupina": 2,
+    "forma": "Drama"
+  },
+  {
+    "id": "marinka",
+    "title": "Marinka",
+    "author": "Karel Hynek Mácha",
+    "year": "1834",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Povídka",
+    "period": "Romantismus",
+    "tema": "Vypravěč vzpomíná na chudou dívku Marinku z pražského předměstí, která předčasně zemře.",
+    "postavy": [
+      {
+        "name": "Marinka",
+        "desc": "chudá dívka"
+      }
+    ]
+  },
+  {
+    "id": "maj",
+    "title": "Máj",
+    "author": "Karel Hynek Mácha",
+    "year": "1836",
+    "period": "Romantismus",
+    "druh": "Lyrickoepický",
+    "zanr": "Básnická skladba (poéma)",
+    "tema": "Tragický příběh lásky, viny a trestu. Úvahy o smyslu života, o smrti a o tom, co je po ní.",
+    "motivy": [
+      "láska",
+      "žárlivost",
+      "vina a trest",
+      "příroda",
+      "noc",
+      "smrt",
+      "nicota",
+      "vlast"
+    ],
+    "casoprostor": "Okolí Bezdězu a Doksů (dnešní Máchovo jezero). Děj se odehrává během dvou májových dnů, čtvrtý zpěv o sedm let později na Silvestra a pak znovu 1. máje.",
+    "kompozice": "Čtyři zpěvy a dvě intermezza. Děj je potlačený a podává se neúplně, převažují lyrické popisy přírody a Vilémovy úvahy. Příběh rámuje motiv máje.",
+    "postavy": [
+      {
+        "name": "Vilém",
+        "desc": "„Strašný lesů pán“, vůdce loupežníků. Zabije svůdce své milé a netuší, že je to jeho otec. Typický romantický hrdina – vyvrženec v rozporu se společností."
+      },
+      {
+        "name": "Jarmila",
+        "desc": "Vilémova milá. Po zprávě o jeho odsouzení se utopí v jezeře."
+      },
+      {
+        "name": "Hynek",
+        "desc": "Poutník ve čtvrtém zpěvu. Ztotožňuje se s Vilémovým osudem; splývá se samotným autorem."
+      }
+    ],
+    "jazyk": "Spisovný básnický jazyk, jamb (v české poezii do té doby vzácný). Bohatá zvukomalba, metafory, personifikace, oxymóron („mrtvé milenky cit“), kontrasty a barevnost.",
+    "kontext": "Vrcholné dílo českého romantismu. Soudobá kritika je odmítla, protože nesloužilo vlasteneckým cílům národního obrození; docenila je až generace májovců.",
+    "ukazka": {
+      "text": "Byl pozdní večer – první máj –\nvečerní máj – byl lásky čas.\nHrdliččin zval ku lásce hlas,\nkde borový zaváněl háj.",
+      "note": "Úvod prvního zpěvu. Rým obkročný (ABBA), jambický verš, lyrický popis přírody."
+    },
+    "skupina": 2,
+    "forma": "Poezie"
   },
   {
     "id": "povidky-malostranske",
@@ -578,48 +1287,1324 @@
     ],
     "jazyk": "Spisovný jazyk s hovorovými prvky a germanismy, ironie, humor, časté ich-formové vzpomínky.",
     "kontext": "Neruda na Malé Straně vyrostl. Psal také poezii (Balady a romance, Písně kosmické) a fejetony.",
-    "skupina": 2
+    "skupina": 2,
+    "forma": "Próza"
   },
   {
-    "id": "marysa",
-    "title": "Maryša",
-    "author": "Alois a Vilém Mrštíkové",
-    "year": "1894",
-    "period": "Realismus",
-    "druh": "Drama",
-    "zanr": "Tragédie o pěti dějstvích",
-    "tema": "Sňatek z rozumu vynucený rodiči a jeho tragické důsledky.",
+    "id": "babicka",
+    "title": "Babička",
+    "author": "Božena Němcová",
+    "year": "1855",
+    "period": "Národní obrození, přechod od romantismu k realismu",
+    "druh": "Epika",
+    "zanr": "Rozsáhlá povídka (obrazy venkovského života)",
+    "tema": "Idealizovaný obraz venkovského života a moudré, laskavé ženy, která žije v souladu s přírodou a s lidmi.",
     "motivy": [
-      "peníze",
-      "majetek",
-      "vynucený sňatek",
+      "rodina",
       "láska",
-      "vzdor",
-      "vražda"
+      "víra",
+      "lidové zvyky",
+      "příroda",
+      "vlastenectví"
     ],
-    "casoprostor": "Moravská vesnice, konec 19. století.",
-    "kompozice": "Pět dějství, chronologický děj s klasickou stavbou dramatu.",
+    "casoprostor": "Ratibořické údolí, Staré bělidlo; první polovina 19. století.",
+    "kompozice": "Osmnáct kapitol. První část líčí babiččin příjezd a běžný den, další řadí události podle ročních období. Vložené příběhy: Viktorka, Kristla a Míla, babiččino mládí.",
     "postavy": [
       {
-        "name": "Maryša",
-        "desc": "Dcera sedláka Lízala. Je donucena vzít si Vávru; nakonec ho otráví."
+        "name": "Babička",
+        "desc": "Magdaléna Novotná, prostá, zbožná a moudrá žena; pro všechny přirozená autorita."
       },
       {
-        "name": "Francek",
-        "desc": "Chudý chasník, Maryšina láska."
+        "name": "Barunka",
+        "desc": "Nejstarší vnučka, babičce nejbližší; má rysy autorky."
       },
       {
-        "name": "Vávra",
-        "desc": "Mlynář, starší vdovec, hrubý a lakomý."
+        "name": "Paní kněžna",
+        "desc": "Majitelka panství, babičky si váží."
       },
       {
-        "name": "Lízal a Lízalka",
-        "desc": "Maryšini rodiče; jde jim o majetek a o to, co řeknou lidé."
+        "name": "Komtesa Hortensie",
+        "desc": "Kněžnina schovanka."
+      },
+      {
+        "name": "Viktorka",
+        "desc": "Dívka, která se po nešťastné lásce k vojákovi pomátla."
       }
     ],
-    "jazyk": "Moravské nářečí, krátké repliky, lidová mluva.",
-    "kontext": "Námět vychází ze skutečné události. Jedno z nejhranějších českých dramat.",
-    "skupina": 2
+    "jazyk": "Spisovný jazyk, lidová rčení a přísloví, nářeční a zastaralé výrazy. Er-forma.",
+    "kontext": "Němcová knihu psala po smrti syna Hynka jako návrat do šťastného dětství. Další díla: Divá Bára, V zámku a v podzámčí.",
+    "skupina": 2,
+    "forma": "Próza"
+  },
+  {
+    "id": "diva-bara",
+    "title": "Divá Bára",
+    "author": "Božena Němcová",
+    "year": "1856",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Povídka",
+    "period": "Národní obrození, přechod k realismu",
+    "tema": "Bára se vymyká vesnickým zvyklostem a čelí pověrám a předsudkům.",
+    "postavy": [
+      {
+        "name": "Bára",
+        "desc": "dcera obecního pastýře"
+      },
+      {
+        "name": "Elška",
+        "desc": "její přítelkyně"
+      }
+    ]
+  },
+  {
+    "id": "karla",
+    "title": "Karla",
+    "author": "Božena Němcová",
+    "year": "1855",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Povídka",
+    "period": "Národní obrození, přechod k realismu",
+    "tema": "Chlapec vychovávaný jako děvče, aby ho nevzali na vojnu, a život chodské vesnice.",
+    "postavy": [
+      {
+        "name": "Karla",
+        "desc": "chlapec vychovávaný jako dívka"
+      }
+    ],
+    "overit": true
+  },
+  {
+    "id": "v-zamku-a-v-podzamci",
+    "title": "V zámku a v podzámčí",
+    "author": "Božena Němcová",
+    "year": "1856",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Povídka",
+    "period": "Národní obrození, přechod k realismu",
+    "tema": "Kontrast sobecké zámecké paní a chudých lidí z podzámčí.",
+    "postavy": [
+      {
+        "name": "Paní Skočdopolová",
+        "desc": "majitelka zámku"
+      }
+    ]
+  },
+  {
+    "id": "havran",
+    "title": "Havran",
+    "author": "Edgar Allan Poe",
+    "year": "1845",
+    "period": "Americký romantismus",
+    "druh": "Lyrickoepický",
+    "zanr": "Báseň s rysy balady",
+    "tema": "Bolest nad ztrátou milované ženy a beznaděj z toho, že se už nikdy nevrátí.",
+    "motivy": [
+      "smrt",
+      "žal",
+      "samota",
+      "noc",
+      "beznaděj",
+      "tajemno"
+    ],
+    "casoprostor": "Pokoj lyrického hrdiny, prosincová půlnoc.",
+    "kompozice": "Osmnáct slok po šesti verších. Napětí stupňuje refrén Nevermore (Nikdy víc), kterým havran odpovídá na stále zoufalejší otázky.",
+    "postavy": [
+      {
+        "name": "Lyrický hrdina",
+        "desc": "Osamělý muž truchlící pro zemřelou Lenoru."
+      },
+      {
+        "name": "Havran",
+        "desc": "Tajemný pták, symbol osudu a neodvratnosti smrti."
+      },
+      {
+        "name": "Lenora",
+        "desc": "Zemřelá milá, v básni jen vzpomínaná."
+      }
+    ],
+    "jazyk": "Zvukomalba, aliterace, vnitřní rýmy, opakování slov, pravidelný rytmus. Ponurá atmosféra.",
+    "kontext": "Poe svůj postup vyložil v eseji Filozofie básnické skladby. Je považován za zakladatele detektivky (Vraždy v ulici Morgue) a mistra hororové povídky (Jáma a kyvadlo).",
+    "skupina": 2,
+    "forma": "Poezie"
+  },
+  {
+    "id": "jama-a-kyvadlo",
+    "title": "Jáma a kyvadlo a jiné fantastické povídky",
+    "author": "Edgar Allan Poe",
+    "year": "1842 a další",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Fantastické povídky",
+    "period": "Americký romantismus",
+    "tema": "Vězeň inkvizice čelí smrtícímu kyvadlu; strach a napětí."
+  },
+  {
+    "id": "cerny-kocour",
+    "title": "Černý kocour a jiné hororové povídky",
+    "author": "Edgar Allan Poe",
+    "year": "1843 a další",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Hororové povídky",
+    "period": "Americký romantismus",
+    "tema": "Šílenství, vina a smrt. Vypravěč Černého kocoura se pod vlivem alkoholu stane vrahem."
+  },
+  {
+    "id": "evzen-onegin",
+    "title": "Evžen Oněgin",
+    "author": "Alexandr Sergejevič Puškin",
+    "year": "1833",
+    "skupina": 2,
+    "forma": "Poezie",
+    "druh": "Lyrickoepický",
+    "zanr": "Román ve verších",
+    "period": "Ruský romantismus",
+    "tema": "Znuděný šlechtic Oněgin odmítne lásku Taťány. Když ji později miluje, je už vdaná.",
+    "postavy": [
+      {
+        "name": "Evžen Oněgin",
+        "desc": ""
+      },
+      {
+        "name": "Taťána Larinová",
+        "desc": ""
+      },
+      {
+        "name": "Lenskij",
+        "desc": "básník, kterého Oněgin zabije v souboji"
+      },
+      {
+        "name": "Olga",
+        "desc": "Taťánina sestra"
+      }
+    ]
+  },
+  {
+    "id": "pikova-dama",
+    "title": "Piková dáma",
+    "author": "Alexandr Sergejevič Puškin",
+    "year": "1834",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Novela",
+    "period": "Ruský romantismus",
+    "tema": "Důstojník Hermann chce vyzvědět tajemství tří vyhrávajících karet a zešílí.",
+    "postavy": [
+      {
+        "name": "Hermann",
+        "desc": "důstojník"
+      },
+      {
+        "name": "Hraběnka",
+        "desc": "stará dáma, která tajemství zná"
+      }
+    ]
+  },
+  {
+    "id": "kalibuv-zlocin",
+    "title": "Kalibův zločin",
+    "author": "Karel Václav Rais",
+    "year": "1895",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Realistický román",
+    "period": "Realismus (venkovská próza)",
+    "tema": "Chudoba a hamižnost dovedou venkovskou rodinu k zločinu.",
+    "overit": true
+  },
+  {
+    "id": "ivanhoe",
+    "title": "Ivanhoe",
+    "author": "Walter Scott",
+    "year": "1819",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Historický román",
+    "period": "Anglický romantismus",
+    "tema": "Rytíř Ivanhoe ve 12. století; spory Sasů a Normanů a návrat krále Richarda Lví srdce.",
+    "postavy": [
+      {
+        "name": "Ivanhoe",
+        "desc": "rytíř"
+      },
+      {
+        "name": "Richard Lví srdce",
+        "desc": ""
+      },
+      {
+        "name": "Rebeka",
+        "desc": "židovská dívka"
+      }
+    ]
+  },
+  {
+    "id": "zvony-a-zvonky",
+    "title": "Zvony a zvonky",
+    "author": "Josef Václav Sládek",
+    "year": "1894",
+    "skupina": 2,
+    "forma": "Poezie",
+    "druh": "Lyrika",
+    "zanr": "Básnická sbírka pro děti",
+    "period": "Česká poezie konce 19. století",
+    "tema": "Dětská poezie o přírodě a venkově."
+  },
+  {
+    "id": "kvety-intimnich-nalad",
+    "title": "Květy intimních nálad",
+    "author": "Antonín Sova",
+    "year": "1897",
+    "skupina": 2,
+    "forma": "Poezie",
+    "druh": "Lyrika",
+    "zanr": "Básnická sbírka",
+    "period": "Impresionismus",
+    "tema": "Impresionistické obrazy přírody a intimní city."
+  },
+  {
+    "id": "cerveny-a-cerny",
+    "title": "Červený a černý",
+    "author": "Stendhal",
+    "year": "1830",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Francouzský realismus",
+    "tema": "Ctižádostivý syn tesaře Julien Sorel se snaží prosadit ve společnosti.",
+    "postavy": [
+      {
+        "name": "Julien Sorel",
+        "desc": ""
+      },
+      {
+        "name": "Paní de Rênal",
+        "desc": ""
+      },
+      {
+        "name": "Matylda de la Mole",
+        "desc": ""
+      }
+    ]
+  },
+  {
+    "id": "jekyll-a-hyde",
+    "title": "Podivný případ dr. Jekylla a pana Hyda",
+    "author": "Robert Louis Stevenson",
+    "year": "1886",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Novela",
+    "period": "Anglická literatura 19. století",
+    "tema": "Dvojí tvář člověka: lékař Jekyll se proměňuje ve zlého pana Hyda.",
+    "postavy": [
+      {
+        "name": "Dr. Jekyll",
+        "desc": ""
+      },
+      {
+        "name": "Pan Hyde",
+        "desc": ""
+      },
+      {
+        "name": "Utterson",
+        "desc": "právník"
+      }
+    ]
+  },
+  {
+    "id": "vesnicky-roman",
+    "title": "Vesnický román",
+    "author": "Karolína Světlá",
+    "year": "1867",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Májovci (ještědské romány)",
+    "tema": "Nešťastné manželství a mravní síla člověka na vesnici pod Ještědem.",
+    "overit": true
+  },
+  {
+    "id": "anna-karenina",
+    "title": "Anna Karenina",
+    "author": "Lev Nikolajevič Tolstoj",
+    "year": "1877",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Ruský realismus",
+    "tema": "Anna opustí manžela pro důstojníka Vronského, je odvržena společností a spáchá sebevraždu.",
+    "postavy": [
+      {
+        "name": "Anna Karenina",
+        "desc": ""
+      },
+      {
+        "name": "Alexej Vronskij",
+        "desc": ""
+      },
+      {
+        "name": "Konstantin Levin",
+        "desc": ""
+      }
+    ]
+  },
+  {
+    "id": "strakonicky-dudak",
+    "title": "Strakonický dudák",
+    "author": "Josef Kajetán Tyl",
+    "year": "1847",
+    "skupina": 2,
+    "forma": "Drama",
+    "druh": "Drama",
+    "zanr": "Dramatická báchorka",
+    "period": "Národní obrození",
+    "tema": "Dudák Švanda odchází do světa za bohatstvím a vrací se k věrné Dorotce.",
+    "postavy": [
+      {
+        "name": "Švanda",
+        "desc": "dudák"
+      },
+      {
+        "name": "Dorotka",
+        "desc": "jeho milá"
+      },
+      {
+        "name": "Rosava",
+        "desc": "jeho matka, lesní panna"
+      },
+      {
+        "name": "Vocilka",
+        "desc": "šejdíř"
+      }
+    ]
+  },
+  {
+    "id": "patnactilety-kapitan",
+    "title": "Patnáctiletý kapitán",
+    "author": "Jules Verne",
+    "year": "1878",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Dobrodružný román",
+    "period": "Francouzská literatura 19. století",
+    "tema": "Plavčík Dick Sand musí převzít velení lodi a zachraňuje posádku v Africe.",
+    "postavy": [
+      {
+        "name": "Dick Sand",
+        "desc": "plavčík"
+      },
+      {
+        "name": "Negoro",
+        "desc": "zrádce"
+      }
+    ]
+  },
+  {
+    "id": "noc-na-karlstejne",
+    "title": "Noc na Karlštejně",
+    "author": "Jaroslav Vrchlický",
+    "year": "1884",
+    "skupina": 2,
+    "forma": "Drama",
+    "druh": "Drama",
+    "zanr": "Komedie",
+    "period": "Lumírovci",
+    "tema": "Císař Karel IV. zakázal ženám vstup na Karlštejn. Jeho žena a mladá Alena se tam dostanou v převleku.",
+    "postavy": [
+      {
+        "name": "Karel IV.",
+        "desc": ""
+      },
+      {
+        "name": "Císařovna Eliška",
+        "desc": ""
+      },
+      {
+        "name": "Alena",
+        "desc": "neteř purkrabího"
+      }
+    ]
+  },
+  {
+    "id": "jak-je-dulezite-miti-filipa",
+    "title": "Jak je důležité míti Filipa",
+    "author": "Oscar Wilde",
+    "year": "1895",
+    "skupina": 2,
+    "forma": "Drama",
+    "druh": "Drama",
+    "zanr": "Komedie",
+    "period": "Dekadence, estetismus",
+    "tema": "Dva mladí muži se vydávají za Filipa. Satira na viktoriánskou společnost.",
+    "postavy": [
+      {
+        "name": "Jack Worthing",
+        "desc": ""
+      },
+      {
+        "name": "Algernon Moncrieff",
+        "desc": ""
+      },
+      {
+        "name": "Gwendolena a Cecílie",
+        "desc": ""
+      }
+    ]
+  },
+  {
+    "id": "obraz-doriana-graye",
+    "title": "Obraz Doriana Graye",
+    "author": "Oscar Wilde",
+    "year": "1891",
+    "period": "Dekadence, estetismus",
+    "druh": "Epika",
+    "zanr": "Román s prvky hororu",
+    "tema": "Touha po věčném mládí a kráse a mravní úpadek člověka, který za ně zaplatí duší.",
+    "motivy": [
+      "krása",
+      "mládí",
+      "svědomí",
+      "požitkářství",
+      "zločin",
+      "umění"
+    ],
+    "casoprostor": "Londýn, konec 19. století.",
+    "kompozice": "Dvacet kapitol, chronologický děj s časovým skokem osmnácti let.",
+    "postavy": [
+      {
+        "name": "Dorian Gray",
+        "desc": "Krásný mladík. Přeje si, aby místo něj stárnul jeho portrét; přání se splní a obraz nese stopy jeho hříchů."
+      },
+      {
+        "name": "Lord Henry Wotton",
+        "desc": "Cynický aristokrat, který Doriana svými názory zkazí."
+      },
+      {
+        "name": "Basil Hallward",
+        "desc": "Malíř portrétu, Dorianem zavražděn."
+      },
+      {
+        "name": "Sibyla Vaneová",
+        "desc": "Mladá herečka; po Dorianově odmítnutí spáchá sebevraždu."
+      }
+    ],
+    "jazyk": "Er-forma, vybroušené dialogy plné aforismů a paradoxů, popisy uměleckých předmětů.",
+    "kontext": "Jediný Wildův román. Psal také komedie (Jak je důležité míti Filipa) a pohádky (Šťastný princ).",
+    "skupina": 2,
+    "forma": "Próza"
+  },
+  {
+    "id": "stastny-princ",
+    "title": "Šťastný princ a jiné pohádky",
+    "author": "Oscar Wilde",
+    "year": "1888",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Pohádky",
+    "period": "Dekadence, estetismus",
+    "tema": "Socha prince s pomocí vlaštovky rozdá své zlato chudým. Obětavost a soucit.",
+    "postavy": [
+      {
+        "name": "Šťastný princ",
+        "desc": "socha"
+      },
+      {
+        "name": "Vlaštovka",
+        "desc": ""
+      }
+    ]
+  },
+  {
+    "id": "raduz-a-mahulena",
+    "title": "Radúz a Mahulena",
+    "author": "Julius Zeyer",
+    "year": "1898",
+    "skupina": 2,
+    "forma": "Drama",
+    "druh": "Drama",
+    "zanr": "Pohádková hra",
+    "period": "Novoromantismus",
+    "tema": "Láska prince Radúze a princezny Mahuleny překoná kletbu.",
+    "postavy": [
+      {
+        "name": "Radúz",
+        "desc": ""
+      },
+      {
+        "name": "Mahulena",
+        "desc": ""
+      },
+      {
+        "name": "Runa",
+        "desc": "Radúzova matka"
+      }
+    ]
+  },
+  {
+    "id": "zabijak",
+    "title": "Zabiják",
+    "author": "Émile Zola",
+    "year": "1877",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Naturalistický román",
+    "period": "Naturalismus",
+    "tema": "Pradlena Gervaisa a její pád způsobený alkoholismem v pařížské chudinské čtvrti.",
+    "postavy": [
+      {
+        "name": "Gervaisa",
+        "desc": ""
+      },
+      {
+        "name": "Coupeau",
+        "desc": "její manžel"
+      }
+    ]
+  },
+  {
+    "id": "novy-epochalni-vylet-pana-broucka",
+    "title": "Nový epochální výlet pana Broučka, tentokráte do XV. století",
+    "author": "Svatopluk Čech",
+    "year": "1888",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Satirický román",
+    "period": "Česká literatura 2. poloviny 19. století, ruchovci",
+    "tema": "Pražský měšťák Brouček se ocitne v husitské Praze roku 1420. Jeho zbabělost a pohodlnost kontrastují s hrdinstvím husitů.",
+    "postavy": [
+      {
+        "name": "Matěj Brouček",
+        "desc": "domácí pán, požitkář a zbabělec"
+      }
+    ],
+    "kontext": "Navazuje na Pravý výlet pana Broučka do Měsíce. Leoš Janáček podle obou napsal operu."
+  },
+  {
+    "id": "kure-melancholik",
+    "title": "Kuře melancholik",
+    "author": "Josef Karel Šlejhar",
+    "year": "1889",
+    "skupina": 2,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Povídka",
+    "period": "Naturalismus",
+    "tema": "Osamělé kuře, které nezapadne mezi ostatní, je ostatními ubito. Obraz krutosti a samoty."
+  },
+  {
+    "id": "bez-peri",
+    "title": "Bez peří",
+    "author": "Woody Allen",
+    "year": "1975",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Soubor humoristických povídek a parodií",
+    "period": "Americká literatura 20. století",
+    "tema": "Absurdní humor, parodie filozofických a literárních textů a každodenní neurózy moderního člověka.",
+    "kontext": "Allen je známý hlavně jako filmový režisér a scenárista."
+  },
+  {
+    "id": "ohen",
+    "title": "Oheň",
+    "author": "Henri Barbusse",
+    "year": "1916",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Válečný román (deník čety)",
+    "period": "Světová literatura 20. století",
+    "tema": "Každodenní utrpení obyčejných vojáků v zákopech první světové války.",
+    "postavy": [
+      {
+        "name": "Vypravěč",
+        "desc": "voják, který zapisuje osudy své čety"
+      }
+    ],
+    "kontext": "Román získal Goncourtovu cenu a patří k prvním protiválečným knihám."
+  },
+  {
+    "id": "cekani-na-godota",
+    "title": "Čekání na Godota",
+    "author": "Samuel Beckett",
+    "year": "1952",
+    "skupina": 3,
+    "forma": "Drama",
+    "druh": "Drama",
+    "zanr": "Absurdní drama o dvou dějstvích",
+    "period": "Divadlo absurdity",
+    "tema": "Nesmyslné čekání na někoho, kdo nepřichází. Prázdnota a bezcílnost lidské existence.",
+    "postavy": [
+      {
+        "name": "Vladimír a Estragon",
+        "desc": "tuláci, kteří čekají na Godota"
+      },
+      {
+        "name": "Pozzo a Lucky",
+        "desc": "pán a sluha, kterého vede na provaze"
+      },
+      {
+        "name": "Chlapec",
+        "desc": "posel, který ohlašuje, že Godot přijde zítra"
+      }
+    ],
+    "kontext": "Beckett získal Nobelovu cenu za literaturu (1969)."
+  },
+  {
+    "id": "451-stupnu-fahrenheita",
+    "title": "451 stupňů Fahrenheita",
+    "author": "Ray Bradbury",
+    "year": "1953",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Antiutopický román",
+    "period": "Americká vědeckofantastická literatura",
+    "tema": "Společnost, která pálí knihy a otupuje lidi zábavou. Hasič Guy Montag začne pochybovat a knihy zachraňovat.",
+    "postavy": [
+      {
+        "name": "Guy Montag",
+        "desc": "hasič, který pálí knihy"
+      },
+      {
+        "name": "Clarissa",
+        "desc": "dívka, která ho přiměje přemýšlet"
+      },
+      {
+        "name": "Beatty",
+        "desc": "velitel hasičů"
+      },
+      {
+        "name": "Faber",
+        "desc": "bývalý profesor"
+      }
+    ],
+    "kontext": "451 °F je teplota, při které se vznítí papír."
+  },
+  {
+    "id": "mechanicky-pomeranc",
+    "title": "Mechanický pomeranč",
+    "author": "Anthony Burgess",
+    "year": "1962",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Antiutopický román",
+    "period": "Světová literatura 20. století",
+    "tema": "Násilí, svobodná vůle a stát, který mladého delikventa „vyléčí“ ze zla převýchovou.",
+    "postavy": [
+      {
+        "name": "Alex",
+        "desc": "patnáctiletý vůdce gangu a vypravěč, miluje Beethovena"
+      }
+    ],
+    "kontext": "Postavy mluví slangem nadsat, který vychází z ruštiny. Film natočil Stanley Kubrick."
+  },
+  {
+    "id": "biliar-o-pul-desate",
+    "title": "Biliár o půl desáté",
+    "author": "Heinrich Böll",
+    "year": "1959",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Německá poválečná literatura",
+    "tema": "Tři generace rodiny architektů Fähmelů se během jediného dne vyrovnávají s nacistickou minulostí.",
+    "postavy": [
+      {
+        "name": "Heinrich Fähmel",
+        "desc": "architekt, který postavil opatství"
+      },
+      {
+        "name": "Robert Fähmel",
+        "desc": "jeho syn, který opatství za války vyhodil do vzduchu"
+      },
+      {
+        "name": "Johanna",
+        "desc": "Heinrichova žena"
+      }
+    ],
+    "kontext": "Böll získal Nobelovu cenu za literaturu (1972)."
+  },
+  {
+    "id": "cizinec",
+    "title": "Cizinec",
+    "author": "Albert Camus",
+    "year": "1942",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Novela",
+    "period": "Existencialismus",
+    "tema": "Lhostejný Meursault zabije Araba a je odsouzen spíš za to, že neplakal na matčině pohřbu. Absurdita lidského života.",
+    "postavy": [
+      {
+        "name": "Meursault",
+        "desc": "úředník a vypravěč"
+      },
+      {
+        "name": "Marie",
+        "desc": "jeho dívka"
+      },
+      {
+        "name": "Raymond",
+        "desc": "soused"
+      }
+    ],
+    "kontext": "Camus získal Nobelovu cenu za literaturu (1957)."
+  },
+  {
+    "id": "vrazda-v-orient-expresu",
+    "title": "Vražda v Orient expresu",
+    "author": "Agatha Christie",
+    "year": "1934",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Detektivní román",
+    "period": "Světová literatura 20. století",
+    "tema": "Hercule Poirot vyšetřuje vraždu ve vlaku, který uvízl ve sněhu. Podezřelí jsou všichni cestující.",
+    "postavy": [
+      {
+        "name": "Hercule Poirot",
+        "desc": "belgický detektiv"
+      },
+      {
+        "name": "Ratchett",
+        "desc": "zavražděný Američan s temnou minulostí"
+      }
+    ],
+    "kontext": "Christie patří k nejprodávanějším autorům na světě."
+  },
+  {
+    "id": "alchymista",
+    "title": "Alchymista",
+    "author": "Paulo Coelho",
+    "year": "1988",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Filozofický román (alegorie)",
+    "period": "Světová literatura konce 20. století",
+    "tema": "Pastýř Santiago putuje z Andalusie do Egypta za pokladem ze snu a cestou se učí naslouchat svému srdci.",
+    "postavy": [
+      {
+        "name": "Santiago",
+        "desc": "mladý pastýř"
+      },
+      {
+        "name": "Alchymista",
+        "desc": "jeho učitel"
+      },
+      {
+        "name": "Fatima",
+        "desc": "dívka z oázy"
+      }
+    ],
+    "kontext": "Jedna z nejprodávanějších knih na světě."
+  },
+  {
+    "id": "ragtime",
+    "title": "Ragtime",
+    "author": "E. L. Doctorow",
+    "year": "1975",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Historický román",
+    "period": "Světová literatura 20. století",
+    "tema": "Osudy tří rodin v Americe počátku 20. století, propojené se skutečnými osobnostmi. Rasismus a sociální nerovnost.",
+    "postavy": [
+      {
+        "name": "Coalhouse Walker",
+        "desc": "černošský pianista, který se vzepře křivdě"
+      },
+      {
+        "name": "Tateh",
+        "desc": "židovský přistěhovalec"
+      },
+      {
+        "name": "Rodina továrníka z New Rochelle",
+        "desc": ""
+      }
+    ],
+    "kontext": "Mezi postavami jsou Houdini, Henry Ford nebo Sigmund Freud."
+  },
+  {
+    "id": "pes-baskervillsky",
+    "title": "Pes baskervillský",
+    "author": "Arthur Conan Doyle",
+    "year": "1902",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Detektivní román",
+    "period": "Světová literatura 20. století",
+    "tema": "Sherlock Holmes a doktor Watson vyšetřují záhadnou smrt na blatech, kterou údajně způsobilo prokletí rodu Baskervillů.",
+    "postavy": [
+      {
+        "name": "Sherlock Holmes",
+        "desc": "detektiv"
+      },
+      {
+        "name": "Doktor Watson",
+        "desc": "jeho přítel a vypravěč"
+      },
+      {
+        "name": "Sir Henry Baskerville",
+        "desc": "dědic panství"
+      },
+      {
+        "name": "Stapleton",
+        "desc": "přírodovědec a pachatel"
+      }
+    ]
+  },
+  {
+    "id": "jmeno-ruze",
+    "title": "Jméno růže",
+    "author": "Umberto Eco",
+    "year": "1980",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Historický detektivní román",
+    "period": "Postmodernismus",
+    "tema": "Františkán Vilém z Baskervillu vyšetřuje sérii vražd v benediktinském opatství roku 1327.",
+    "postavy": [
+      {
+        "name": "Vilém z Baskervillu",
+        "desc": "učený františkán"
+      },
+      {
+        "name": "Adso z Melku",
+        "desc": "novic a vypravěč"
+      },
+      {
+        "name": "Jorge z Burgosu",
+        "desc": "slepý mnich"
+      }
+    ],
+    "kontext": "Eco byl italský sémiotik a profesor."
+  },
+  {
+    "id": "zidovka-z-toleda",
+    "title": "Židovka z Toleda",
+    "author": "Lion Feuchtwanger",
+    "year": "1955",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Historický román",
+    "period": "Světová literatura 20. století",
+    "tema": "Láska kastilského krále Alfonse VIII. a Židovky Rahel ve 12. století. Střet válečnictví a tolerance.",
+    "postavy": [
+      {
+        "name": "Alfonso VIII.",
+        "desc": "kastilský král"
+      },
+      {
+        "name": "Rahel",
+        "desc": "Židovka"
+      },
+      {
+        "name": "Jehuda Ibn Ezra",
+        "desc": "její otec, královský ministr"
+      }
+    ]
+  },
+  {
+    "id": "podivuhodny-pripad-benjamina-buttona",
+    "title": "Podivuhodný případ Benjamina Buttona",
+    "author": "Francis Scott Fitzgerald",
+    "year": "1922",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Povídka",
+    "period": "Ztracená generace",
+    "tema": "Benjamin se narodí jako stařec a s věkem mládne. Úvaha o čase a stárnutí.",
+    "postavy": [
+      {
+        "name": "Benjamin Button",
+        "desc": "hlavní postava"
+      }
+    ]
+  },
+  {
+    "id": "velky-gatsby",
+    "title": "Velký Gatsby",
+    "author": "Francis Scott Fitzgerald",
+    "year": "1925",
+    "period": "Ztracená generace",
+    "druh": "Epika",
+    "zanr": "Román",
+    "tema": "Rozpad amerického snu. Bohatství nekoupí minulost ani lásku.",
+    "motivy": [
+      "bohatství",
+      "láska",
+      "iluze",
+      "pokrytectví",
+      "americký sen"
+    ],
+    "casoprostor": "Long Island a New York, léto 1922.",
+    "kompozice": "Devět kapitol. Gatsbyho minulost se odhaluje postupně a v retrospektivách.",
+    "postavy": [
+      {
+        "name": "Jay Gatsby",
+        "desc": "Záhadný zbohatlík, pořádá okázalé večírky, aby získal zpět Daisy."
+      },
+      {
+        "name": "Nick Carraway",
+        "desc": "Vypravěč, Gatsbyho soused, pozorovatel."
+      },
+      {
+        "name": "Daisy Buchananová",
+        "desc": "Nickova sestřenice, povrchní; Gatsbyho dávná láska."
+      },
+      {
+        "name": "Tom Buchanan",
+        "desc": "Daisyin bohatý a hrubý manžel."
+      },
+      {
+        "name": "Myrtle a George Wilsonovi",
+        "desc": "Tomova milenka a její manžel, který Gatsbyho zastřelí."
+      }
+    ],
+    "jazyk": "Ich-forma, lyrické popisy, symboly (zelené světlo, oči doktora Eckleburga).",
+    "kontext": "Obraz jazzového věku 20. let. Fitzgerald patří s Hemingwayem k ztracené generaci.",
+    "skupina": 3,
+    "forma": "Próza"
+  },
+  {
+    "id": "denik-anny-frankove",
+    "title": "Deník Anny Frankové",
+    "author": "Anne Franková",
+    "year": "psáno 1942–1944, vydáno 1947",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Deník",
+    "period": "Světová literatura 20. století",
+    "tema": "Židovská dívka se dva roky s rodinou skrývá před nacisty v zadním domě v Amsterdamu.",
+    "postavy": [
+      {
+        "name": "Anna",
+        "desc": "autorka deníku"
+      },
+      {
+        "name": "Otto Frank",
+        "desc": "její otec"
+      }
+    ],
+    "kontext": "Anna zemřela v koncentračním táboře Bergen-Belsen. Deník vydal otec, jediný přeživší z rodiny."
+  },
+  {
+    "id": "opravdova-laska",
+    "title": "Opravdová láska",
+    "author": "Robert Fulghum",
+    "year": "1997",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Soubor skutečných příběhů",
+    "period": "Americká literatura konce 20. století",
+    "tema": "Příběhy o lásce, které autorovi poslali čtenáři.",
+    "kontext": "Fulghum je známý knihou Všechno, co opravdu potřebuju znát, jsem se naučil v mateřské školce."
+  },
+  {
+    "id": "kvileni",
+    "title": "Kvílení",
+    "author": "Allen Ginsberg",
+    "year": "1956",
+    "skupina": 3,
+    "forma": "Poezie",
+    "druh": "Lyrika",
+    "zanr": "Básnická skladba",
+    "period": "Beat generation",
+    "tema": "Výkřik proti konzumní a konformní Americe; nářek nad generací ničenou šílenstvím a drogami.",
+    "kontext": "Vydavatel byl souzen pro obscénnost a osvobozen."
+  },
+  {
+    "id": "muz-ktery-sazel-stromy",
+    "title": "Muž, který sázel stromy",
+    "author": "Jean Giono",
+    "year": "1953",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Novela (alegorický příběh)",
+    "period": "Světová literatura 20. století",
+    "tema": "Pastýř Elzéard Bouffier desítky let sám sází stromy a promění pustou krajinu v kvetoucí kraj.",
+    "postavy": [
+      {
+        "name": "Elzéard Bouffier",
+        "desc": "osamělý pastýř"
+      },
+      {
+        "name": "Vypravěč",
+        "desc": "poutník, který se k němu vrací"
+      }
+    ]
+  },
+  {
+    "id": "pan-much",
+    "title": "Pán much",
+    "author": "William Golding",
+    "year": "1954",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Alegorický román",
+    "period": "Světová literatura 20. století",
+    "tema": "Chlapci po havárii letadla na pustém ostrově rychle podlehnou krutosti a násilí.",
+    "postavy": [
+      {
+        "name": "Ralph",
+        "desc": "zvolený vůdce"
+      },
+      {
+        "name": "Jack",
+        "desc": "vůdce lovců"
+      },
+      {
+        "name": "Čuňas",
+        "desc": "chytrý, ale vysmívaný chlapec"
+      },
+      {
+        "name": "Simon",
+        "desc": "tichý snílek"
+      }
+    ],
+    "kontext": "Golding získal Nobelovu cenu za literaturu (1983)."
+  },
+  {
+    "id": "forrest-gump",
+    "title": "Forrest Gump",
+    "author": "Winston Groom",
+    "year": "1986",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Humoristický román",
+    "period": "Světová literatura 20. století",
+    "tema": "Prostoduchý Forrest se náhodou ocitá u velkých událostí americké historie.",
+    "postavy": [
+      {
+        "name": "Forrest Gump",
+        "desc": "vypravěč"
+      }
+    ],
+    "kontext": "Podle knihy vznikl oscarový film."
+  },
+  {
+    "id": "podivny-pripad-se-psem",
+    "title": "Podivný případ se psem",
+    "author": "Mark Haddon",
+    "year": "2003",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Britská literatura 21. století",
+    "tema": "Patnáctiletý Christopher s Aspergerovým syndromem vyšetřuje zabití sousedova psa a odhalí rodinná tajemství.",
+    "postavy": [
+      {
+        "name": "Christopher Boone",
+        "desc": "vypravěč"
+      }
+    ]
+  },
+  {
+    "id": "let-do-nebezpeci",
+    "title": "Let do nebezpečí",
+    "author": "John Castle a Arthur Hailey",
+    "year": "1958",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Thriller",
+    "period": "Světová literatura 20. století",
+    "tema": "Piloti dopravního letadla onemocní otravou z jídla a stroj musí dovést k přistání cestující, který léta neletěl.",
+    "postavy": [
+      {
+        "name": "George Spencer",
+        "desc": "cestující, bývalý válečný pilot stíhaček"
+      },
+      {
+        "name": "Janet",
+        "desc": "letuška"
+      },
+      {
+        "name": "Kapitán Treleaven",
+        "desc": "radí mu ze země"
+      }
+    ],
+    "kontext": "Podle Haileyho televizní hry."
+  },
+  {
+    "id": "hlava-xxii",
+    "title": "Hlava XXII",
+    "author": "Joseph Heller",
+    "year": "1961",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Satirický válečný román",
+    "period": "Světová literatura 20. století",
+    "tema": "Absurdita války a byrokracie: pilot Yossarian se snaží vyhnout dalším letům, ale brání mu v tom paragraf 22.",
+    "postavy": [
+      {
+        "name": "Yossarian",
+        "desc": "kapitán bombardéru"
+      },
+      {
+        "name": "Milo Minderbinder",
+        "desc": "podnikavý zásobovač"
+      }
+    ]
+  },
+  {
+    "id": "komu-zvoni-hrana",
+    "title": "Komu zvoní hrana",
+    "author": "Ernest Hemingway",
+    "year": "1940",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Válečný román",
+    "period": "Ztracená generace",
+    "tema": "Americký dobrovolník Robert Jordan má za španělské občanské války vyhodit do vzduchu most.",
+    "postavy": [
+      {
+        "name": "Robert Jordan",
+        "desc": "dobrovolník"
+      },
+      {
+        "name": "Marie",
+        "desc": "dívka, kterou miluje"
+      },
+      {
+        "name": "Pablo a Pilar",
+        "desc": "partyzáni"
+      }
+    ]
+  },
+  {
+    "id": "hemingway-povidky",
+    "title": "Povídky",
+    "author": "Ernest Hemingway",
+    "year": "20.–30. léta 20. století",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Povídky",
+    "period": "Ztracená generace",
+    "tema": "Válka, lov, box a býčí zápasy. Muži, kteří čelí strachu a smrti; úsporný styl a dialogy.",
+    "kontext": "Například Sněhy Kilimandžára nebo Krátký šťastný život Francise Macombera."
+  },
+  {
+    "id": "sbohem-armado",
+    "title": "Sbohem, armádo!",
+    "author": "Ernest Hemingway",
+    "year": "1929",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Válečný román",
+    "period": "Ztracená generace",
+    "tema": "Americký dobrovolník na italské frontě dezertuje. Jeho láska k ošetřovatelce Catherine skončí její smrtí.",
+    "postavy": [
+      {
+        "name": "Frederic Henry",
+        "desc": "vypravěč, poručík zdravotní služby"
+      },
+      {
+        "name": "Catherine Barkleyová",
+        "desc": "anglická ošetřovatelka"
+      }
+    ]
+  },
+  {
+    "id": "starec-a-more",
+    "title": "Stařec a moře",
+    "author": "Ernest Hemingway",
+    "year": "1952",
+    "period": "Americká literatura 20. století, ztracená generace",
+    "druh": "Epika",
+    "zanr": "Novela",
+    "tema": "Zápas člověka s přírodou a s vlastními silami. Člověk může být zničen, ale ne poražen.",
+    "motivy": [
+      "vytrvalost",
+      "hrdost",
+      "samota",
+      "stáří",
+      "příroda",
+      "přátelství",
+      "boj"
+    ],
+    "casoprostor": "Kubánská rybářská vesnice nedaleko Havany a Golfský proud; 40. léta 20. století. Vlastní lov trvá tři dny.",
+    "kompozice": "Chronologické vyprávění bez členění na kapitoly, doplněné Santiagovými vzpomínkami a sny (lvi na africkém pobřeží).",
+    "postavy": [
+      {
+        "name": "Santiago",
+        "desc": "Starý rybář, 84 dní nic neulovil. Skromný, vytrvalý, k rybě cítí úctu a nazývá ji bratrem."
+      },
+      {
+        "name": "Manolin",
+        "desc": "Chlapec, Santiagův učeň a přítel. Stará se o něj a věří mu."
+      },
+      {
+        "name": "Marlin",
+        "desc": "Obrovská ryba, se kterou Santiago zápasí. Je mu rovnocenným soupeřem."
+      }
+    ],
+    "jazyk": "Er-forma. Jednoduché krátké věty, rybářské výrazy, španělská slova. Časté vnitřní monology a samomluvy. Uplatňuje se metoda ledovce: řečeno je málo, podstatné zůstává pod povrchem.",
+    "kontext": "Hemingway za novelu získal Pulitzerovu cenu (1953) a v roce 1954 Nobelovu cenu za literaturu. Sám byl vášnivý rybář a na Kubě dlouho žil.",
+    "skupina": 3,
+    "forma": "Próza"
+  },
+  {
+    "id": "svet-podle-garpa",
+    "title": "Svět podle Garpa",
+    "author": "John Irving",
+    "year": "1978",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Světová literatura 20. století",
+    "tema": "Život spisovatele T. S. Garpa a jeho matky feministky. Násilí, sexualita a smrt.",
+    "postavy": [
+      {
+        "name": "T. S. Garp",
+        "desc": "spisovatel"
+      },
+      {
+        "name": "Jenny Fieldsová",
+        "desc": "jeho matka"
+      }
+    ]
   },
   {
     "id": "promena",
@@ -665,89 +2650,325 @@
       "text": "Když se Řehoř Samsa jednoho rána probudil z nepokojných snů, shledal, že se v posteli proměnil v jakýsi nestvůrný hmyz.",
       "note": "První věta novely. Neuvěřitelná událost je podána jako prostý fakt, bez údivu a bez vysvětlení."
     },
-    "skupina": 3
+    "skupina": 3,
+    "forma": "Próza"
   },
   {
-    "id": "starec-a-more",
-    "title": "Stařec a moře",
-    "author": "Ernest Hemingway",
-    "year": "1952",
-    "period": "Americká literatura 20. století, ztracená generace",
+    "id": "na-ceste",
+    "title": "Na cestě",
+    "author": "Jack Kerouac",
+    "year": "1957",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Beat generation",
+    "tema": "Cesty Sala Paradise a Deana Moriartyho napříč Amerikou. Svoboda, jazz a hledání smyslu.",
+    "postavy": [
+      {
+        "name": "Sal Paradise",
+        "desc": "vypravěč"
+      },
+      {
+        "name": "Dean Moriarty",
+        "desc": "jeho divoký přítel"
+      }
+    ]
+  },
+  {
+    "id": "vyhodme-ho-z-kola-ven",
+    "title": "Vyhoďme ho z kola ven",
+    "author": "Ken Kesey",
+    "year": "1962",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Světová literatura 20. století",
+    "tema": "Recidivista McMurphy předstírá šílenství. V psychiatrické léčebně se vzepře tyranské vrchní sestře.",
+    "postavy": [
+      {
+        "name": "Randle McMurphy",
+        "desc": "rebel"
+      },
+      {
+        "name": "Sestra Ratchedová",
+        "desc": ""
+      },
+      {
+        "name": "Náčelník Bromden",
+        "desc": "vypravěč"
+      }
+    ],
+    "kontext": "Film Miloše Formana získal pět Oscarů."
+  },
+  {
+    "id": "lev-carodejnice-a-skrin",
+    "title": "Lev, čarodějnice a skříň",
+    "author": "C. S. Lewis",
+    "year": "1950",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Fantasy",
+    "period": "Světová literatura 20. století",
+    "tema": "Čtyři sourozenci projdou skříní do Narnie a pomohou lvu Aslanovi porazit Bílou čarodějnici.",
+    "postavy": [
+      {
+        "name": "Petr, Zuzana, Edmund a Lucie",
+        "desc": "sourozenci"
+      },
+      {
+        "name": "Aslan",
+        "desc": "lev"
+      },
+      {
+        "name": "Bílá čarodějnice",
+        "desc": ""
+      }
+    ],
+    "kontext": "Součást Letopisů Narnie."
+  },
+  {
+    "id": "demon-alkohol",
+    "title": "Démon alkohol",
+    "author": "Jack London",
+    "year": "1913",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Autobiografický román",
+    "period": "Světová literatura 20. století",
+    "tema": "Autorův celoživotní vztah k alkoholu."
+  },
+  {
+    "id": "mario-a-kouzelnik",
+    "title": "Mario a kouzelník",
+    "author": "Thomas Mann",
+    "year": "1930",
+    "skupina": 3,
+    "forma": "Próza",
     "druh": "Epika",
     "zanr": "Novela",
-    "tema": "Zápas člověka s přírodou a s vlastními silami. Člověk může být zničen, ale ne poražen.",
-    "motivy": [
-      "vytrvalost",
-      "hrdost",
-      "samota",
-      "stáří",
-      "příroda",
-      "přátelství",
-      "boj"
-    ],
-    "casoprostor": "Kubánská rybářská vesnice nedaleko Havany a Golfský proud; 40. léta 20. století. Vlastní lov trvá tři dny.",
-    "kompozice": "Chronologické vyprávění bez členění na kapitoly, doplněné Santiagovými vzpomínkami a sny (lvi na africkém pobřeží).",
+    "period": "Světová literatura 20. století",
+    "tema": "Kouzelník Cipolla hypnózou ovládá publikum. Alegorie fašismu a manipulace.",
     "postavy": [
       {
-        "name": "Santiago",
-        "desc": "Starý rybář, 84 dní nic neulovil. Skromný, vytrvalý, k rybě cítí úctu a nazývá ji bratrem."
+        "name": "Cipolla",
+        "desc": "kouzelník"
       },
       {
-        "name": "Manolin",
-        "desc": "Chlapec, Santiagův učeň a přítel. Stará se o něj a věří mu."
-      },
-      {
-        "name": "Marlin",
-        "desc": "Obrovská ryba, se kterou Santiago zápasí. Je mu rovnocenným soupeřem."
+        "name": "Mario",
+        "desc": "číšník, který se mu vzepře"
       }
     ],
-    "jazyk": "Er-forma. Jednoduché krátké věty, rybářské výrazy, španělská slova. Časté vnitřní monology a samomluvy. Uplatňuje se metoda ledovce: řečeno je málo, podstatné zůstává pod povrchem.",
-    "kontext": "Hemingway za novelu získal Pulitzerovu cenu (1953) a v roce 1954 Nobelovu cenu za literaturu. Sám byl vášnivý rybář a na Kubě dlouho žil.",
-    "skupina": 3
+    "kontext": "Mann získal Nobelovu cenu za literaturu (1929)."
   },
   {
-    "id": "na-zapadni-fronte-klid",
-    "title": "Na západní frontě klid",
-    "author": "Erich Maria Remarque",
-    "year": "1929",
-    "period": "Ztracená generace",
+    "id": "smrt-v-benatkach",
+    "title": "Smrt v Benátkách",
+    "author": "Thomas Mann",
+    "year": "1912",
+    "skupina": 3,
+    "forma": "Próza",
     "druh": "Epika",
-    "zanr": "Válečný román",
-    "tema": "Nesmyslnost války a osud generace, kterou válka zničila, i když unikla jejím granátům.",
-    "motivy": [
-      "válka",
-      "kamarádství",
-      "smrt",
-      "strach",
-      "ztráta iluzí"
-    ],
-    "casoprostor": "Západní fronta první světové války, 1916–1918.",
-    "kompozice": "Chronologické vyprávění s retrospektivami. Ich-forma, poslední odstavec je v er-formě a oznamuje vypravěčovu smrt.",
+    "zanr": "Novela",
+    "period": "Světová literatura 20. století",
+    "tema": "Stárnoucí spisovatel Gustav von Aschenbach je v Benátkách okouzlen krásou chlapce Tadzia a zemře na choleru.",
     "postavy": [
       {
-        "name": "Pavel Bäumer",
-        "desc": "Vypravěč, devatenáctiletý voják. Padne v říjnu 1918."
+        "name": "Gustav von Aschenbach",
+        "desc": "spisovatel"
       },
       {
-        "name": "Stanislav Katczinsky",
-        "desc": "Zkušený čtyřicátník, pro mladé vojáky opora."
+        "name": "Tadzio",
+        "desc": "polský chlapec"
+      }
+    ]
+  },
+  {
+    "id": "hra-o-truny",
+    "title": "Hra o trůny",
+    "author": "George R. R. Martin",
+    "year": "1996",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Fantasy román",
+    "period": "Světová literatura konce 20. století",
+    "tema": "Šlechtické rody bojují o Železný trůn. Moc, zrada a hrozba ze severu.",
+    "postavy": [
+      {
+        "name": "Eddard Stark",
+        "desc": "lord Zimohradu"
       },
       {
-        "name": "Kropp, Müller, Tjaden, Kemmerich",
-        "desc": "Pavlovi spolužáci a kamarádi."
+        "name": "Daenerys Targaryen",
+        "desc": "exilová princezna"
       },
       {
-        "name": "Himmelstoss",
-        "desc": "Sadistický poddůstojník z výcviku."
-      },
-      {
-        "name": "Kantorek",
-        "desc": "Třídní učitel, který žáky přemluvil, aby narukovali."
+        "name": "Tyrion Lannister",
+        "desc": ""
       }
     ],
-    "jazyk": "Hovorový jazyk, vojenský slang, naturalistické popisy bojů a zranění, úvahové pasáže.",
-    "kontext": "Remarque sám bojoval na frontě. Nacisté knihu pálili. Další romány: Tři kamarádi, Vítězný oblouk.",
-    "skupina": 3
+    "kontext": "První díl ságy Píseň ledu a ohně."
+  },
+  {
+    "id": "cesta",
+    "title": "Cesta",
+    "author": "Cormac McCarthy",
+    "year": "2006",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Postapokalyptický román",
+    "period": "Americká literatura 21. století",
+    "tema": "Otec a syn putují zpustošenou Amerikou. Láska a lidskost uprostřed zkázy.",
+    "postavy": [
+      {
+        "name": "Otec",
+        "desc": ""
+      },
+      {
+        "name": "Syn",
+        "desc": ""
+      }
+    ],
+    "kontext": "Román získal Pulitzerovu cenu."
+  },
+  {
+    "id": "smrt-je-mym-remeslem",
+    "title": "Smrt je mým řemeslem",
+    "author": "Robert Merle",
+    "year": "1952",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Světová literatura 20. století",
+    "tema": "Život velitele vyhlazovacího tábora vyprávěný jím samým. Jak se z poslušného člověka stane masový vrah.",
+    "postavy": [
+      {
+        "name": "Rudolf Lang",
+        "desc": "vypravěč, postava podle Rudolfa Hösse"
+      }
+    ]
+  },
+  {
+    "id": "horalka",
+    "title": "Horalka",
+    "author": "Alberto Moravia",
+    "year": "1957",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Světová literatura 20. století",
+    "tema": "Matka a dcera prchají za války z Říma do hor. Ztráta nevinnosti.",
+    "postavy": [
+      {
+        "name": "Cesira",
+        "desc": "matka"
+      },
+      {
+        "name": "Rosetta",
+        "desc": "její dcera"
+      }
+    ]
+  },
+  {
+    "id": "posledni-kabriolet",
+    "title": "Poslední kabriolet",
+    "author": "Anton Myrer",
+    "year": "1978",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Světová literatura 20. století",
+    "tema": "Přátelé z Harvardu a jejich osudy od konce 30. let po léta 60.; kabriolet jako symbol mládí."
+  },
+  {
+    "id": "lolita",
+    "title": "Lolita",
+    "author": "Vladimir Nabokov",
+    "year": "1955",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Světová literatura 20. století",
+    "tema": "Humbert Humbert vypráví o své chorobné posedlosti dvanáctiletou Dolores Hazeovou.",
+    "postavy": [
+      {
+        "name": "Humbert Humbert",
+        "desc": "vypravěč"
+      },
+      {
+        "name": "Dolores Hazeová (Lolita)",
+        "desc": ""
+      }
+    ]
+  },
+  {
+    "id": "svabi",
+    "title": "Švábi",
+    "author": "Jo Nesbø",
+    "year": "1998",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Detektivní román",
+    "period": "Severská detektivka",
+    "tema": "Harry Hole vyšetřuje v Bangkoku vraždu norského velvyslance.",
+    "postavy": [
+      {
+        "name": "Harry Hole",
+        "desc": "norský detektiv"
+      }
+    ]
+  },
+  {
+    "id": "1984",
+    "title": "1984",
+    "author": "George Orwell",
+    "year": "1949",
+    "period": "Britská literatura 20. století",
+    "druh": "Epika",
+    "zanr": "Antiutopický román",
+    "tema": "Totalitní stát, který ovládá i myšlení a minulost. Marný vzdor jednotlivce.",
+    "motivy": [
+      "totalita",
+      "sledování",
+      "propaganda",
+      "strach",
+      "láska",
+      "zrada"
+    ],
+    "casoprostor": "Londýn ve státě Oceánie, rok 1984.",
+    "kompozice": "Tři části a dodatek o jazyce newspeak. Chronologický děj.",
+    "postavy": [
+      {
+        "name": "Winston Smith",
+        "desc": "Úředník Ministerstva pravdy, přepisuje staré noviny. Začne si psát deník a vzdoruje Straně."
+      },
+      {
+        "name": "Julie",
+        "desc": "Winstonova milenka, vzdoruje po svém."
+      },
+      {
+        "name": "O'Brien",
+        "desc": "Člen Vnitřní strany; předstírá odpor, ve skutečnosti Winstona mučí a zlomí."
+      },
+      {
+        "name": "Velký bratr",
+        "desc": "Všudypřítomná tvář Strany."
+      }
+    ],
+    "jazyk": "Er-forma, věcný styl. Vymyšlené pojmy: newspeak, doublethink, ideopolicie, Místnost 101.",
+    "kontext": "Orwell reagoval na nacismus a stalinismus. Z knihy pochází heslo Velký bratr tě sleduje.",
+    "skupina": 3,
+    "forma": "Próza"
   },
   {
     "id": "farma-zvirat",
@@ -791,48 +3012,183 @@
     ],
     "jazyk": "Jednoduchý jazyk bajky, ironie, hesla a slogany. Er-forma.",
     "kontext": "Známý citát: Všechna zvířata jsou si rovna, ale některá jsou si rovnější. Orwell na téma totality navázal románem 1984.",
-    "skupina": 3
+    "skupina": 3,
+    "forma": "Próza"
   },
   {
-    "id": "1984",
-    "title": "1984",
-    "author": "George Orwell",
-    "year": "1949",
-    "period": "Britská literatura 20. století",
+    "id": "na-zapadni-fronte-klid",
+    "title": "Na západní frontě klid",
+    "author": "Erich Maria Remarque",
+    "year": "1929",
+    "period": "Ztracená generace",
     "druh": "Epika",
-    "zanr": "Antiutopický román",
-    "tema": "Totalitní stát, který ovládá i myšlení a minulost. Marný vzdor jednotlivce.",
+    "zanr": "Válečný román",
+    "tema": "Nesmyslnost války a osud generace, kterou válka zničila, i když unikla jejím granátům.",
     "motivy": [
-      "totalita",
-      "sledování",
-      "propaganda",
+      "válka",
+      "kamarádství",
+      "smrt",
       "strach",
-      "láska",
-      "zrada"
+      "ztráta iluzí"
     ],
-    "casoprostor": "Londýn ve státě Oceánie, rok 1984.",
-    "kompozice": "Tři části a dodatek o jazyce newspeak. Chronologický děj.",
+    "casoprostor": "Západní fronta první světové války, 1916–1918.",
+    "kompozice": "Chronologické vyprávění s retrospektivami. Ich-forma, poslední odstavec je v er-formě a oznamuje vypravěčovu smrt.",
     "postavy": [
       {
-        "name": "Winston Smith",
-        "desc": "Úředník Ministerstva pravdy, přepisuje staré noviny. Začne si psát deník a vzdoruje Straně."
+        "name": "Pavel Bäumer",
+        "desc": "Vypravěč, devatenáctiletý voják. Padne v říjnu 1918."
       },
       {
-        "name": "Julie",
-        "desc": "Winstonova milenka, vzdoruje po svém."
+        "name": "Stanislav Katczinsky",
+        "desc": "Zkušený čtyřicátník, pro mladé vojáky opora."
       },
       {
-        "name": "O'Brien",
-        "desc": "Člen Vnitřní strany; předstírá odpor, ve skutečnosti Winstona mučí a zlomí."
+        "name": "Kropp, Müller, Tjaden, Kemmerich",
+        "desc": "Pavlovi spolužáci a kamarádi."
       },
       {
-        "name": "Velký bratr",
-        "desc": "Všudypřítomná tvář Strany."
+        "name": "Himmelstoss",
+        "desc": "Sadistický poddůstojník z výcviku."
+      },
+      {
+        "name": "Kantorek",
+        "desc": "Třídní učitel, který žáky přemluvil, aby narukovali."
       }
     ],
-    "jazyk": "Er-forma, věcný styl. Vymyšlené pojmy: newspeak, doublethink, ideopolicie, Místnost 101.",
-    "kontext": "Orwell reagoval na nacismus a stalinismus. Z knihy pochází heslo Velký bratr tě sleduje.",
-    "skupina": 3
+    "jazyk": "Hovorový jazyk, vojenský slang, naturalistické popisy bojů a zranění, úvahové pasáže.",
+    "kontext": "Remarque sám bojoval na frontě. Nacisté knihu pálili. Další romány: Tři kamarádi, Vítězný oblouk.",
+    "skupina": 3,
+    "forma": "Próza"
+  },
+  {
+    "id": "tri-kamaradi",
+    "title": "Tři kamarádi",
+    "author": "Erich Maria Remarque",
+    "year": "1936",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Ztracená generace",
+    "tema": "Tři přátelé, váleční veteráni, v Německu po první světové válce. Láska Roberta k nemocné Pat.",
+    "postavy": [
+      {
+        "name": "Robert Lohkamp",
+        "desc": "vypravěč"
+      },
+      {
+        "name": "Otto Köster a Gottfried Lenz",
+        "desc": "jeho přátelé"
+      },
+      {
+        "name": "Pat",
+        "desc": "Robertova láska"
+      }
+    ]
+  },
+  {
+    "id": "my-deti-ze-stanice-zoo",
+    "title": "My děti ze stanice ZOO",
+    "author": "Christiane F. (zapsali Kai Hermann a Horst Rieck)",
+    "year": "1978",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Autobiografický dokumentární román",
+    "period": "Světová literatura 20. století",
+    "tema": "Dívka ze západního Berlína propadne ve třinácti letech heroinu a prostituci.",
+    "postavy": [
+      {
+        "name": "Christiane F.",
+        "desc": "vypravěčka"
+      }
+    ],
+    "kontext": "Kniha vznikla z rozhovorů novinářů s Christiane."
+  },
+  {
+    "id": "petr-a-lucie",
+    "title": "Petr a Lucie",
+    "author": "Romain Rolland",
+    "year": "1920",
+    "period": "Francouzská meziválečná literatura",
+    "druh": "Epika",
+    "zanr": "Novela",
+    "tema": "Čistá láska dvou mladých lidí, kterou zničí válka.",
+    "motivy": [
+      "láska",
+      "válka",
+      "mládí",
+      "smrt",
+      "naděje"
+    ],
+    "casoprostor": "Paříž, od konce ledna do Velkého pátku 1918.",
+    "kompozice": "Chronologický děj ohraničený přesnými daty.",
+    "postavy": [
+      {
+        "name": "Petr Aubier",
+        "desc": "Osmnáctiletý student z měšťanské rodiny, citlivý; čeká ho odvod."
+      },
+      {
+        "name": "Lucie",
+        "desc": "Chudá dívka, živí se malováním obrázků; praktičtější než Petr."
+      },
+      {
+        "name": "Filip",
+        "desc": "Petrův starší bratr, voják."
+      }
+    ],
+    "jazyk": "Er-forma, lyrické pasáže, kontrast něžného citu a války.",
+    "kontext": "Rolland byl pacifista a nositel Nobelovy ceny (1915). Milenci zahynou při bombardování v kostele.",
+    "skupina": 3,
+    "forma": "Próza"
+  },
+  {
+    "id": "harry-potter-a-kamen-mudrcu",
+    "title": "Harry Potter a kámen mudrců",
+    "author": "Joanne K. Rowlingová",
+    "year": "1997",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Fantasy román",
+    "period": "Světová literatura konce 20. století",
+    "tema": "Sirotek Harry se dozví, že je čaroděj, a nastoupí do Bradavic.",
+    "postavy": [
+      {
+        "name": "Harry Potter",
+        "desc": ""
+      },
+      {
+        "name": "Ron Weasley",
+        "desc": ""
+      },
+      {
+        "name": "Hermiona Grangerová",
+        "desc": ""
+      },
+      {
+        "name": "Lord Voldemort",
+        "desc": ""
+      }
+    ]
+  },
+  {
+    "id": "jak-jsem-vyhral-valku",
+    "title": "Jak jsem vyhrál válku",
+    "author": "Patrick Ryan",
+    "year": "1963",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Satirický válečný román",
+    "period": "Světová literatura 20. století",
+    "tema": "Neschopný poručík Goodbody prochází druhou světovou válkou. Výsměch válce a armádě.",
+    "postavy": [
+      {
+        "name": "Poručík Ernest Goodbody",
+        "desc": "vypravěč"
+      }
+    ]
   },
   {
     "id": "maly-princ",
@@ -880,7 +3236,117 @@
     ],
     "jazyk": "Ich-forma, jednoduchý jazyk, symboly, dialogy.",
     "kontext": "Známý citát: Správně vidíme jen srdcem. Co je důležité, je očím neviditelné. Autor byl pilot; z letu v roce 1944 se nevrátil.",
-    "skupina": 3
+    "skupina": 3,
+    "forma": "Próza"
+  },
+  {
+    "id": "zeme-lidi",
+    "title": "Země lidí",
+    "author": "Antoine de Saint-Exupéry",
+    "year": "1939",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Soubor autobiografických esejů",
+    "period": "Světová literatura 20. století",
+    "tema": "Vzpomínky pilota letecké pošty na kamarády, nebezpečí letu a havárii v poušti. Úvahy o smyslu lidského života.",
+    "kontext": "Autor sám přežil havárii na Sahaře v roce 1935."
+  },
+  {
+    "id": "kdo-chyta-v-zite",
+    "title": "Kdo chytá v žitě",
+    "author": "Jerome David Salinger",
+    "year": "1951",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Světová literatura 20. století",
+    "tema": "Šestnáctiletý Holden po vyloučení ze školy bloudí New Yorkem a odmítá falešný svět dospělých.",
+    "postavy": [
+      {
+        "name": "Holden Caulfield",
+        "desc": "vypravěč"
+      },
+      {
+        "name": "Phoebe",
+        "desc": "jeho sestra"
+      }
+    ]
+  },
+  {
+    "id": "tracyho-tygr",
+    "title": "Tracyho tygr",
+    "author": "William Saroyan",
+    "year": "1951",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Novela",
+    "period": "Světová literatura 20. století",
+    "tema": "Mladý Thomas Tracy má neviditelného tygra, symbol své touhy a lásky.",
+    "postavy": [
+      {
+        "name": "Thomas Tracy",
+        "desc": ""
+      }
+    ]
+  },
+  {
+    "id": "pygmalion",
+    "title": "Pygmalion",
+    "author": "George Bernard Shaw",
+    "year": "1913",
+    "skupina": 3,
+    "forma": "Drama",
+    "druh": "Drama",
+    "zanr": "Komedie",
+    "period": "Světová literatura 20. století",
+    "tema": "Profesor fonetiky Higgins se vsadí, že z květinářky Lízy udělá dámu.",
+    "postavy": [
+      {
+        "name": "Henry Higgins",
+        "desc": "profesor fonetiky"
+      },
+      {
+        "name": "Líza Doolittlová",
+        "desc": "květinářka"
+      }
+    ],
+    "kontext": "Podle hry vznikl muzikál My Fair Lady."
+  },
+  {
+    "id": "muz-ktery-maloval-mandlovniky",
+    "title": "Muž, který maloval mandlovníky",
+    "author": "Johannes Mario Simmel",
+    "year": "20. století",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Světová literatura 20. století",
+    "tema": "Příběh, ve kterém jde o to, kdo ve skutečnosti namaloval obraz kvetoucích mandlovníků.",
+    "kontext": "Simmel byl rakouský autor bestsellerů.",
+    "overit": true
+  },
+  {
+    "id": "jeden-den-ivana-denisovice",
+    "title": "Jeden den Ivana Děnisoviče",
+    "author": "Alexandr Solženicyn",
+    "year": "1962",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Novela",
+    "period": "Světová literatura 20. století",
+    "tema": "Jeden den vězně v sovětském pracovním táboře.",
+    "postavy": [
+      {
+        "name": "Ivan Děnisovič Šuchov",
+        "desc": "vězeň"
+      }
+    ],
+    "kontext": "Solženicyn získal Nobelovu cenu za literaturu (1970)."
   },
   {
     "id": "o-mysich-a-lidech",
@@ -925,87 +3391,1592 @@
     ],
     "jazyk": "Er-forma, hovorový jazyk a slang dělníků, úsporné popisy.",
     "kontext": "Steinbeck získal Nobelovu cenu (1962). Další díla: Hrozny hněvu, Na východ od ráje.",
-    "skupina": 3
+    "skupina": 3,
+    "forma": "Próza"
   },
   {
-    "id": "petr-a-lucie",
-    "title": "Petr a Lucie",
-    "author": "Romain Rolland",
-    "year": "1920",
-    "period": "Francouzská meziválečná literatura",
+    "id": "sophiina-volba",
+    "title": "Sophiina volba",
+    "author": "William Styron",
+    "year": "1979",
+    "skupina": 3,
+    "forma": "Próza",
     "druh": "Epika",
-    "zanr": "Novela",
-    "tema": "Čistá láska dvou mladých lidí, kterou zničí válka.",
-    "motivy": [
-      "láska",
-      "válka",
-      "mládí",
-      "smrt",
-      "naděje"
-    ],
-    "casoprostor": "Paříž, od konce ledna do Velkého pátku 1918.",
-    "kompozice": "Chronologický děj ohraničený přesnými daty.",
+    "zanr": "Román",
+    "period": "Světová literatura 20. století",
+    "tema": "Polka Sophie přežila Osvětim, ale nese vinu za strašnou volbu mezi svými dětmi.",
     "postavy": [
       {
-        "name": "Petr Aubier",
-        "desc": "Osmnáctiletý student z měšťanské rodiny, citlivý; čeká ho odvod."
+        "name": "Sophie",
+        "desc": ""
+      },
+      {
+        "name": "Nathan",
+        "desc": "její partner"
+      },
+      {
+        "name": "Stingo",
+        "desc": "vypravěč"
+      }
+    ]
+  },
+  {
+    "id": "parfem",
+    "title": "Parfém, příběh vraha",
+    "author": "Patrick Süskind",
+    "year": "1985",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Světová literatura 20. století",
+    "tema": "Jean-Baptiste Grenouille s dokonalým čichem vraždí dívky, aby vytvořil dokonalý parfém.",
+    "postavy": [
+      {
+        "name": "Jean-Baptiste Grenouille",
+        "desc": ""
+      }
+    ]
+  },
+  {
+    "id": "spolecenstvo-prstenu",
+    "title": "Pán prstenů: Společenstvo prstenu",
+    "author": "J. R. R. Tolkien",
+    "year": "1954",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Fantasy román",
+    "period": "Světová literatura 20. století",
+    "tema": "Hobit Frodo se vydá zničit Jeden prsten.",
+    "postavy": [
+      {
+        "name": "Frodo Pytlík",
+        "desc": ""
+      },
+      {
+        "name": "Gandalf",
+        "desc": ""
+      },
+      {
+        "name": "Aragorn",
+        "desc": ""
+      },
+      {
+        "name": "Sam",
+        "desc": ""
+      }
+    ]
+  },
+  {
+    "id": "kocka-na-rozpalene-plechove-strese",
+    "title": "Kočka na rozpálené plechové střeše",
+    "author": "Tennessee Williams",
+    "year": "1955",
+    "skupina": 3,
+    "forma": "Drama",
+    "druh": "Drama",
+    "zanr": "Drama",
+    "period": "Světová literatura 20. století",
+    "tema": "Rodina na plantáži zápasí o dědictví po umírajícím otci. Přetvářka a lež.",
+    "postavy": [
+      {
+        "name": "Brick",
+        "desc": "syn, alkoholik"
+      },
+      {
+        "name": "Maggie",
+        "desc": "jeho žena"
+      },
+      {
+        "name": "Taťka",
+        "desc": "majitel plantáže"
+      }
+    ]
+  },
+  {
+    "id": "zlodejka-knih",
+    "title": "Zlodějka knih",
+    "author": "Markus Zusak",
+    "year": "2005",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Světová literatura 21. století",
+    "tema": "Liesel za války v Německu krade knihy. Vypravěčem je Smrt.",
+    "postavy": [
+      {
+        "name": "Liesel Memingerová",
+        "desc": ""
+      },
+      {
+        "name": "Hans Hubermann",
+        "desc": "její pěstoun"
+      },
+      {
+        "name": "Max",
+        "desc": "Žid ukrývaný ve sklepě"
+      }
+    ]
+  },
+  {
+    "id": "visnovy-sad",
+    "title": "Višňový sad",
+    "author": "Anton Pavlovič Čechov",
+    "year": "1904",
+    "skupina": 3,
+    "forma": "Drama",
+    "druh": "Drama",
+    "zanr": "Komedie (lyrické drama)",
+    "period": "Ruská literatura přelomu 19. a 20. století",
+    "tema": "Zadlužená statkářka přijde o rodový statek s višňovým sadem. Zánik staré šlechty a nástup nových lidí.",
+    "postavy": [
+      {
+        "name": "Ljubov Ranevská",
+        "desc": "majitelka statku"
+      },
+      {
+        "name": "Lopachin",
+        "desc": "zbohatlý obchodník, syn nevolníka"
+      },
+      {
+        "name": "Trofimov",
+        "desc": "věčný student"
+      },
+      {
+        "name": "Firs",
+        "desc": "starý sluha"
+      }
+    ],
+    "kontext": "Čechovova poslední hra."
+  },
+  {
+    "id": "osud-cloveka",
+    "title": "Osud člověka",
+    "author": "Michail Šolochov",
+    "year": "1956",
+    "skupina": 3,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Povídka",
+    "period": "Světová literatura 20. století",
+    "tema": "Andrej Sokolov ztratí ve válce celou rodinu a ujme se sirotka Váni.",
+    "postavy": [
+      {
+        "name": "Andrej Sokolov",
+        "desc": ""
+      },
+      {
+        "name": "Váňa",
+        "desc": "sirotek"
+      }
+    ]
+  },
+  {
+    "id": "druhe-mesto",
+    "title": "Druhé město",
+    "author": "Michal Ajvaz",
+    "year": "1993",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román s prvky magického realismu",
+    "period": "Česká postmoderní próza",
+    "tema": "Vypravěč najde v pražském antikvariátu knihu psanou neznámým písmem a proniká do tajemného druhého města, které existuje souběžně s Prahou.",
+    "postavy": [
+      {
+        "name": "Vypravěč",
+        "desc": "bezejmenný Pražan, který po druhém městě pátrá"
+      }
+    ],
+    "kontext": "Ajvaz patří k hlavním autorům české postmoderny."
+  },
+  {
+    "id": "klapzubova-jedenactka",
+    "title": "Klapzubova jedenáctka",
+    "author": "Eduard Bass",
+    "year": "1922",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Humoristický román pro mládež",
+    "period": "Česká meziválečná literatura",
+    "tema": "Jedenáct synů chalupníka Klapzuby vytvoří fotbalový tým, který dřinou a poctivou hrou porazí nejlepší kluby světa.",
+    "postavy": [
+      {
+        "name": "Otec Klapzuba",
+        "desc": "přísný a moudrý trenér svých synů"
+      }
+    ],
+    "kontext": "Bass byl novinář, kabaretiér a autor románu Cirkus Humberto."
+  },
+  {
+    "id": "lide-z-maringotek",
+    "title": "Lidé z maringotek",
+    "author": "Eduard Bass",
+    "year": "1942",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Soubor povídek",
+    "period": "Česká literatura za okupace",
+    "tema": "Příběhy lidí z kočovných cirkusů a varieté, jejich dřina, hrdost a soudržnost.",
+    "kontext": "Navazuje na Bassův román Cirkus Humberto (1941).",
+    "overit": true
+  },
+  {
+    "id": "slezske-pisne",
+    "title": "Slezské písně",
+    "author": "Petr Bezruč",
+    "year": "1909",
+    "period": "Přelom 19. a 20. století, generace buřičů",
+    "druh": "Lyrickoepický",
+    "zanr": "Básnická sbírka",
+    "tema": "Sociální a národnostní útlak slezského lidu. Básník vystupuje jako jeho mluvčí a mstitel.",
+    "motivy": [
+      "útlak",
+      "bída",
+      "vzdor",
+      "národ",
+      "horníci",
+      "osamělost"
+    ],
+    "casoprostor": "Slezsko, Ostravsko a Těšínsko, přelom 19. a 20. století.",
+    "kompozice": "Sbírka se rozrůstala v dalších vydáních. Obsahuje sociální balady, básně vzdoru i intimní lyriku.",
+    "postavy": [
+      {
+        "name": "Maryčka Magdónova",
+        "desc": "Sirotek po horníkovi; po zatčení za sbírání dříví skočí do řeky."
+      },
+      {
+        "name": "Kantor Halfar",
+        "desc": "Český učitel, který nedostane místo a oběsí se."
+      },
+      {
+        "name": "Lyrický mluvčí",
+        "desc": "Bard utlačovaného lidu, promlouvá za něj."
+      }
+    ],
+    "jazyk": "Nářeční prvky, drsný jazyk, řečnické otázky, apostrofy, výrazný rytmus.",
+    "kontext": "Petr Bezruč je pseudonym Vladimíra Vaška. Slezské písně jsou jeho jediným významným dílem.",
+    "skupina": 4,
+    "forma": "Poezie"
+  },
+  {
+    "id": "jmenuji-se-alice",
+    "title": "Jmenuji se Alice",
+    "author": "Ivona Březinová",
+    "year": "počátek 21. století",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román pro mládež",
+    "period": "Česká literatura po roce 1989",
+    "tema": "Dospívající Alice se dostane k drogám a propadá závislosti.",
+    "postavy": [
+      {
+        "name": "Alice",
+        "desc": "dívka, která propadne drogám"
+      }
+    ],
+    "kontext": "Součást volné řady Holky na vodítku."
+  },
+  {
+    "id": "jmenuji-se-ester",
+    "title": "Jmenuji se Ester",
+    "author": "Ivona Březinová",
+    "year": "počátek 21. století",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román pro mládež",
+    "period": "Česká literatura po roce 1989",
+    "tema": "Dospívající Ester propadne hracím automatům a postupně ztrácí peníze, přátele i důvěru rodiny.",
+    "postavy": [
+      {
+        "name": "Ester",
+        "desc": "dívka, která se stane gamblerkou"
+      }
+    ],
+    "kontext": "Součást volné řady Holky na vodítku (Alice – drogy, Ester – gamblerství, Martina – bulimie)."
+  },
+  {
+    "id": "dlouhy-siroky-a-kratkozraky",
+    "title": "Dlouhý, Široký a Krátkozraký",
+    "author": "Ladislav Smoljak a Zdeněk Svěrák (Jára Cimrman)",
+    "year": "1974",
+    "skupina": 4,
+    "forma": "Drama",
+    "druh": "Drama",
+    "zanr": "Pohádková komedie",
+    "period": "Divadlo Járy Cimrmana",
+    "tema": "Parodie na Erbenovu pohádku: princ s pomocníky vysvobozuje princeznu, jeden z nich je ale krátkozraký."
+  },
+  {
+    "id": "dobyti-severniho-polu",
+    "title": "Dobytí severního pólu",
+    "author": "Ladislav Smoljak a Zdeněk Svěrák (Jára Cimrman)",
+    "year": "1985",
+    "skupina": 4,
+    "forma": "Drama",
+    "druh": "Drama",
+    "zanr": "Komedie",
+    "period": "Divadlo Járy Cimrmana",
+    "tema": "Parodie na hrdinské polární výpravy: česká výprava se vydává dobýt severní pól.",
+    "kontext": "Hraje se s úvodním seminářem o životě Járy Cimrmana."
+  },
+  {
+    "id": "vysetrovani-ztraty-tridni-knihy",
+    "title": "Vyšetřování ztráty třídní knihy",
+    "author": "Ladislav Smoljak a Zdeněk Svěrák (Jára Cimrman)",
+    "year": "1967",
+    "skupina": 4,
+    "forma": "Drama",
+    "druh": "Drama",
+    "zanr": "Komedie",
+    "period": "Divadlo Járy Cimrmana",
+    "tema": "Parodie na rakousko-uherské školství a úřední horlivost.",
+    "kontext": "Jedna z prvních her Divadla Járy Cimrmana."
+  },
+  {
+    "id": "ceske-nebe",
+    "title": "České nebe",
+    "author": "Ladislav Smoljak a Zdeněk Svěrák (Jára Cimrman)",
+    "year": "2008",
+    "skupina": 4,
+    "forma": "Drama",
+    "druh": "Drama",
+    "zanr": "Komedie",
+    "period": "Divadlo Járy Cimrmana",
+    "tema": "Velikáni české historie zasedají v nebi a s typickou českou malostí řeší, koho mezi sebe přijmou.",
+    "kontext": "Poslední hra Divadla Járy Cimrmana napsaná Smoljakem a Svěrákem společně."
+  },
+  {
+    "id": "hrdy-budzes",
+    "title": "Hrdý Budžes",
+    "author": "Irena Dousková",
+    "year": "1998",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Humoristický román",
+    "period": "Česká literatura po roce 1989",
+    "tema": "Normalizace očima druhačky Helenky. Dětský pohled odhaluje absurditu doby i pokrytectví dospělých.",
+    "postavy": [
+      {
+        "name": "Helenka Součková",
+        "desc": "vypravěčka, žačka 2. třídy"
+      },
+      {
+        "name": "Otčím",
+        "desc": "herec okresního divadla"
+      }
+    ],
+    "kontext": "Podle knihy vznikla úspěšná divadelní hra."
+  },
+  {
+    "id": "hratky-s-certem",
+    "title": "Hrátky s čertem",
+    "author": "Jan Drda",
+    "year": "1945",
+    "skupina": 4,
+    "forma": "Drama",
+    "druh": "Drama",
+    "zanr": "Pohádková komedie",
+    "period": "Česká literatura 20. století",
+    "tema": "Vysloužilý voják Martin Kabát přechytračí čerty i samotné peklo. Dobro a lidská odvaha vítězí nad zlem.",
+    "postavy": [
+      {
+        "name": "Martin Kabát",
+        "desc": "vysloužilý voják"
+      },
+      {
+        "name": "Lucifer",
+        "desc": "vládce pekla"
+      },
+      {
+        "name": "Belzebub",
+        "desc": "čert"
+      }
+    ],
+    "kontext": "Hra vznikla za války a měla premiéru po osvobození."
+  },
+  {
+    "id": "nema-barikada",
+    "title": "Němá barikáda",
+    "author": "Jan Drda",
+    "year": "1946",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Soubor povídek",
+    "period": "Česká literatura 20. století",
+    "tema": "Obyčejní lidé za okupace a v Pražském povstání v květnu 1945."
+  },
+  {
+    "id": "krysar",
+    "title": "Krysař",
+    "author": "Viktor Dyk",
+    "year": "1915",
+    "period": "Generace buřičů, novoromantismus",
+    "druh": "Epika",
+    "zanr": "Novela",
+    "tema": "Střet výjimečného jedince s malostí měšťanů. Láska a zrada.",
+    "motivy": [
+      "láska",
+      "zrada",
+      "pomsta",
+      "maloměšťáctví",
+      "touha",
+      "smrt"
+    ],
+    "casoprostor": "Německé hanzovní město Hameln, středověk.",
+    "kompozice": "Dvacet šest krátkých kapitol, chronologický děj. Zpracování staré německé pověsti.",
+    "postavy": [
+      {
+        "name": "Krysař",
+        "desc": "Tajemný cizinec bez jména, píšťalou vyvádí krysy z města."
+      },
+      {
+        "name": "Agnes",
+        "desc": "Dívka, kterou krysař miluje."
+      },
+      {
+        "name": "Dlouhý Kristián",
+        "desc": "Agnesin dřívější milenec."
+      },
+      {
+        "name": "Sepp Jörgen",
+        "desc": "Pomalý rybář; jediný odolá píšťale a zachrání dítě."
+      },
+      {
+        "name": "Konšelé",
+        "desc": "Odmítnou krysaři zaplatit slíbenou odměnu."
+      }
+    ],
+    "jazyk": "Úsporný styl, krátké věty, lyrizace, symboly.",
+    "kontext": "Dyk byl básník a politik; patřil ke generaci buřičů spolu s Šrámkem, Tomanem a Gellnerem.",
+    "skupina": 4,
+    "forma": "Próza"
+  },
+  {
+    "id": "pan-theodor-mundstock",
+    "title": "Pan Theodor Mundstock",
+    "author": "Ladislav Fuks",
+    "year": "1963",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Psychologický román",
+    "period": "Česká literatura 20. století",
+    "tema": "Starý pražský Žid se za okupace v duchu pečlivě připravuje na transport a koncentrační tábor.",
+    "postavy": [
+      {
+        "name": "Theodor Mundstock",
+        "desc": "osamělý úředník"
+      },
+      {
+        "name": "Mon",
+        "desc": "jeho stín, druhé já"
+      }
+    ],
+    "kontext": "Mundstock zahyne pod koly auta cestou do transportu."
+  },
+  {
+    "id": "spalovac-mrtvol",
+    "title": "Spalovač mrtvol",
+    "author": "Ladislav Fuks",
+    "year": "1967",
+    "period": "Česká literatura 2. poloviny 20. století",
+    "druh": "Epika",
+    "zanr": "Psychologická novela s prvky hororu",
+    "tema": "Proměna spořádaného otce rodiny ve vraha pod vlivem nacistické ideologie.",
+    "motivy": [
+      "manipulace",
+      "zlo",
+      "smrt",
+      "fanatismus",
+      "pokrytectví"
+    ],
+    "casoprostor": "Praha, konec 30. let 20. století.",
+    "kompozice": "Patnáct kapitol, chronologický děj. Opakují se věty, postavy a motivy, což vytváří tísnivou atmosféru.",
+    "postavy": [
+      {
+        "name": "Pan Kopfrkingl",
+        "desc": "Zaměstnanec krematoria, navenek něžný a slušný. Postupně zavraždí ženu a syna."
+      },
+      {
+        "name": "Lakmé",
+        "desc": "Jeho žena, má židovský původ."
+      },
+      {
+        "name": "Mili a Zina",
+        "desc": "Jejich děti."
+      },
+      {
+        "name": "Willi Reinke",
+        "desc": "Přítel a nacista, který Kopfrkingla ovlivní."
+      }
+    ],
+    "jazyk": "Er-forma, sladké zdvořilostní fráze v kontrastu s hrůzným obsahem, groteska, černý humor.",
+    "kontext": "Fuks se často věnoval tématu holocaustu (Pan Theodor Mundstock). Film natočil Juraj Herz.",
+    "skupina": 4,
+    "forma": "Próza"
+  },
+  {
+    "id": "po-nas-at-prijde-potopa",
+    "title": "Po nás ať přijde potopa",
+    "author": "František Gellner",
+    "year": "1901",
+    "skupina": 4,
+    "forma": "Poezie",
+    "druh": "Lyrika",
+    "zanr": "Básnická sbírka",
+    "period": "Generace buřičů (anarchističtí buřiči)",
+    "tema": "Vzdor proti měšťácké morálce, bohémský život, ironie a skepse.",
+    "kontext": "Gellner zmizel v roce 1914 v bojích první světové války."
+  },
+  {
+    "id": "simek-grossmann-povidky",
+    "title": "Povídky",
+    "author": "Miloslav Šimek a Jiří Grossmann",
+    "year": "60. a 70. léta 20. století",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Humoristické povídky",
+    "period": "Česká literatura 20. století",
+    "tema": "Absurdní humor a parodie z jejich zábavných pořadů.",
+    "overit": true
+  },
+  {
+    "id": "audience",
+    "title": "Audience",
+    "author": "Václav Havel",
+    "year": "1975",
+    "period": "Česká literatura v době normalizace, absurdní drama",
+    "druh": "Drama",
+    "zanr": "Jednoaktová hra",
+    "tema": "Poměry normalizace: strach, přetvářka a udavačství pronikají i do obyčejného rozhovoru.",
+    "motivy": [
+      "normalizace",
+      "strach",
+      "udavačství",
+      "alkohol",
+      "nedorozumění"
+    ],
+    "casoprostor": "Kancelář sládka v pivovaru, 70. léta 20. století.",
+    "kompozice": "Jedno dějství. Rozhovor se točí v kruhu, repliky se opakují a hra končí tak, jak začala.",
+    "postavy": [
+      {
+        "name": "Ferdinand Vaněk",
+        "desc": "Zakázaný spisovatel pracující v pivovaru; tichý, zdvořilý, zásadový."
+      },
+      {
+        "name": "Sládek",
+        "desc": "Vaňkův nadřízený. Pije, lituje se a žádá Vaňka, aby psal hlášení sám na sebe."
+      }
+    ],
+    "jazyk": "Hovorová čeština, vulgarismy u Sládka, spisovná mluva Vaňka, opakování frází.",
+    "kontext": "Hra má autobiografický základ. S hrami Vernisáž a Protest tvoří vaňkovskou trilogii. Šířila se v samizdatu.",
+    "skupina": 4,
+    "forma": "Drama"
+  },
+  {
+    "id": "petrolejove-lampy",
+    "title": "Petrolejové lampy",
+    "author": "Jaroslav Havlíček",
+    "year": "1935",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Psychologický román",
+    "period": "Česká literatura 20. století",
+    "tema": "Štěpa Kiliánová touží po manželství a dětech. Vezme si bratrance Pavla, který je nemocný. Maloměšťácká přetvářka.",
+    "postavy": [
+      {
+        "name": "Štěpa Kiliánová",
+        "desc": "energická žena"
+      },
+      {
+        "name": "Pavel Malina",
+        "desc": "její manžel, bývalý důstojník"
+      }
+    ]
+  },
+  {
+    "id": "svejk",
+    "title": "Osudy dobrého vojáka Švejka za světové války",
+    "author": "Jaroslav Hašek",
+    "year": "1921–1923",
+    "period": "Meziválečná literatura",
+    "druh": "Epika",
+    "zanr": "Humoristický a satirický román",
+    "tema": "Výsměch válce, armádě a rakousko-uherské byrokracii.",
+    "motivy": [
+      "válka",
+      "absurdita",
+      "hloupost úřadů",
+      "humor",
+      "hospoda"
+    ],
+    "casoprostor": "Praha, České Budějovice a cesta na haličskou frontu, 1914–1915.",
+    "kompozice": "Čtyři díly, román zůstal nedokončený. Volně řazené epizody, které Švejk prokládá historkami.",
+    "postavy": [
+      {
+        "name": "Josef Švejk",
+        "desc": "Obchodník se psy. Rozkazy plní tak doslova, že je přivádí k absurditě; není jasné, zda je hlupák, nebo chytrák."
+      },
+      {
+        "name": "Nadporučík Lukáš",
+        "desc": "Švejkův nadřízený, v jádru slušný člověk."
+      },
+      {
+        "name": "Feldkurát Katz",
+        "desc": "Vojenský kněz a opilec."
+      },
+      {
+        "name": "Poručík Dub",
+        "desc": "Omezený a nadutý důstojník."
+      },
+      {
+        "name": "Baloun",
+        "desc": "Věčně hladový voják."
+      }
+    ],
+    "jazyk": "Obecná čeština, vulgarismy, vojenský slang, němčina a její komolení.",
+    "kontext": "Hašek vycházel z vlastních zážitků. Knihu ilustroval Josef Lada.",
+    "skupina": 4,
+    "forma": "Próza"
+  },
+  {
+    "id": "achilles-a-zelva",
+    "title": "Achilles a želva",
+    "author": "Miroslav Holub",
+    "year": "1960",
+    "skupina": 4,
+    "forma": "Poezie",
+    "druh": "Lyrika",
+    "zanr": "Básnická sbírka",
+    "period": "Česká literatura 20. století",
+    "tema": "Civilní poezie, ve které se vědecké myšlení potkává s lidským citem.",
+    "kontext": "Holub byl imunolog."
+  },
+  {
+    "id": "obsluhoval-jsem-anglickeho-krale",
+    "title": "Obsluhoval jsem anglického krále",
+    "author": "Bohumil Hrabal",
+    "year": "napsáno 1971, vydáno 1982",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Česká literatura 20. století",
+    "tema": "Malý číšník Jan Dítě touží po bohatství a stoupá po hotelích od první republiky po 50. léta.",
+    "postavy": [
+      {
+        "name": "Jan Dítě",
+        "desc": "vypravěč, číšník"
+      }
+    ],
+    "kontext": "Kniha vyšla nejdřív v samizdatu a exilu."
+  },
+  {
+    "id": "ostre-sledovane-vlaky",
+    "title": "Ostře sledované vlaky",
+    "author": "Bohumil Hrabal",
+    "year": "1965",
+    "period": "Česká literatura 2. poloviny 20. století",
+    "druh": "Epika",
+    "zanr": "Novela",
+    "tema": "Dospívání mladého železničáře na pozadí konce války.",
+    "motivy": [
+      "dospívání",
+      "válka",
+      "erotika",
+      "odvaha",
+      "smrt"
+    ],
+    "casoprostor": "Malá železniční stanice v Čechách, únor 1945.",
+    "kompozice": "Proud vyprávění, ve kterém se prolíná přítomnost se vzpomínkami.",
+    "postavy": [
+      {
+        "name": "Miloš Hrma",
+        "desc": "Vypravěč, mladý elév. Trápí se selháním v lásce; nakonec vyhodí do vzduchu německý muniční vlak a zahyne."
+      },
+      {
+        "name": "Výpravčí Hubička",
+        "desc": "Záletník, známý aférou s razítky."
+      },
+      {
+        "name": "Přednosta stanice",
+        "desc": "Chovatel holubů toužící po povýšení."
+      },
+      {
+        "name": "Máša",
+        "desc": "Konduktérka, Milošova dívka."
+      }
+    ],
+    "jazyk": "Ich-forma, hovorový jazyk, dlouhá souvětí, kontrast tragického a komického.",
+    "kontext": "Film Jiřího Menzela získal Oscara. Další Hrabalova díla: Obsluhoval jsem anglického krále, Příliš hlučná samota.",
+    "skupina": 4,
+    "forma": "Próza"
+  },
+  {
+    "id": "postriziny",
+    "title": "Postřižiny",
+    "author": "Bohumil Hrabal",
+    "year": "1976",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Novela",
+    "period": "Česká literatura 20. století",
+    "tema": "Idylický život v nymburském pivovaru očima Maryšky, krásné ženy správce pivovaru.",
+    "postavy": [
+      {
+        "name": "Maryška",
+        "desc": "vypravěčka"
+      },
+      {
+        "name": "Francin",
+        "desc": "správce pivovaru"
+      },
+      {
+        "name": "Strýc Pepin",
+        "desc": "hlučný Francinův bratr"
+      }
+    ],
+    "kontext": "Postavy vycházejí z Hrabalovy rodiny."
+  },
+  {
+    "id": "prilis-hlucna-samota",
+    "title": "Příliš hlučná samota",
+    "author": "Bohumil Hrabal",
+    "year": "napsáno 1976",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Novela",
+    "period": "Česká literatura 20. století",
+    "tema": "Haňťa 35 let lisuje ve sběrně starý papír a zachraňuje z něj knihy. Samota a vzdor proti barbarství.",
+    "postavy": [
+      {
+        "name": "Haňťa",
+        "desc": "vypravěč, lisař papíru"
+      }
+    ]
+  },
+  {
+    "id": "slavnosti-snezenek",
+    "title": "Slavnosti sněženek",
+    "author": "Bohumil Hrabal",
+    "year": "1978",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Soubor povídek",
+    "period": "Česká literatura 20. století",
+    "tema": "Svérázní obyvatelé chatové osady Kersko."
+  },
+  {
+    "id": "blues-pro-bláznivou-holku",
+    "title": "Blues pro bláznivou holku",
+    "author": "Václav Hrabě",
+    "year": "1990",
+    "skupina": 4,
+    "forma": "Poezie",
+    "druh": "Lyrika",
+    "zanr": "Básnická sbírka",
+    "period": "Česká beatnická poezie 60. let",
+    "tema": "Láska, smutek, jazz a pocit mládí v Praze 60. let.",
+    "kontext": "Hrabě zemřel ve 25 letech. Sbírka vyšla posmrtně."
+  },
+  {
+    "id": "romance-pro-kridlovku",
+    "title": "Romance pro křídlovku",
+    "author": "František Hrubín",
+    "year": "1962",
+    "skupina": 4,
+    "forma": "Poezie",
+    "druh": "Lyrickoepický",
+    "zanr": "Lyrickoepická skladba",
+    "period": "Česká literatura 20. století",
+    "tema": "Vzpomínka na první lásku a na smrt, zasazená do jihočeského kraje a pouti.",
+    "postavy": [
+      {
+        "name": "Vypravěč",
+        "desc": ""
+      },
+      {
+        "name": "Julča",
+        "desc": "dívka, do které se zamiloval"
+      }
+    ],
+    "kontext": "Skladbu zfilmoval Otakar Vávra."
+  },
+  {
+    "id": "saturnin",
+    "title": "Saturnin",
+    "author": "Zdeněk Jirotka",
+    "year": "1942",
+    "period": "Česká literatura za okupace",
+    "druh": "Epika",
+    "zanr": "Humoristický román",
+    "tema": "Střet svérázného sluhy s měšťáckou morálkou a s vypočítavou příbuznou.",
+    "motivy": [
+      "humor",
+      "ironie",
+      "vypočítavost",
+      "přátelství",
+      "dobrodružství"
+    ],
+    "casoprostor": "Praha a dědečkův dům na venkově, 30. léta 20. století.",
+    "kompozice": "Krátké kapitoly s podtituly shrnujícími děj. Vyprávění prokládají úvahy doktora Vlacha.",
+    "postavy": [
+      {
+        "name": "Vypravěč",
+        "desc": "Mladý muž, který si najal sluhu; klidný a zdrženlivý."
+      },
+      {
+        "name": "Saturnin",
+        "desc": "Vynalézavý sluha s osobitým smyslem pro humor."
+      },
+      {
+        "name": "Teta Kateřina",
+        "desc": "Vypočítavá vdova, mluví v příslovích."
+      },
+      {
+        "name": "Milouš",
+        "desc": "Její nevychovaný syn."
+      },
+      {
+        "name": "Doktor Vlach",
+        "desc": "Starší lékař, glosátor."
+      },
+      {
+        "name": "Slečna Barbora",
+        "desc": "Sympatická dívka, vypravěčova láska."
+      }
+    ],
+    "jazyk": "Ich-forma, spisovný jazyk, ironie, suchý humor.",
+    "kontext": "Jirotka navázal na anglický humor (Jerome Klapka Jerome). Kniha vyšla za protektorátu jako oddechová četba.",
+    "skupina": 4,
+    "forma": "Próza"
+  },
+  {
+    "id": "lucerna",
+    "title": "Lucerna",
+    "author": "Alois Jirásek",
+    "year": "1905",
+    "skupina": 4,
+    "forma": "Drama",
+    "druh": "Drama",
+    "zanr": "Pohádková hra",
+    "period": "Česká literatura 20. století",
+    "tema": "Mlynář odmítne svítit vrchnosti lucernou a brání starou lípu. Vzdor prostých lidí proti panstvu.",
+    "postavy": [
+      {
+        "name": "Libor",
+        "desc": "mlynář"
+      },
+      {
+        "name": "Hanička",
+        "desc": "jeho schovanka"
+      },
+      {
+        "name": "Kněžna",
+        "desc": ""
+      },
+      {
+        "name": "Zajíc a Klika",
+        "desc": "muzikanti"
+      },
+      {
+        "name": "Ivan a Michal",
+        "desc": "vodníci"
+      }
+    ]
+  },
+  {
+    "id": "memento",
+    "title": "Memento",
+    "author": "Radek John",
+    "year": "1986",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Publicistický román",
+    "period": "Česká literatura 20. století",
+    "tema": "Mladík Michal se dostane k drogám a postupně se ničí. Varování před závislostí.",
+    "postavy": [
+      {
+        "name": "Michal Otava",
+        "desc": "hlavní postava"
+      }
+    ]
+  },
+  {
+    "id": "kladivo-na-carodejnice",
+    "title": "Kladivo na čarodějnice",
+    "author": "Václav Kaplický",
+    "year": "1963",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Historický román",
+    "period": "Česká literatura 20. století",
+    "tema": "Čarodějnické procesy na Šumpersku a Velkolosinsku v 17. století.",
+    "postavy": [
+      {
+        "name": "Jindřich František Boblig z Edelstadtu",
+        "desc": "inkvizitor"
+      },
+      {
+        "name": "Kryštof Alois Lautner",
+        "desc": "děkan, který se mu postaví"
+      }
+    ],
+    "kontext": "Podle skutečných procesů. Film natočil Otakar Vávra."
+  },
+  {
+    "id": "hlidac-c-47",
+    "title": "Hlídač č. 47",
+    "author": "Josef Kopta",
+    "year": "1926",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Psychologický román",
+    "period": "Česká literatura 20. století",
+    "tema": "Válečný veterán pracuje jako hlídač u železniční trati a jeho život se rozpadá.",
+    "overit": true
+  },
+  {
+    "id": "knizka-karla-kryla",
+    "title": "Kníška Karla Kryla",
+    "author": "Karel Kryl",
+    "year": "1972",
+    "skupina": 4,
+    "forma": "Poezie",
+    "druh": "Lyrika",
+    "zanr": "Texty písní",
+    "period": "Česká literatura 20. století",
+    "tema": "Protest proti okupaci a normalizaci.",
+    "kontext": "Kryl odešel v roce 1969 do exilu."
+  },
+  {
+    "id": "nesnesitelna-lehkost-byti",
+    "title": "Nesnesitelná lehkost bytí",
+    "author": "Milan Kundera",
+    "year": "1984",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Filozofický román",
+    "period": "Česká literatura 20. století",
+    "tema": "Lásky chirurga Tomáše, Terezy a Sabiny na pozadí roku 1968. Tíha a lehkost lidského bytí.",
+    "postavy": [
+      {
+        "name": "Tomáš",
+        "desc": "chirurg"
+      },
+      {
+        "name": "Tereza",
+        "desc": "jeho žena"
+      },
+      {
+        "name": "Sabina",
+        "desc": "malířka a Tomášova milenka"
+      }
+    ],
+    "kontext": "Kniha vyšla nejdřív ve francouzštině."
+  },
+  {
+    "id": "zert",
+    "title": "Žert",
+    "author": "Milan Kundera",
+    "year": "1967",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Česká literatura 20. století",
+    "tema": "Ludvík je kvůli vtipu na pohlednici vyloučen ze strany i ze školy. Jeho pozdní pomsta se obrátí proti němu.",
+    "postavy": [
+      {
+        "name": "Ludvík Jahn",
+        "desc": "vypravěč"
+      },
+      {
+        "name": "Helena",
+        "desc": "žena Pavla Zemánka"
+      },
+      {
+        "name": "Pavel Zemánek",
+        "desc": ""
       },
       {
         "name": "Lucie",
-        "desc": "Chudá dívka, živí se malováním obrázků; praktičtější než Petr."
+        "desc": ""
       },
       {
-        "name": "Filip",
-        "desc": "Petrův starší bratr, voják."
+        "name": "Jaroslav",
+        "desc": ""
       }
-    ],
-    "jazyk": "Er-forma, lyrické pasáže, kontrast něžného citu a války.",
-    "kontext": "Rolland byl pacifista a nositel Nobelovy ceny (1915). Milenci zahynou při bombardování v kostele.",
-    "skupina": 3
+    ]
   },
   {
-    "id": "velky-gatsby",
-    "title": "Velký Gatsby",
-    "author": "Francis Scott Fitzgerald",
-    "year": "1925",
-    "period": "Ztracená generace",
+    "id": "udoli-vcel",
+    "title": "Údolí včel",
+    "author": "Vladimír Körner",
+    "year": "20. století",
+    "skupina": 4,
+    "forma": "Próza",
     "druh": "Epika",
-    "zanr": "Román",
-    "tema": "Rozpad amerického snu. Bohatství nekoupí minulost ani lásku.",
-    "motivy": [
-      "bohatství",
-      "láska",
-      "iluze",
-      "pokrytectví",
-      "americký sen"
-    ],
-    "casoprostor": "Long Island a New York, léto 1922.",
-    "kompozice": "Devět kapitol. Gatsbyho minulost se odhaluje postupně a v retrospektivách.",
+    "zanr": "Historická novela",
+    "period": "Česká literatura 20. století",
+    "tema": "Ondřej z Vlkova je jako chlapec dán do řádu německých rytířů. Fanatismus a vzdor řádu.",
     "postavy": [
       {
-        "name": "Jay Gatsby",
-        "desc": "Záhadný zbohatlík, pořádá okázalé večírky, aby získal zpět Daisy."
+        "name": "Ondřej z Vlkova",
+        "desc": "mladý rytíř"
       },
       {
-        "name": "Nick Carraway",
-        "desc": "Vypravěč, Gatsbyho soused, pozorovatel."
-      },
-      {
-        "name": "Daisy Buchananová",
-        "desc": "Nickova sestřenice, povrchní; Gatsbyho dávná láska."
-      },
-      {
-        "name": "Tom Buchanan",
-        "desc": "Daisyin bohatý a hrubý manžel."
-      },
-      {
-        "name": "Myrtle a George Wilsonovi",
-        "desc": "Tomova milenka a její manžel, který Gatsbyho zastřelí."
+        "name": "Armin von Heide",
+        "desc": "řádový rytíř a jeho přítel"
       }
     ],
-    "jazyk": "Ich-forma, lyrické popisy, symboly (zelené světlo, oči doktora Eckleburga).",
-    "kontext": "Obraz jazzového věku 20. let. Fitzgerald patří s Hemingwayem k ztracené generaci.",
-    "skupina": 3
+    "kontext": "Film natočil František Vláčil.",
+    "overit": true
+  },
+  {
+    "id": "jozova-hanule",
+    "title": "Jozova Hanule",
+    "author": "Květa Legátová",
+    "year": "2002",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Novela",
+    "period": "Česká literatura po roce 1989",
+    "tema": "Lékařka Eliška se za války skrývá v horské vesnici jako žena venkovana Joži.",
+    "postavy": [
+      {
+        "name": "Eliška (Hanule)",
+        "desc": "lékařka"
+      },
+      {
+        "name": "Joža",
+        "desc": "venkovan, který ji ukryje"
+      }
+    ],
+    "kontext": "Podle knihy vznikl film Želary."
+  },
+  {
+    "id": "zelary",
+    "title": "Želary",
+    "author": "Květa Legátová",
+    "year": "2001",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Soubor povídek",
+    "period": "Česká literatura po roce 1989",
+    "tema": "Lidé z horské vesnice Želary, drsný život a silné osudy.",
+    "kontext": "Navazuje novela Jozova Hanule."
+  },
+  {
+    "id": "modlitba-pro-katerinu-horovitzovou",
+    "title": "Modlitba pro Kateřinu Horovitzovou",
+    "author": "Arnošt Lustig",
+    "year": "1964",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Novela",
+    "period": "Česká literatura 20. století",
+    "tema": "Nacisté podvodem připraví skupinu bohatých Židů o majetek a pošlou je na smrt. Kateřina se jako jediná vzepře.",
+    "postavy": [
+      {
+        "name": "Kateřina Horovitzová",
+        "desc": "mladá tanečnice"
+      },
+      {
+        "name": "Herrmann Cohen",
+        "desc": "vůdce skupiny"
+      },
+      {
+        "name": "Bedřich Brenske",
+        "desc": "nacistický důstojník"
+      }
+    ]
+  },
+  {
+    "id": "edison",
+    "title": "Edison",
+    "author": "Vítězslav Nezval",
+    "year": "1928",
+    "skupina": 4,
+    "forma": "Poezie",
+    "druh": "Lyrika",
+    "zanr": "Básnická skladba",
+    "period": "Poetismus",
+    "tema": "Oslava tvůrčího lidského génia na pozadí strachu ze smrti."
+  },
+  {
+    "id": "manon-lescaut",
+    "title": "Manon Lescaut",
+    "author": "Vítězslav Nezval",
+    "year": "1940",
+    "skupina": 4,
+    "forma": "Drama",
+    "druh": "Drama",
+    "zanr": "Veršované drama",
+    "period": "Česká literatura 20. století",
+    "tema": "Láska rytíře des Grieux k lehkomyslné Manon.",
+    "postavy": [
+      {
+        "name": "Manon Lescaut",
+        "desc": ""
+      },
+      {
+        "name": "Rytíř des Grieux",
+        "desc": ""
+      }
+    ],
+    "kontext": "Podle románu abbé Prévosta."
+  },
+  {
+    "id": "nikola-suhaj-loupeznik",
+    "title": "Nikola Šuhaj loupežník",
+    "author": "Ivan Olbracht",
+    "year": "1933",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Baladický román",
+    "period": "Česká literatura 20. století",
+    "tema": "Zbojník na Podkarpatské Rusi, kterého lid miluje, je zabit zrádci kvůli odměně.",
+    "postavy": [
+      {
+        "name": "Nikola Šuhaj",
+        "desc": "zbojník"
+      },
+      {
+        "name": "Eržika",
+        "desc": "jeho žena"
+      }
+    ]
+  },
+  {
+    "id": "romeo-julie-a-tma",
+    "title": "Romeo, Julie a tma",
+    "author": "Jan Otčenášek",
+    "year": "1958",
+    "period": "Česká literatura 2. poloviny 20. století",
+    "druh": "Epika",
+    "zanr": "Novela",
+    "tema": "Láska studenta a židovské dívky, kterou ukrývá za heydrichiády.",
+    "motivy": [
+      "láska",
+      "strach",
+      "odvaha",
+      "holocaust",
+      "okupace",
+      "smrt"
+    ],
+    "casoprostor": "Praha, jaro a léto 1942.",
+    "kompozice": "Rámcová kompozice: úvod a závěr v přítomnosti, hlavní děj je vzpomínka.",
+    "postavy": [
+      {
+        "name": "Pavel",
+        "desc": "Student před maturitou; ukryje Ester v komůrce vedle otcovy krejčovské dílny."
+      },
+      {
+        "name": "Ester",
+        "desc": "Židovská dívka, která nenastoupila do transportu."
+      },
+      {
+        "name": "Rejsek",
+        "desc": "Soused, kolaborant; pro oba představuje hrozbu."
+      },
+      {
+        "name": "Krejčí Čepek",
+        "desc": "Tovaryš Pavlova otce, pomůže."
+      }
+    ],
+    "jazyk": "Er-forma, lyrické pasáže, vnitřní monology.",
+    "kontext": "Název odkazuje na Shakespearovu tragédii. Otčenášek napsal také román Občan Brych.",
+    "skupina": 4,
+    "forma": "Próza"
+  },
+  {
+    "id": "jak-jsem-potkal-ryby",
+    "title": "Jak jsem potkal ryby",
+    "author": "Ota Pavel",
+    "year": "1974",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Soubor povídek",
+    "period": "Česká literatura 20. století",
+    "tema": "Vzpomínky na tatínka, rybaření a dětství, volně navazující na Smrt krásných srnců.",
+    "postavy": [
+      {
+        "name": "Tatínek Leo Popper",
+        "desc": ""
+      },
+      {
+        "name": "Strejda Prošek",
+        "desc": "převozník"
+      }
+    ]
+  },
+  {
+    "id": "smrt-krasnych-srncu",
+    "title": "Smrt krásných srnců",
+    "author": "Ota Pavel",
+    "year": "1971",
+    "period": "Česká literatura 2. poloviny 20. století",
+    "druh": "Epika",
+    "zanr": "Soubor autobiografických povídek",
+    "tema": "Vzpomínky na dětství, na tatínka a na rybaření u Berounky. Radost ze života i stín války.",
+    "motivy": [
+      "rodina",
+      "příroda",
+      "rybaření",
+      "válka",
+      "holocaust",
+      "humor"
+    ],
+    "casoprostor": "Křivoklátsko a Buštěhrad; před válkou, za okupace a po ní.",
+    "kompozice": "Sedm povídek řazených chronologicky.",
+    "postavy": [
+      {
+        "name": "Tatínek",
+        "desc": "Leo Popper, obchodní cestující, vášnivý rybář a snílek."
+      },
+      {
+        "name": "Maminka",
+        "desc": "Trpělivá žena, drží rodinu pohromadě."
+      },
+      {
+        "name": "Ota",
+        "desc": "Vypravěč, nejmladší syn."
+      },
+      {
+        "name": "Strejda Prošek",
+        "desc": "Převozník a pytlák, učitel rybaření."
+      },
+      {
+        "name": "Pes Holan",
+        "desc": "Proškův pes, který pomůže ulovit srnce."
+      }
+    ],
+    "jazyk": "Ich-forma, hovorový jazyk, laskavý humor, lyrické popisy přírody.",
+    "kontext": "Pavel byl sportovní novinář; povídky psal při léčbě duševní nemoci. Volně navazuje kniha Jak jsem potkal ryby.",
+    "skupina": 4,
+    "forma": "Próza"
+  },
+  {
+    "id": "zlati-uhori",
+    "title": "Zlatí úhoři",
+    "author": "Ota Pavel",
+    "year": "1974",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Povídka",
+    "period": "Česká literatura 20. století",
+    "tema": "Tatínek a strejda Prošek loví úhoře; láska k přírodě a k rybaření.",
+    "kontext": "Povídka ze souboru Jak jsem potkal ryby, zfilmovaná Karlem Kachyňou.",
+    "overit": true
+  },
+  {
+    "id": "stare-recke-baje-a-povesti",
+    "title": "Staré řecké báje a pověsti",
+    "author": "Eduard Petiška",
+    "year": "1958",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Převyprávění mýtů",
+    "period": "Česká literatura 20. století",
+    "tema": "Řecké mýty o bozích a hrdinech: Prométheus, Héraklés, Théseus, Odysseus a další."
+  },
+  {
+    "id": "bylo-nas-pet",
+    "title": "Bylo nás pět",
+    "author": "Karel Poláček",
+    "year": "1946",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Humoristický román",
+    "period": "Česká literatura 20. století",
+    "tema": "Klukovská dobrodružství Petra Bajzy a jeho kamarádů v malém městě.",
+    "postavy": [
+      {
+        "name": "Petr Bajza",
+        "desc": "vypravěč"
+      },
+      {
+        "name": "Čeněk Jirsák",
+        "desc": ""
+      },
+      {
+        "name": "Antonín Bejval",
+        "desc": ""
+      },
+      {
+        "name": "Éda Kemlink",
+        "desc": ""
+      },
+      {
+        "name": "Josef Zilvar",
+        "desc": ""
+      }
+    ],
+    "kontext": "Poláček román psal za okupace; zahynul v koncentračním táboře."
+  },
+  {
+    "id": "katapult",
+    "title": "Katapult",
+    "author": "Vladimír Páral",
+    "year": "1967",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Česká literatura 20. století",
+    "tema": "Inženýr Jan Bureš chce život zpestřit milenkami, ale stereotyp se jen znásobí.",
+    "postavy": [
+      {
+        "name": "Jan Bureš",
+        "desc": "chemik"
+      }
+    ]
+  },
+  {
+    "id": "mlady-muz-a-bila-velryba",
+    "title": "Mladý muž a bílá velryba",
+    "author": "Vladimír Páral",
+    "year": "1973",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Česká literatura 20. století",
+    "tema": "Román o mladém muži a jeho touze vymanit se z šedi a stereotypu.",
+    "overit": true
+  },
+  {
+    "id": "maminka",
+    "title": "Maminka",
+    "author": "Jaroslav Seifert",
+    "year": "1954",
+    "skupina": 4,
+    "forma": "Poezie",
+    "druh": "Lyrika",
+    "zanr": "Básnická sbírka",
+    "period": "Česká literatura 20. století",
+    "tema": "Vzpomínky na dětství na Žižkově a na maminku.",
+    "kontext": "Seifert získal Nobelovu cenu za literaturu (1984)."
+  },
+  {
+    "id": "pisen-o-viktorce",
+    "title": "Píseň o Viktorce",
+    "author": "Jaroslav Seifert",
+    "year": "1950",
+    "skupina": 4,
+    "forma": "Poezie",
+    "druh": "Lyrickoepický",
+    "zanr": "Básnická skladba",
+    "period": "Česká literatura 20. století",
+    "tema": "Inspirace postavou Viktorky z Babičky a životem Boženy Němcové."
+  },
+  {
+    "id": "sekyra",
+    "title": "Sekyra",
+    "author": "Ludvík Vaculík",
+    "year": "1966",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Česká literatura 20. století",
+    "tema": "Novinář se vrací do rodné valašské vesnice a vyrovnává se s otcem, komunistickým funkcionářem.",
+    "postavy": [
+      {
+        "name": "Vypravěč",
+        "desc": "novinář"
+      },
+      {
+        "name": "Otec",
+        "desc": ""
+      }
+    ]
+  },
+  {
+    "id": "marketa-lazarova",
+    "title": "Marketa Lazarová",
+    "author": "Vladislav Vančura",
+    "year": "1931",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Baladický román",
+    "period": "Česká literatura 20. století",
+    "tema": "Láska loupežníka Mikoláše Kozlíka a Markety Lazarové ve středověku.",
+    "postavy": [
+      {
+        "name": "Mikoláš Kozlík",
+        "desc": ""
+      },
+      {
+        "name": "Marketa Lazarová",
+        "desc": ""
+      },
+      {
+        "name": "Kozlík",
+        "desc": "Mikolášův otec, loupeživý rytíř"
+      }
+    ],
+    "kontext": "Film natočil František Vláčil."
+  },
+  {
+    "id": "rozmarne-leto",
+    "title": "Rozmarné léto",
+    "author": "Vladislav Vančura",
+    "year": "1926",
+    "period": "Meziválečná literatura",
+    "druh": "Epika",
+    "zanr": "Humoristická novela",
+    "tema": "Všední život tří přátel, který na pár dní rozvíří příjezd kouzelníka a jeho krásné pomocnice.",
+    "motivy": [
+      "přátelství",
+      "stárnutí",
+      "touha",
+      "nuda",
+      "maloměsto"
+    ],
+    "casoprostor": "Lázeňské městečko Krokovy Vary na řece Orši, deštivý červen.",
+    "kompozice": "Krátké kapitoly s názvy, děj trvá několik dní.",
+    "postavy": [
+      {
+        "name": "Antonín Důra",
+        "desc": "Majitel říční plovárny, vyznavač tělesné zdatnosti."
+      },
+      {
+        "name": "Kateřina Důrová",
+        "desc": "Jeho žena."
+      },
+      {
+        "name": "Kanovník Roch",
+        "desc": "Kněz a milovník knih."
+      },
+      {
+        "name": "Major Hugo",
+        "desc": "Vysloužilý voják."
+      },
+      {
+        "name": "Arnoštek",
+        "desc": "Potulný kouzelník a provazochodec."
+      },
+      {
+        "name": "Anna",
+        "desc": "Jeho mladá pomocnice, o kterou se všichni tři muži ucházejí."
+      }
+    ],
+    "jazyk": "Archaismy, knižní výrazy a složitá souvětí použitá pro banální děj; z tohoto kontrastu vzniká humor.",
+    "kontext": "Vančura byl za heydrichiády popraven. Další díla: Markéta Lazarová, Kubula a Kuba Kubikula. Novelu zfilmoval Jiří Menzel.",
+    "skupina": 4,
+    "forma": "Próza"
+  },
+  {
+    "id": "bajecna-leta-pod-psa",
+    "title": "Báječná léta pod psa",
+    "author": "Michal Viewegh",
+    "year": "1992",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Humoristický román",
+    "period": "Česká literatura po roce 1989",
+    "tema": "Dospívání Kvida v rodině za normalizace; otec se potýká s režimem.",
+    "postavy": [
+      {
+        "name": "Kvido",
+        "desc": "vypravěč"
+      },
+      {
+        "name": "Otec",
+        "desc": "ekonom"
+      }
+    ]
+  },
+  {
+    "id": "roman-pro-zeny",
+    "title": "Román pro ženy",
+    "author": "Michal Viewegh",
+    "year": "2001",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Humoristický román",
+    "period": "Česká literatura po roce 1989",
+    "tema": "Laura hledá lásku. Parodie na ženské romány.",
+    "postavy": [
+      {
+        "name": "Laura",
+        "desc": "vypravěčka"
+      }
+    ]
+  },
+  {
+    "id": "ucastnici-zajezdu",
+    "title": "Účastníci zájezdu",
+    "author": "Michal Viewegh",
+    "year": "1996",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Satirický román",
+    "period": "Česká literatura po roce 1989",
+    "tema": "Satira na Čechy na zájezdu do Itálie."
+  },
+  {
+    "id": "balada-z-hadru",
+    "title": "Balada z hadrů",
+    "author": "Jiří Voskovec a Jan Werich",
+    "year": "1935",
+    "skupina": 4,
+    "forma": "Drama",
+    "druh": "Drama",
+    "zanr": "Hra s písněmi",
+    "period": "Osvobozené divadlo",
+    "tema": "Život básníka Françoise Villona; vzdor chudých proti mocným.",
+    "postavy": [
+      {
+        "name": "François Villon",
+        "desc": "básník"
+      }
+    ]
+  },
+  {
+    "id": "tezka-hodina",
+    "title": "Těžká hodina",
+    "author": "Jiří Wolker",
+    "year": "1922",
+    "skupina": 4,
+    "forma": "Poezie",
+    "druh": "Lyrika",
+    "zanr": "Básnická sbírka",
+    "period": "Proletářská poezie",
+    "tema": "Dospívání a sociální soucit. Obsahuje Baladu o očích topičových.",
+    "kontext": "Wolker zemřel ve 24 letech."
   },
   {
     "id": "bila-nemoc",
@@ -1054,7 +5025,180 @@
       "text": "Děj vrcholí ve chvíli, kdy Galén nese Maršálovi lék. Zfanatizovaný dav volá slávu válce, Galén s ním nesouhlasí a dav ho ušlape. Lék je zničen.",
       "note": "Shrnutí závěrečného obrazu (bez doslovné citace). Všimni si, že Galéna nezabije diktátor, ale dav."
     },
-    "skupina": 4
+    "skupina": 4,
+    "forma": "Drama"
+  },
+  {
+    "id": "hordubal",
+    "title": "Hordubal",
+    "author": "Karel Čapek",
+    "year": "1933",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Česká meziválečná literatura",
+    "tema": "Juraj Hordubal se po letech vrací z Ameriky domů na Podkarpatskou Rus. Žena mu je nevěrná a Juraj je zavražděn. Pravdu o člověku nejde zvenčí poznat.",
+    "postavy": [
+      {
+        "name": "Juraj Hordubal",
+        "desc": "dobrosrdečný sedlák"
+      },
+      {
+        "name": "Polana",
+        "desc": "jeho žena"
+      },
+      {
+        "name": "Štěpán Manya",
+        "desc": "čeledín a Polanin milenec"
+      }
+    ],
+    "kontext": "První díl noetické trilogie, podle skutečné události."
+  },
+  {
+    "id": "krakatit",
+    "title": "Krakatit",
+    "author": "Karel Čapek",
+    "year": "1924",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Utopický román",
+    "period": "Česká meziválečná literatura",
+    "tema": "Inženýr Prokop vynalezne ničivou výbušninu a musí nést odpovědnost vědce za její zneužití.",
+    "postavy": [
+      {
+        "name": "Prokop",
+        "desc": "chemik a vynálezce"
+      },
+      {
+        "name": "Tomeš",
+        "desc": "jeho bývalý kolega, který vynález ukradne"
+      },
+      {
+        "name": "Princezna",
+        "desc": "žena, která Prokopa svádí"
+      }
+    ],
+    "kontext": "Krakatit je pojmenovaný podle indonéské sopky Krakatoa."
+  },
+  {
+    "id": "loupeznik",
+    "title": "Loupežník",
+    "author": "Karel Čapek",
+    "year": "1920",
+    "skupina": 4,
+    "forma": "Drama",
+    "druh": "Drama",
+    "zanr": "Komedie",
+    "period": "Česká meziválečná literatura",
+    "tema": "Střet mládí a svobody s řádem a stářím: Loupežník se uchází o profesorovu dceru Mimi.",
+    "postavy": [
+      {
+        "name": "Loupežník",
+        "desc": "mladý dobrodruh"
+      },
+      {
+        "name": "Mimi",
+        "desc": "profesorova dcera"
+      },
+      {
+        "name": "Profesor",
+        "desc": "její otec"
+      }
+    ],
+    "kontext": "Čapkova první samostatná divadelní hra."
+  },
+  {
+    "id": "matka",
+    "title": "Matka",
+    "author": "Karel Čapek",
+    "year": "1938",
+    "skupina": 4,
+    "forma": "Drama",
+    "druh": "Drama",
+    "zanr": "Drama",
+    "period": "Česká meziválečná literatura",
+    "tema": "Matka ztratila muže i syny v bojích za ideály. Když nepřítel napadne zemi, podá zbraň i nejmladšímu synovi.",
+    "postavy": [
+      {
+        "name": "Matka",
+        "desc": "hlavní postava"
+      },
+      {
+        "name": "Otec",
+        "desc": "padlý důstojník, který s ní rozmlouvá jako duch"
+      },
+      {
+        "name": "Toni",
+        "desc": "nejmladší syn"
+      }
+    ],
+    "kontext": "Reakce na občanskou válku ve Španělsku a ohrožení Československa."
+  },
+  {
+    "id": "obycejny-zivot",
+    "title": "Obyčejný život",
+    "author": "Karel Čapek",
+    "year": "1934",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Filozofický román",
+    "period": "Česká meziválečná literatura",
+    "tema": "Penzionovaný železniční úředník sepisuje svůj život a zjišťuje, že v obyčejném člověku žije mnoho různých já.",
+    "postavy": [
+      {
+        "name": "Vypravěč",
+        "desc": "výpravčí na penzi"
+      }
+    ],
+    "kontext": "Třetí díl noetické trilogie (Hordubal, Povětroň, Obyčejný život)."
+  },
+  {
+    "id": "povidky-z-druhe-kapsy",
+    "title": "Povídky z druhé kapsy",
+    "author": "Karel Čapek",
+    "year": "1929",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Soubor povídek",
+    "period": "Česká meziválečná literatura",
+    "tema": "Další krátké příběhy o zločinech, náhodách a lidské povaze; vyprávějí je samy postavy.",
+    "kontext": "Navazují na Povídky z jedné kapsy."
+  },
+  {
+    "id": "povidky-z-jedne-kapsy",
+    "title": "Povídky z jedné kapsy",
+    "author": "Karel Čapek",
+    "year": "1929",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Soubor detektivních povídek",
+    "period": "Česká meziválečná literatura",
+    "tema": "Krátké případy, ve kterých jde víc o spravedlnost a svědomí než o dopadení pachatele.",
+    "kontext": "Zároveň vyšly Povídky z druhé kapsy."
+  },
+  {
+    "id": "povidani-o-pejskovi-a-kocicce",
+    "title": "Povídání o pejskovi a kočičce",
+    "author": "Josef Čapek",
+    "year": "1929",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Pohádky pro děti",
+    "period": "Česká meziválečná literatura",
+    "tema": "Pejsek a kočička žijí jako lidé a s dětskou logikou se učí domácím pracím.",
+    "postavy": [
+      {
+        "name": "Pejsek a kočička",
+        "desc": "hlavní hrdinové"
+      }
+    ],
+    "kontext": "Josef Čapek byl malíř a knihu sám ilustroval. Zemřel v koncentračním táboře."
   },
   {
     "id": "rur",
@@ -1095,7 +5239,31 @@
     ],
     "jazyk": "Spisovný jazyk, technické výrazy, strohá mluva robotů.",
     "kontext": "Ve hře poprvé zaznělo slovo robot, které Čapkovi poradil bratr Josef.",
-    "skupina": 4
+    "skupina": 4,
+    "forma": "Drama"
+  },
+  {
+    "id": "tovarna-na-absolutno",
+    "title": "Továrna na absolutno",
+    "author": "Karel Čapek",
+    "year": "1922",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Utopický román",
+    "period": "Česká meziválečná literatura",
+    "tema": "Vynález karburátoru, který spaluje hmotu a uvolňuje Absolutno. Lidé propadnou náboženskému fanatismu a světové válce.",
+    "postavy": [
+      {
+        "name": "Inženýr Marek",
+        "desc": "vynálezce karburátoru"
+      },
+      {
+        "name": "G. H. Bondy",
+        "desc": "podnikatel, který vynález využije"
+      }
+    ],
+    "kontext": "Varování před zneužitím techniky a fanatismem."
   },
   {
     "id": "valka-s-mloky",
@@ -1135,426 +5303,177 @@
     ],
     "jazyk": "Střídání stylů: publicistický, odborný, hovorový. Parodie, ironie.",
     "kontext": "S Bílou nemocí a Matkou patří k Čapkovým varováním před válkou.",
-    "skupina": 4
+    "skupina": 4,
+    "forma": "Próza"
   },
   {
-    "id": "svejk",
-    "title": "Osudy dobrého vojáka Švejka za světové války",
-    "author": "Jaroslav Hašek",
-    "year": "1921–1923",
-    "period": "Meziválečná literatura",
+    "id": "zahradnikuv-rok",
+    "title": "Zahradníkův rok",
+    "author": "Karel Čapek",
+    "year": "1929",
+    "skupina": 4,
+    "forma": "Próza",
     "druh": "Epika",
-    "zanr": "Humoristický a satirický román",
-    "tema": "Výsměch válce, armádě a rakousko-uherské byrokracii.",
-    "motivy": [
-      "válka",
-      "absurdita",
-      "hloupost úřadů",
-      "humor",
-      "hospoda"
-    ],
-    "casoprostor": "Praha, České Budějovice a cesta na haličskou frontu, 1914–1915.",
-    "kompozice": "Čtyři díly, román zůstal nedokončený. Volně řazené epizody, které Švejk prokládá historkami.",
-    "postavy": [
-      {
-        "name": "Josef Švejk",
-        "desc": "Obchodník se psy. Rozkazy plní tak doslova, že je přivádí k absurditě; není jasné, zda je hlupák, nebo chytrák."
-      },
-      {
-        "name": "Nadporučík Lukáš",
-        "desc": "Švejkův nadřízený, v jádru slušný člověk."
-      },
-      {
-        "name": "Feldkurát Katz",
-        "desc": "Vojenský kněz a opilec."
-      },
-      {
-        "name": "Poručík Dub",
-        "desc": "Omezený a nadutý důstojník."
-      },
-      {
-        "name": "Baloun",
-        "desc": "Věčně hladový voják."
-      }
-    ],
-    "jazyk": "Obecná čeština, vulgarismy, vojenský slang, němčina a její komolení.",
-    "kontext": "Hašek vycházel z vlastních zážitků. Knihu ilustroval Josef Lada.",
-    "skupina": 4
+    "zanr": "Soubor fejetonů",
+    "period": "Česká meziválečná literatura",
+    "tema": "Humorné fejetony o radostech a strastech zahradníka měsíc po měsíci.",
+    "kontext": "Knihu ilustroval Josef Čapek."
   },
   {
-    "id": "saturnin",
-    "title": "Saturnin",
-    "author": "Zdeněk Jirotka",
-    "year": "1942",
-    "period": "Česká literatura za okupace",
-    "druh": "Epika",
-    "zanr": "Humoristický román",
-    "tema": "Střet svérázného sluhy s měšťáckou morálkou a s vypočítavou příbuznou.",
-    "motivy": [
-      "humor",
-      "ironie",
-      "vypočítavost",
-      "přátelství",
-      "dobrodružství"
-    ],
-    "casoprostor": "Praha a dědečkův dům na venkově, 30. léta 20. století.",
-    "kompozice": "Krátké kapitoly s podtituly shrnujícími děj. Vyprávění prokládají úvahy doktora Vlacha.",
-    "postavy": [
-      {
-        "name": "Vypravěč",
-        "desc": "Mladý muž, který si najal sluhu; klidný a zdrženlivý."
-      },
-      {
-        "name": "Saturnin",
-        "desc": "Vynalézavý sluha s osobitým smyslem pro humor."
-      },
-      {
-        "name": "Teta Kateřina",
-        "desc": "Vypočítavá vdova, mluví v příslovích."
-      },
-      {
-        "name": "Milouš",
-        "desc": "Její nevychovaný syn."
-      },
-      {
-        "name": "Doktor Vlach",
-        "desc": "Starší lékař, glosátor."
-      },
-      {
-        "name": "Slečna Barbora",
-        "desc": "Sympatická dívka, vypravěčova láska."
-      }
-    ],
-    "jazyk": "Ich-forma, spisovný jazyk, ironie, suchý humor.",
-    "kontext": "Jirotka navázal na anglický humor (Jerome Klapka Jerome). Kniha vyšla za protektorátu jako oddechová četba.",
-    "skupina": 4
-  },
-  {
-    "id": "rozmarne-leto",
-    "title": "Rozmarné léto",
-    "author": "Vladislav Vančura",
-    "year": "1926",
-    "period": "Meziválečná literatura",
-    "druh": "Epika",
-    "zanr": "Humoristická novela",
-    "tema": "Všední život tří přátel, který na pár dní rozvíří příjezd kouzelníka a jeho krásné pomocnice.",
-    "motivy": [
-      "přátelství",
-      "stárnutí",
-      "touha",
-      "nuda",
-      "maloměsto"
-    ],
-    "casoprostor": "Lázeňské městečko Krokovy Vary na řece Orši, deštivý červen.",
-    "kompozice": "Krátké kapitoly s názvy, děj trvá několik dní.",
-    "postavy": [
-      {
-        "name": "Antonín Důra",
-        "desc": "Majitel říční plovárny, vyznavač tělesné zdatnosti."
-      },
-      {
-        "name": "Kateřina Důrová",
-        "desc": "Jeho žena."
-      },
-      {
-        "name": "Kanovník Roch",
-        "desc": "Kněz a milovník knih."
-      },
-      {
-        "name": "Major Hugo",
-        "desc": "Vysloužilý voják."
-      },
-      {
-        "name": "Arnoštek",
-        "desc": "Potulný kouzelník a provazochodec."
-      },
-      {
-        "name": "Anna",
-        "desc": "Jeho mladá pomocnice, o kterou se všichni tři muži ucházejí."
-      }
-    ],
-    "jazyk": "Archaismy, knižní výrazy a složitá souvětí použitá pro banální děj; z tohoto kontrastu vzniká humor.",
-    "kontext": "Vančura byl za heydrichiády popraven. Další díla: Markéta Lazarová, Kubula a Kuba Kubikula. Novelu zfilmoval Jiří Menzel.",
-    "skupina": 4
-  },
-  {
-    "id": "ostre-sledovane-vlaky",
-    "title": "Ostře sledované vlaky",
-    "author": "Bohumil Hrabal",
-    "year": "1965",
-    "period": "Česká literatura 2. poloviny 20. století",
-    "druh": "Epika",
-    "zanr": "Novela",
-    "tema": "Dospívání mladého železničáře na pozadí konce války.",
-    "motivy": [
-      "dospívání",
-      "válka",
-      "erotika",
-      "odvaha",
-      "smrt"
-    ],
-    "casoprostor": "Malá železniční stanice v Čechách, únor 1945.",
-    "kompozice": "Proud vyprávění, ve kterém se prolíná přítomnost se vzpomínkami.",
-    "postavy": [
-      {
-        "name": "Miloš Hrma",
-        "desc": "Vypravěč, mladý elév. Trápí se selháním v lásce; nakonec vyhodí do vzduchu německý muniční vlak a zahyne."
-      },
-      {
-        "name": "Výpravčí Hubička",
-        "desc": "Záletník, známý aférou s razítky."
-      },
-      {
-        "name": "Přednosta stanice",
-        "desc": "Chovatel holubů toužící po povýšení."
-      },
-      {
-        "name": "Máša",
-        "desc": "Konduktérka, Milošova dívka."
-      }
-    ],
-    "jazyk": "Ich-forma, hovorový jazyk, dlouhá souvětí, kontrast tragického a komického.",
-    "kontext": "Film Jiřího Menzela získal Oscara. Další Hrabalova díla: Obsluhoval jsem anglického krále, Příliš hlučná samota.",
-    "skupina": 4
-  },
-  {
-    "id": "spalovac-mrtvol",
-    "title": "Spalovač mrtvol",
-    "author": "Ladislav Fuks",
-    "year": "1967",
-    "period": "Česká literatura 2. poloviny 20. století",
-    "druh": "Epika",
-    "zanr": "Psychologická novela s prvky hororu",
-    "tema": "Proměna spořádaného otce rodiny ve vraha pod vlivem nacistické ideologie.",
-    "motivy": [
-      "manipulace",
-      "zlo",
-      "smrt",
-      "fanatismus",
-      "pokrytectví"
-    ],
-    "casoprostor": "Praha, konec 30. let 20. století.",
-    "kompozice": "Patnáct kapitol, chronologický děj. Opakují se věty, postavy a motivy, což vytváří tísnivou atmosféru.",
-    "postavy": [
-      {
-        "name": "Pan Kopfrkingl",
-        "desc": "Zaměstnanec krematoria, navenek něžný a slušný. Postupně zavraždí ženu a syna."
-      },
-      {
-        "name": "Lakmé",
-        "desc": "Jeho žena, má židovský původ."
-      },
-      {
-        "name": "Mili a Zina",
-        "desc": "Jejich děti."
-      },
-      {
-        "name": "Willi Reinke",
-        "desc": "Přítel a nacista, který Kopfrkingla ovlivní."
-      }
-    ],
-    "jazyk": "Er-forma, sladké zdvořilostní fráze v kontrastu s hrůzným obsahem, groteska, černý humor.",
-    "kontext": "Fuks se často věnoval tématu holocaustu (Pan Theodor Mundstock). Film natočil Juraj Herz.",
-    "skupina": 4
-  },
-  {
-    "id": "smrt-krasnych-srncu",
-    "title": "Smrt krásných srnců",
-    "author": "Ota Pavel",
-    "year": "1971",
-    "period": "Česká literatura 2. poloviny 20. století",
-    "druh": "Epika",
-    "zanr": "Soubor autobiografických povídek",
-    "tema": "Vzpomínky na dětství, na tatínka a na rybaření u Berounky. Radost ze života i stín války.",
-    "motivy": [
-      "rodina",
-      "příroda",
-      "rybaření",
-      "válka",
-      "holocaust",
-      "humor"
-    ],
-    "casoprostor": "Křivoklátsko a Buštěhrad; před válkou, za okupace a po ní.",
-    "kompozice": "Sedm povídek řazených chronologicky.",
-    "postavy": [
-      {
-        "name": "Tatínek",
-        "desc": "Leo Popper, obchodní cestující, vášnivý rybář a snílek."
-      },
-      {
-        "name": "Maminka",
-        "desc": "Trpělivá žena, drží rodinu pohromadě."
-      },
-      {
-        "name": "Ota",
-        "desc": "Vypravěč, nejmladší syn."
-      },
-      {
-        "name": "Strejda Prošek",
-        "desc": "Převozník a pytlák, učitel rybaření."
-      },
-      {
-        "name": "Pes Holan",
-        "desc": "Proškův pes, který pomůže ulovit srnce."
-      }
-    ],
-    "jazyk": "Ich-forma, hovorový jazyk, laskavý humor, lyrické popisy přírody.",
-    "kontext": "Pavel byl sportovní novinář; povídky psal při léčbě duševní nemoci. Volně navazuje kniha Jak jsem potkal ryby.",
-    "skupina": 4
-  },
-  {
-    "id": "krysar",
-    "title": "Krysař",
-    "author": "Viktor Dyk",
-    "year": "1915",
-    "period": "Generace buřičů, novoromantismus",
-    "druh": "Epika",
-    "zanr": "Novela",
-    "tema": "Střet výjimečného jedince s malostí měšťanů. Láska a zrada.",
-    "motivy": [
-      "láska",
-      "zrada",
-      "pomsta",
-      "maloměšťáctví",
-      "touha",
-      "smrt"
-    ],
-    "casoprostor": "Německé hanzovní město Hameln, středověk.",
-    "kompozice": "Dvacet šest krátkých kapitol, chronologický děj. Zpracování staré německé pověsti.",
-    "postavy": [
-      {
-        "name": "Krysař",
-        "desc": "Tajemný cizinec bez jména, píšťalou vyvádí krysy z města."
-      },
-      {
-        "name": "Agnes",
-        "desc": "Dívka, kterou krysař miluje."
-      },
-      {
-        "name": "Dlouhý Kristián",
-        "desc": "Agnesin dřívější milenec."
-      },
-      {
-        "name": "Sepp Jörgen",
-        "desc": "Pomalý rybář; jediný odolá píšťale a zachrání dítě."
-      },
-      {
-        "name": "Konšelé",
-        "desc": "Odmítnou krysaři zaplatit slíbenou odměnu."
-      }
-    ],
-    "jazyk": "Úsporný styl, krátké věty, lyrizace, symboly.",
-    "kontext": "Dyk byl básník a politik; patřil ke generaci buřičů spolu s Šrámkem, Tomanem a Gellnerem.",
-    "skupina": 4
-  },
-  {
-    "id": "slezske-pisne",
-    "title": "Slezské písně",
-    "author": "Petr Bezruč",
-    "year": "1909",
-    "period": "Přelom 19. a 20. století, generace buřičů",
-    "druh": "Lyrickoepický",
-    "zanr": "Básnická sbírka",
-    "tema": "Sociální a národnostní útlak slezského lidu. Básník vystupuje jako jeho mluvčí a mstitel.",
-    "motivy": [
-      "útlak",
-      "bída",
-      "vzdor",
-      "národ",
-      "horníci",
-      "osamělost"
-    ],
-    "casoprostor": "Slezsko, Ostravsko a Těšínsko, přelom 19. a 20. století.",
-    "kompozice": "Sbírka se rozrůstala v dalších vydáních. Obsahuje sociální balady, básně vzdoru i intimní lyriku.",
-    "postavy": [
-      {
-        "name": "Maryčka Magdónova",
-        "desc": "Sirotek po horníkovi; po zatčení za sbírání dříví skočí do řeky."
-      },
-      {
-        "name": "Kantor Halfar",
-        "desc": "Český učitel, který nedostane místo a oběsí se."
-      },
-      {
-        "name": "Lyrický mluvčí",
-        "desc": "Bard utlačovaného lidu, promlouvá za něj."
-      }
-    ],
-    "jazyk": "Nářeční prvky, drsný jazyk, řečnické otázky, apostrofy, výrazný rytmus.",
-    "kontext": "Petr Bezruč je pseudonym Vladimíra Vaška. Slezské písně jsou jeho jediným významným dílem.",
-    "skupina": 4
-  },
-  {
-    "id": "audience",
-    "title": "Audience",
-    "author": "Václav Havel",
-    "year": "1975",
-    "period": "Česká literatura v době normalizace, absurdní drama",
+    "id": "ze-zivota-hmyzu",
+    "title": "Ze života hmyzu",
+    "author": "Karel a Josef Čapkové",
+    "year": "1921",
+    "skupina": 4,
+    "forma": "Drama",
     "druh": "Drama",
-    "zanr": "Jednoaktová hra",
-    "tema": "Poměry normalizace: strach, přetvářka a udavačství pronikají i do obyčejného rozhovoru.",
-    "motivy": [
-      "normalizace",
-      "strach",
-      "udavačství",
-      "alkohol",
-      "nedorozumění"
-    ],
-    "casoprostor": "Kancelář sládka v pivovaru, 70. léta 20. století.",
-    "kompozice": "Jedno dějství. Rozhovor se točí v kruhu, repliky se opakují a hra končí tak, jak začala.",
+    "zanr": "Alegorická komedie",
+    "period": "Česká meziválečná literatura",
+    "tema": "Tulák pozoruje hmyz, jehož jednání zrcadlí lidské vlastnosti: lehkomyslnost, hamižnost a válečné šílenství.",
     "postavy": [
       {
-        "name": "Ferdinand Vaněk",
-        "desc": "Zakázaný spisovatel pracující v pivovaru; tichý, zdvořilý, zásadový."
+        "name": "Tulák",
+        "desc": "pozorovatel"
       },
       {
-        "name": "Sládek",
-        "desc": "Vaňkův nadřízený. Pije, lituje se a žádá Vaňka, aby psal hlášení sám na sebe."
+        "name": "Motýli, chrobáci a mravenci",
+        "desc": "alegorie lidí"
       }
     ],
-    "jazyk": "Hovorová čeština, vulgarismy u Sládka, spisovná mluva Vaňka, opakování frází.",
-    "kontext": "Hra má autobiografický základ. S hrami Vernisáž a Protest tvoří vaňkovskou trilogii. Šířila se v samizdatu.",
-    "skupina": 4
+    "kontext": "Hra měla premiéru v Národním divadle v roce 1922."
   },
   {
-    "id": "romeo-julie-a-tma",
-    "title": "Romeo, Julie a tma",
-    "author": "Jan Otčenášek",
-    "year": "1958",
-    "period": "Česká literatura 2. poloviny 20. století",
+    "id": "hovno-hori",
+    "title": "Hovno hoří",
+    "author": "Petr Šabach",
+    "year": "1994",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Soubor povídek",
+    "period": "Česká literatura po roce 1989",
+    "tema": "Humorné příběhy z dětství a mládí za socialismu.",
+    "kontext": "Předloha filmu Pelíšky."
+  },
+  {
+    "id": "obcansky-prukaz",
+    "title": "Občanský průkaz",
+    "author": "Petr Šabach",
+    "year": "2006",
+    "skupina": 4,
+    "forma": "Próza",
     "druh": "Epika",
     "zanr": "Novela",
-    "tema": "Láska studenta a židovské dívky, kterou ukrývá za heydrichiády.",
-    "motivy": [
-      "láska",
-      "strach",
-      "odvaha",
-      "holocaust",
-      "okupace",
-      "smrt"
-    ],
-    "casoprostor": "Praha, jaro a léto 1942.",
-    "kompozice": "Rámcová kompozice: úvod a závěr v přítomnosti, hlavní děj je vzpomínka.",
+    "period": "Česká literatura po roce 1989",
+    "tema": "Kluci za normalizace dostanou s občankou i první střety s policií a režimem."
+  },
+  {
+    "id": "opile-banany",
+    "title": "Opilé banány",
+    "author": "Petr Šabach",
+    "year": "2001",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Soubor povídek",
+    "period": "Česká literatura po roce 1989",
+    "tema": "Humorné vzpomínky na mládí v 70. letech."
+  },
+  {
+    "id": "prima-sezona",
+    "title": "Prima sezóna",
+    "author": "Josef Škvorecký",
+    "year": "1975",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Soubor povídek",
+    "period": "Česká literatura 20. století",
+    "tema": "Danny Smiřický za protektorátu v Kostelci prožívá lásky a jazz.",
     "postavy": [
       {
-        "name": "Pavel",
-        "desc": "Student před maturitou; ukryje Ester v komůrce vedle otcovy krejčovské dílny."
+        "name": "Danny Smiřický",
+        "desc": "vypravěč"
+      }
+    ]
+  },
+  {
+    "id": "zbabelci",
+    "title": "Zbabělci",
+    "author": "Josef Škvorecký",
+    "year": "1958",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Česká literatura 20. století",
+    "tema": "Danny Smiřický během květnové revoluce 1945; ironický pohled na „hrdinství“ měšťanů.",
+    "postavy": [
+      {
+        "name": "Danny Smiřický",
+        "desc": "vypravěč, jazzový saxofonista"
       },
       {
-        "name": "Ester",
-        "desc": "Židovská dívka, která nenastoupila do transportu."
-      },
-      {
-        "name": "Rejsek",
-        "desc": "Soused, kolaborant; pro oba představuje hrozbu."
-      },
-      {
-        "name": "Krejčí Čepek",
-        "desc": "Tovaryš Pavlova otce, pomůže."
+        "name": "Irena",
+        "desc": "dívka, kterou miluje"
       }
     ],
-    "jazyk": "Er-forma, lyrické pasáže, vnitřní monology.",
-    "kontext": "Název odkazuje na Shakespearovu tragédii. Otčenášek napsal také román Občan Brych.",
-    "skupina": 4
+    "kontext": "Kniha vyvolala politický skandál."
+  },
+  {
+    "id": "obrazky-z-burgundska",
+    "title": "Obrázky z Burgundska",
+    "author": "Jan Šmíd",
+    "year": "21. století",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Cestopisné reportáže",
+    "period": "Česká literatura po roce 1989",
+    "tema": "Šestnáct kapitol o Burgundsku: víno, lidé, hotely a památky, vyprávěné v ich-formě.",
+    "kontext": "Autor napsal i Obrázky z Provence a další cestopisy."
+  },
+  {
+    "id": "modry-a-rudy",
+    "title": "Modrý a rudý",
+    "author": "Fráňa Šrámek",
+    "year": "1906",
+    "skupina": 4,
+    "forma": "Poezie",
+    "druh": "Lyrika",
+    "zanr": "Básnická sbírka",
+    "period": "Generace buřičů",
+    "tema": "Antimilitarismus, vzdor a mládí."
+  },
+  {
+    "id": "stribrny-vitr",
+    "title": "Stříbrný vítr",
+    "author": "Fráňa Šrámek",
+    "year": "1910",
+    "skupina": 4,
+    "forma": "Próza",
+    "druh": "Epika",
+    "zanr": "Román",
+    "period": "Generace buřičů",
+    "tema": "Dospívání Jana Ratkina v Písku; první lásky a vzdor proti autoritám.",
+    "postavy": [
+      {
+        "name": "Jan Ratkin",
+        "desc": "student"
+      }
+    ]
+  },
+  {
+    "id": "okurkova-sezona",
+    "title": "Okurková sezóna",
+    "author": "Jiří Žáček",
+    "year": "2007",
+    "skupina": 4,
+    "forma": "Poezie",
+    "druh": "Lyrika",
+    "zanr": "Sbírka humorných veršů",
+    "period": "Česká literatura po roce 1989",
+    "tema": "Epigramy, aforismy, parodie a slovní hříčky.",
+    "kontext": "Ilustroval Adolf Born."
   }
 ]

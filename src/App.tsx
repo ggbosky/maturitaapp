@@ -8,6 +8,9 @@ import BookPage from './pages/BookPage'
 import QuizPage from './pages/QuizPage'
 import LoginPage from './pages/LoginPage'
 import AdminPage from './pages/AdminPage'
+import TeacherPage from './pages/TeacherPage'
+import TopicEditorPage from './pages/TopicEditorPage'
+import SchoolPage from './pages/SchoolPage'
 
 export default function App() {
   const session = useSession()
@@ -26,11 +29,14 @@ export default function App() {
           <Route path="predmet/:subjectId/tema/:topicId" element={<TopicPage />} />
           <Route path="predmet/:subjectId/cetba/:bookId" element={<BookPage />} />
           <Route path="predmet/:subjectId/test/:quizId" element={<QuizPage />} />
+          <Route path="ucitel" element={<TeacherPage />} />
+          <Route path="ucitel/tema/:topicId" element={<TopicEditorPage />} />
+          <Route path="skola" element={<SchoolPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Route>
       ) : (
         // Bez platné licence vede každá adresa na přihlášení.
-        <Route path="*" element={<LoginPage notice={session.reason} />} />
+        <Route path="*" element={<LoginPage notice={session.reason} school={session.school} />} />
       )}
     </Routes>
   )

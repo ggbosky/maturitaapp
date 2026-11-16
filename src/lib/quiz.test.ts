@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import type { Question } from '../types'
 import { isCorrect, normalize, score } from './quiz'
-import { subjects } from '../data'
+import { builtinSubjects as subjects } from '../data'
 
 const choice: Question = { type: 'choice', question: 'q', options: ['a', 'b'], answer: 1 }
 const input: Question = { type: 'input', question: 'q', answers: ['is raining', "aren't you", '-3', '2.5'] }
@@ -42,8 +42,9 @@ describe('obsah v src/data', () => {
     for (const s of subjects) {
       const ids = [...s.topics, ...s.quizzes, ...s.decks, ...(s.books ?? [])].map((x) => x.id)
       expect(new Set(ids).size, `duplicitní id v ${s.id}`).toBe(ids.length)
-      for (const quiz of s.quizzes) {
-        for (const q of quiz.questions) {
+      const questions = [...s.quizzes.flatMap((x) => x.questions), ...s.topics.flatMap((t) => t.practice?.questions ?? [])]
+      {
+        for (const q of questions) {
           if (q.type === 'choice') expect(q.options[q.answer], q.question).toBeDefined()
           else expect(q.answers.length, q.question).toBeGreaterThan(0)
         }
