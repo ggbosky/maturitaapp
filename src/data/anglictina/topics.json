@@ -3,7 +3,7 @@
     "id": "maturita-anglictina",
     "title": "Jak vypadá maturita z angličtiny",
     "category": "Maturitní zkouška",
-    "summary": "Části zkoušky, úroveň B1 a jak se na každou připravit.",
+    "summary": "Části zkoušky, úroveň B1 (některé školy v profilové části B2) a jak se na každou připravit.",
     "sections": [
       {
         "heading": "Části zkoušky",
@@ -16,18 +16,18 @@
           "rows": [
             [
               "Didaktický test",
-              "poslech a čtení s porozuměním na úrovni B1",
-              "poslouchej podcasty a videa s titulky, čti krátké články, trénuj testy z minulých let"
+              "poslech a čtení s porozuměním: hlavní myšlenky, detaily, doplňování chybějících slov",
+              "poslouchej podcasty a videa, čti krátké články, trénuj testy z minulých let"
             ],
             [
               "Písemná práce",
-              "dva texty v angličtině na zadané téma (např. e-mail, článek, příběh)",
-              "nauč se strukturu útvarů a fráze pro úvod a závěr, hlídej rozsah"
+              "nejčastěji delší text (120–150 slov: dopis, e-mail, článek, vypravování, popis) a kratší text (60–70 slov: vzkaz, omluvenka, pozvánka, oznámení)",
+              "nauč se strukturu útvarů a fráze pro formální a neformální styl, hlídej rozsah"
             ],
             [
               "Ústní zkouška",
-              "rozhovor na běžná témata, popis a srovnání obrázků, samostatný projev k tématu",
-              "trénuj mluvení nahlas, měj připravené fráze na získání času"
+              "představení se, popis a porovnání dvou obrázků, samostatný projev na vylosované téma a rozhovor se zkoušejícím",
+              "trénuj mluvení nahlas k 15 konverzačním okruhům, měj připravené fráze na získání času"
             ]
           ]
         },
@@ -81,7 +81,7 @@
   {
     "id": "casy",
     "title": "Přehled anglických časů",
-    "category": "Gramatika",
+    "category": "Slovesné časy a tvary",
     "summary": "Kdy který čas použít, jak se tvoří a podle jakých slov ho poznáš.",
     "sections": [
       {
@@ -214,9 +214,216 @@
     ]
   },
   {
+    "id": "trpny-rod",
+    "title": "Trpný rod (passive voice)",
+    "category": "Slovesné časy a tvary",
+    "summary": "Tvoření trpného rodu ve všech časech a kdy ho použít.",
+    "sections": [
+      {
+        "heading": "Tvoření",
+        "text": "Trpný rod = tvar slovesa be v potřebném čase + příčestí minulé (3. tvar). Původce děje se uvádí předložkou by.",
+        "table": {
+          "head": [
+            "Čas",
+            "Tvar",
+            "Příklad"
+          ],
+          "rows": [
+            [
+              "Present simple",
+              "is / are + 3. tvar",
+              "English is spoken here."
+            ],
+            [
+              "Present continuous",
+              "is / are being + 3. tvar",
+              "The road is being repaired."
+            ],
+            [
+              "Past simple",
+              "was / were + 3. tvar",
+              "The bridge was built in 1890."
+            ],
+            [
+              "Present perfect",
+              "has / have been + 3. tvar",
+              "My bike has been stolen."
+            ],
+            [
+              "Future (will)",
+              "will be + 3. tvar",
+              "The results will be published."
+            ],
+            [
+              "S modálním slovesem",
+              "can / must be + 3. tvar",
+              "It must be done today."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Kdy ho použít",
+        "bullets": [
+          "Když není důležité nebo známé, kdo děj vykonal: My car was stolen.",
+          "V odborných textech a zprávách: The experiment was carried out in 2020.",
+          "Když chceme zdůraznit předmět děje: Hamlet was written by Shakespeare."
+        ]
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "choice",
+          "question": "The bridge ___ in 1890.",
+          "options": [
+            "built",
+            "was built",
+            "is building",
+            "has built"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "English ___ all over the world.",
+          "options": [
+            "speaks",
+            "is spoken",
+            "is speaking",
+            "spoke"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "input",
+          "question": "My bike has ___ stolen. (doplň jedno slovo)",
+          "answers": [
+            "been"
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "The road ___ at the moment.",
+          "options": [
+            "is repaired",
+            "is being repaired",
+            "was repaired",
+            "repairs"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "Hamlet was written ___ Shakespeare.",
+          "options": [
+            "from",
+            "of",
+            "by",
+            "with"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": "used-to",
+    "title": "Used to, be used to, get used to",
+    "category": "Slovesné časy a tvary",
+    "summary": "Tři podobné vazby s úplně jiným významem.",
+    "sections": [
+      {
+        "heading": "Přehled",
+        "bullets": [
+          "Zápor a otázka: I didn’t use to… Did you use to…?",
+          "Po be used to a get used to následuje -ing nebo podstatné jméno: I’m used to the noise."
+        ],
+        "table": {
+          "head": [
+            "Vazba",
+            "Význam",
+            "Příklad"
+          ],
+          "rows": [
+            [
+              "used to + infinitiv",
+              "dříve (už ne)",
+              "I used to play football. (Dřív jsem hrával.)"
+            ],
+            [
+              "be used to + -ing",
+              "být zvyklý",
+              "I am used to getting up early."
+            ],
+            [
+              "get used to + -ing",
+              "zvykat si",
+              "I am getting used to living in London."
+            ],
+            [
+              "would + infinitiv",
+              "opakovaný děj v minulosti (ne stav)",
+              "Every summer we would go to the sea."
+            ]
+          ]
+        },
+        "tip": "Would nelze použít pro stavy: I used to have a dog (ne I would have a dog)."
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "choice",
+          "question": "When I was a child, I ___ play the piano.",
+          "options": [
+            "used to",
+            "am used to",
+            "get used to",
+            "use to"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "choice",
+          "question": "I’m used to ___ up early.",
+          "options": [
+            "get",
+            "getting",
+            "got",
+            "to get"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "She is slowly getting used to ___ in a big city.",
+          "options": [
+            "live",
+            "living",
+            "lived",
+            "to live"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "Did you ___ have long hair?",
+          "options": [
+            "used to",
+            "use to",
+            "using to",
+            "used"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  },
+  {
     "id": "kondicionaly",
     "title": "Kondicionály",
-    "category": "Gramatika",
+    "category": "Větné konstrukce",
     "summary": "Nultý, první, druhý, třetí a smíšený kondicionál na jedné stránce.",
     "sections": [
       {
@@ -292,7 +499,7 @@
   {
     "id": "otazky",
     "title": "Tvorba otázek",
-    "category": "Gramatika",
+    "category": "Větné konstrukce",
     "summary": "Slovosled v přímých, podmětných a nepřímých otázkách a tázací dovětky.",
     "sections": [
       {
@@ -393,7 +600,7 @@
   {
     "id": "modalni-slovesa",
     "title": "Modální slovesa",
-    "category": "Gramatika",
+    "category": "Větné konstrukce",
     "summary": "Can, must, have to, should, may, might a jejich zápory, které mění význam.",
     "sections": [
       {
@@ -567,123 +774,9 @@
     }
   },
   {
-    "id": "trpny-rod",
-    "title": "Trpný rod (passive voice)",
-    "category": "Gramatika",
-    "summary": "Tvoření trpného rodu ve všech časech a kdy ho použít.",
-    "sections": [
-      {
-        "heading": "Tvoření",
-        "text": "Trpný rod = tvar slovesa be v potřebném čase + příčestí minulé (3. tvar). Původce děje se uvádí předložkou by.",
-        "table": {
-          "head": [
-            "Čas",
-            "Tvar",
-            "Příklad"
-          ],
-          "rows": [
-            [
-              "Present simple",
-              "is / are + 3. tvar",
-              "English is spoken here."
-            ],
-            [
-              "Present continuous",
-              "is / are being + 3. tvar",
-              "The road is being repaired."
-            ],
-            [
-              "Past simple",
-              "was / were + 3. tvar",
-              "The bridge was built in 1890."
-            ],
-            [
-              "Present perfect",
-              "has / have been + 3. tvar",
-              "My bike has been stolen."
-            ],
-            [
-              "Future (will)",
-              "will be + 3. tvar",
-              "The results will be published."
-            ],
-            [
-              "S modálním slovesem",
-              "can / must be + 3. tvar",
-              "It must be done today."
-            ]
-          ]
-        }
-      },
-      {
-        "heading": "Kdy ho použít",
-        "bullets": [
-          "Když není důležité nebo známé, kdo děj vykonal: My car was stolen.",
-          "V odborných textech a zprávách: The experiment was carried out in 2020.",
-          "Když chceme zdůraznit předmět děje: Hamlet was written by Shakespeare."
-        ]
-      }
-    ],
-    "practice": {
-      "questions": [
-        {
-          "type": "choice",
-          "question": "The bridge ___ in 1890.",
-          "options": [
-            "built",
-            "was built",
-            "is building",
-            "has built"
-          ],
-          "answer": 1
-        },
-        {
-          "type": "choice",
-          "question": "English ___ all over the world.",
-          "options": [
-            "speaks",
-            "is spoken",
-            "is speaking",
-            "spoke"
-          ],
-          "answer": 1
-        },
-        {
-          "type": "input",
-          "question": "My bike has ___ stolen. (doplň jedno slovo)",
-          "answers": [
-            "been"
-          ]
-        },
-        {
-          "type": "choice",
-          "question": "The road ___ at the moment.",
-          "options": [
-            "is repaired",
-            "is being repaired",
-            "was repaired",
-            "repairs"
-          ],
-          "answer": 1
-        },
-        {
-          "type": "choice",
-          "question": "Hamlet was written ___ Shakespeare.",
-          "options": [
-            "from",
-            "of",
-            "by",
-            "with"
-          ],
-          "answer": 2
-        }
-      ]
-    }
-  },
-  {
     "id": "neprima-rec",
     "title": "Nepřímá řeč (reported speech)",
-    "category": "Gramatika",
+    "category": "Větné konstrukce",
     "summary": "Posun časů, změna časových výrazů a nepřímé otázky.",
     "sections": [
       {
@@ -839,114 +932,9 @@
     }
   },
   {
-    "id": "cleny",
-    "title": "Členy a / an / the",
-    "category": "Gramatika",
-    "summary": "Kdy neurčitý člen, kdy určitý a kdy žádný.",
-    "sections": [
-      {
-        "heading": "Neurčitý člen a / an",
-        "bullets": [
-          "Poprvé zmíněná, jedna z mnoha: I saw a dog.",
-          "Povolání: She is an engineer.",
-          "an před samohláskou ve výslovnosti: an hour, an apple, ale a university."
-        ]
-      },
-      {
-        "heading": "Určitý člen the",
-        "bullets": [
-          "Už zmíněné nebo jednoznačné: The dog was big. The sun.",
-          "Řeky, moře, oceány, pohoří: the Thames, the Alps, the Pacific.",
-          "Názvy s republic, kingdom, states: the Czech Republic, the United Kingdom, the USA.",
-          "Hudební nástroje: play the piano.",
-          "Třetí stupeň a řadové číslovky: the best, the first."
-        ]
-      },
-      {
-        "heading": "Bez členu",
-        "bullets": [
-          "Obecně míněné množné číslo a nepočitatelná jména: Dogs are friendly. I like music.",
-          "Většina států, měst, jezer a jednotlivých hor: Germany, Prague, Lake Como, Mount Everest.",
-          "Jídla, sporty, předměty ve škole: have breakfast, play football, study maths.",
-          "Ustálená spojení: go to school, at home, by bus."
-        ]
-      }
-    ],
-    "practice": {
-      "questions": [
-        {
-          "type": "choice",
-          "question": "She is ___ engineer.",
-          "options": [
-            "a",
-            "an",
-            "the",
-            "—"
-          ],
-          "answer": 1
-        },
-        {
-          "type": "choice",
-          "question": "We swam in ___ Pacific.",
-          "options": [
-            "a",
-            "the",
-            "—",
-            "an"
-          ],
-          "answer": 1
-        },
-        {
-          "type": "choice",
-          "question": "I play ___ guitar.",
-          "options": [
-            "a",
-            "the",
-            "—",
-            "an"
-          ],
-          "answer": 1
-        },
-        {
-          "type": "choice",
-          "question": "He climbed ___ Mount Everest.",
-          "options": [
-            "the",
-            "a",
-            "—",
-            "an"
-          ],
-          "answer": 2
-        },
-        {
-          "type": "choice",
-          "question": "They live in ___ United Kingdom.",
-          "options": [
-            "—",
-            "a",
-            "the",
-            "an"
-          ],
-          "answer": 2
-        },
-        {
-          "type": "choice",
-          "question": "We waited for ___ hour.",
-          "options": [
-            "a",
-            "an",
-            "the",
-            "—"
-          ],
-          "answer": 1
-        }
-      ]
-    }
-  },
-  {
     "id": "vztazne-vety",
     "title": "Vztažné věty (relative clauses)",
-    "category": "Gramatika",
+    "category": "Větné konstrukce",
     "summary": "Who, which, that, whose, where, when a rozdíl mezi určující a neurčující vztažnou větou.",
     "sections": [
       {
@@ -1065,7 +1053,7 @@
   {
     "id": "gerundium-infinitiv",
     "title": "Gerundium a infinitiv",
-    "category": "Gramatika",
+    "category": "Větné konstrukce",
     "summary": "Po kterých slovesech následuje -ing, po kterých to + infinitiv a kdy se mění význam.",
     "sections": [
       {
@@ -1169,9 +1157,114 @@
     }
   },
   {
+    "id": "cleny",
+    "title": "Členy a / an / the",
+    "category": "Jména, předložky a vazby",
+    "summary": "Kdy neurčitý člen, kdy určitý a kdy žádný.",
+    "sections": [
+      {
+        "heading": "Neurčitý člen a / an",
+        "bullets": [
+          "Poprvé zmíněná, jedna z mnoha: I saw a dog.",
+          "Povolání: She is an engineer.",
+          "an před samohláskou ve výslovnosti: an hour, an apple, ale a university."
+        ]
+      },
+      {
+        "heading": "Určitý člen the",
+        "bullets": [
+          "Už zmíněné nebo jednoznačné: The dog was big. The sun.",
+          "Řeky, moře, oceány, pohoří: the Thames, the Alps, the Pacific.",
+          "Názvy s republic, kingdom, states: the Czech Republic, the United Kingdom, the USA.",
+          "Hudební nástroje: play the piano.",
+          "Třetí stupeň a řadové číslovky: the best, the first."
+        ]
+      },
+      {
+        "heading": "Bez členu",
+        "bullets": [
+          "Obecně míněné množné číslo a nepočitatelná jména: Dogs are friendly. I like music.",
+          "Většina států, měst, jezer a jednotlivých hor: Germany, Prague, Lake Como, Mount Everest.",
+          "Jídla, sporty, předměty ve škole: have breakfast, play football, study maths.",
+          "Ustálená spojení: go to school, at home, by bus."
+        ]
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "choice",
+          "question": "She is ___ engineer.",
+          "options": [
+            "a",
+            "an",
+            "the",
+            "—"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "We swam in ___ Pacific.",
+          "options": [
+            "a",
+            "the",
+            "—",
+            "an"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "I play ___ guitar.",
+          "options": [
+            "a",
+            "the",
+            "—",
+            "an"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "He climbed ___ Mount Everest.",
+          "options": [
+            "the",
+            "a",
+            "—",
+            "an"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "choice",
+          "question": "They live in ___ United Kingdom.",
+          "options": [
+            "—",
+            "a",
+            "the",
+            "an"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "choice",
+          "question": "We waited for ___ hour.",
+          "options": [
+            "a",
+            "an",
+            "the",
+            "—"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  },
+  {
     "id": "stupnovani",
     "title": "Stupňování přídavných jmen",
-    "category": "Gramatika",
+    "category": "Jména, předložky a vazby",
     "summary": "Krátká a dlouhá přídavná jména, nepravidelné tvary a srovnávací vazby.",
     "sections": [
       {
@@ -1273,6 +1366,2314 @@
           "answers": [
             "happier"
           ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "pocitatelna",
+    "title": "Počitatelná a nepočitatelná podstatná jména",
+    "category": "Jména, předložky a vazby",
+    "summary": "Much a many, few a little, some a any a slova, která v angličtině nejdou počítat.",
+    "sections": [
+      {
+        "heading": "Počitatelná × nepočitatelná",
+        "bullets": [
+          "Počitatelná mají množné číslo: a book – two books.",
+          "Nepočitatelná nemají množné číslo ani člen a/an: water, money, bread.",
+          "Pozor na: information, advice, news, furniture, luggage, homework, equipment – v angličtině nepočitatelná.",
+          "Počítat je jde přes výraz: a piece of advice, a loaf of bread, a bottle of water."
+        ]
+      },
+      {
+        "heading": "Výrazy množství",
+        "bullets": [
+          "some v kladných větách a nabídkách: Would you like some tea?",
+          "any v otázkách a záporu: Have you got any money? I haven’t got any."
+        ],
+        "table": {
+          "head": [
+            "S počitatelnými",
+            "S nepočitatelnými",
+            "Význam"
+          ],
+          "rows": [
+            [
+              "many",
+              "much",
+              "mnoho (hlavně v otázkách a záporu)"
+            ],
+            [
+              "a lot of",
+              "a lot of",
+              "hodně (v obou)"
+            ],
+            [
+              "a few",
+              "a little",
+              "pár, trochu (dost)"
+            ],
+            [
+              "few",
+              "little",
+              "málo (skoro nic)"
+            ],
+            [
+              "How many?",
+              "How much?",
+              "kolik?"
+            ]
+          ]
+        }
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "choice",
+          "question": "Can you give me some ___?",
+          "options": [
+            "advices",
+            "advice",
+            "an advice",
+            "advise"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "How ___ money have you got?",
+          "options": [
+            "many",
+            "much",
+            "few",
+            "a few"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "There are ___ apples left, enough for a pie.",
+          "options": [
+            "a few",
+            "a little",
+            "much",
+            "little"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "choice",
+          "question": "I haven’t got ___ time.",
+          "options": [
+            "many",
+            "much",
+            "a few",
+            "few"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "The news ___ good today.",
+          "options": [
+            "are",
+            "is",
+            "were",
+            "be"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "too-enough-prislovce",
+    "title": "Příslovce, too a enough, so a such",
+    "category": "Jména, předložky a vazby",
+    "summary": "Tvoření a stupňování příslovcí a vazby too, enough, so, such.",
+    "sections": [
+      {
+        "heading": "Příslovce",
+        "bullets": [
+          "Většinou přídavné jméno + -ly: quick → quickly, careful → carefully.",
+          "Nepravidelná: good → well, fast → fast, hard → hard, late → late.",
+          "Pozor: hardly = sotva, lately = v poslední době (jiný význam než hard a late).",
+          "Stupňování: fast – faster – the fastest, carefully – more carefully – the most carefully, well – better – the best, badly – worse – the worst."
+        ]
+      },
+      {
+        "heading": "Too, enough, so, such",
+        "table": {
+          "head": [
+            "Vazba",
+            "Význam",
+            "Příklad"
+          ],
+          "rows": [
+            [
+              "too + přídavné jméno",
+              "příliš",
+              "It’s too cold to swim."
+            ],
+            [
+              "přídavné jméno + enough",
+              "dost (za přídavným jménem)",
+              "He isn’t old enough to drive."
+            ],
+            [
+              "enough + podstatné jméno",
+              "dost (před podstatným jménem)",
+              "We haven’t got enough money."
+            ],
+            [
+              "so + přídavné jméno",
+              "tak",
+              "The film was so boring."
+            ],
+            [
+              "such + (a) přídavné jméno + podstatné jméno",
+              "takový",
+              "It was such a boring film."
+            ]
+          ]
+        }
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "choice",
+          "question": "She sings very ___.",
+          "options": [
+            "good",
+            "well",
+            "goodly",
+            "better"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "He isn’t ___ to drive.",
+          "options": [
+            "enough old",
+            "old enough",
+            "too old enough",
+            "enough older"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "It was ___ a nice day.",
+          "options": [
+            "so",
+            "such",
+            "too",
+            "enough"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "The coffee is ___ hot to drink.",
+          "options": [
+            "too",
+            "enough",
+            "so much",
+            "such"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "choice",
+          "question": "I can ___ hear you. (sotva)",
+          "options": [
+            "hard",
+            "hardly",
+            "harder",
+            "hardest"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "predlozky",
+    "title": "Předložky místa a času",
+    "category": "Jména, předložky a vazby",
+    "summary": "At, on, in a další předložky, na kterých se v testu nejčastěji chybuje.",
+    "sections": [
+      {
+        "heading": "Čas",
+        "bullets": [
+          "for + doba trvání (for two hours), since + bod v čase (since 2020).",
+          "during = během (during the lesson), by = nejpozději do (by Friday), until = až do (until Friday)."
+        ],
+        "table": {
+          "head": [
+            "Předložka",
+            "Kdy",
+            "Příklady"
+          ],
+          "rows": [
+            [
+              "at",
+              "přesný čas, svátky, část dne",
+              "at 5 o’clock, at Christmas, at night, at the weekend"
+            ],
+            [
+              "on",
+              "dny a data",
+              "on Monday, on 5 May, on my birthday"
+            ],
+            [
+              "in",
+              "měsíce, roky, roční období, části dne",
+              "in May, in 2020, in summer, in the morning"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Místo",
+        "bullets": [
+          "next to (vedle), between (mezi dvěma), opposite (naproti), behind (za), in front of (před), under (pod), above (nad)."
+        ],
+        "table": {
+          "head": [
+            "Předložka",
+            "Kdy",
+            "Příklady"
+          ],
+          "rows": [
+            [
+              "at",
+              "bod, místo činnosti",
+              "at the bus stop, at school, at home"
+            ],
+            [
+              "on",
+              "povrch, plocha",
+              "on the wall, on the table, on the bus"
+            ],
+            [
+              "in",
+              "uvnitř prostoru, města a státy",
+              "in the room, in Prague, in a car"
+            ]
+          ]
+        }
+      }
+    ],
+    "practice": {
+      "pairs": [
+        {
+          "a": "at 5 o’clock",
+          "b": "přesný čas"
+        },
+        {
+          "a": "on Monday",
+          "b": "den v týdnu"
+        },
+        {
+          "a": "in May",
+          "b": "měsíc"
+        },
+        {
+          "a": "in 2020",
+          "b": "rok"
+        },
+        {
+          "a": "at night",
+          "b": "v noci"
+        },
+        {
+          "a": "in the morning",
+          "b": "ráno"
+        },
+        {
+          "a": "on the wall",
+          "b": "na zdi"
+        },
+        {
+          "a": "opposite",
+          "b": "naproti"
+        },
+        {
+          "a": "between",
+          "b": "mezi (dvěma)"
+        },
+        {
+          "a": "in front of",
+          "b": "před"
+        }
+      ],
+      "questions": [
+        {
+          "type": "choice",
+          "question": "I was born ___ 2008.",
+          "options": [
+            "at",
+            "on",
+            "in",
+            "by"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "choice",
+          "question": "See you ___ Monday.",
+          "options": [
+            "at",
+            "on",
+            "in",
+            "for"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "The meeting starts ___ 9 o’clock.",
+          "options": [
+            "at",
+            "on",
+            "in",
+            "since"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "choice",
+          "question": "I have lived here ___ 2015.",
+          "options": [
+            "for",
+            "since",
+            "from",
+            "during"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "The picture is ___ the wall.",
+          "options": [
+            "at",
+            "in",
+            "on",
+            "by"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": "frazova-slovesa",
+    "title": "Frázová slovesa (phrasal verbs)",
+    "category": "Jména, předložky a vazby",
+    "summary": "Nejčastější frázová slovesa k maturitě s českým významem.",
+    "sections": [
+      {
+        "heading": "Přehled",
+        "table": {
+          "head": [
+            "Sloveso",
+            "Význam",
+            "Příklad"
+          ],
+          "rows": [
+            [
+              "give up",
+              "vzdát se, přestat",
+              "He gave up smoking."
+            ],
+            [
+              "look after",
+              "starat se o",
+              "She looks after her sister."
+            ],
+            [
+              "look for",
+              "hledat",
+              "I’m looking for my keys."
+            ],
+            [
+              "look forward to",
+              "těšit se na",
+              "I look forward to the holidays."
+            ],
+            [
+              "find out",
+              "zjistit",
+              "I found out the truth."
+            ],
+            [
+              "get up",
+              "vstát",
+              "I get up at six."
+            ],
+            [
+              "turn on / turn off",
+              "zapnout / vypnout",
+              "Turn off the light."
+            ],
+            [
+              "put off",
+              "odložit",
+              "They put off the meeting."
+            ],
+            [
+              "take off",
+              "vzlétnout; svléknout",
+              "The plane took off."
+            ],
+            [
+              "pick up",
+              "zvednout; vyzvednout",
+              "I’ll pick you up at eight."
+            ],
+            [
+              "run out of",
+              "dojít (zásoby)",
+              "We ran out of milk."
+            ],
+            [
+              "carry on",
+              "pokračovat",
+              "Carry on reading."
+            ],
+            [
+              "break down",
+              "porouchat se",
+              "Our car broke down."
+            ],
+            [
+              "get on with",
+              "vycházet s",
+              "I get on well with my brother."
+            ],
+            [
+              "set off",
+              "vyrazit na cestu",
+              "We set off early."
+            ]
+          ]
+        },
+        "tip": "Nauč se frázová slovesa ve větách, ne jednotlivě. Význam často nejde odvodit z jednotlivých slov."
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "choice",
+          "question": "He decided to ___ smoking.",
+          "options": [
+            "give up",
+            "give in",
+            "look up",
+            "take off"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "choice",
+          "question": "Who will ___ the dog while you are away?",
+          "options": [
+            "look for",
+            "look after",
+            "look up",
+            "look at"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "Our car ___ on the motorway.",
+          "options": [
+            "broke down",
+            "broke up",
+            "took off",
+            "set off"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "choice",
+          "question": "We have ___ of sugar. Can you buy some?",
+          "options": [
+            "run out",
+            "carried on",
+            "put off",
+            "given up"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "choice",
+          "question": "I get ___ well with my parents.",
+          "options": [
+            "on",
+            "up",
+            "off",
+            "out"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": "predlozkove-vazby",
+    "title": "Předložkové vazby (interested in, good at…)",
+    "category": "Jména, předložky a vazby",
+    "summary": "Přídavná jména a slovesa s pevnou předložkou.",
+    "sections": [
+      {
+        "heading": "Přídavná jména",
+        "table": {
+          "head": [
+            "Vazba",
+            "Význam"
+          ],
+          "rows": [
+            [
+              "interested in",
+              "zajímat se o"
+            ],
+            [
+              "good at",
+              "dobrý v"
+            ],
+            [
+              "afraid of",
+              "bát se"
+            ],
+            [
+              "proud of",
+              "pyšný na"
+            ],
+            [
+              "tired of",
+              "unavený z, mít dost"
+            ],
+            [
+              "famous for",
+              "slavný pro"
+            ],
+            [
+              "responsible for",
+              "zodpovědný za"
+            ],
+            [
+              "married to",
+              "ženatý s, vdaná za"
+            ],
+            [
+              "different from",
+              "odlišný od"
+            ],
+            [
+              "keen on",
+              "nadšený do"
+            ],
+            [
+              "worried about",
+              "mít starosti o"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Slovesa",
+        "table": {
+          "head": [
+            "Vazba",
+            "Význam"
+          ],
+          "rows": [
+            [
+              "depend on",
+              "záviset na"
+            ],
+            [
+              "listen to",
+              "poslouchat"
+            ],
+            [
+              "wait for",
+              "čekat na"
+            ],
+            [
+              "look at",
+              "dívat se na"
+            ],
+            [
+              "belong to",
+              "patřit (komu)"
+            ],
+            [
+              "apologise for",
+              "omluvit se za"
+            ],
+            [
+              "agree with",
+              "souhlasit s"
+            ],
+            [
+              "pay for",
+              "platit za"
+            ]
+          ]
+        }
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "choice",
+          "question": "I’m interested ___ history.",
+          "options": [
+            "in",
+            "on",
+            "at",
+            "for"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "choice",
+          "question": "She is very good ___ maths.",
+          "options": [
+            "in",
+            "at",
+            "on",
+            "with"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "It depends ___ the weather.",
+          "options": [
+            "of",
+            "on",
+            "from",
+            "at"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "We are waiting ___ the bus.",
+          "options": [
+            "on",
+            "to",
+            "for",
+            "at"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "choice",
+          "question": "Prague is famous ___ its bridges.",
+          "options": [
+            "for",
+            "of",
+            "with",
+            "by"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": "aj-osobnost-rodina",
+    "title": "Osobní charakteristika a rodina",
+    "category": "Konverzační témata",
+    "summary": "Vzhled, povaha, vztahy v rodině a mezi generacemi.",
+    "sections": [
+      {
+        "heading": "Slovní zásoba",
+        "table": {
+          "head": [
+            "Anglicky",
+            "Česky"
+          ],
+          "rows": [
+            [
+              "tall / short",
+              "vysoký / malý"
+            ],
+            [
+              "slim / overweight",
+              "štíhlý / s nadváhou"
+            ],
+            [
+              "curly hair",
+              "kudrnaté vlasy"
+            ],
+            [
+              "reliable",
+              "spolehlivý"
+            ],
+            [
+              "generous",
+              "štědrý"
+            ],
+            [
+              "selfish",
+              "sobecký"
+            ],
+            [
+              "shy",
+              "plachý"
+            ],
+            [
+              "hard-working",
+              "pracovitý"
+            ],
+            [
+              "stepmother",
+              "nevlastní matka"
+            ],
+            [
+              "only child",
+              "jedináček"
+            ],
+            [
+              "grandparents",
+              "prarodiče"
+            ],
+            [
+              "to get on well with",
+              "dobře vycházet s"
+            ],
+            [
+              "generation gap",
+              "mezigenerační rozdíly"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Užitečné fráze",
+        "bullets": [
+          "I’d describe myself as a friendly and reliable person.",
+          "I take after my mother. (Podobám se mámě.)",
+          "We get on well, although we sometimes argue about…",
+          "The thing I appreciate most about my family is…"
+        ]
+      },
+      {
+        "heading": "Otázky, na které se připrav",
+        "bullets": [
+          "Describe yourself – your appearance and personality.",
+          "What is your family like? Who are you closest to?",
+          "What do young people and their parents argue about?",
+          "Would you like to have a big family in the future? Why?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aj-bydleni",
+    "title": "Bydlení",
+    "category": "Konverzační témata",
+    "summary": "Město nebo vesnice, popis domu a pokoje, domácí práce a ideální bydlení.",
+    "sections": [
+      {
+        "heading": "Slovní zásoba",
+        "table": {
+          "head": [
+            "Anglicky",
+            "Česky"
+          ],
+          "rows": [
+            [
+              "detached house",
+              "samostatný rodinný dům"
+            ],
+            [
+              "block of flats",
+              "panelový / činžovní dům"
+            ],
+            [
+              "suburbs",
+              "předměstí"
+            ],
+            [
+              "countryside",
+              "venkov"
+            ],
+            [
+              "rent",
+              "nájem"
+            ],
+            [
+              "landlord",
+              "pronajímatel"
+            ],
+            [
+              "neighbour",
+              "soused"
+            ],
+            [
+              "cosy",
+              "útulný"
+            ],
+            [
+              "spacious",
+              "prostorný"
+            ],
+            [
+              "household chores",
+              "domácí práce"
+            ],
+            [
+              "to do the washing-up",
+              "umývat nádobí"
+            ],
+            [
+              "to vacuum",
+              "vysávat"
+            ],
+            [
+              "to move house",
+              "stěhovat se"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Užitečné fráze",
+        "bullets": [
+          "I live in a flat on the outskirts of…",
+          "My room is small but cosy. There’s a bed by the window…",
+          "The main advantage of living in a city is…, but on the other hand…",
+          "My ideal home would be…"
+        ]
+      },
+      {
+        "heading": "Otázky, na které se připrav",
+        "bullets": [
+          "Do you prefer living in a city or in the countryside? Why?",
+          "Describe your house or your room.",
+          "Which household chores do you do?",
+          "What would your ideal home look like?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aj-volny-cas",
+    "title": "Každodenní režim a volný čas",
+    "category": "Konverzační témata",
+    "summary": "Denní program, koníčky, víkendy a time management.",
+    "sections": [
+      {
+        "heading": "Slovní zásoba",
+        "table": {
+          "head": [
+            "Anglicky",
+            "Česky"
+          ],
+          "rows": [
+            [
+              "daily routine",
+              "denní režim"
+            ],
+            [
+              "to get up",
+              "vstávat"
+            ],
+            [
+              "to commute",
+              "dojíždět"
+            ],
+            [
+              "spare time",
+              "volný čas"
+            ],
+            [
+              "hobby",
+              "koníček"
+            ],
+            [
+              "to hang out with friends",
+              "trávit čas s kamarády"
+            ],
+            [
+              "to go hiking",
+              "chodit na túry"
+            ],
+            [
+              "to play an instrument",
+              "hrát na nástroj"
+            ],
+            [
+              "board games",
+              "deskové hry"
+            ],
+            [
+              "to be busy",
+              "mít hodně práce"
+            ],
+            [
+              "deadline",
+              "termín"
+            ],
+            [
+              "to procrastinate",
+              "prokrastinovat, odkládat"
+            ],
+            [
+              "to relax",
+              "odpočívat"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Užitečné fráze",
+        "bullets": [
+          "On weekdays I usually get up at…",
+          "In my spare time I enjoy… because…",
+          "At the weekend I tend to…",
+          "I try to plan my time so that…"
+        ]
+      },
+      {
+        "heading": "Otázky, na které se připrav",
+        "bullets": [
+          "Describe your typical day.",
+          "What do you do in your free time?",
+          "How do you spend weekends?",
+          "Do you have enough time for everything? How do you organise it?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aj-skola",
+    "title": "Vzdělávání a škola",
+    "category": "Konverzační témata",
+    "summary": "Náš vzdělávací systém, naše škola, oblíbené předměty a další studium.",
+    "sections": [
+      {
+        "heading": "Slovní zásoba",
+        "table": {
+          "head": [
+            "Anglicky",
+            "Česky"
+          ],
+          "rows": [
+            [
+              "compulsory education",
+              "povinná školní docházka"
+            ],
+            [
+              "primary school",
+              "základní škola (1. stupeň)"
+            ],
+            [
+              "secondary school",
+              "střední škola"
+            ],
+            [
+              "grammar school",
+              "gymnázium"
+            ],
+            [
+              "school-leaving exam",
+              "maturita"
+            ],
+            [
+              "subject",
+              "předmět"
+            ],
+            [
+              "timetable",
+              "rozvrh"
+            ],
+            [
+              "to pass / to fail an exam",
+              "udělat / neudělat zkoušku"
+            ],
+            [
+              "mark",
+              "známka"
+            ],
+            [
+              "term",
+              "pololetí"
+            ],
+            [
+              "university",
+              "vysoká škola"
+            ],
+            [
+              "degree",
+              "vysokoškolský titul"
+            ],
+            [
+              "to apply for",
+              "přihlásit se na"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Užitečné fráze",
+        "bullets": [
+          "I attend a … school in …",
+          "My favourite subject is … because…",
+          "After the school-leaving exam I’d like to study…",
+          "Compared to Britain, Czech pupils…"
+        ]
+      },
+      {
+        "heading": "Otázky, na které se připrav",
+        "bullets": [
+          "Describe the Czech education system.",
+          "What is your school like?",
+          "What is your favourite and least favourite subject?",
+          "What are your plans after school?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aj-prace",
+    "title": "Práce a povolání",
+    "category": "Konverzační témata",
+    "summary": "Brigády, vysněná práce, pracovní pohovor a životopis.",
+    "sections": [
+      {
+        "heading": "Slovní zásoba",
+        "table": {
+          "head": [
+            "Anglicky",
+            "Česky"
+          ],
+          "rows": [
+            [
+              "job",
+              "práce, zaměstnání"
+            ],
+            [
+              "part-time job",
+              "brigáda, částečný úvazek"
+            ],
+            [
+              "salary",
+              "plat"
+            ],
+            [
+              "employer / employee",
+              "zaměstnavatel / zaměstnanec"
+            ],
+            [
+              "to apply for a job",
+              "ucházet se o práci"
+            ],
+            [
+              "job interview",
+              "pracovní pohovor"
+            ],
+            [
+              "CV",
+              "životopis"
+            ],
+            [
+              "experience",
+              "praxe, zkušenost"
+            ],
+            [
+              "skills",
+              "dovednosti"
+            ],
+            [
+              "to be unemployed",
+              "být nezaměstnaný"
+            ],
+            [
+              "to earn",
+              "vydělávat"
+            ],
+            [
+              "self-employed",
+              "OSVČ, podnikatel"
+            ],
+            [
+              "career",
+              "kariéra"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Užitečné fráze",
+        "bullets": [
+          "Last summer I had a part-time job as…",
+          "My dream job is… because…",
+          "In a job interview it’s important to…",
+          "I think the most important thing about a job is…"
+        ]
+      },
+      {
+        "heading": "Otázky, na které se připrav",
+        "bullets": [
+          "Have you ever had a part-time job?",
+          "What is your dream job and why?",
+          "How should you prepare for a job interview?",
+          "What is more important: salary or job satisfaction?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aj-zdravi",
+    "title": "Zdraví a životní styl",
+    "category": "Konverzační témata",
+    "summary": "Nemoci, u lékaře, zdravá strava, zlozvyky a stres.",
+    "sections": [
+      {
+        "heading": "Slovní zásoba",
+        "table": {
+          "head": [
+            "Anglicky",
+            "Česky"
+          ],
+          "rows": [
+            [
+              "healthy lifestyle",
+              "zdravý životní styl"
+            ],
+            [
+              "balanced diet",
+              "vyvážená strava"
+            ],
+            [
+              "to catch a cold",
+              "nachladit se"
+            ],
+            [
+              "flu",
+              "chřipka"
+            ],
+            [
+              "headache",
+              "bolest hlavy"
+            ],
+            [
+              "sore throat",
+              "bolest v krku"
+            ],
+            [
+              "prescription",
+              "recept (od lékaře)"
+            ],
+            [
+              "pills",
+              "prášky"
+            ],
+            [
+              "to be allergic to",
+              "mít alergii na"
+            ],
+            [
+              "bad habits",
+              "zlozvyky"
+            ],
+            [
+              "addiction",
+              "závislost"
+            ],
+            [
+              "stress",
+              "stres"
+            ],
+            [
+              "to work out",
+              "cvičit"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Užitečné fráze",
+        "bullets": [
+          "I try to live healthily, so I…",
+          "When I’m ill, I usually…",
+          "At the doctor’s: I’ve got a sore throat and a temperature.",
+          "I think the biggest health problem of young people is…"
+        ]
+      },
+      {
+        "heading": "Otázky, na které se připrav",
+        "bullets": [
+          "Do you live a healthy lifestyle?",
+          "What do you do when you are ill?",
+          "What are the most common bad habits?",
+          "How do you deal with stress?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aj-sport",
+    "title": "Sport",
+    "category": "Konverzační témata",
+    "summary": "Oblíbené sporty, kolektivní a individuální sporty a olympijské hry.",
+    "sections": [
+      {
+        "heading": "Slovní zásoba",
+        "table": {
+          "head": [
+            "Anglicky",
+            "Česky"
+          ],
+          "rows": [
+            [
+              "team sport",
+              "kolektivní sport"
+            ],
+            [
+              "individual sport",
+              "individuální sport"
+            ],
+            [
+              "competition",
+              "soutěž, závod"
+            ],
+            [
+              "match",
+              "zápas"
+            ],
+            [
+              "to win / to lose",
+              "vyhrát / prohrát"
+            ],
+            [
+              "to draw",
+              "remizovat"
+            ],
+            [
+              "referee",
+              "rozhodčí"
+            ],
+            [
+              "coach",
+              "trenér"
+            ],
+            [
+              "fan",
+              "fanoušek"
+            ],
+            [
+              "to score a goal",
+              "dát gól"
+            ],
+            [
+              "extreme sports",
+              "adrenalinové sporty"
+            ],
+            [
+              "Olympic Games",
+              "olympijské hry"
+            ],
+            [
+              "to keep fit",
+              "udržovat se v kondici"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Užitečné fráze",
+        "bullets": [
+          "I do sport regularly – I play… twice a week.",
+          "I prefer team sports because…",
+          "The Olympic Games are held every four years…",
+          "My favourite athlete is…"
+        ]
+      },
+      {
+        "heading": "Otázky, na které se připrav",
+        "bullets": [
+          "What sports do you do?",
+          "Do you prefer team or individual sports? Why?",
+          "What do you know about the Olympic Games?",
+          "Are professional athletes paid too much?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aj-jidlo",
+    "title": "Stravování",
+    "category": "Konverzační témata",
+    "summary": "Česká a britská kuchyně, restaurace, vaření a stravovací návyky.",
+    "sections": [
+      {
+        "heading": "Slovní zásoba",
+        "table": {
+          "head": [
+            "Anglicky",
+            "Česky"
+          ],
+          "rows": [
+            [
+              "meal",
+              "jídlo (chod dne)"
+            ],
+            [
+              "breakfast / lunch / dinner",
+              "snídaně / oběd / večeře"
+            ],
+            [
+              "dish",
+              "pokrm"
+            ],
+            [
+              "recipe",
+              "recept (na vaření)"
+            ],
+            [
+              "to boil",
+              "vařit (ve vodě)"
+            ],
+            [
+              "to fry",
+              "smažit"
+            ],
+            [
+              "to bake",
+              "péct"
+            ],
+            [
+              "vegetarian",
+              "vegetarián"
+            ],
+            [
+              "fast food",
+              "rychlé občerstvení"
+            ],
+            [
+              "to order",
+              "objednat si"
+            ],
+            [
+              "bill",
+              "účet"
+            ],
+            [
+              "tip",
+              "spropitné"
+            ],
+            [
+              "starter",
+              "předkrm"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Užitečné fráze",
+        "bullets": [
+          "A typical Czech dish is roast pork with dumplings and sauerkraut.",
+          "A traditional English breakfast consists of…",
+          "Could I have the bill, please?",
+          "I think young people eat too much fast food because…"
+        ]
+      },
+      {
+        "heading": "Otázky, na které se připrav",
+        "bullets": [
+          "What is your favourite food?",
+          "Compare Czech and British cuisine.",
+          "Do you like cooking? What can you cook?",
+          "Describe a visit to a restaurant."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aj-nakupovani",
+    "title": "Nakupování a služby",
+    "category": "Konverzační témata",
+    "summary": "Obchody, nakupování na internetu, oblečení, móda a peníze.",
+    "sections": [
+      {
+        "heading": "Slovní zásoba",
+        "table": {
+          "head": [
+            "Anglicky",
+            "Česky"
+          ],
+          "rows": [
+            [
+              "shopping centre",
+              "nákupní centrum"
+            ],
+            [
+              "department store",
+              "obchodní dům"
+            ],
+            [
+              "online shopping",
+              "nakupování na internetu"
+            ],
+            [
+              "discount",
+              "sleva"
+            ],
+            [
+              "sale",
+              "výprodej"
+            ],
+            [
+              "receipt",
+              "účtenka"
+            ],
+            [
+              "to try on",
+              "vyzkoušet si (oblečení)"
+            ],
+            [
+              "changing room",
+              "zkušební kabinka"
+            ],
+            [
+              "size",
+              "velikost"
+            ],
+            [
+              "to pay by card",
+              "platit kartou"
+            ],
+            [
+              "cash",
+              "hotovost"
+            ],
+            [
+              "to return",
+              "vrátit (zboží)"
+            ],
+            [
+              "brand",
+              "značka"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Užitečné fráze",
+        "bullets": [
+          "I prefer shopping online because…, but…",
+          "Can I try this on? Do you have it in a smaller size?",
+          "I’d like to return this, here is the receipt.",
+          "I don’t care much about brands, I…"
+        ]
+      },
+      {
+        "heading": "Otázky, na které se připrav",
+        "bullets": [
+          "Do you prefer shopping in shops or online?",
+          "How important is fashion for you?",
+          "Describe a problem you had when shopping.",
+          "Do you save money? What for?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aj-cestovani",
+    "title": "Cestování a doprava",
+    "category": "Konverzační témata",
+    "summary": "Dopravní prostředky, dovolená, ubytování a problémy na cestách.",
+    "sections": [
+      {
+        "heading": "Slovní zásoba",
+        "table": {
+          "head": [
+            "Anglicky",
+            "Česky"
+          ],
+          "rows": [
+            [
+              "means of transport",
+              "dopravní prostředek"
+            ],
+            [
+              "to travel by train",
+              "cestovat vlakem"
+            ],
+            [
+              "return ticket",
+              "zpáteční jízdenka"
+            ],
+            [
+              "delay",
+              "zpoždění"
+            ],
+            [
+              "to miss a connection",
+              "zmeškat přípoj"
+            ],
+            [
+              "luggage",
+              "zavazadla"
+            ],
+            [
+              "passport",
+              "cestovní pas"
+            ],
+            [
+              "accommodation",
+              "ubytování"
+            ],
+            [
+              "to book",
+              "rezervovat"
+            ],
+            [
+              "campsite",
+              "kemp"
+            ],
+            [
+              "sightseeing",
+              "prohlídka památek"
+            ],
+            [
+              "abroad",
+              "v zahraničí"
+            ],
+            [
+              "travel agency",
+              "cestovní kancelář"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Užitečné fráze",
+        "bullets": [
+          "Last summer I went to… with…",
+          "I prefer travelling by… because…",
+          "Excuse me, how do I get to the station?",
+          "The worst thing that happened to me on a trip was…"
+        ]
+      },
+      {
+        "heading": "Otázky, na které se připrav",
+        "bullets": [
+          "How do you get to school?",
+          "Describe your best holiday.",
+          "Do you prefer holidays in the Czech Republic or abroad?",
+          "What can go wrong when travelling?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aj-pocasi-prostredi",
+    "title": "Počasí, roční období a životní prostředí",
+    "category": "Konverzační témata",
+    "summary": "Počasí, ekologie, recyklace a globální problémy.",
+    "sections": [
+      {
+        "heading": "Slovní zásoba",
+        "table": {
+          "head": [
+            "Anglicky",
+            "Česky"
+          ],
+          "rows": [
+            [
+              "weather forecast",
+              "předpověď počasí"
+            ],
+            [
+              "it’s pouring",
+              "leje"
+            ],
+            [
+              "temperature",
+              "teplota"
+            ],
+            [
+              "season",
+              "roční období"
+            ],
+            [
+              "climate change",
+              "změna klimatu"
+            ],
+            [
+              "global warming",
+              "globální oteplování"
+            ],
+            [
+              "pollution",
+              "znečištění"
+            ],
+            [
+              "to recycle",
+              "recyklovat"
+            ],
+            [
+              "waste",
+              "odpad"
+            ],
+            [
+              "renewable energy",
+              "obnovitelná energie"
+            ],
+            [
+              "drought",
+              "sucho"
+            ],
+            [
+              "flood",
+              "povodeň"
+            ],
+            [
+              "endangered species",
+              "ohrožené druhy"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Užitečné fráze",
+        "bullets": [
+          "My favourite season is… because…",
+          "To protect the environment, I try to…",
+          "In my opinion, the biggest environmental problem is…",
+          "Last year there was a flood / drought in…"
+        ]
+      },
+      {
+        "heading": "Otázky, na které se připrav",
+        "bullets": [
+          "What is the weather like in the Czech Republic?",
+          "What is your favourite season?",
+          "What do you do for the environment?",
+          "What are the biggest global problems today?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aj-kultura",
+    "title": "Kultura a umění",
+    "category": "Konverzační témata",
+    "summary": "Knihy, filmy, hudba, divadlo a muzea.",
+    "sections": [
+      {
+        "heading": "Slovní zásoba",
+        "table": {
+          "head": [
+            "Anglicky",
+            "Česky"
+          ],
+          "rows": [
+            [
+              "novel",
+              "román"
+            ],
+            [
+              "author",
+              "autor"
+            ],
+            [
+              "plot",
+              "děj"
+            ],
+            [
+              "character",
+              "postava"
+            ],
+            [
+              "genre",
+              "žánr"
+            ],
+            [
+              "to be set in",
+              "odehrávat se (v)"
+            ],
+            [
+              "performance",
+              "představení"
+            ],
+            [
+              "audience",
+              "publikum"
+            ],
+            [
+              "exhibition",
+              "výstava"
+            ],
+            [
+              "gallery",
+              "galerie"
+            ],
+            [
+              "concert",
+              "koncert"
+            ],
+            [
+              "subtitles",
+              "titulky"
+            ],
+            [
+              "review",
+              "recenze"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Užitečné fráze",
+        "bullets": [
+          "The last book I read was… It’s about…",
+          "The film is set in… and the main character is…",
+          "I’d recommend it because…",
+          "I prefer going to concerts to going to the theatre because…"
+        ]
+      },
+      {
+        "heading": "Otázky, na které se připrav",
+        "bullets": [
+          "What kind of books or films do you like?",
+          "Describe a book you have read recently.",
+          "How often do you go to the cinema or theatre?",
+          "Is culture important for young people?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aj-media-technologie",
+    "title": "Média a moderní technologie",
+    "category": "Konverzační témata",
+    "summary": "Internet, sociální sítě, telefony, televize a umělá inteligence.",
+    "sections": [
+      {
+        "heading": "Slovní zásoba",
+        "table": {
+          "head": [
+            "Anglicky",
+            "Česky"
+          ],
+          "rows": [
+            [
+              "social media",
+              "sociální sítě"
+            ],
+            [
+              "to post",
+              "zveřejnit příspěvek"
+            ],
+            [
+              "to follow",
+              "sledovat (na sítích)"
+            ],
+            [
+              "screen time",
+              "čas u obrazovky"
+            ],
+            [
+              "smartphone",
+              "chytrý telefon"
+            ],
+            [
+              "app",
+              "aplikace"
+            ],
+            [
+              "to download",
+              "stáhnout"
+            ],
+            [
+              "fake news",
+              "falešné zprávy"
+            ],
+            [
+              "privacy",
+              "soukromí"
+            ],
+            [
+              "cyberbullying",
+              "kyberšikana"
+            ],
+            [
+              "artificial intelligence",
+              "umělá inteligence"
+            ],
+            [
+              "device",
+              "zařízení"
+            ],
+            [
+              "to be addicted to",
+              "být závislý na"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Užitečné fráze",
+        "bullets": [
+          "I use my phone mainly for…",
+          "Social media have both advantages and disadvantages. On the one hand…",
+          "I think artificial intelligence will change…",
+          "To check if news is true, I…"
+        ]
+      },
+      {
+        "heading": "Otázky, na které se připrav",
+        "bullets": [
+          "How do you use the internet?",
+          "What are the pros and cons of social media?",
+          "Can you imagine a day without your phone?",
+          "How will AI change our lives?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aj-ceska-republika",
+    "title": "Česká republika",
+    "category": "Konverzační témata",
+    "summary": "Geografie, historie, památky, Praha, tradice a svátky.",
+    "sections": [
+      {
+        "heading": "Slovní zásoba",
+        "table": {
+          "head": [
+            "Anglicky",
+            "Česky"
+          ],
+          "rows": [
+            [
+              "landlocked country",
+              "vnitrozemský stát"
+            ],
+            [
+              "border",
+              "hranice"
+            ],
+            [
+              "capital city",
+              "hlavní město"
+            ],
+            [
+              "population",
+              "počet obyvatel"
+            ],
+            [
+              "mountains",
+              "hory"
+            ],
+            [
+              "the Vltava",
+              "Vltava"
+            ],
+            [
+              "sights",
+              "památky"
+            ],
+            [
+              "castle",
+              "hrad"
+            ],
+            [
+              "Charles Bridge",
+              "Karlův most"
+            ],
+            [
+              "Prague Castle",
+              "Pražský hrad"
+            ],
+            [
+              "tradition",
+              "tradice"
+            ],
+            [
+              "Christmas Eve",
+              "Štědrý den"
+            ],
+            [
+              "Easter",
+              "Velikonoce"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Užitečné fráze",
+        "bullets": [
+          "The Czech Republic is a landlocked country in Central Europe.",
+          "It borders Germany, Poland, Slovakia and Austria.",
+          "The capital is Prague, with sights such as Prague Castle and Charles Bridge.",
+          "At Christmas we eat carp and potato salad on Christmas Eve."
+        ]
+      },
+      {
+        "heading": "Otázky, na které se připrav",
+        "bullets": [
+          "Describe the geography of the Czech Republic.",
+          "What would you show a foreign friend in Prague?",
+          "What are typical Czech traditions?",
+          "Name some famous Czech people."
+        ],
+        "tip": "Měj připravená čísla: zhruba 10,9 milionu obyvatel, nejvyšší hora Sněžka (1603 m), nejdelší řeka Vltava."
+      }
+    ]
+  },
+  {
+    "id": "aj-anglicky-mluvici-zeme",
+    "title": "Anglicky mluvící země",
+    "category": "Konverzační témata",
+    "summary": "Velká Británie, USA, Kanada a Austrálie: geografie, města, kultura a svátky.",
+    "sections": [
+      {
+        "heading": "Slovní zásoba",
+        "table": {
+          "head": [
+            "Anglicky",
+            "Česky"
+          ],
+          "rows": [
+            [
+              "the United Kingdom",
+              "Spojené království"
+            ],
+            [
+              "Great Britain",
+              "Velká Británie"
+            ],
+            [
+              "England, Scotland, Wales, Northern Ireland",
+              "Anglie, Skotsko, Wales, Severní Irsko"
+            ],
+            [
+              "London",
+              "Londýn"
+            ],
+            [
+              "Washington, D.C.",
+              "Washington"
+            ],
+            [
+              "Ottawa",
+              "Ottawa"
+            ],
+            [
+              "Canberra",
+              "Canberra"
+            ],
+            [
+              "monarchy",
+              "monarchie"
+            ],
+            [
+              "the Commonwealth",
+              "Commonwealth (Společenství národů)"
+            ],
+            [
+              "Thanksgiving",
+              "Den díkůvzdání"
+            ],
+            [
+              "Independence Day",
+              "Den nezávislosti"
+            ],
+            [
+              "Bonfire Night",
+              "Noc ohňostrojů (5. listopadu)"
+            ],
+            [
+              "native inhabitants",
+              "původní obyvatelé"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Užitečné fráze",
+        "bullets": [
+          "The UK consists of England, Scotland, Wales and Northern Ireland.",
+          "The capital of the USA is Washington, D.C., not New York.",
+          "The capital of Australia is Canberra, not Sydney.",
+          "Americans celebrate Independence Day on the 4th of July."
+        ]
+      },
+      {
+        "heading": "Otázky, na které se připrav",
+        "bullets": [
+          "What do you know about the United Kingdom?",
+          "Which English-speaking country would you like to visit and why?",
+          "Describe some British or American holidays.",
+          "Compare the Czech Republic with an English-speaking country."
+        ],
+        "tip": "Častá chyba: hlavní město Kanady je Ottawa (ne Toronto) a Austrálie Canberra (ne Sydney)."
+      }
+    ]
+  },
+  {
+    "id": "aj-poslech-cteni",
+    "title": "Poslech a čtení s porozuměním",
+    "category": "Dovednosti",
+    "summary": "Jak pracovat s nahrávkou a textem v didaktickém testu.",
+    "sections": [
+      {
+        "heading": "Poslech",
+        "bullets": [
+          "Před poslechem si přečti zadání a podtrhni klíčová slova.",
+          "Při prvním poslechu zachyť hlavní myšlenku, při druhém detaily.",
+          "Pozor na chytáky: v nahrávce často zazní všechny možnosti, ale jen jedna odpovídá otázce.",
+          "Čísla, data a jména si zapisuj hned."
+        ]
+      },
+      {
+        "heading": "Čtení",
+        "bullets": [
+          "Hlavní myšlenka: přečti první a poslední větu odstavců.",
+          "Detail: najdi v textu klíčové slovo z otázky a čti okolí.",
+          "Doplňování slov: zkontroluj gramatiku (slovní druh, čas, množné číslo).",
+          "Neznámé slovo odhadni z kontextu, nezasekni se na něm."
+        ]
+      }
+    ],
+    "practice": {
+      "pairs": [
+        {
+          "a": "skimming",
+          "b": "rychlé čtení kvůli hlavní myšlence"
+        },
+        {
+          "a": "scanning",
+          "b": "hledání konkrétní informace"
+        },
+        {
+          "a": "keyword",
+          "b": "klíčové slovo"
+        },
+        {
+          "a": "gist",
+          "b": "podstata, hlavní myšlenka"
+        },
+        {
+          "a": "distractor",
+          "b": "chyták, nesprávná možnost"
+        }
+      ]
+    }
+  },
+  {
+    "id": "aj-pisemna-prace",
+    "title": "Písemná práce: útvary a fráze",
+    "category": "Dovednosti",
+    "summary": "Delší a kratší útvar, formální a neformální styl a fráze na začátek a konec.",
+    "sections": [
+      {
+        "heading": "Útvary",
+        "table": {
+          "head": [
+            "Rozsah (nejčastěji)",
+            "Útvary"
+          ],
+          "rows": [
+            [
+              "delší text, 120–150 slov",
+              "neformální nebo formální dopis, e-mail, článek, vypravování, popis"
+            ],
+            [
+              "kratší text, 60–70 slov",
+              "vzkaz, omluvenka, pozvánka, oznámení"
+            ]
+          ]
+        },
+        "tip": "Rozsah a útvary určuje zadání tvé školy. Vždy si ho ověř u učitele a v zadání."
+      },
+      {
+        "heading": "Formální × neformální",
+        "table": {
+          "head": [
+            "Účel",
+            "Formální",
+            "Neformální"
+          ],
+          "rows": [
+            [
+              "oslovení",
+              "Dear Sir or Madam, / Dear Mr Smith,",
+              "Hi Tom, / Dear Anna,"
+            ],
+            [
+              "úvod",
+              "I am writing to…",
+              "Thanks for your email."
+            ],
+            [
+              "žádost",
+              "I would be grateful if you could…",
+              "Could you…?"
+            ],
+            [
+              "omluva",
+              "I apologise for…",
+              "Sorry about…"
+            ],
+            [
+              "závěr",
+              "I look forward to hearing from you.",
+              "Write soon!"
+            ],
+            [
+              "podpis",
+              "Yours faithfully / Yours sincerely,",
+              "Love, / Best wishes,"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Jak neztratit body",
+        "bullets": [
+          "Odpověz na všechny body zadání, za každý chybějící se strhává.",
+          "Dodrž rozsah, příliš krátký text se hodnotí hůř.",
+          "Ve formálním textu nepoužívej zkrácené tvary (I’m → I am).",
+          "Spojuj věty: however, although, because, so, moreover."
+        ]
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "choice",
+          "question": "Formální dopis začneš oslovením neznámé osoby:",
+          "options": [
+            "Hi there,",
+            "Dear Sir or Madam,",
+            "Hello friend,",
+            "Yo,"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "Formální dopis neznámé osobě zakončíš:",
+          "options": [
+            "Love,",
+            "Yours faithfully,",
+            "See ya,",
+            "Cheers,"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "Ve formálním dopise je lepší napsat:",
+          "options": [
+            "I’m",
+            "I am"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "„I look forward to hearing from you.“ patří do:",
+          "options": [
+            "úvodu",
+            "závěru",
+            "oslovení",
+            "podpisu"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "aj-ustni-zkouska",
+    "title": "Ústní zkouška krok za krokem",
+    "category": "Dovednosti",
+    "summary": "Představení se, popis a porovnání obrázků, samostatný projev a rozhovor.",
+    "sections": [
+      {
+        "heading": "Části a fráze",
+        "table": {
+          "head": [
+            "Část",
+            "Užitečné fráze"
+          ],
+          "rows": [
+            [
+              "Představení se",
+              "My name is… I’m 18 and I go to… In my free time I…"
+            ],
+            [
+              "Popis obrázku",
+              "In the picture I can see… In the foreground / background… It looks as if…"
+            ],
+            [
+              "Porovnání obrázků",
+              "Both pictures show… In the first one…, whereas in the second one… I’d prefer… because…"
+            ],
+            [
+              "Samostatný projev",
+              "I’d like to talk about… First… Secondly… To sum up…"
+            ],
+            [
+              "Rozhovor a řešení situace",
+              "What do you think about…? I’d suggest… That’s a good idea, but…"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Tipy",
+        "bullets": [
+          "Mluv celými větami a přidej důvod (because…).",
+          "Nevíš slovo? Opiš ho: It’s a thing you use for…",
+          "Na každé z 15 témat si připrav krátký souvislý projev.",
+          "Odpovídej zkoušejícímu, ne do stolu, a neboj se požádat o zopakování otázky."
+        ]
+      }
+    ],
+    "practice": {
+      "pairs": [
+        {
+          "a": "in the foreground",
+          "b": "v popředí"
+        },
+        {
+          "a": "in the background",
+          "b": "v pozadí"
+        },
+        {
+          "a": "whereas",
+          "b": "zatímco"
+        },
+        {
+          "a": "it looks as if",
+          "b": "vypadá to, že"
+        },
+        {
+          "a": "to sum up",
+          "b": "abych to shrnul"
+        },
+        {
+          "a": "I’d suggest",
+          "b": "navrhoval bych"
         }
       ]
     }

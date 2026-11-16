@@ -33,6 +33,16 @@
         }
       },
       {
+        "heading": "Matematicko-fyzikálně-chemické tabulky (MFCHT)",
+        "text": "U didaktického testu smíš používat MFCHT. Spoustu vzorců (objemy těles, goniometrické vzorce, kombinatorika, posloupnosti) se nemusíš učit nazpaměť, stačí vědět, kde v tabulkách jsou.",
+        "bullets": [
+          "Projdi si tabulky předem a zvýrazni si stránky, které budeš potřebovat.",
+          "Při procvičování testů počítej s tabulkami, ať víš, jak rychle v nich hledáš.",
+          "Nazpaměť se vyplatí umět jen to, co potřebuješ často: vzorce (a ± b)², a² − b², diskriminant, Pythagorovu větu, převody jednotek."
+        ],
+        "tip": "Které vydání tabulek a jaká kalkulačka jsou povolené, si ověř u svého učitele a na webu CERMAT."
+      },
+      {
         "heading": "Okruhy podle katalogu požadavků",
         "bullets": [
           "Číselné obory",
@@ -192,6 +202,16 @@
     "summary": "Vzorce pro úpravy, rozklad na součin a lomené výrazy s podmínkami.",
     "sections": [
       {
+        "heading": "Mnohočleny",
+        "bullets": [
+          "Mnohočlen je součet členů tvaru a·xⁿ, např. 3x² − 2x + 5. Stupeň určuje nejvyšší mocnina (zde 2).",
+          "Sčítání a odčítání: sečti koeficienty u stejných mocnin. (3x² + 2x) + (x² − 5x) = 4x² − 3x.",
+          "Násobení: každý člen s každým. (x + 2)(x − 3) = x² − 3x + 2x − 6 = x² − x − 6.",
+          "Vytýkání: najdi největšího společného dělitele všech členů. 4x³ − 6x² = 2x²(2x − 3)."
+        ],
+        "example": "(2x − 1)² − (x + 1)(x − 1)\n= 4x² − 4x + 1 − (x² − 1)\n= 3x² − 4x + 2"
+      },
+      {
         "heading": "Vzorce",
         "formulas": [
           {
@@ -240,11 +260,66 @@
         ],
         "example": "(x² − 9) / (x + 3) = (x + 3)(x − 3) / (x + 3) = x − 3,  podmínka x ≠ −3"
       }
-    ]
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "choice",
+          "question": "(x + 2)(x − 3) =",
+          "options": [
+            "x² − x − 6",
+            "x² + x − 6",
+            "x² − 6",
+            "x² − 5x − 6"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "choice",
+          "question": "Rozlož na součin: x² − 49",
+          "options": [
+            "(x − 7)²",
+            "(x + 7)(x − 7)",
+            "(x − 49)(x + 1)",
+            "x(x − 49)"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "Vytkni: 4x³ − 6x²",
+          "options": [
+            "2x²(2x − 3)",
+            "2x(2x² − 3)",
+            "x²(4x − 6x)",
+            "2x²(2x − 6)"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "choice",
+          "question": "Pro která x má smysl výraz 3 / (x² − 4)?",
+          "options": [
+            "x ≠ 4",
+            "x ≠ 2",
+            "x ≠ ±2",
+            "pro všechna x"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "input",
+          "question": "Vypočti hodnotu (a + b)² pro a = 3, b = −1.",
+          "answers": [
+            "4"
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "rovnice",
-    "title": "Rovnice a nerovnice",
+    "title": "Kvadratické rovnice, rovnice s neznámou ve jmenovateli",
     "category": "Rovnice a nerovnice",
     "summary": "Kvadratické rovnice, neznámá ve jmenovateli, soustavy a nerovnice.",
     "sections": [
@@ -305,6 +380,427 @@
         "tip": "U nerovnic s absolutní hodnotou rozděl číselnou osu nulovými body a řeš každý interval zvlášť."
       }
     ]
+  },
+  {
+    "id": "exp-log-rovnice",
+    "title": "Exponenciální a logaritmické rovnice",
+    "category": "Rovnice a nerovnice",
+    "summary": "Převod na stejný základ, substituce, logaritmování a podmínky řešitelnosti.",
+    "sections": [
+      {
+        "heading": "Exponenciální rovnice",
+        "bullets": [
+          "Stejný základ: převeď obě strany na mocninu stejného čísla a porovnej exponenty.",
+          "Substituce: když se v rovnici objevuje aˣ a a²ˣ, polož y = aˣ.",
+          "Logaritmování: když základy nejde sjednotit, zlogaritmuj obě strany."
+        ],
+        "example": "3ˣ⁺¹ = 27\n3ˣ⁺¹ = 3³  →  x + 1 = 3  →  x = 2\n\n4ˣ − 3·2ˣ + 2 = 0,  y = 2ˣ\ny² − 3y + 2 = 0  →  y = 1 nebo y = 2\n2ˣ = 1 → x = 0;   2ˣ = 2 → x = 1"
+      },
+      {
+        "heading": "Logaritmické rovnice",
+        "bullets": [
+          "Nejdřív podmínky: výraz v logaritmu musí být kladný.",
+          "Pomocí vzorců převeď obě strany na jeden logaritmus.",
+          "Odlogaritmuj: logₐ A = logₐ B ⇒ A = B, logₐ A = c ⇒ A = aᶜ.",
+          "Výsledek porovnej s podmínkami."
+        ],
+        "example": "log₂ (x − 1) = 3,  podmínka x > 1\nx − 1 = 2³  →  x = 9\n\nlog x + log (x − 3) = 1,  podmínka x > 3\nx(x − 3) = 10  →  x² − 3x − 10 = 0  →  x = 5 nebo x = −2\n−2 podmínce nevyhovuje, řešení je x = 5",
+        "tip": "log bez základu znamená dekadický logaritmus (základ 10). ln je přirozený logaritmus se základem e."
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "input",
+          "question": "Vyřeš: 2ˣ = 8",
+          "answers": [
+            "3"
+          ]
+        },
+        {
+          "type": "input",
+          "question": "Vyřeš: 3ˣ⁺¹ = 27",
+          "answers": [
+            "2"
+          ]
+        },
+        {
+          "type": "input",
+          "question": "Vyřeš: log₂ (x − 1) = 3",
+          "answers": [
+            "9"
+          ],
+          "explanation": "x − 1 = 8"
+        },
+        {
+          "type": "input",
+          "question": "Kolik je log 1000?",
+          "answers": [
+            "3"
+          ],
+          "explanation": "10³ = 1000"
+        },
+        {
+          "type": "choice",
+          "question": "Jaká je podmínka pro rovnici log (x − 3) = 1?",
+          "options": [
+            "x > 0",
+            "x > 3",
+            "x ≥ 3",
+            "x ≠ 3"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "Rovnice log x + log (x − 3) = 1 má řešení:",
+          "options": [
+            "x = 5",
+            "x = −2",
+            "x = 5 a x = −2",
+            "nemá řešení"
+          ],
+          "answer": 0,
+          "explanation": "x = −2 nesplňuje podmínku x > 3."
+        }
+      ]
+    }
+  },
+  {
+    "id": "linearni-rovnice",
+    "title": "Lineární rovnice, nerovnice a jejich soustavy",
+    "category": "Rovnice a nerovnice",
+    "summary": "Ekvivalentní úpravy, zápis řešení intervalem a soustavy dvou rovnic o dvou neznámých.",
+    "sections": [
+      {
+        "heading": "Lineární rovnice",
+        "bullets": [
+          "Odstraň závorky a zlomky (vynásob společným jmenovatelem).",
+          "Neznámé převeď na jednu stranu, čísla na druhou.",
+          "Vyděl koeficientem u neznámé.",
+          "Udělej zkoušku dosazením."
+        ],
+        "example": "3(x − 2) = 2x + 5\n3x − 6 = 2x + 5\nx = 11"
+      },
+      {
+        "heading": "Lineární nerovnice",
+        "bullets": [
+          "Postup je stejný jako u rovnice.",
+          "Při násobení nebo dělení záporným číslem se obrací znak nerovnosti.",
+          "Řešení zapiš intervalem: x < 2 → (−∞; 2), x ≥ 2 → ⟨2; ∞)."
+        ],
+        "example": "−3x + 6 > 0\n−3x > −6\nx < 2   →   K = (−∞; 2)"
+      },
+      {
+        "heading": "Soustava dvou rovnic",
+        "bullets": [
+          "Sčítací metoda: rovnice vynásob tak, aby se po sečtení jedna neznámá odečetla.",
+          "Dosazovací metoda: z jedné rovnice vyjádři neznámou a dosaď ji do druhé.",
+          "Jedno řešení (různoběžky), žádné řešení (rovnoběžky), nekonečně mnoho řešení (totožné přímky)."
+        ],
+        "example": "2x + y = 7\n x − y = 2\nsečtením: 3x = 9 → x = 3, y = 1"
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "input",
+          "question": "Vyřeš: 3(x − 2) = 2x + 5",
+          "answers": [
+            "11"
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "Řešením nerovnice −3x + 6 > 0 je:",
+          "options": [
+            "(−∞; 2)",
+            "(2; ∞)",
+            "(−∞; −2)",
+            "⟨2; ∞)"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "input",
+          "question": "Soustava 2x + y = 7, x − y = 2. Kolik je x?",
+          "answers": [
+            "3"
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "Soustava x + y = 2, 2x + 2y = 5 má:",
+          "options": [
+            "jedno řešení",
+            "žádné řešení",
+            "nekonečně mnoho řešení",
+            "dvě řešení"
+          ],
+          "answer": 1,
+          "explanation": "Po vynásobení první rovnice dvěma vyjde 4 = 5, což neplatí."
+        },
+        {
+          "type": "input",
+          "question": "Vyřeš: x/2 + x/3 = 5",
+          "answers": [
+            "6"
+          ],
+          "explanation": "Vynásob 6: 3x + 2x = 30"
+        }
+      ]
+    }
+  },
+  {
+    "id": "kvadraticke-nerovnice",
+    "title": "Kvadratické nerovnice a neúplné kvadratické rovnice",
+    "category": "Rovnice a nerovnice",
+    "summary": "Řešení pomocí kořenů a náčrtu paraboly, rychlé řešení rovnic bez absolutního nebo lineárního členu.",
+    "sections": [
+      {
+        "heading": "Neúplné kvadratické rovnice",
+        "bullets": [
+          "Bez lineárního členu: x² − 9 = 0 → x² = 9 → x = ±3.",
+          "Bez absolutního členu: x² − 3x = 0 → x(x − 3) = 0 → x = 0 nebo x = 3.",
+          "Pozor: rovnici x² = 3x nikdy nedělte x, ztratíte kořen 0."
+        ]
+      },
+      {
+        "heading": "Kvadratická nerovnice",
+        "bullets": [
+          "1. Převeď vše na jednu stranu: ax² + bx + c > 0 (<, ≥, ≤).",
+          "2. Najdi kořeny příslušné rovnice.",
+          "3. Načrtni parabolu: a > 0 je otevřená nahoru, a < 0 dolů.",
+          "4. Kde je parabola nad osou x, je výraz kladný; pod osou záporný."
+        ],
+        "example": "x² − 5x + 6 < 0\nkořeny 2 a 3, parabola otevřená nahoru\nzáporná mezi kořeny: K = (2; 3)\n\nx² − 4 ≥ 0\nkořeny −2 a 2\nK = (−∞; −2⟩ ∪ ⟨2; ∞)",
+        "tip": "Nemá-li rovnice reálné kořeny (D < 0), je výraz pro a > 0 vždy kladný. Nerovnice ax² + bx + c > 0 pak platí pro všechna x."
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "choice",
+          "question": "Řešením x² − 5x + 6 < 0 je:",
+          "options": [
+            "(2; 3)",
+            "(−∞; 2) ∪ (3; ∞)",
+            "⟨2; 3⟩",
+            "(−3; −2)"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "choice",
+          "question": "Řešením x² − 4 ≥ 0 je:",
+          "options": [
+            "⟨−2; 2⟩",
+            "(−∞; −2⟩ ∪ ⟨2; ∞)",
+            "(2; ∞)",
+            "R"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "Kořeny rovnice x² − 3x = 0 jsou:",
+          "options": [
+            "3",
+            "0 a 3",
+            "−3 a 3",
+            "0 a −3"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "Nerovnice x² + 1 > 0 platí:",
+          "options": [
+            "pro žádné x",
+            "jen pro x > 0",
+            "pro všechna reálná x",
+            "jen pro x ≠ 0"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": "absolutni-hodnota",
+    "title": "Rovnice a nerovnice s absolutní hodnotou",
+    "category": "Rovnice a nerovnice",
+    "summary": "Absolutní hodnota jako vzdálenost na číselné ose a metoda nulových bodů.",
+    "sections": [
+      {
+        "heading": "Co je absolutní hodnota",
+        "formulas": [
+          {
+            "label": "Definice",
+            "formula": "|a| = a pro a ≥ 0,   |a| = −a pro a < 0"
+          },
+          {
+            "label": "Vzdálenost čísel",
+            "formula": "|x − a| = vzdálenost x od a na číselné ose"
+          }
+        ]
+      },
+      {
+        "heading": "Jednoduché případy",
+        "bullets": [
+          "|x − 2| = 3 → x − 2 = 3 nebo x − 2 = −3 → x = 5 nebo x = −1.",
+          "|x| < 3 → −3 < x < 3 → K = (−3; 3).",
+          "|x| > 3 → x < −3 nebo x > 3 → K = (−∞; −3) ∪ (3; ∞).",
+          "|x| = −2 nemá řešení, absolutní hodnota není nikdy záporná."
+        ]
+      },
+      {
+        "heading": "Metoda nulových bodů",
+        "bullets": [
+          "1. Najdi nulové body všech výrazů v absolutních hodnotách.",
+          "2. Rozděl jimi číselnou osu na intervaly.",
+          "3. V každém intervalu odstraň absolutní hodnoty podle znaménka a vyřeš rovnici.",
+          "4. Ponech jen řešení, která leží v daném intervalu."
+        ],
+        "example": "|x − 1| + |x + 2| = 5,  nulové body 1 a −2\nx < −2:      −(x − 1) − (x + 2) = 5 → x = −3 ✓\n−2 ≤ x < 1:   −(x − 1) + (x + 2) = 5 → 3 = 5 ✗\nx ≥ 1:       (x − 1) + (x + 2) = 5 → x = 2 ✓\nK = {−3; 2}"
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "choice",
+          "question": "Řešení rovnice |x − 2| = 3 jsou:",
+          "options": [
+            "5",
+            "−1 a 5",
+            "1 a 5",
+            "−5 a 1"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "Řešením |x| < 3 je:",
+          "options": [
+            "(−3; 3)",
+            "(3; ∞)",
+            "(−∞; −3) ∪ (3; ∞)",
+            "⟨−3; 3⟩"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "choice",
+          "question": "Rovnice |x + 4| = −1 má:",
+          "options": [
+            "řešení x = −5",
+            "řešení x = −3",
+            "dvě řešení",
+            "žádné řešení"
+          ],
+          "answer": 3
+        },
+        {
+          "type": "input",
+          "question": "Kolik je |−7| − |3|?",
+          "answers": [
+            "4"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "slovni-ulohy",
+    "title": "Slovní úlohy: práce, pohyb, směsi",
+    "category": "Rovnice a nerovnice",
+    "summary": "Typické slovní úlohy z didaktického testu a jak z textu sestavit rovnici.",
+    "sections": [
+      {
+        "heading": "Obecný postup",
+        "bullets": [
+          "Označ neznámou (co se ptají) a zapiš si, co znáš.",
+          "Najdi vztah, který platí: celková práce, stejná vzdálenost, stejné množství látky.",
+          "Sestav rovnici, vyřeš ji a zkontroluj, jestli výsledek dává smysl.",
+          "Odpověz celou větou s jednotkami."
+        ]
+      },
+      {
+        "heading": "Společná práce",
+        "formulas": [
+          {
+            "label": "Za 1 hodinu udělá A část práce",
+            "formula": "1 / t₁"
+          },
+          {
+            "label": "Společně za čas t",
+            "formula": "t / t₁ + t / t₂ = 1"
+          }
+        ],
+        "example": "Bazén napustí 1. čerpadlo za 6 h, 2. za 3 h. Za jak dlouho oba?\nt/6 + t/3 = 1  →  t + 2t = 6  →  t = 2 h"
+      },
+      {
+        "heading": "Pohyb",
+        "formulas": [
+          {
+            "label": "Dráha",
+            "formula": "s = v · t"
+          },
+          {
+            "label": "Proti sobě (setkání)",
+            "formula": "t = s / (v₁ + v₂)"
+          },
+          {
+            "label": "Dohánění",
+            "formula": "t = náskok / (v₁ − v₂)"
+          }
+        ],
+        "example": "Dvě auta jsou od sebe 300 km a jedou proti sobě rychlostí 60 a 90 km/h.\nt = 300 / 150 = 2 h"
+      },
+      {
+        "heading": "Směsi a roztoky",
+        "formulas": [
+          {
+            "label": "Množství látky",
+            "formula": "m₁ · c₁ + m₂ · c₂ = (m₁ + m₂) · c"
+          }
+        ],
+        "example": "Smícháme 2 l 30% a 3 l 10% roztoku.\n2 · 0,3 + 3 · 0,1 = 5 · c  →  0,9 = 5c  →  c = 18 %",
+        "tip": "Procenta převeď na desetinná čísla (30 % = 0,3). Čistá voda má koncentraci 0 %."
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "input",
+          "question": "Jeden dělník udělá práci za 6 h, druhý za 3 h. Za kolik hodin ji udělají společně?",
+          "answers": [
+            "2"
+          ]
+        },
+        {
+          "type": "input",
+          "question": "Auta 300 km od sebe jedou proti sobě 60 a 90 km/h. Za kolik hodin se potkají?",
+          "answers": [
+            "2"
+          ]
+        },
+        {
+          "type": "input",
+          "question": "Smícháme 2 l 30% a 3 l 10% roztoku. Kolikaprocentní roztok vznikne? (jen číslo)",
+          "answers": [
+            "18"
+          ]
+        },
+        {
+          "type": "input",
+          "question": "Cyklista jede 3 h rychlostí 20 km/h. Kolik km ujede?",
+          "answers": [
+            "60"
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "funkce",
@@ -427,7 +923,7 @@
   },
   {
     "id": "goniometrie",
-    "title": "Goniometrické funkce a rovnice",
+    "title": "Goniometrické funkce a rovnice (sin, cos, tg, cotg)",
     "category": "Funkce",
     "summary": "Stupně a radiány, hodnoty v důležitých úhlech, vzorce a řešení základních rovnic.",
     "sections": [
@@ -455,38 +951,44 @@
             "Úhel",
             "sin",
             "cos",
-            "tg"
+            "tg",
+            "cotg"
           ],
           "rows": [
             [
               "0°",
               "0",
               "1",
-              "0"
+              "0",
+              "není definován"
             ],
             [
               "30° (π/6)",
               "1/2",
               "√3/2",
-              "√3/3"
+              "√3/3",
+              "√3"
             ],
             [
               "45° (π/4)",
               "√2/2",
               "√2/2",
+              "1",
               "1"
             ],
             [
               "60° (π/3)",
               "√3/2",
               "1/2",
-              "√3"
+              "√3",
+              "√3/3"
             ],
             [
               "90° (π/2)",
               "1",
               "0",
-              "není definován"
+              "není definován",
+              "0"
             ]
           ]
         },
@@ -502,6 +1004,10 @@
           {
             "label": "Tangens",
             "formula": "tg x = sin x / cos x"
+          },
+          {
+            "label": "Kotangens",
+            "formula": "cotg x = cos x / sin x = 1 / tg x"
           },
           {
             "label": "Sinus dvojnásobného úhlu",
@@ -618,86 +1124,246 @@
     }
   },
   {
-    "id": "exp-log-rovnice",
-    "title": "Exponenciální a logaritmické rovnice",
-    "category": "Rovnice a nerovnice",
-    "summary": "Převod na stejný základ, substituce, logaritmování a podmínky řešitelnosti.",
+    "id": "vlastnosti-funkci",
+    "title": "Vlastnosti funkcí a inverzní funkce",
+    "category": "Funkce",
+    "summary": "Definiční obor, obor hodnot, monotonie, sudost a lichost, prostá a inverzní funkce.",
     "sections": [
       {
-        "heading": "Exponenciální rovnice",
+        "heading": "Definiční obor a obor hodnot",
         "bullets": [
-          "Stejný základ: převeď obě strany na mocninu stejného čísla a porovnej exponenty.",
-          "Substituce: když se v rovnici objevuje aˣ a a²ˣ, polož y = aˣ.",
-          "Logaritmování: když základy nejde sjednotit, zlogaritmuj obě strany."
-        ],
-        "example": "3ˣ⁺¹ = 27\n3ˣ⁺¹ = 3³  →  x + 1 = 3  →  x = 2\n\n4ˣ − 3·2ˣ + 2 = 0,  y = 2ˣ\ny² − 3y + 2 = 0  →  y = 1 nebo y = 2\n2ˣ = 1 → x = 0;   2ˣ = 2 → x = 1"
+          "D(f): všechna x, pro která má předpis smysl.",
+          "Nesmí se dělit nulou: y = 1/(x − 2) → x ≠ 2.",
+          "Pod sudou odmocninou nezáporné číslo: y = √(x − 2) → x ≥ 2.",
+          "V logaritmu kladné číslo: y = log (x + 1) → x > −1.",
+          "H(f): všechna y, kterých funkce nabývá. Nejlépe se určí z grafu."
+        ]
       },
       {
-        "heading": "Logaritmické rovnice",
+        "heading": "Vlastnosti",
+        "table": {
+          "head": [
+            "Vlastnost",
+            "Co znamená",
+            "Příklad"
+          ],
+          "rows": [
+            [
+              "Rostoucí",
+              "s větším x je větší y",
+              "y = 2x + 1"
+            ],
+            [
+              "Klesající",
+              "s větším x je menší y",
+              "y = −x"
+            ],
+            [
+              "Sudá",
+              "f(−x) = f(x), graf souměrný podle osy y",
+              "y = x²"
+            ],
+            [
+              "Lichá",
+              "f(−x) = −f(x), graf souměrný podle počátku",
+              "y = x³"
+            ],
+            [
+              "Prostá",
+              "každé y nastává nejvýš pro jedno x",
+              "y = 2x + 1"
+            ],
+            [
+              "Omezená",
+              "graf leží mezi dvěma vodorovnými přímkami",
+              "y = sin x"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Inverzní funkce",
         "bullets": [
-          "Nejdřív podmínky: výraz v logaritmu musí být kladný.",
-          "Pomocí vzorců převeď obě strany na jeden logaritmus.",
-          "Odlogaritmuj: logₐ A = logₐ B ⇒ A = B, logₐ A = c ⇒ A = aᶜ.",
-          "Výsledek porovnej s podmínkami."
+          "Existuje jen k prosté funkci.",
+          "Postup: zaměň x a y a vyjádři y.",
+          "Graf inverzní funkce je souměrný s původním podle přímky y = x.",
+          "D(f⁻¹) = H(f) a H(f⁻¹) = D(f)."
         ],
-        "example": "log₂ (x − 1) = 3,  podmínka x > 1\nx − 1 = 2³  →  x = 9\n\nlog x + log (x − 3) = 1,  podmínka x > 3\nx(x − 3) = 10  →  x² − 3x − 10 = 0  →  x = 5 nebo x = −2\n−2 podmínce nevyhovuje, řešení je x = 5",
-        "tip": "log bez základu znamená dekadický logaritmus (základ 10). ln je přirozený logaritmus se základem e."
+        "example": "f: y = 2x + 3\nzáměna: x = 2y + 3\nf⁻¹: y = (x − 3) / 2",
+        "tip": "Exponenciální a logaritmická funkce se stejným základem jsou navzájem inverzní."
       }
     ],
     "practice": {
       "questions": [
         {
-          "type": "input",
-          "question": "Vyřeš: 2ˣ = 8",
-          "answers": [
-            "3"
-          ]
-        },
-        {
-          "type": "input",
-          "question": "Vyřeš: 3ˣ⁺¹ = 27",
-          "answers": [
-            "2"
-          ]
-        },
-        {
-          "type": "input",
-          "question": "Vyřeš: log₂ (x − 1) = 3",
-          "answers": [
-            "9"
-          ],
-          "explanation": "x − 1 = 8"
-        },
-        {
-          "type": "input",
-          "question": "Kolik je log 1000?",
-          "answers": [
-            "3"
-          ],
-          "explanation": "10³ = 1000"
-        },
-        {
           "type": "choice",
-          "question": "Jaká je podmínka pro rovnici log (x − 3) = 1?",
+          "question": "Definiční obor funkce y = √(x − 2) je:",
           "options": [
-            "x > 0",
-            "x > 3",
-            "x ≥ 3",
-            "x ≠ 3"
+            "x > 2",
+            "x ≥ 2",
+            "x ≠ 2",
+            "R"
           ],
           "answer": 1
         },
         {
           "type": "choice",
-          "question": "Rovnice log x + log (x − 3) = 1 má řešení:",
+          "question": "Která funkce je sudá?",
           "options": [
-            "x = 5",
-            "x = −2",
-            "x = 5 a x = −2",
-            "nemá řešení"
+            "y = x³",
+            "y = x²",
+            "y = x + 1",
+            "y = 2ˣ"
           ],
-          "answer": 0,
-          "explanation": "x = −2 nesplňuje podmínku x > 3."
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "Inverzní funkce k y = 2x + 3 je:",
+          "options": [
+            "y = (x − 3)/2",
+            "y = 2x − 3",
+            "y = (x + 3)/2",
+            "y = 1/(2x + 3)"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "choice",
+          "question": "Je funkce y = x² na celém R prostá?",
+          "options": [
+            "ano",
+            "ne"
+          ],
+          "answer": 1,
+          "explanation": "Například f(−2) = f(2) = 4."
+        },
+        {
+          "type": "choice",
+          "question": "Graf inverzní funkce je souměrný s původním podle:",
+          "options": [
+            "osy x",
+            "osy y",
+            "přímky y = x",
+            "počátku"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": "lomena-mocninna-funkce",
+    "title": "Lineární lomená a mocninná funkce",
+    "category": "Funkce",
+    "summary": "Hyperbola a její asymptoty, mocninné funkce se sudým a lichým exponentem.",
+    "sections": [
+      {
+        "heading": "Lineární lomená funkce",
+        "bullets": [
+          "Grafem je hyperbola.",
+          "D = R − {m}, H = R − {n}.",
+          "k > 0: větve ve 1. a 3. kvadrantu vůči asymptotám, k < 0: ve 2. a 4."
+        ],
+        "formulas": [
+          {
+            "label": "Předpis",
+            "formula": "y = (ax + b) / (cx + d),  c ≠ 0"
+          },
+          {
+            "label": "Posunutý tvar",
+            "formula": "y = k / (x − m) + n"
+          },
+          {
+            "label": "Asymptoty posunutého tvaru",
+            "formula": "x = m,  y = n"
+          }
+        ],
+        "example": "y = 1 / (x − 2) + 3\nasymptoty x = 2 a y = 3\nD = R − {2},  H = R − {3}"
+      },
+      {
+        "heading": "Mocninná funkce y = xⁿ",
+        "table": {
+          "head": [
+            "Exponent",
+            "Graf a vlastnosti",
+            "Příklad"
+          ],
+          "rows": [
+            [
+              "n sudé kladné",
+              "parabola n-tého stupně, sudá, H = ⟨0; ∞)",
+              "y = x², y = x⁴"
+            ],
+            [
+              "n liché kladné",
+              "lichá, rostoucí, H = R",
+              "y = x³"
+            ],
+            [
+              "n záporné sudé",
+              "hyperbola v 1. a 2. kvadrantu, sudá",
+              "y = x⁻²"
+            ],
+            [
+              "n záporné liché",
+              "hyperbola v 1. a 3. kvadrantu, lichá",
+              "y = 1/x"
+            ],
+            [
+              "n = 1/2",
+              "druhá odmocnina, D = ⟨0; ∞)",
+              "y = √x"
+            ]
+          ]
+        }
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "choice",
+          "question": "Asymptoty funkce y = 1/(x − 2) + 3 jsou:",
+          "options": [
+            "x = 2, y = 3",
+            "x = −2, y = 3",
+            "x = 3, y = 2",
+            "x = 2, y = −3"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "choice",
+          "question": "Definiční obor funkce y = 5/(x + 1) je:",
+          "options": [
+            "R",
+            "R − {1}",
+            "R − {−1}",
+            "(−1; ∞)"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "choice",
+          "question": "Funkce y = x³ je:",
+          "options": [
+            "sudá",
+            "lichá",
+            "ani sudá, ani lichá",
+            "konstantní"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "Grafem y = 1/x je:",
+          "options": [
+            "parabola",
+            "přímka",
+            "hyperbola",
+            "sinusoida"
+          ],
+          "answer": 2
         }
       ]
     }
@@ -705,7 +1371,7 @@
   {
     "id": "posloupnosti",
     "title": "Posloupnosti a finanční matematika",
-    "category": "Funkce",
+    "category": "Posloupnosti",
     "summary": "Aritmetická a geometrická posloupnost, jednoduché a složené úročení.",
     "sections": [
       {
@@ -774,7 +1440,7 @@
   {
     "id": "planimetrie",
     "title": "Planimetrie: obvody, obsahy, věty",
-    "category": "Geometrie",
+    "category": "Planimetrie",
     "summary": "Vzorce pro rovinné útvary a věty o trojúhelníku.",
     "sections": [
       {
@@ -890,9 +1556,362 @@
     ]
   },
   {
+    "id": "trojuhelniky",
+    "title": "Trojúhelník: výšky, těžnice, kružnice, shodnost a podobnost",
+    "category": "Planimetrie",
+    "summary": "Význačné body a čáry trojúhelníku, trojúhelníková nerovnost a věty o shodnosti a podobnosti.",
+    "sections": [
+      {
+        "heading": "Význačné čáry a body",
+        "table": {
+          "head": [
+            "Čára",
+            "Co to je",
+            "Průsečík"
+          ],
+          "rows": [
+            [
+              "Výška",
+              "kolmice z vrcholu na protější stranu",
+              "ortocentrum"
+            ],
+            [
+              "Těžnice",
+              "spojuje vrchol se středem protější strany",
+              "těžiště (dělí těžnici v poměru 2 : 1)"
+            ],
+            [
+              "Osa strany",
+              "kolmice ve středu strany",
+              "střed kružnice opsané"
+            ],
+            [
+              "Osa úhlu",
+              "půlí vnitřní úhel",
+              "střed kružnice vepsané"
+            ],
+            [
+              "Střední příčka",
+              "spojuje středy dvou stran",
+              "je rovnoběžná se třetí stranou a má poloviční délku"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Základní pravidla",
+        "bullets": [
+          "Trojúhelníková nerovnost: součet dvou stran je vždy větší než třetí strana (a + b > c).",
+          "Proti větší straně leží větší úhel.",
+          "Součet vnitřních úhlů je 180°, vnější úhel se rovná součtu dvou nesousedních vnitřních.",
+          "V pravoúhlém trojúhelníku leží střed kružnice opsané ve středu přepony (Thaletova věta)."
+        ]
+      },
+      {
+        "heading": "Shodnost a podobnost",
+        "bullets": [
+          "Trojúhelníky jsou podobné (věta uu), když mají shodné dva úhly.",
+          "U podobných trojúhelníků je poměr stran k, poměr obsahů k²."
+        ],
+        "table": {
+          "head": [
+            "Věta",
+            "Shodují se"
+          ],
+          "rows": [
+            [
+              "sss",
+              "všechny tři strany"
+            ],
+            [
+              "sus",
+              "dvě strany a úhel jimi sevřený"
+            ],
+            [
+              "usu",
+              "strana a dva přilehlé úhly"
+            ],
+            [
+              "Ssu",
+              "dvě strany a úhel proti větší z nich"
+            ]
+          ]
+        }
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "choice",
+          "question": "Těžiště dělí těžnici v poměru:",
+          "options": [
+            "1 : 1",
+            "2 : 1 (delší část u vrcholu)",
+            "3 : 1",
+            "1 : 2 (delší část u strany)"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "Střed kružnice opsané je průsečík:",
+          "options": [
+            "výšek",
+            "těžnic",
+            "os stran",
+            "os úhlů"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "choice",
+          "question": "Může mít trojúhelník strany 2, 3 a 6 cm?",
+          "options": [
+            "ano",
+            "ne"
+          ],
+          "answer": 1,
+          "explanation": "2 + 3 < 6, trojúhelníková nerovnost neplatí."
+        },
+        {
+          "type": "input",
+          "question": "Strana trojúhelníku měří 10 cm. Jak dlouhá je střední příčka s ní rovnoběžná (v cm)?",
+          "answers": [
+            "5"
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "Podobné trojúhelníky mají poměr stran 3. Poměr jejich obsahů je:",
+          "options": [
+            "3",
+            "6",
+            "9",
+            "27"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": "ctyruhelniky",
+    "title": "Čtyřúhelníky a mnohoúhelníky",
+    "category": "Planimetrie",
+    "summary": "Vlastnosti rovnoběžníků a lichoběžníku, součet úhlů a úhlopříčky mnohoúhelníku.",
+    "sections": [
+      {
+        "heading": "Čtyřúhelníky",
+        "table": {
+          "head": [
+            "Útvar",
+            "Vlastnosti"
+          ],
+          "rows": [
+            [
+              "Čtverec",
+              "všechny strany shodné, pravé úhly, úhlopříčky shodné a kolmé"
+            ],
+            [
+              "Obdélník",
+              "protější strany shodné, pravé úhly, úhlopříčky shodné"
+            ],
+            [
+              "Kosočtverec",
+              "všechny strany shodné, úhlopříčky kolmé a půlí se"
+            ],
+            [
+              "Kosodélník",
+              "protější strany shodné a rovnoběžné, úhly nejsou pravé"
+            ],
+            [
+              "Lichoběžník",
+              "právě jedna dvojice rovnoběžných stran (základny)"
+            ],
+            [
+              "Deltoid",
+              "dvě dvojice sousedních shodných stran, úhlopříčky kolmé"
+            ]
+          ]
+        },
+        "tip": "Rovnoběžník (čtverec, obdélník, kosočtverec, kosodélník) má úhlopříčky, které se navzájem půlí."
+      },
+      {
+        "heading": "Vzorce",
+        "formulas": [
+          {
+            "label": "Střední příčka lichoběžníku",
+            "formula": "s = (a + c) / 2"
+          },
+          {
+            "label": "Obsah lichoběžníku",
+            "formula": "S = (a + c) · v / 2"
+          },
+          {
+            "label": "Součet vnitřních úhlů n-úhelníku",
+            "formula": "(n − 2) · 180°"
+          },
+          {
+            "label": "Vnitřní úhel pravidelného n-úhelníku",
+            "formula": "(n − 2) · 180° / n"
+          },
+          {
+            "label": "Počet úhlopříček n-úhelníku",
+            "formula": "n · (n − 3) / 2"
+          }
+        ]
+      },
+      {
+        "heading": "Pravidelný šestiúhelník",
+        "bullets": [
+          "Skládá se ze šesti rovnostranných trojúhelníků se stranou a.",
+          "Obsah: S = 6 · (√3 / 4) · a².",
+          "Poloměr kružnice opsané se rovná straně a."
+        ]
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "input",
+          "question": "Součet vnitřních úhlů šestiúhelníku (ve stupních):",
+          "answers": [
+            "720"
+          ]
+        },
+        {
+          "type": "input",
+          "question": "Kolik úhlopříček má osmiúhelník?",
+          "answers": [
+            "20"
+          ],
+          "explanation": "8 · 5 / 2"
+        },
+        {
+          "type": "input",
+          "question": "Lichoběžník má základny 10 a 6 cm. Jak dlouhá je střední příčka (cm)?",
+          "answers": [
+            "8"
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "Úhlopříčky jsou vždy kolmé u:",
+          "options": [
+            "obdélníku",
+            "kosočtverce",
+            "lichoběžníku",
+            "kosodélníku"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "input",
+          "question": "Vnitřní úhel pravidelného pětiúhelníku (ve stupních):",
+          "answers": [
+            "108"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "shodna-podobna-zobrazeni",
+    "title": "Shodná a podobná zobrazení",
+    "category": "Planimetrie",
+    "summary": "Osová a středová souměrnost, posunutí, otočení a stejnolehlost.",
+    "sections": [
+      {
+        "heading": "Shodná zobrazení",
+        "bullets": [
+          "Shodné zobrazení zachovává délky a úhly.",
+          "Útvar je osově souměrný, když se v nějaké osové souměrnosti zobrazí sám na sebe (čtverec má 4 osy, kruh nekonečně mnoho)."
+        ],
+        "table": {
+          "head": [
+            "Zobrazení",
+            "Co dělá",
+            "Je určeno"
+          ],
+          "rows": [
+            [
+              "Osová souměrnost",
+              "převrací útvar podle přímky",
+              "osou o"
+            ],
+            [
+              "Středová souměrnost",
+              "otočí útvar o 180° kolem bodu",
+              "středem S"
+            ],
+            [
+              "Posunutí",
+              "posune útvar daným směrem",
+              "vektorem posunutí"
+            ],
+            [
+              "Otočení",
+              "otočí útvar kolem bodu",
+              "středem a úhlem otočení"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Podobná zobrazení",
+        "bullets": [
+          "Stejnolehlost se středem S a koeficientem k: každá vzdálenost od S se k-krát zvětší.",
+          "|k| > 1 zvětšení, |k| < 1 zmenšení, k < 0 obraz leží na opačné straně od středu.",
+          "Podobné útvary: délky v poměru k, obsahy v poměru k², objemy v poměru k³."
+        ],
+        "example": "Mapa v měřítku 1 : 50 000: 2 cm na mapě = 100 000 cm = 1 km ve skutečnosti."
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "choice",
+          "question": "Které zobrazení zachovává délky?",
+          "options": [
+            "stejnolehlost s k = 2",
+            "osová souměrnost",
+            "stejnolehlost s k = 1/2",
+            "žádné"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "input",
+          "question": "Kolik os souměrnosti má čtverec?",
+          "answers": [
+            "4"
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "Útvar zvětšíme stejnolehlostí s k = 3. Obsah se zvětší:",
+          "options": [
+            "3krát",
+            "6krát",
+            "9krát",
+            "27krát"
+          ],
+          "answer": 2
+        },
+        {
+          "type": "input",
+          "question": "Na mapě 1 : 50 000 jsou dvě místa vzdálena 4 cm. Kolik km jsou od sebe ve skutečnosti?",
+          "answers": [
+            "2"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "stereometrie",
     "title": "Stereometrie: objemy a povrchy",
-    "category": "Geometrie",
+    "category": "Stereometrie",
     "summary": "Vzorce pro tělesa a postup u úloh s tělesovou úhlopříčkou.",
     "sections": [
       {
@@ -977,9 +1996,105 @@
     ]
   },
   {
+    "id": "stereometrie-polohove",
+    "title": "Polohové a metrické vlastnosti v prostoru",
+    "category": "Stereometrie",
+    "summary": "Vzájemná poloha přímek a rovin, odchylky, vzdálenosti a řezy krychle.",
+    "sections": [
+      {
+        "heading": "Vzájemná poloha",
+        "table": {
+          "head": [
+            "Objekty",
+            "Možnosti"
+          ],
+          "rows": [
+            [
+              "Dvě přímky",
+              "rovnoběžné, různoběžné, mimoběžné (neleží v jedné rovině a nemají společný bod)"
+            ],
+            [
+              "Přímka a rovina",
+              "přímka leží v rovině, je s ní rovnoběžná, nebo ji protíná v jednom bodě"
+            ],
+            [
+              "Dvě roviny",
+              "rovnoběžné, nebo různoběžné (protínají se v přímce)"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Odchylky a vzdálenosti",
+        "bullets": [
+          "Odchylka je vždy úhel z intervalu ⟨0°; 90°⟩.",
+          "Odchylka mimoběžek: posuň jednu přímku tak, aby protínala druhou.",
+          "Odchylka přímky a roviny: úhel přímky s jejím pravoúhlým průmětem do roviny.",
+          "Vzdálenost bodu od roviny měř po kolmici."
+        ],
+        "example": "Odchylka tělesové úhlopříčky krychle od podstavy:\ntg φ = a / (a√2) = 1/√2  →  φ ≈ 35,3°"
+      },
+      {
+        "heading": "Řezy krychle",
+        "bullets": [
+          "Řez spojuje body, které leží ve stejné stěně.",
+          "Dvě rovnoběžné stěny protne rovina řezu v rovnoběžných úsečkách.",
+          "Když body neleží ve stejné stěně, prodluž hranu a najdi průsečík s přímkou řezu.",
+          "Řezem krychle může být trojúhelník, čtyřúhelník, pětiúhelník i šestiúhelník."
+        ]
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "choice",
+          "question": "Mimoběžné přímky:",
+          "options": [
+            "leží v jedné rovině a neprotínají se",
+            "neleží v jedné rovině a nemají společný bod",
+            "protínají se v jednom bodě",
+            "jsou totožné"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "Odchylka dvou přímek je z intervalu:",
+          "options": [
+            "⟨0°; 90°⟩",
+            "⟨0°; 180°⟩",
+            "(0°; 360°)",
+            "⟨90°; 180°⟩"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "choice",
+          "question": "Dvě různoběžné roviny se protínají v:",
+          "options": [
+            "bodě",
+            "přímce",
+            "rovině",
+            "neprotínají se"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "question": "Může být řezem krychle šestiúhelník?",
+          "options": [
+            "ano",
+            "ne"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  },
+  {
     "id": "analyticka-geometrie",
     "title": "Analytická geometrie",
-    "category": "Geometrie",
+    "category": "Analytická geometrie",
     "summary": "Body, vektory a rovnice přímky v rovině.",
     "sections": [
       {
@@ -1057,6 +2172,79 @@
     ]
   },
   {
+    "id": "kruznice-ag",
+    "title": "Kružnice v analytické geometrii",
+    "category": "Analytická geometrie",
+    "summary": "Středová a obecná rovnice kružnice, doplnění na čtverec a poloha přímky vůči kružnici.",
+    "sections": [
+      {
+        "heading": "Rovnice kružnice",
+        "formulas": [
+          {
+            "label": "Středový tvar, střed S[m; n], poloměr r",
+            "formula": "(x − m)² + (y − n)² = r²"
+          },
+          {
+            "label": "Obecný tvar",
+            "formula": "x² + y² + ax + by + c = 0"
+          }
+        ],
+        "example": "x² + y² − 4x + 6y − 3 = 0\n(x² − 4x + 4) + (y² + 6y + 9) = 3 + 4 + 9\n(x − 2)² + (y + 3)² = 16\nS[2; −3],  r = 4"
+      },
+      {
+        "heading": "Poloha bodu a přímky",
+        "bullets": [
+          "Bod: dosaď do levé strany středového tvaru. Méně než r² → uvnitř, rovno → na kružnici, víc → vně.",
+          "Přímka: spočítej vzdálenost d středu od přímky.",
+          "d < r → sečna (dva společné body), d = r → tečna (jeden), d > r → nesečna (žádný)."
+        ],
+        "tip": "Tečna je kolmá na poloměr v bodě dotyku."
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "choice",
+          "question": "Kružnice (x − 1)² + (y + 2)² = 9 má střed a poloměr:",
+          "options": [
+            "S[1; −2], r = 3",
+            "S[−1; 2], r = 3",
+            "S[1; −2], r = 9",
+            "S[1; 2], r = 3"
+          ],
+          "answer": 0
+        },
+        {
+          "type": "choice",
+          "question": "Přímka má od středu kružnice s r = 5 vzdálenost 3. Je to:",
+          "options": [
+            "tečna",
+            "sečna",
+            "nesečna"
+          ],
+          "answer": 1
+        },
+        {
+          "type": "input",
+          "question": "Jaký je poloměr kružnice x² + y² = 49?",
+          "answers": [
+            "7"
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "Leží bod [3; 4] na kružnici x² + y² = 25?",
+          "options": [
+            "ano",
+            "ne, je uvnitř",
+            "ne, je vně"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  },
+  {
     "id": "kombinatorika",
     "title": "Kombinatorika, pravděpodobnost a statistika",
     "category": "Kombinatorika a statistika",
@@ -1095,6 +2283,52 @@
         },
         "example": "Kolik dvojic lze vybrat ze 6 lidí?  C(2, 6) = 6·5 / 2 = 15\nKolika způsoby lze seřadit 4 knihy?  4! = 24\nKolik je čtyřmístných PIN kódů?  10⁴ = 10 000",
         "tip": "Dvě otázky rozhodnou o vzorci: Záleží na pořadí? Mohou se prvky opakovat?"
+      },
+      {
+        "heading": "Skupiny s opakováním a kombinační čísla",
+        "formulas": [
+          {
+            "label": "Kombinační číslo",
+            "formula": "(n nad k) = n! / (k! · (n − k)!)"
+          },
+          {
+            "label": "Krajní hodnoty",
+            "formula": "(n nad 0) = (n nad n) = 1"
+          },
+          {
+            "label": "Symetrie",
+            "formula": "(n nad k) = (n nad n − k)"
+          },
+          {
+            "label": "Součet sousedních",
+            "formula": "(n nad k) + (n nad k + 1) = (n + 1 nad k + 1)"
+          }
+        ],
+        "table": {
+          "head": [
+            "Co počítám",
+            "Vzorec",
+            "Příklad"
+          ],
+          "rows": [
+            [
+              "Permutace s opakováním",
+              "P′ = n! / (k₁! · k₂! · …)",
+              "přesmyčky slova MAMA: 4! / (2! · 2!) = 6"
+            ],
+            [
+              "Variace s opakováním",
+              "V′(k, n) = nᵏ",
+              "trojmístné kódy z cifer 0–9: 10³ = 1000"
+            ],
+            [
+              "Kombinace s opakováním",
+              "C′(k, n) = (n + k − 1 nad k)",
+              "3 kopečky ze 4 druhů zmrzliny: (6 nad 3) = 20"
+            ]
+          ]
+        },
+        "tip": "Kombinační čísla tvoří Pascalův trojúhelník: každé číslo je součtem dvou čísel nad ním."
       },
       {
         "heading": "Pravděpodobnost",
@@ -1155,7 +2389,144 @@
         },
         "example": "Soubor 2, 3, 5, 8, 12:\nprůměr = 30 / 5 = 6, medián = 5"
       }
-    ]
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "input",
+          "question": "Kolik je (5 nad 2)?",
+          "answers": [
+            "10"
+          ]
+        },
+        {
+          "type": "input",
+          "question": "Kolik různých slov (i nesmyslných) vznikne přeházením písmen slova MAMA?",
+          "answers": [
+            "6"
+          ],
+          "explanation": "4! / (2! · 2!)"
+        },
+        {
+          "type": "input",
+          "question": "Kolik je trojmístných kódů z cifer 0–9 (cifry se mohou opakovat)?",
+          "answers": [
+            "1000",
+            "1 000"
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "(7 nad 5) se rovná:",
+          "options": [
+            "(7 nad 2)",
+            "(5 nad 7)",
+            "(7 nad 3)",
+            "7 · 5"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": "statistika",
+    "title": "Statistika a čtení grafů",
+    "category": "Kombinatorika a statistika",
+    "summary": "Četnosti, průměr, medián, modus a práce s grafy a tabulkami.",
+    "sections": [
+      {
+        "heading": "Základní pojmy",
+        "table": {
+          "head": [
+            "Pojem",
+            "Význam"
+          ],
+          "rows": [
+            [
+              "Absolutní četnost",
+              "kolikrát se hodnota v souboru vyskytuje"
+            ],
+            [
+              "Relativní četnost",
+              "absolutní četnost dělená rozsahem souboru (často v %)"
+            ],
+            [
+              "Aritmetický průměr",
+              "součet všech hodnot dělený jejich počtem"
+            ],
+            [
+              "Medián",
+              "prostřední hodnota uspořádaného souboru"
+            ],
+            [
+              "Modus",
+              "nejčastější hodnota"
+            ],
+            [
+              "Rozptyl",
+              "průměr druhých mocnin odchylek od průměru"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Příklad",
+        "example": "Známky: 1, 1, 2, 2, 2, 3, 5\nprůměr = 16 / 7 ≈ 2,29\nmedián = 2 (čtvrtá hodnota ze sedmi)\nmodus = 2\nrelativní četnost jedniček = 2/7 ≈ 29 %"
+      },
+      {
+        "heading": "Čtení grafů",
+        "bullets": [
+          "Nejdřív si přečti nadpis, osy a jednotky.",
+          "U sloupcového grafu porovnávej výšky; pozor, osa y nemusí začínat nulou.",
+          "Výsečový (koláčový) graf: úhel výseče = relativní četnost · 360°.",
+          "Vážený průměr z tabulky četností: Σ (hodnota · četnost) / Σ četností."
+        ]
+      }
+    ],
+    "practice": {
+      "questions": [
+        {
+          "type": "input",
+          "question": "Průměr čísel 2, 4, 6, 8:",
+          "answers": [
+            "5"
+          ]
+        },
+        {
+          "type": "input",
+          "question": "Medián souboru 7, 1, 3, 9, 5:",
+          "answers": [
+            "5"
+          ]
+        },
+        {
+          "type": "input",
+          "question": "Modus souboru 1, 2, 2, 3, 3, 3, 4:",
+          "answers": [
+            "3"
+          ]
+        },
+        {
+          "type": "input",
+          "question": "Ve výsečovém grafu má položka 25 %. Kolik stupňů má její výseč?",
+          "answers": [
+            "90"
+          ]
+        },
+        {
+          "type": "choice",
+          "question": "Medián souboru 1, 2, 3, 4:",
+          "options": [
+            "2",
+            "2,5",
+            "3",
+            "2 a 3"
+          ],
+          "answer": 1
+        }
+      ]
+    }
   },
   {
     "id": "derivace-integraly",
